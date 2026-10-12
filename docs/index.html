@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Digest</title>
+<meta name="theme-color" content="#090e0d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#090e0d;--s1:#101816;--s2:#17221f;--line:#1f2d29;--ink:#e9f2ef;--mute:#8da59d;--acc:#6ff0b0;--on:#06261a;--hd:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif}
+[data-theme=light]{--bg:#f2f5f2;--s1:#fff;--s2:#e7eee9;--line:#d5dfd8;--ink:#0f1c17;--mute:#587066;--acc:#0c7a52;--on:#fff}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font:16px/1.55 "Instrument Sans",system-ui,sans-serif;padding-bottom:96px;background:var(--bg) radial-gradient(50rem 26rem at 90% -8%,color-mix(in srgb,var(--acc) 14%,transparent),transparent) no-repeat fixed}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.in{max-width:1080px;margin:0 auto;padding:0 20px}
+.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.bar .in{display:flex;align-items:center;gap:10px;height:58px}
+.logo{font:700 20px var(--hd);letter-spacing:-.02em;display:flex;align-items:center;gap:8px;margin-right:auto}
+.logo svg{color:var(--acc)}
+.live{font-size:13px;color:var(--mute);display:flex;align-items:center;gap:7px}
+.live b{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 0 var(--acc);animation:pulse 2s infinite}
+.live.old b{background:var(--mute);animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 8px transparent}}
+.ib{background:var(--s1);border:1px solid var(--line);border-radius:10px;width:38px;height:38px;display:grid;place-items:center}
+.ib:hover{border-color:var(--acc)}
+.btn{background:var(--acc);color:var(--on);border:0;border-radius:10px;height:38px;padding:0 14px;font-weight:600;display:flex;align-items:center;gap:6px}
+.hero{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:34px 0 22px}
+.hero h1{font:700 clamp(30px,5vw,48px)/1.05 var(--hd);letter-spacing:-.03em;margin:0 0 8px}
+.hero p{margin:0;color:var(--mute)}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.stats span{background:var(--s1);border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:14px}
+.stats b{color:var(--acc)}
+.radar{flex:none;width:150px;height:150px;border-radius:50%;position:relative;border:1px solid var(--line);background:repeating-radial-gradient(circle,transparent 0 23px,var(--line) 24px 25px)}
+.radar::after{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(transparent 72%,color-mix(in srgb,var(--acc) 50%,transparent));animation:spin 4s linear infinite}
+.radar i{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--acc);box-shadow:0 0 10px var(--acc)}
+@keyframes spin{to{transform:rotate(1turn)}}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.tabs{display:flex;gap:4px;background:var(--s1);border:1px solid var(--line);border-radius:12px;padding:4px;overflow-x:auto}
+.tabs button{background:none;border:0;border-radius:9px;padding:7px 14px;color:var(--mute);font-weight:600;white-space:nowrap}
+.tabs button[aria-selected=true]{background:var(--acc);color:var(--on)}
+.tabs small{opacity:.7;margin-left:4px}
+#q{flex:1;min-width:140px;height:38px;background:var(--s1);border:1px solid var(--line);border-radius:10px;padding:0 12px;color:var(--ink);font:inherit}
+.grid{display:grid;gap:26px;grid-template-columns:1fr}
+@media(min-width:960px){.grid{grid-template-columns:1fr 310px}.side{position:sticky;top:78px;align-self:start}.radar{width:190px;height:190px}}
+@media(max-width:640px){.radar{width:84px;height:84px}.live span{display:none}}
+.card{background:var(--s1);border:1px solid var(--line);border-radius:16px;padding:18px 18px 12px;margin-bottom:12px;transition:border-color .2s,transform .2s}
+.card:hover{border-color:color-mix(in srgb,var(--acc) 50%,var(--line))}
+.card.now{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc)}
+.meta{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--mute)}
+.bd{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;color:#fff;font:700 13px var(--hd)}
+.meta em{font-style:normal;margin-left:auto;color:var(--acc)}
+.card h3{font:700 19px/1.25 var(--hd);letter-spacing:-.01em;margin:10px 0 6px}
+.card.lead h3{font-size:25px}
+.card h3 a{color:inherit;text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.card p{margin:0 0 8px;max-width:70ch}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.chips span{background:var(--s2);border-radius:999px;padding:1px 10px;font-size:13px;color:var(--mute)}
+.act{display:flex;align-items:center;gap:4px;margin:0 -6px;flex-wrap:wrap}
+.act button,.act a{background:none;border:0;border-radius:8px;padding:6px 9px;color:var(--mute);font-size:14px;display:flex;gap:6px;align-items:center;text-decoration:none}
+.act button:hover,.act a:hover,.act .on{color:var(--acc)}
+.more{display:none;color:var(--mute);font-size:15px;border-top:1px dashed var(--line);padding-top:10px;margin-top:4px}
+.card.open .more{display:block}
+.panel{background:var(--s1);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:14px}
+.panel h2{font:700 16px var(--hd);margin:0 0 12px}
+.row{display:block;width:100%;background:none;border:0;padding:5px 0;text-align:left}
+.row div{display:flex;justify-content:space-between;font-size:14px;margin-bottom:4px}
+.row span{display:block;height:7px;border-radius:4px;background:var(--s2);overflow:hidden}
+.row span i{display:block;height:100%;background:var(--acc);border-radius:4px;transition:width .6s}
+.row.sel div{color:var(--acc);font-weight:600}
+select{width:100%;height:38px;background:var(--s2);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:0 10px;font:inherit}
+.note{padding:36px 8px;color:var(--mute);text-align:center}
+.sk{height:130px;border-radius:16px;margin-bottom:12px;background:linear-gradient(90deg,var(--s1),var(--s2),var(--s1)) 0 0/200% 100%;animation:sh 1.4s infinite}
+@keyframes sh{to{background-position:-200% 0}}
+#player{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(560px,calc(100% - 24px));z-index:9;background:var(--s2);border:1px solid var(--acc);border-radius:18px;padding:8px 10px;display:flex;align-items:center;gap:6px;box-shadow:0 12px 40px #0008}
+#player[hidden]{display:none}
+#pinfo{flex:1;font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#player button{background:none;border:0;border-radius:10px;min-width:38px;height:38px;display:grid;place-items:center}
+#pp{background:var(--acc)!important;color:var(--on)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="bar"><div class="in">
+ <div class="logo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12l6-6"/></svg><span id="brand">AI Digest</span></div>
+ <div class="live" id="live"><b></b><span id="ago">Loading…</span></div>
+ <button class="btn" id="listen" aria-label="Listen to this section">Listen</button>
+ <button class="ib" id="theme" aria-label="Switch light or dark theme"></button>
+</div></div>
+<div class="in">
+ <section class="hero">
+  <div><h1 id="hi">Hello</h1><p id="tag">Your daily signal from AI research, models and markets.</p><div class="stats" id="stats"></div></div>
+  <div class="radar" aria-hidden="true"><i style="left:62%;top:24%"></i><i style="left:30%;top:58%"></i><i style="left:72%;top:66%"></i></div>
+ </section>
+ <div class="tools">
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <input id="q" type="search" placeholder="Search stories" aria-label="Search stories">
+ </div>
+ <div class="grid">
+  <main id="list"><div class="sk"></div><div class="sk"></div><div class="sk"></div></main>
+  <aside class="side">
+   <div class="panel"><h2>What’s trending today</h2><div id="topics"></div></div>
+   <div class="panel"><h2>Archive</h2><select id="day" aria-label="Choose date"></select></div>
+  </aside>
+ </div>
+</div>
+<div id="player" hidden>
+ <button id="pprev" aria-label="Previous"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+ <button id="pp" aria-label="Play or pause"></button>
+ <button id="pnext" aria-label="Next"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
+ <span id="pinfo"></span>
+ <button id="rate" aria-label="Speed">1×</button>
+ <button id="pclose" aria-label="Close player">✕</button>
+</div>
+<script>
+const BRAND={title:"AI Digest",tag:"Your daily signal from AI research, models and markets."};
+const TABS=[["technical","Technical"],["models","Models"],["business","Business"],["saved","Saved"]];
+const TOPICS={"Computer vision":/vision|image|video|detect|segment|perception|3d|lidar/i,"Autonomous driving":/autonom|self-driving|adas|driving|robotax|vehicle/i,"LLMs & agents":/\bllm|language model|agent|chatbot|reasoning|gpt|claude|gemini|llama/i,"Robotics":/robot|humanoid|embodied/i,"Chips & compute":/chip|gpu|nvidia|data cent|compute|semiconductor/i,"Funding & deals":/fund|raises|billion|invest|valuation|acquisition|ipo/i,"Open source":/open[- ]source|open[- ]weight|hugging face|apache/i,"Policy & safety":/regulat|policy|\blaw\b|safety|ban\b/i};
+const IC={play:'<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>',pause:'<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>',spk:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9zM17 8a5 5 0 010 8"/></svg>',star:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>',sun:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg>',moon:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z"/></svg>',open:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4h6v6M20 4l-9 9M18 14v5H5V6h5"/></svg>'};
+const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=n=>n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(1)+"k":n;
+let D=null,tab="technical",q="",topic=null,VIS=[],cur=-1,playing=false,tok=0,rate=1,custom=false;
+const saved=()=>{try{return JSON.parse(localStorage.getItem("saved")||"[]")}catch{return[]}};
+const all=()=>D?[...D.technical,...D.models,...D.business]:[];
+document.title=BRAND.title;$("#brand").textContent=BRAND.title;$("#tag").textContent=BRAND.tag;
+
+/* theme */
+function setTheme(t){document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch{}
+ $("#theme").innerHTML=t==="dark"?IC.sun:IC.moon;document.querySelector('meta[name=theme-color]').content=t==="dark"?"#090e0d":"#f2f5f2"}
+setTheme((()=>{try{return localStorage.getItem("theme")}catch{}})()||"dark");
+$("#theme").onclick=()=>setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark");
+
+/* render */
+function items(){let l=tab==="saved"?saved():(D?.[tab]||[]);
+ if(q)l=l.filter(i=>(i.title+i.summary+i.more).toLowerCase().includes(q));
+ if(topic)l=l.filter(i=>TOPICS[topic].test(i.title+" "+i.summary));return l}
+function hue(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))%360;return h}
+function render(){
+ const g=new Date().getHours();
+ $("#hi").textContent=(g<12?"Good morning":g<18?"Good afternoon":"Good evening")+(D?` — ${new Date(D.date+"T12:00").toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"})}`:"");
+ if(D)$("#stats").innerHTML=`<span><b>${D.technical.length+D.business.length}</b> stories</span><span><b>${D.models.length}</b> trending models</span><span><b>${new Set(all().map(i=>i.source)).size}</b> sources</span>`;
+ $("#tabs").innerHTML=TABS.map(([k,n])=>`<button role="tab" data-t="${k}" aria-selected="${k===tab}">${n}<small>${k==="saved"?saved().length:(D?.[k]||[]).length}</small></button>`).join("");
+ const c=Object.entries(TOPICS).map(([n,r])=>[n,all().filter(i=>r.test(i.title+" "+i.summary)).length]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1]).slice(0,7),m=c[0]?.[1]||1;
+ $("#topics").innerHTML=c.length?c.map(([n,v])=>`<button class="row${n===topic?" sel":""}" data-topic="${esc(n)}"><div><span style="all:unset">${esc(n)}</span><span style="all:unset">${v}</span></div><span><i style="width:${v/m*100}%"></i></span></button>`).join("")+(topic?'<button class="row" data-topic="" style="color:var(--mute);font-size:13px">Clear filter</button>':""):'<p class="note" style="padding:8px">Topics appear with the first digest.</p>';
+ VIS=items();
+ $("#list").innerHTML=!D&&tab!=="saved"?'<p class="note">No digest yet. Run the “Daily AI digest” workflow in GitHub Actions, then reload.</p>':!VIS.length?`<p class="note">${tab==="saved"?"Star a story to keep it here.":"Nothing matches. Try clearing the search or topic filter."}</p>`:VIS.map((i,n)=>{
+  const s=saved().some(x=>x.url===i.url);
+  return `<article class="card${n===0&&tab!=="saved"?" lead":""}" data-i="${n}">
+  <div class="meta"><span class="bd" style="background:hsl(${hue(i.source)} 45% 36%)">${esc(i.source[0])}</span>${esc(i.source)}${i.task||i.hours==null?"":` · ${i.hours<1?"just now":i.hours+"h ago"}`}${i.covered>1?`<em>${i.covered} sources</em>`:""}</div>
+  <h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
+  ${i.task?`<div class="chips"><span>${esc(i.task)}</span><span>♥ ${fmt(i.likes)}</span><span>↓ ${fmt(i.downloads)}</span></div>`:""}
+  <p>${esc(i.summary)}</p><div class="more">${esc(i.more)}</div>
+  <div class="act"><button data-a="listen" aria-label="Listen to this story">${IC.spk}Listen</button><button data-a="more">Explore more</button><button data-a="save" class="${s?"on":""}" aria-label="Save story">${IC.star}${s?"Saved":"Save"}</button><a href="${esc(i.url)}" target="_blank" rel="noopener">${IC.open}Source</a></div></article>`}).join("");
+ mark()}
+function ago(){const e=$("#live");if(!D){$("#ago").textContent="Waiting for first digest";e.classList.add("old");return}
+ const m=Math.max(0,Math.round((Date.now()-Date.parse(D.generated))/6e4));
+ $("#ago").textContent="Updated "+(m<2?"just now":m<60?m+" min ago":Math.round(m/60)+" h ago");e.classList.toggle("old",m>480)}
+
+/* live refresh */
+const J=async u=>(await fetch(u,{cache:"no-cache"})).json();
+async function refresh(){
+ try{const days=await J("data/index.json"),sel=$("#day");
+  if(sel.dataset.k!==days.join()){sel.innerHTML=days.map(d=>`<option>${d}</option>`).join("");sel.dataset.k=days.join()}
+  if(!custom&&days.length){sel.value=days[0];const d=await J(`data/${days[0]}.json`);if(!D||d.generated!==D.generated){D=d;render()}}}
+ catch{if(!D)render()}
+ ago()}
+$("#day").onchange=async e=>{custom=e.target.value!==e.target.options[0].value;stop();D=await J(`data/${e.target.value}.json`);render();ago()};
+setInterval(refresh,6e5);setInterval(ago,3e4);document.addEventListener("visibilitychange",()=>!document.hidden&&refresh());
+
+/* interactions */
+$("#tabs").onclick=e=>{const b=e.target.closest("button");if(b){tab=b.dataset.t;stop();render()}};
+$("#q").oninput=e=>{q=e.target.value.trim().toLowerCase();stop();render()};
+$("#topics").onclick=e=>{const b=e.target.closest("button");if(b){topic=b.dataset.topic&&b.dataset.topic!==topic?b.dataset.topic:null;stop();render()}};
+$("#list").onclick=e=>{const b=e.target.closest("button[data-a]");if(!b)return;const card=b.closest(".card"),n=+card.dataset.i,a=b.dataset.a;
+ if(a==="more")card.classList.toggle("open");
+ if(a==="listen")play(n);
+ if(a==="save"){const s=saved(),i=VIS[n],k=s.findIndex(x=>x.url===i.url);k<0?s.unshift(i):s.splice(k,1);try{localStorage.setItem("saved",JSON.stringify(s))}catch{}render()}};
+
+/* listen mode (browser text-to-speech, free) */
+const S=window.speechSynthesis;let voice=null;
+function pick(){const v=S.getVoices().filter(x=>/^en/i.test(x.lang));voice=v.find(x=>/natural|google us|samantha|aria|jenny|daniel/i.test(x.name))||v[0]||null}
+if(S){pick();S.onvoiceschanged=pick}else $("#listen").hidden=true;
+function mark(){document.querySelectorAll(".card").forEach(c=>c.classList.toggle("now",+c.dataset.i===cur))}
+function ui(){$("#player").hidden=cur<0;$("#pp").innerHTML=playing?IC.pause:IC.play;$("#pinfo").textContent=cur<0?"":`${cur+1}/${VIS.length} · ${VIS[cur]?.title||""}`;$("#rate").textContent=rate+"×";mark()}
+function play(n){if(!S||!VIS.length)return;cur=Math.max(0,Math.min(n,VIS.length-1));playing=true;const my=++tok;S.cancel();
+ const i=VIS[cur],u=new SpeechSynthesisUtterance(`${i.title}. ${i.summary}`);u.rate=rate;if(voice){u.voice=voice;u.lang=voice.lang}
+ u.onend=()=>{if(my===tok&&playing){cur+1<VIS.length?play(cur+1):stop()}};u.onerror=()=>{};
+ S.speak(u);ui();document.querySelector(`.card[data-i="${cur}"]`)?.scrollIntoView({behavior:"smooth",block:"center"})}
+function stop(){tok++;playing=false;cur=-1;S&&S.cancel();ui()}
+$("#listen").onclick=()=>play(0);
+$("#pp").onclick=()=>{if(playing){tok++;playing=false;S.cancel();ui()}else play(cur)};
+$("#pnext").onclick=()=>play(cur+1);$("#pprev").onclick=()=>play(cur-1);$("#pclose").onclick=stop;
+$("#rate").onclick=()=>{rate=({1:1.25,1.25:1.5,1.5:.85,.85:1})[rate];if(playing)play(cur);else ui()};
+
+refresh();
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
+</script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+{
+ "date": "2026-10-12",
+ "generated": "2026-10-12T21:22+00:00",
+ "technical": [
+  {
+   "title": "Mental-Models for Multi-Agent Systems",
+   "url": "https://huggingface.co/papers/2610.12453",
+   "source": "HF Daily Papers",
+   "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires rea",
+   "more": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires reasoning about what other agents know, intend, and are likely to do under partial observability. Current agentic systems often operate through prompt design, memory, or end-to-end behavioral shaping, but typically do not learn an explicit partner-state representation that can be reused as a decision variable across tasks. We introduce mental-model-enabled agents, a framework that equips an agent with a latent mental model of its counterpart, allowing it to infer hidden beliefs,",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Clinician use of language models diverges from how the models are evaluated",
+   "url": "https://huggingface.co/papers/2610.11069",
+   "source": "HF Daily Papers",
+   "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curat",
+   "more": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curated cases. A benchmark predicts performance in deployment only to the extent that its items resemble real use, yet whether benchmarks reflect the work these systems receive has rarely been measured. Here we analyze 127,833 queries sent by 6,342 physicians, advanced practice providers and nurses in 35 specialties to an institutional assistant during an eight-month roll-out. We characterize each query with RCQ-Map, a clinician-validated framework grounded in taxonomies of clinic",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+   "url": "https://huggingface.co/papers/2610.11215",
+   "source": "HF Daily Papers",
+   "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework t",
+   "more": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework that recovers textured object assets and their scene-relative pose from one or more images. Our local modality mixer couples patch-aligned RGB, target-mask, and pointmap features before cross-view reasoning, preserving scene context while distinguishing the target from its surroundings. Text-guided semantic conditioning complements these spatial cues with category names and object captions through stage-specific adapters for structure, geometry, and appearance generation. The ",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "What Should Embodied Agents Remember? Benchmarking and Evaluating Memory Modality for Embodied Agents",
+   "url": "https://arxiv.org/abs/2610.12561",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2610.12561v1 Announce Type: new Abstract: Memory allows large language model (LLM) agents to use past experience, often stored as textual records, when responding to requests. For embodied agents that control robot",
+   "more": "arXiv:2610.12561v1 Announce Type: new Abstract: Memory allows large language model (LLM) agents to use past experience, often stored as textual records, when responding to requests. For embodied agents that control robots, visual and spatial observations introduce a broader choice of memory modalities, affecting both the information available for subsequent tasks and the model inference costs of constructing and using memory. We introduce MeMoREval, a benchmark for studying this problem through a controlled experience-request protocol. Agents first experience a sequence of events without knowing the subsequent tasks, and subsequently they use memory to respond to information and action reque",
+   "hours": 17,
+   "covered": 1
+  },
+  {
+   "title": "Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models",
+   "url": "https://arxiv.org/abs/2610.12696",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2610.12696v1 Announce Type: new Abstract: Vision-language-action models (VLAs) offer a promising route toward general-purpose robotics by transferring semantic knowledge from large-scale vision-language pretraining",
+   "more": "arXiv:2610.12696v1 Announce Type: new Abstract: Vision-language-action models (VLAs) offer a promising route toward general-purpose robotics by transferring semantic knowledge from large-scale vision-language pretraining into language-conditioned control. However, most VLA evaluations emphasize aggregate manipulation success under changes in objects, instructions, or environments, leaving unclear how reliably these policies ground spatial descriptions in the physical scenes where they act. We therefore ask a sharper question: how reliably can current VLAs translate spatial descriptions into appropriate real-robot behavior? To investigate this, we introduce Spa-Bench, a real-robot benchmark t",
+   "hours": 17,
+   "covered": 1
+  },
+  {
+   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+   "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+   "source": "MarkTechPost",
+   "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The pos",
+   "more": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The post Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors appeared first on MarkTechPost .",
+   "hours": 47,
+   "covered": 1
+  },
+  {
+   "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
+   "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+   "source": "MarkTechPost",
+   "summary": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text. The post Wh",
+   "more": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text. The post What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models appeared first on MarkTechPost .",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "LinkedIn Gives Agents Context 📚, Claude Dashboards 📊, Salesforce Spark Optimization ⚡",
+   "url": "https://tldr.tech/data/2026-10-12",
+   "source": "TLDR Data",
+   "summary": "",
+   "more": "",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "Non-Prehensile Multi-Object Placement with Mobile Robots via Diffusion-Based Trajectory Planning",
+   "url": "https://arxiv.org/abs/2610.12684",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2610.12684v1 Announce Type: new Abstract: Non-prehensile manipulation with mobile robots has primarily targeted placement in coarse goal regions. Precision placement has been studied with manipulators on benchmarks",
+   "more": "arXiv:2610.12684v1 Announce Type: new Abstract: Non-prehensile manipulation with mobile robots has primarily targeted placement in coarse goal regions. Precision placement has been studied with manipulators on benchmarks such as Push-T, where an omnidirectional end effector can readily re-approach an object from any side. For a mobile robot, correcting the same placement errors may require wide repositioning maneuvers around the object. We formalize multi-object pushing with a mobile robot as a multi-target assignment problem at tight tolerances. We propose a diffusion planner with a causal factorization: each robot denoising step is followed by an object step conditioned on the current clea",
+   "hours": 17,
+   "covered": 1
+  },
+  {
+   "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
+   "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
+   "source": "NVIDIA Developer",
+   "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are...",
+   "more": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are...",
+   "hours": 5,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "IonQ to acquire cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion",
+   "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
+   "source": "CNBC Tech",
+   "summary": "Quantum computing platform is buying cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion.",
+   "more": "Quantum computing platform is buying cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion.",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft president says UK is best placed to drive AI regulation",
+   "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+   "source": "TechCrunch AI",
+   "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+   "more": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+   "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+   "source": "TechCrunch AI",
+   "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping w",
+   "more": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $100, and get 50% off a second.",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+   "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+   "source": "TechCrunch AI",
+   "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps a",
+   "more": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
+   "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+   "source": "CNBC Tech",
+   "summary": "By increasingly counting on its own chips, Microsoft stands to expand margins and bolster its AI stack.",
+   "more": "By increasingly counting on its own chips, Microsoft stands to expand margins and bolster its AI stack.",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Trump's energy efforts, European bonds, retailers' inventory balancing act and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/10/12/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Tech",
+   "summary": "Here are five key things investors need to know to start the trading day.",
+   "more": "Here are five key things investors need to know to start the trading day.",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Russia was not ready for the data center war it started with Ukraine",
+   "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+   "source": "Ars Technica AI",
+   "summary": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
+   "more": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Meta has some Wonder Full new AI models",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+   "source": "The Verge AI",
+   "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go t",
+   "more": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+   "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+   "source": "The Verge AI",
+   "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of runn",
+   "more": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will […]",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+   "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+   "source": "Ars Technica AI",
+   "summary": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+   "more": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+   "hours": 0,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "google/embeddinggemma-2",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "Hugging Face",
+   "summary": "Hugging Face | GitHub | Launch Blog | Documentation | License : Apache 2.0 | Authors : Google DeepMind **EmbeddingGemma 2** is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), ima",
+   "more": "Hugging Face | GitHub | Launch Blog | Documentation | License : Apache 2.0 | Authors : Google DeepMind **EmbeddingGemma 2** is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), images, video, and audio inputs—and combinations thereof—into a single, unified 768-dimensional vector space. The model has 740M total parameters, combining a 270M parameter text model with modular vision (170M) and audio (300M) encoders. Designed to run on consumer hardware such as mobile devices and laptops, EmbeddingGemma 2 delivers low-latency semantic representations for on-device applications, like search, retrieval-augmented generation (RAG), classification, and clustering. EmbeddingGemma 2 builds upon the architectural and capability advancements of Gemma 4, offering several core features: * **Native multimodality:** Native multimodality: Unifies 4 modalities (text, images, video, and audio) in a single shared 768-dimensional embedding space. * **Multilinguality and code:** EmbeddingGemma 2 understands 100+ languages, and achieves a \\~14% improvement on code tasks relative to its predecessor. * **Flexible footprint:** Combines a 270M parameter text backbone (130M transformer \\+ 140M embedder) with selectively loadable vision (170M) and audio (300M) encoders, allowing developers to load only the modalities required for their use case. * **Matryoshka Representation Learning (MRL):** Native support for truncated embeddings across 128d, 256d, 512d, and 768d, ",
+   "hours": 0,
+   "covered": 1,
+   "task": "feature-extraction",
+   "likes": 1918,
+   "downloads": 115763
+  },
+  {
+   "title": "jialinyyzz/humanizer",
+   "url": "https://huggingface.co/jialinyyzz/humanizer",
+   "source": "Hugging Face",
+   "summary": "# humanizer **A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them.** It is trained to keep every number, unit, date, name and quot",
+   "more": "# humanizer **A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them.** It is trained to keep every number, unit, date, name and quote and to add nothing, and it runs locally. **Quick start:** get the app for **[Mac (Apple silicon)](https://github.com/sgaofen/humanizer-local-model/releases/download/app-v0.3.2/Humanizer-0.3.2-macos-arm64.dmg)** or **[Windows](https://github.com/sgaofen/humanizer-local-model/releases/download/app-v0.3.2/Humanizer-0.3.2-windows-x64-setup.exe)**, open it and paste a draft; it works offline. Without the app: [llama.cpp and other runtimes](#usage-without-the-app), or [AGENTS.md](AGENTS.md) for coding agents. ## Before and after Drafts from the held-out evaluation set. For each we generated 8 samples with the Q8_0 file (llama.cpp, the app's settings) and picked the one that reads best among those the fact judge passed; it is shown unedited, and all 8 samples are [on GitHub](https://github.com/sgaofen/humanizer-local-model/blob/main/eval/outputs/examples-12b-Q8_0_x8.json). These are picks: across the whole set the judge flagged 44 of the 420 English rewrites, 135 problems in all, 125 of them a single word or phrase. Read the result before you send it, especially numbers, dates and names. Results over the whole set are below. More examples (a forum answer, a Zhihu answer) are in the [GitHub README](https://github.com/sgaofen/humanizer-local-model#before-and-after). ",
+   "hours": 0,
+   "covered": 1,
+   "task": "text-generation",
+   "likes": 1307,
+   "downloads": 46070
+  },
+  {
+   "title": "Qwen/Qwen-Image-2.1-Turbo",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+   "source": "Hugging Face",
+   "summary": "🤖 ModelScope | 🤗 HuggingFace | 💻 GitHub | 📑 Qwen-Image-2.1 Blog | 🫨 Discord | 💬 WeChat ## Introduction **Qwen-Image-2.1-Turbo** is an accelerated checkpoint of [Qwen-Image-2.1](https://huggingface.co/Qwen/Qwen-Image-2.1)",
+   "more": "🤖 ModelScope | 🤗 HuggingFace | 💻 GitHub | 📑 Qwen-Image-2.1 Blog | 🫨 Discord | 💬 WeChat ## Introduction **Qwen-Image-2.1-Turbo** is an accelerated checkpoint of [Qwen-Image-2.1](https://huggingface.co/Qwen/Qwen-Image-2.1) for text-to-image generation and image editing with **8 denoising steps**. It uses the same 7B visual generation architecture and loads directly with `QwenImage21Pipeline` in Diffusers. The checkpoint includes its recommended sampling schedule, so it is ready to use without manually configuring the scheduler. Generation uses CFG=1 by default, and prefix KV caching reuses the text and reference-image context across denoising steps. For more details, see the [GitHub repo](https://github.com/QwenLM/Qwen-Image-2.1) and [Qwen-Image-2.1 blog](https://qwen.ai/blog?id=qwen-image-2.1). ## Quick Start ### Installation Install a CUDA-compatible PyTorch build, then install the latest Diffusers source and the following dependencies: ```bash pip install git+https://github.com/huggingface/diffusers.git pip install \"transformers>=5.17.0\" accelerate pillow ``` This checkpoint requires Diffusers with support for pipeline-configured sampling sigmas, added in [PR #14950](https://github.com/huggingface/diffusers/pull/14950). ### Text-to-Image Load the checkpoint from Hugging Face: ```python import torch from diffusers import QwenImage21Pipeline pipe = QwenImage21Pipeline.from_pretrained( \"Qwen/Qwen-Image-2.1-Turbo\", dtype=torch.bfloat16, ).to(\"cuda\") prompt = \"A vertically orient",
+   "hours": 0,
+   "covered": 1,
+   "task": "text-to-image",
+   "likes": 624,
+   "downloads": 6787
+  },
+  {
+   "title": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "source": "Hugging Face",
+   "summary": "[![🤗 Model Requests](https://img.shields.io/badge/%F0%9F%A4%97_Model_Requests-Submit_Here-f59e0b?style=for-the-badge&labelColor=1f2937)](https://abenzerps.com/request-a-model/) # Qwen-Image-2.1 Uncensored Quantized GGUF,",
+   "more": "[![🤗 Model Requests](https://img.shields.io/badge/%F0%9F%A4%97_Model_Requests-Submit_Here-f59e0b?style=for-the-badge&labelColor=1f2937)](https://abenzerps.com/request-a-model/) # Qwen-Image-2.1 Uncensored Quantized GGUF, Safetensors, and MLX quantized formats of [Qwen/Qwen-Image-2.1](https://huggingface.co/Qwen/Qwen-Image-2.1) for local image generation using the original upstream base weights. ## Benchmark ![Qwen-Image-2.1 benchmark](assets/Qwen-Image-2.1-Benchmark.png) ## Uncensored Quantized Files | **Quantization** | **File** | **Size** | | --- | --- | ---: | | BF16 | [**qwen-image-2.1-UC-BF16.gguf**](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized/blob/main/qwen-image-2.1-UC-BF16.gguf) | 14.23 GB | | FP8 | [**qwen-image-2.1-UC-fp8.safetensors**](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized/blob/main/qwen-image-2.1-UC-fp8.safetensors) | 6.63 GB | | INT8 ConvRot | [**qwen-image-2.1-UC-int8_convrot.safetensors**](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized/blob/main/qwen-image-2.1-UC-int8_convrot.safetensors) | 6.76 GB | | NVFP4 | [**qwen-image-2.1-UC-NVFP4.safetensors**](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized/blob/main/qwen-image-2.1-UC-NVFP4.safetensors) | 4.20 GB | | MLX 4-bit | [**qwen-image-2.1-UC-MLX-4bit.safetensors**](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized/blob/main/qwen-image-2.1-UC-MLX-4bit.safetensors) | 4.00 GB | | MLX 6-bit | [**qwen",
+   "hours": 0,
+   "covered": 1,
+   "task": "text-to-image",
+   "likes": 4088,
+   "downloads": 2188658
+  },
+  {
+   "title": "Cloudflare/clef",
+   "url": "https://huggingface.co/Cloudflare/clef",
+   "source": "Hugging Face",
+   "summary": "# Clef - **Announcement:** [Clef decision models on the Cloudflare blog](https://blog.cloudflare.com/clef-decision-models) - **Decision Index leaderboard:** [clef-evals.workers-ai-mle.workers.dev](https://clef-evals.work",
+   "more": "# Clef - **Announcement:** [Clef decision models on the Cloudflare blog](https://blog.cloudflare.com/clef-decision-models) - **Decision Index leaderboard:** [clef-evals.workers-ai-mle.workers.dev](https://clef-evals.workers-ai-mle.workers.dev) Clef is a 27B multimodal model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question in a single forward pass. There is no free-form text generation and no output parsing. The Clef API is fully compatible with Jev and SystemOne. Clef is post-trained from [Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B). See [Clef-Flash](https://huggingface.co/Cloudflare/clef-flash) for the smaller, faster variant. ## Model - **Backbone:** Qwen/Qwen3.8-27B with its vision encoder, stored as standard sharded safetensors. - **Joint schema head:** a small transformer head that reads the backbone's final hidden states, routes evidence from the state to each question, and scores all options of all questions jointly. - **Output:** one logit per allowed option for each question. Apply a softmax per question to get probabilities. ## Files | File | Purpose | |---|---| | `model-*.safetensors`, `model.safetensors.index.json`, `config.json`, `generation_config.json` | Backbone, including the vision encoder | | `joint_head.safetensors`, `joint_head_config.json` | Joint schema head | | `joint_schema_model.py` | Record encodin",
+   "hours": 0,
+   "covered": 1,
+   "task": "image-text-to-text",
+   "likes": 2086,
+   "downloads": 15064
+  },
+  {
+   "title": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "source": "Hugging Face",
+   "summary": "No model card text available.",
+   "more": "No model card text available.",
+   "hours": 0,
+   "covered": 1,
+   "task": "image-to-video",
+   "likes": 7463,
+   "downloads": 1719766
+  }
+ ]
+}

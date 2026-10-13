@@ -1,9 +1,10 @@
 # ---- Edit this file to tune your digest. No code changes needed. ----
+reader: "an AI engineer interested in computer vision, autonomous driving and AI industry news"  # who the briefing is written for
 counts:            # items shown per tab each day
   technical: 10
   business: 10
   models: 6
-max_age_hours: 48  # ignore articles older than this
+max_age_hours: 72  # ignore articles older than this
 max_per_source: 3  # keeps one site from filling the whole list
 keep_days: 30      # older daily files are deleted
 
@@ -14,20 +15,23 @@ keywords:          # items matching more of these rank higher
 # weight: 0.5 (low) to 2 (high). max: entries read from that feed.
 sources:
   # --- Technical ---
-  - {name: TLDR AI, track: technical, url: "https://tldr.tech/api/rss/ai", weight: 1.6}
-  - {name: TLDR Data, track: technical, url: "https://tldr.tech/api/rss/data", weight: 1.2}
+  - {name: TLDR AI, track: technical, url: "https://tldr.tech/api/rss/ai", weight: 1.6, newsletter: true}
+  - {name: TLDR Data, track: technical, url: "https://tldr.tech/api/rss/data", weight: 1.2, newsletter: true}
   - {name: Hugging Face Blog, track: technical, url: "https://huggingface.co/blog/feed.xml", weight: 1.5}
   - {name: Google DeepMind, track: technical, url: "https://deepmind.google/blog/rss.xml", weight: 1.5}
   - {name: OpenAI, track: technical, url: "https://openai.com/news/rss.xml", weight: 1.5}
   - {name: NVIDIA Developer, track: technical, url: "https://developer.nvidia.com/blog/feed", weight: 1.3}
-  - {name: Import AI, track: technical, url: "https://importai.substack.com/feed", weight: 1.3}
   - {name: MarkTechPost, track: technical, url: "https://www.marktechpost.com/feed/", weight: 1.0}
   - {name: BAIR Blog, track: technical, url: "https://bair.berkeley.edu/blog/feed.xml", weight: 1.2}
   - {name: arXiv cs.CV, track: technical, url: "https://rss.arxiv.org/rss/cs.CV", weight: 0.6, max: 40}
   - {name: arXiv cs.RO, track: technical, url: "https://rss.arxiv.org/rss/cs.RO", weight: 0.6, max: 40}
+  - {name: Google AI Blog, track: technical, url: "https://blog.google/technology/ai/rss/", weight: 1.4}
+  - {name: AWS Machine Learning, track: technical, url: "https://aws.amazon.com/blogs/machine-learning/feed/", weight: 0.9}
+  - {name: Synced, track: technical, url: "https://syncedreview.com/feed/", weight: 1.0}
   # --- Business and market ---
+  - {name: MIT Technology Review AI, track: business, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", weight: 1.3}
+  - {name: AI News, track: business, url: "https://www.artificialintelligence-news.com/feed/", weight: 1.0}
   - {name: TechCrunch AI, track: business, url: "https://techcrunch.com/category/artificial-intelligence/feed/", weight: 1.5}
-  - {name: VentureBeat AI, track: business, url: "https://venturebeat.com/category/ai/feed/", weight: 1.3}
   - {name: The Verge AI, track: business, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", weight: 1.3}
   - {name: CNBC Tech, track: business, url: "https://www.cnbc.com/id/19854910/device/rss/rss.html", weight: 1.4}
   - {name: Crunchbase News, track: business, url: "https://news.crunchbase.com/feed/", weight: 1.3}

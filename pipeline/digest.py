@@ -14,6 +14,26 @@ def clean(t, n=600):
     t = re.sub(r"<[^>]+>", " ", html.unescape(t or ""))
     return re.sub(r"\s+", " ", t).strip()[:n]
 
+STORY = re.compile(r'<a [^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>(.*?)(?=<a [^>]*href=|$)', re.S)
+
+def newsletter_items(e, s, age):
+    """Split a newsletter issue (like TLDR) into its individual stories."""
+    body = (e.get("content") or [{}])[0].get("value") or e.get("summary") or ""
+    out = []
+    for url, title, rest in STORY.findall(body):
+        t = clean(title, 200)
+        m = re.search(r"\((\d+ minute read|GitHub Repo|Website)\)\s*$", t, re.I)
+        if m and "sponsor" not in t.lower():
+            out.append(dict(title=t[:m.start()].strip(), url=url, source=s["name"], track=s["track"],
+                            weight=s.get("weight", 1.0), age=age, text=clean(rest, 700)))
+    return out
+
+def card_text(md):
+    md = re.sub(r"^---.*?---", "", md, count=1, flags=re.S)
+    md = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", md)
+    md = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", md)
+    return clean(" ".join(l for l in md.splitlines() if l.count("|") < 3), 1500)
+
 # ---------- 1. collect ----------
 def fetch_feeds():
     items = []
@@ -28,6 +48,12 @@ def fetch_feeds():
                 age = (NOW - when).total_seconds() / 3600
                 if age > CFG["max_age_hours"] or not e.get("link"):
                     continue
+                if s.get("newsletter"):
+                    got = newsletter_items(e, s, age)
+                    if got:
+                        items += got
+                        n += len(got)
+                        continue
                 items.append(dict(title=clean(e.get("title"), 200), url=e["link"], source=s["name"],
                                   track=s["track"], weight=s.get("weight", 1.0), age=max(age, 0),
                                   text=clean(e.get("summary") or e.get("description"), 700)))
@@ -61,7 +87,7 @@ def hf_papers():
 
 def hf_models():
     try:
-        models = hf_get("/api/models", sort="trendingScore", limit=CFG["counts"]["models"]).json()
+        models = hf_get("/api/models", sort="trendingScore", limit=CFG["counts"]["models"] * 2).json()
     except Exception as ex:
         print("FAIL HF models:", ex)
         return []
@@ -70,13 +96,12 @@ def hf_models():
         mid = m["id"]
         try:
             card = hf_get(f"/{mid}/raw/main/README.md").text
-            card = re.sub(r"^---.*?---", "", card, count=1, flags=re.S)
+            card = card_text(card)
         except Exception:
             card = ""
         out.append(dict(title=mid, url=f"https://huggingface.co/{mid}", source="Hugging Face",
-                        text=clean(card, 1500) or "No model card text available.",
-                        meta=dict(task=m.get("pipeline_tag") or "unspecified", likes=m.get("likes", 0),
-                                  downloads=m.get("downloads", 0))))
+                        text=card or "No model card text available.",
+                        meta=dict(model=mid)))
     print(f"ok   HF trending models: {len(out)}")
     return out
 
@@ -129,11 +154,11 @@ def llm(prompt):
     model = os.getenv("LLM_MODEL") or None
     try:
         if p == "gemini":
-            model = model or "gemini-2.5-flash-lite"
+            model = model or "gemini-3.5-flash-lite"
             j = post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                      {"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
                      {"contents": [{"parts": [{"text": prompt}]}],
-                      "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}})
+                      "generationConfig": {"responseMimeType": "application/json"}})
             return j["candidates"][0]["content"]["parts"][0]["text"]
         if p == "claude":
             j = post("https://api.anthropic.com/v1/messages",
@@ -146,30 +171,47 @@ def llm(prompt):
     return None
 
 GUIDE = {
-    "technical": "AI research and engineering news. Say what is new and why an engineer should care.",
-    "business": "AI industry business news. Focus on money, investments, deals, strategy and market impact. Keep numbers exact.",
-    "models": "Trending Hugging Face models. Explain what the model does, what is different about it, its size or architecture if stated, and typical uses.",
+    "technical": "AI research and engineering news.",
+    "business": "AI industry business news: money, investments, deals, strategy, market impact. Keep numbers exact.",
+    "models": "Newly trending AI models on Hugging Face: say what the model does and what is new about it.",
 }
+DEPTH = {"skim", "read", "deep"}
 
-def summarize(items, kind):
+def enrich(items, kind, keep):
+    """LLM writes headline, summary, why-it-matters, depth and relevance; the best `keep` items are kept."""
     if not items:
         return []
     for i, it in enumerate(items):
         it["id"] = str(i)
     payload = [{"id": it["id"], "title": it["title"], "text": it["text"][:700]} for it in items]
-    prompt = (f"You write a daily AI briefing for a reader with an AI and computer vision background. "
-              f"Topic: {GUIDE[kind]} Use ONLY the text given and never invent facts. "
-              f'Return a JSON object keyed by item id; each value is {{"s": one or two plain sentences, '
-              f'"m": two or three sentences of extra detail}}.\nItems:\n{json.dumps(payload)}')
+    prompt = (f"You are the editor of a daily AI briefing for {CFG['reader']}. Topic: {GUIDE[kind]} "
+              "Use ONLY the text given and never invent facts. Return a JSON object keyed by item id. Each value has: "
+              '"h": a headline of at most 12 words saying what happened (never only a product or model name); '
+              '"s": a summary of at most 40 words, straight to the point; '
+              '"w": one short sentence on why it matters to the reader; '
+              '"d": "skim", "read" or "deep" for how much time the reader should invest; '
+              '"r": relevance to the reader, 1 (low) to 5 (high).\nItems:\n' + json.dumps(payload))
     raw, res = llm(prompt), {}
     if raw:
         try:
             res = json.loads(re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip())
         except Exception as ex:
             print("Could not parse LLM output:", ex)
-    return [{"title": it["title"], "url": it["url"], "source": it["source"],
-             "summary": (res.get(it["id"]) or {}).get("s") or it["text"][:220],
-             "more": (res.get(it["id"]) or {}).get("m") or it["text"], "hours": round(it.get("age", 0)), "covered": it.get("covered", 1), **it.get("meta", {})} for it in items]
+
+    def rel(it):
+        try:
+            return float((res.get(it["id"]) or {}).get("r", 3))
+        except (TypeError, ValueError):
+            return 3.0
+
+    out = []
+    for it in sorted(items, key=lambda x: (-rel(x), int(x["id"])))[:keep]:
+        r = res.get(it["id"]) or {}
+        out.append({"title": r.get("h") or it["title"], "url": it["url"], "source": it["source"],
+                    "summary": r.get("s") or it["text"][:220], "why": r.get("w") or "",
+                    "depth": r.get("d") if r.get("d") in DEPTH else "",
+                    "hours": round(it.get("age", 0)), "covered": it.get("covered", 1), **it.get("meta", {})})
+    return out
 
 # ---------- 4. publish ----------
 def main():
@@ -178,9 +220,9 @@ def main():
     c = CFG["counts"]
     day = NOW.strftime("%Y-%m-%d")
     digest = {"date": day, "generated": NOW.isoformat(timespec="minutes"),
-              "technical": summarize(pick(items, "technical", c["technical"]), "technical"),
-              "business": summarize(pick(items, "business", c["business"]), "business"),
-              "models": summarize(hf_models(), "models")}
+              "technical": enrich(pick(items, "technical", c["technical"] + 4), "technical", c["technical"]),
+              "business": enrich(pick(items, "business", c["business"] + 4), "business", c["business"]),
+              "models": enrich(hf_models(), "models", c["models"])}
     (DATA / f"{day}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=1), encoding="utf-8")
     days = sorted((p.stem for p in DATA.glob("20??-??-??.json")), reverse=True)
     for old in days[CFG["keep_days"]:]:

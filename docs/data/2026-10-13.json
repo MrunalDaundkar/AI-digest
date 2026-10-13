@@ -1,129 +1,109 @@
 {
  "date": "2026-10-13",
- "generated": "2026-10-13T13:09+00:00",
+ "generated": "2026-10-13T20:25+00:00",
  "technical": [
   {
-   "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-   "url": "https://huggingface.co/papers/2609.39601",
+   "title": "Vision-language models bypass safety refusals when asked for spatial outputs",
+   "url": "https://huggingface.co/papers/2610.05637",
    "source": "HF Daily Papers",
-   "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) an",
-   "why": "",
-   "depth": "",
+   "summary": "Researchers found that vision-language models refusing harmful text questions often comply when the same request asks for visual grounding like points or bounding boxes.",
+   "why": "This matters because spatial outputs represent an unaligned safety vulnerability for downstream vision and robotics agents.",
+   "depth": "read",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
+   "title": "SPLATIFY framework automatically converts 3D Gaussian Splatting papers into trainable code",
    "url": "https://huggingface.co/papers/2610.09116",
    "source": "HF Daily Papers",
-   "summary": "The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before building on them. We introduce SPLATIFY, a multi-agent framework that converts 3DGS papers into trainable ",
-   "why": "",
-   "depth": "",
+   "summary": "SPLATIFY is a multi-agent framework utilizing a context-free grammar to translate 3DGS research papers directly into functional, architecture-compliant gsplat code.",
+   "why": "This directly accelerates computer vision research by automating the tedious reimplementation of 3DGS papers.",
+   "depth": "deep",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
-   "url": "https://huggingface.co/papers/2610.13361",
-   "source": "HF Daily Papers",
-   "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that t",
-   "why": "",
-   "depth": "",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
-   "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
-   "source": "MarkTechPost",
-   "summary": "Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per test. Access is by application. The post Z.ai GLM-Legal Beats Clau",
-   "why": "",
-   "depth": "",
-   "hours": 5,
-   "covered": 1
-  },
-  {
-   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
-   "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
-   "source": "MarkTechPost",
-   "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The pos",
-   "why": "",
-   "depth": "",
-   "hours": 63,
-   "covered": 1
-  },
-  {
-   "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
+   "title": "vLLM Semantic Router releases Decision 3.0 open multimodal decision models",
    "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
    "source": "MarkTechPost",
-   "summary": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text. The post Wh",
-   "why": "",
-   "depth": "",
-   "hours": 39,
-   "covered": 1
-  },
-  {
-   "title": "LinkedIn Gives Agents Context 📚, Claude Dashboards 📊, Salesforce Spark Optimization ⚡",
-   "url": "https://tldr.tech/data/2026-10-12",
-   "source": "TLDR Data",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 37,
-   "covered": 1
-  },
-  {
-   "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
-   "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
-   "source": "AWS Machine Learning",
-   "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre",
-   "why": "",
-   "depth": "",
-   "hours": 21,
-   "covered": 1
-  },
-  {
-   "title": "Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖",
-   "url": "https://tldr.tech/ai/2026-10-12",
-   "source": "TLDR AI",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 37,
-   "covered": 1
-  },
-  {
-   "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
-   "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
-   "source": "NVIDIA Developer",
-   "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are...",
-   "why": "",
-   "depth": "",
-   "hours": 21,
-   "covered": 1
-  }
- ],
- "business": [
-  {
-   "title": "AI labs are purchasing data from dead startups for training",
-   "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-   "source": "MIT Technology Review AI",
-   "summary": "Defunct startup founders are turning digital archives, code bases, and datasets into cash by selling them to AI labs for model training.",
-   "why": "Understanding data acquisition channels helps engineers monitor alternative inputs for scaling model training.",
+   "summary": "Decision 3.0 offers 5 Apache-2.0 multimodal models ranging from 0.8B to 27B parameters that answer text and image choice or yes/no questions directly without generating text.",
+   "why": "Engineers get efficient open-weight vision models optimized for structured classification without text generation overhead.",
    "depth": "read",
+   "hours": 47,
+   "covered": 1
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "source": "Google DeepMind",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 4,
+   "covered": 2
+  },
+  {
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Gemini 4 Argon for Robotics",
+   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "source": "Google DeepMind",
+   "summary": "",
+   "why": "",
+   "depth": "",
    "hours": 4,
    "covered": 1
   },
   {
-   "title": "Meta launches Muse Wonder and Muse Wonder Full models",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-   "source": "The Verge AI",
-   "summary": "Meta is launching two new AI models, Muse Wonder and Muse Wonder Full, via its revamped Superintelligence Labs division to compete with industry leaders.",
-   "why": "Tracking major model releases provides insights into competitive shifts in foundational AI capabilities.",
+   "title": "AWS introduces AgentCore payments for secure agent-driven web transactions",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+   "source": "AWS Machine Learning",
+   "summary": "AWS demonstrated AI agents using Anchor Browser and AgentCore payments to autonomously pay for protected web resources and manage budgets without exposing wallet credentials.",
+   "why": "It offers a secure payment architecture for autonomous web agents handling financial transactions.",
    "depth": "read",
-   "hours": 20,
+   "hours": 0,
    "covered": 1
   },
+  {
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "source": "Google DeepMind",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "ShipStation Global builds automated IT help desk agent on Amazon Bedrock",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "ShipStation built Deckhand, an IT help desk Slack agent using AgentCore that reads error screenshots and files Jira tickets, resolving 97.5% of queries.",
+   "why": "It demonstrates a successful multimodal enterprise workflow automation combining vision and agent tooling.",
+   "depth": "read",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Evaluating LLM creativity through long-tail reference input-output distribution performance",
+   "url": "https://huggingface.co/papers/2610.12998",
+   "source": "HF Daily Papers",
+   "summary": "A new framework formalizes LLM creativity as task-specific performance in the long tail of a reference distribution, validated across 15 benchmarks and 26 models.",
+   "why": "It provides engineers with a principled statistical method to benchmark model novelty and generation quality.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  }
+ ],
+ "business": [
   {
    "title": "Fifth Wall’s Brendan Wallace On Why The Best Proptech Bets May Not Look Like Proptech",
    "url": "https://news.crunchbase.com/venture/real-estate-proptech-ai-startups-qa-wallace-fifth-wall/",
@@ -131,7 +111,7 @@
    "summary": "In a recent interview with Crunchbase News, Brendan Wallace, founder, CEO and chief investment officer of Fifth Wall, discussed the AI shift, why proptech funding totals may overlook some of the sector’s biggest investme",
    "why": "",
    "depth": "",
-   "hours": 2,
+   "hours": 9,
    "covered": 1
   },
   {
@@ -141,17 +121,17 @@
    "summary": "Here are five key things investors need to know to start the trading day.",
    "why": "",
    "depth": "",
-   "hours": 0,
+   "hours": 8,
    "covered": 1
   },
   {
-   "title": "SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena",
-   "url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
-   "source": "CNBC Tech",
-   "summary": "SpaceX has agreed to testify before the New York City Council as part of an investigation into AI safety risks.",
-   "why": "",
-   "depth": "",
-   "hours": 4,
+   "title": "Shopify Expands Catalog Access For AI Shopping Agents",
+   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+   "source": "The Verge AI",
+   "summary": "Shopify announced it will let shoppers configure AI agents to purchase products on their behalf, expanding agentic commerce access to over a billion listings.",
+   "why": "Agentic commerce integrations highlight emerging monetization channels and API paradigms for automated systems.",
+   "depth": "read",
+   "hours": 1,
    "covered": 1
   },
   {
@@ -161,7 +141,7 @@
    "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
    "why": "",
    "depth": "",
-   "hours": 22,
+   "hours": 29,
    "covered": 1
   },
   {
@@ -171,17 +151,27 @@
    "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping w",
    "why": "",
    "depth": "",
-   "hours": 23,
+   "hours": 30,
    "covered": 1
   },
   {
-   "title": "Apple launches HomeView, its first smart display for the home",
-   "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
+   "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+   "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
    "source": "The Verge AI",
-   "summary": "It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I got a first look at the device in New York City this week, and it's gorgeous. The HomeView puts a small, vibrant screen atop a spe",
+   "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new ex",
    "why": "",
    "depth": "",
-   "hours": 0,
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+   "url": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
+   "source": "The Verge AI",
+   "summary": "The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte. Afterward, I sat o",
+   "why": "",
+   "depth": "",
+   "hours": 2,
    "covered": 1
   },
   {
@@ -191,86 +181,96 @@
    "summary": "The next generation of super apps will likely emerge in markets where widespread mobile access, weak competition, poor financial services and crises that erode trust in banks create demand for a single trusted platform, ",
    "why": "",
    "depth": "",
-   "hours": 2,
+   "hours": 9,
    "covered": 1
   },
   {
-   "title": "Character.AI files for bankruptcy and sells assets to Disney",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-   "source": "The Verge AI",
-   "summary": "Generative AI startup Character.AI has filed for bankruptcy and is selling some of its assets to Disney following safety scrutiny and lawsuits.",
-   "why": "Major structural shifts in pioneering generative AI startups impact the broader ecosystem and market confidence.",
+   "title": "Open models have real benefits. Do they outweigh the risks?",
+   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+   "source": "MIT Technology Review AI",
+   "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic re",
+   "why": "",
+   "depth": "",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "AI Labs Are Buying Data From Dead Startups",
+   "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+   "source": "MIT Technology Review AI",
+   "summary": "Founders of failed startups are turning their digital archives and code bases into real money by selling them to AI labs for model training.",
+   "why": "Data acquisition strategies directly influence training pipelines and legal landscapes for future vision and language models.",
    "depth": "read",
-   "hours": 3,
+   "hours": 11,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "google/embeddinggemma-2",
+   "title": "Google DeepMind Launches Multimodal EmbeddingGemma 2 Open Model",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "source": "Hugging Face",
-   "summary": "Hugging Face | GitHub | Launch Blog | Documentation | License : Apache 2.0 | Authors : Google DeepMind **EmbeddingGemma 2** is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), ima",
-   "why": "",
-   "depth": "",
+   "summary": "EmbeddingGemma 2 is an open multimodal embedding model mapping text, code, images, video, and audio into a single 768-dimensional vector space. With 740M parameters, it runs locally on consumer hardware for low-latency semantic search, RAG, and classification.",
+   "why": "It brings unified, efficient multimodal embedding capabilities directly to on-device hardware.",
+   "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "google/embeddinggemma-2"
   },
   {
-   "title": "jialinyyzz/humanizer",
-   "url": "https://huggingface.co/jialinyyzz/humanizer",
+   "title": "MiniCPM-V 4.7 Introduces First Mixture-of-Experts On-Device VLM",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
    "source": "Hugging Face",
-   "summary": "# humanizer **A 12B model that rewrites AI-written drafts (emails, essays, reports, forum posts; English and Chinese) so they read like a person wrote them.** It is trained to keep every number, unit, date, name and quot",
-   "why": "",
-   "depth": "",
+   "summary": "MiniCPM-V 4.7 introduces a 35B-A3B variant, marking the first Mixture-of-Experts model in the series. Utilizing Lookahead Expert Scheduling, it delivers lossless, smooth on-device inference for single-image, multi-image, and video understanding.",
+   "why": "It advances efficient multimodal AI performance and video understanding for edge devices.",
+   "depth": "read",
    "hours": 0,
    "covered": 1,
-   "model": "jialinyyzz/humanizer"
+   "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
-   "title": "Qwen/Qwen-Image-2.1-Turbo",
+   "title": "Qwen-Image-2.1-Turbo Released for Accelerated Image Generation",
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
    "source": "Hugging Face",
-   "summary": "🤖 ModelScope | 🤗 HuggingFace | 💻 GitHub | 📑 Qwen-Image-2.1 Blog | 🫨 Discord | 💬 WeChat ## Introduction **Qwen-Image-2.1-Turbo** is an accelerated checkpoint of Qwen-Image-2.1 for text-to-image generation and image editin",
-   "why": "",
-   "depth": "",
+   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint requiring only 8 denoising steps for text-to-image generation and editing. It uses a 7B visual generation architecture, loads directly in Diffusers, and features prefix KV caching across steps.",
+   "why": "It dramatically speeds up image generation workflows using a standard visual architecture.",
+   "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "Qwen/Qwen-Image-2.1-Turbo"
   },
   {
-   "title": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "title": "Qwen-Image-2.1 Uncensored Quantized Formats Released for Local Use",
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "source": "Hugging Face",
-   "summary": "# Qwen-Image-2.1 Uncensored Quantized GGUF, Safetensors, and MLX quantized formats of Qwen/Qwen-Image-2.1 for local image generation using the original upstream base weights. ## Benchmark ## Uncensored Quantized Files **",
-   "why": "",
-   "depth": "",
+   "summary": "This repository provides GGUF, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation. It includes companion files packaged for ComfyUI, optimizing performance across various hardware like Apple Silicon and GPUs.",
+   "why": "It facilitates flexible, optimized local deployment of Qwen-Image-2.1 across diverse hardware platforms.",
+   "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "title": "Cloudflare/clef",
+   "title": "Underdog Saluki 27B Brings Qwen3.8-27B to Under 8 GB",
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "source": "Hugging Face",
+   "summary": "Underdog-Saluki-27B-1.0 is a GGUF model that fits Qwen3.8-27B into under 8 GB while preserving tool-calling capabilities. It includes an optional vision add-on for processing images through the OpenAI chat API.",
+   "why": "It enables lightweight, local deployment of a powerful 27B multimodal model with tool calling.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ConwayResearch/Underdog-Saluki-27B-1.0"
+  },
+  {
+   "title": "Cloudflare Releases Clef 27B Multimodal Decision Model",
    "url": "https://huggingface.co/Cloudflare/clef",
    "source": "Hugging Face",
-   "summary": "# Clef - **Announcement:** Clef decision models on the Cloudflare blog - **Decision Index leaderboard:** clef-evals.workers-ai-mle.workers.dev Clef is a 27B multimodal model that turns a state and a schema of typed quest",
-   "why": "",
-   "depth": "",
+   "summary": "Clef is a 27B multimodal model post-trained from Qwen3.8-27B that processes text, JSON, images, or video to output decision probabilities for typed questions in a single forward pass without free-form text generation.",
+   "why": "It provides a specialized architecture for structured, high-speed multimodal decision-making.",
+   "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "Cloudflare/clef"
-  },
-  {
-   "title": "Lightricks/LTX-2.5",
-   "url": "https://huggingface.co/Lightricks/LTX-2.5",
-   "source": "Hugging Face",
-   "summary": "No model card text available.",
-   "why": "",
-   "depth": "",
-   "hours": 0,
-   "covered": 1,
-   "model": "Lightricks/LTX-2.5"
   }
  ]
 }

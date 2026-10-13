@@ -1,4 +1,4 @@
-const SHELL="digest-shell-v2",FILES=["./","index.html","icon.svg"];
+const SHELL="digest-shell-v3",FILES=["./","index.html","icon.svg"];
 self.addEventListener("install",e=>e.waitUntil(caches.open(SHELL).then(c=>c.addAll(FILES))));
 self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==SHELL).map(x=>caches.delete(x))))));
 // Network first, so you always get the newest digest; cache is the offline fallback.

@@ -36,10 +36,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .stats span{background:var(--s1);border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:14px}
 .stats b{color:var(--acc)}
-.radar{flex:none;width:150px;height:150px;border-radius:50%;position:relative;border:1px solid var(--line);background:repeating-radial-gradient(circle,transparent 0 23px,var(--line) 24px 25px)}
-.radar::after{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(transparent 72%,color-mix(in srgb,var(--acc) 50%,transparent));animation:spin 4s linear infinite}
-.radar i{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--acc);box-shadow:0 0 10px var(--acc)}
-@keyframes spin{to{transform:rotate(1turn)}}
 .tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
 .tabs{display:flex;gap:4px;background:var(--s1);border:1px solid var(--line);border-radius:12px;padding:4px;overflow-x:auto}
 .tabs button{background:none;border:0;border-radius:9px;padding:7px 14px;color:var(--mute);font-weight:600;white-space:nowrap}
@@ -47,8 +43,8 @@ button{font:inherit;color:inherit;cursor:pointer}
 .tabs small{opacity:.7;margin-left:4px}
 #q{flex:1;min-width:140px;height:38px;background:var(--s1);border:1px solid var(--line);border-radius:10px;padding:0 12px;color:var(--ink);font:inherit}
 .grid{display:grid;gap:26px;grid-template-columns:1fr}
-@media(min-width:960px){.grid{grid-template-columns:1fr 310px}.side{position:sticky;top:78px;align-self:start}.radar{width:190px;height:190px}}
-@media(max-width:640px){.radar{width:84px;height:84px}.live span{display:none}}
+@media(min-width:960px){.grid{grid-template-columns:1fr 310px}.side{position:sticky;top:78px;align-self:start}}
+@media(max-width:640px){.live span{display:none}}
 .card{background:var(--s1);border:1px solid var(--line);border-radius:16px;padding:18px 18px 12px;margin-bottom:12px;transition:border-color .2s,transform .2s}
 .card:hover{border-color:color-mix(in srgb,var(--acc) 50%,var(--line))}
 .card.now{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc)}
@@ -82,6 +78,12 @@ select{width:100%;height:38px;background:var(--s2);color:var(--ink);border:1px s
 #pinfo{flex:1;font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #player button{background:none;border:0;border-radius:10px;min-width:38px;height:38px;display:grid;place-items:center}
 #pp{background:var(--acc)!important;color:var(--on)}
+.mid{font-size:13px;color:var(--mute);margin:-2px 0 8px}
+.why{color:var(--mute);font-size:15px}
+.why::before{content:"Why it matters \00b7  ";color:var(--acc);font-weight:600}
+.dp{margin-left:auto;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:1px 10px;color:var(--mute)}
+.dp.deep{color:var(--acc);border-color:var(--acc)}
+#voice{font-size:12px;padding:0 8px;max-width:104px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -95,7 +97,6 @@ select{width:100%;height:38px;background:var(--s2);color:var(--ink);border:1px s
 <div class="in">
  <section class="hero">
   <div><h1 id="hi">Hello</h1><p id="tag">Your daily signal from AI research, models and markets.</p><div class="stats" id="stats"></div></div>
-  <div class="radar" aria-hidden="true"><i style="left:62%;top:24%"></i><i style="left:30%;top:58%"></i><i style="left:72%;top:66%"></i></div>
  </section>
  <div class="tools">
   <div class="tabs" role="tablist" id="tabs"></div>
@@ -114,6 +115,7 @@ select{width:100%;height:38px;background:var(--s2);color:var(--ink);border:1px s
  <button id="pp" aria-label="Play or pause"></button>
  <button id="pnext" aria-label="Next"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
  <span id="pinfo"></span>
+ <button id="voice" aria-label="Change voice">Voice</button>
  <button id="rate" aria-label="Speed">1×</button>
  <button id="pclose" aria-label="Close player">✕</button>
 </div>
@@ -137,7 +139,7 @@ $("#theme").onclick=()=>setTheme(document.documentElement.dataset.theme==="dark"
 
 /* render */
 function items(){let l=tab==="saved"?saved():(D?.[tab]||[]);
- if(q)l=l.filter(i=>(i.title+i.summary+i.more).toLowerCase().includes(q));
+ if(q)l=l.filter(i=>(i.title+i.summary+(i.why||"")).toLowerCase().includes(q));
  if(topic)l=l.filter(i=>TOPICS[topic].test(i.title+" "+i.summary));return l}
 function hue(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))%360;return h}
 function render(){
@@ -151,11 +153,11 @@ function render(){
  $("#list").innerHTML=!D&&tab!=="saved"?'<p class="note">No digest yet. Run the “Daily AI digest” workflow in GitHub Actions, then reload.</p>':!VIS.length?`<p class="note">${tab==="saved"?"Star a story to keep it here.":"Nothing matches. Try clearing the search or topic filter."}</p>`:VIS.map((i,n)=>{
   const s=saved().some(x=>x.url===i.url);
   return `<article class="card${n===0&&tab!=="saved"?" lead":""}" data-i="${n}">
-  <div class="meta"><span class="bd" style="background:hsl(${hue(i.source)} 45% 36%)">${esc(i.source[0])}</span>${esc(i.source)}${i.task||i.hours==null?"":` · ${i.hours<1?"just now":i.hours+"h ago"}`}${i.covered>1?`<em>${i.covered} sources</em>`:""}</div>
+  <div class="meta"><span class="bd" style="background:hsl(${hue(i.source)} 45% 36%)">${esc(i.source[0])}</span>${esc(i.source)}${i.model||i.hours==null?"":` · ${i.hours<1?"just now":i.hours+"h ago"}`}${i.covered>1?`<em>${i.covered} sources</em>`:""}</div>
   <h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
-  ${i.task?`<div class="chips"><span>${esc(i.task)}</span><span>♥ ${fmt(i.likes)}</span><span>↓ ${fmt(i.downloads)}</span></div>`:""}
-  <p>${esc(i.summary)}</p><div class="more">${esc(i.more)}</div>
-  <div class="act"><button data-a="listen" aria-label="Listen to this story">${IC.spk}Listen</button><button data-a="more">Explore more</button><button data-a="save" class="${s?"on":""}" aria-label="Save story">${IC.star}${s?"Saved":"Save"}</button><a href="${esc(i.url)}" target="_blank" rel="noopener">${IC.open}Source</a></div></article>`}).join("");
+  ${i.model?`<div class="mid">${esc(i.model)}</div>`:""}
+  <p>${esc(i.summary)}</p>${i.why?`<p class="why">${esc(i.why)}</p>`:""}
+  <div class="act"><button data-a="listen" aria-label="Listen to this story">${IC.spk}Listen</button><button data-a="save" class="${s?"on":""}" aria-label="Save story">${IC.star}${s?"Saved":"Save"}</button><a href="${esc(i.url)}" target="_blank" rel="noopener">${IC.open}Read article</a>${i.depth?`<span class="dp ${i.depth}">${{skim:"Quick skim",read:"Worth reading",deep:"Deep dive"}[i.depth]}</span>`:""}</div></article>`}).join("");
  mark()}
 function ago(){const e=$("#live");if(!D){$("#ago").textContent="Waiting for first digest";e.classList.add("old");return}
  const m=Math.max(0,Math.round((Date.now()-Date.parse(D.generated))/6e4));
@@ -182,19 +184,22 @@ $("#list").onclick=e=>{const b=e.target.closest("button[data-a]");if(!b)return;c
  if(a==="save"){const s=saved(),i=VIS[n],k=s.findIndex(x=>x.url===i.url);k<0?s.unshift(i):s.splice(k,1);try{localStorage.setItem("saved",JSON.stringify(s))}catch{}render()}};
 
 /* listen mode (browser text-to-speech, free) */
-const S=window.speechSynthesis;let voice=null;
-function pick(){const v=S.getVoices().filter(x=>/^en/i.test(x.lang));voice=v.find(x=>/natural|google us|samantha|aria|jenny|daniel/i.test(x.name))||v[0]||null}
+const S=window.speechSynthesis;let voice=null,VL=[];
+const vrank=v=>/natural|neural|online/i.test(v.name)?0:/premium|enhanced|siri/i.test(v.name)?1:/google (us|uk)|samantha|ava|zoe|aria|jenny|libby|sonia/i.test(v.name)?2:3;
+function pick(){VL=S.getVoices().filter(x=>/^en/i.test(x.lang)).sort((a,b)=>vrank(a)-vrank(b));let n="";try{n=localStorage.getItem("voice")||""}catch{}
+ voice=VL.find(x=>x.name===n)||VL[0]||null;$("#voice").textContent=voice?(voice.name.replace(/Microsoft |Google |Online \(Natural\)|- English.*|\(.*?\)/g,"").trim().slice(0,14)||"Voice"):"Voice"}
 if(S){pick();S.onvoiceschanged=pick}else $("#listen").hidden=true;
 function mark(){document.querySelectorAll(".card").forEach(c=>c.classList.toggle("now",+c.dataset.i===cur))}
 function ui(){$("#player").hidden=cur<0;$("#pp").innerHTML=playing?IC.pause:IC.play;$("#pinfo").textContent=cur<0?"":`${cur+1}/${VIS.length} · ${VIS[cur]?.title||""}`;$("#rate").textContent=rate+"×";mark()}
 function play(n){if(!S||!VIS.length)return;cur=Math.max(0,Math.min(n,VIS.length-1));playing=true;const my=++tok;S.cancel();
- const i=VIS[cur],u=new SpeechSynthesisUtterance(`${i.title}. ${i.summary}`);u.rate=rate;if(voice){u.voice=voice;u.lang=voice.lang}
+ const i=VIS[cur],u=new SpeechSynthesisUtterance((cur===0?`Here are your ${VIS.length} ${TABS.find(t=>t[0]===tab)[1]} stories. `:"")+`Story ${cur+1}. ${i.title}. ${i.summary}`);u.rate=rate;if(voice){u.voice=voice;u.lang=voice.lang}
  u.onend=()=>{if(my===tok&&playing){cur+1<VIS.length?play(cur+1):stop()}};u.onerror=()=>{};
  S.speak(u);ui();document.querySelector(`.card[data-i="${cur}"]`)?.scrollIntoView({behavior:"smooth",block:"center"})}
 function stop(){tok++;playing=false;cur=-1;S&&S.cancel();ui()}
 $("#listen").onclick=()=>play(0);
 $("#pp").onclick=()=>{if(playing){tok++;playing=false;S.cancel();ui()}else play(cur)};
 $("#pnext").onclick=()=>play(cur+1);$("#pprev").onclick=()=>play(cur-1);$("#pclose").onclick=stop;
+$("#voice").onclick=()=>{if(!VL.length)return;voice=VL[(VL.indexOf(voice)+1)%VL.length];try{localStorage.setItem("voice",voice.name)}catch{}pick();if(playing)play(cur)};
 $("#rate").onclick=()=>{rate=({1:1.25,1.25:1.5,1.5:.85,.85:1})[rate];if(playing)play(cur);else ui()};
 
 refresh();

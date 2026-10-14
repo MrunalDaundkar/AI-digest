@@ -1,276 +1,276 @@
 {
  "date": "2026-10-14",
- "generated": "2026-10-14T14:10+00:00",
+ "generated": "2026-10-14T19:03+00:00",
  "technical": [
   {
-   "title": "Modular trajectory ranking pipeline evaluates ego trajectories using BEV outputs",
+   "title": "New Modular Trajectory Ranking Pipeline Evaluates BEV Outputs for Autonomous Driving",
    "url": "https://arxiv.org/abs/2610.14066",
    "source": "arXiv cs.RO",
-   "summary": "This paper presents a modular trajectory ranking pipeline that consumes BEVFusion object detections and map segmentations to rank candidate ego trajectories based on safety criteria.",
-   "why": "This provides autonomous driving engineers with a lightweight method for safety validation.",
-   "depth": "read",
-   "hours": 10,
-   "covered": 1
-  },
-  {
-   "title": "Video-Arena evaluates spatiotemporal world state understanding using competitive games",
-   "url": "https://huggingface.co/papers/2610.14158",
-   "source": "HF Daily Papers",
-   "summary": "Video-Arena is a new benchmark that turns competitive games into scalable, verifiable tests to evaluate how well models understand and track evolving world states from videos.",
-   "why": "It offers computer vision engineers a reliable way to benchmark spatiotemporal intelligence.",
+   "summary": "Researchers present a modular trajectory ranking pipeline that uses BEVFusion object detections and map segmentations to rank candidate ego trajectories based on safety criteria, prioritizing collision avoidance and walkway violations.",
+   "why": "Provides a lightweight and interpretable evaluation approach for vehicular safety workflows and rapid prototyping.",
    "depth": "skim",
-   "hours": 12,
-   "covered": 2
-  },
-  {
-   "title": "Orchestra agent harness manages task planning for long-horizon robotic manipulation",
-   "url": "https://huggingface.co/papers/2610.18352",
-   "source": "HF Daily Papers",
-   "summary": "Orchestra separates task planning and execution management from action generation, decomposing multimodal instructions into ordered subtasks while tracking object locations.",
-   "why": "It provides a structural approach for roboticists handling complex, multi-step manipulation tasks.",
-   "depth": "read",
-   "hours": 12,
+   "hours": 15,
    "covered": 1
   },
   {
-   "title": "Hybrid computer vision and predictive ML pipeline estimates real-time traffic density",
+   "title": "Two-Stage Pipeline Combines Computer Vision and Sequence Modeling for Traffic Density Estimation",
    "url": "https://arxiv.org/abs/2610.14326",
    "source": "arXiv cs.CV",
-   "summary": "A two-stage pipeline combines vehicle detection with a spatial logic layer and temporal estimators like LSTMs and TCNs to predict future traffic density from camera feeds.",
-   "why": "It provides a practical framework for real-time computer vision and forecasting in intelligent transport.",
-   "depth": "read",
-   "hours": 10,
-   "covered": 1
-  },
-  {
-   "title": "RoboHarness gives LLM agents visual-geometric control for robotic manipulation",
-   "url": "https://arxiv.org/abs/2610.14018",
-   "source": "arXiv cs.RO",
-   "summary": "RoboHarness provides a visual-geometric control panel enabling code-based LLM agents to direct robot actions effectively, outperforming traditional VLA and world action models.",
-   "why": "It presents an alternative architecture for generalist embodied AI manipulation.",
-   "depth": "read",
-   "hours": 10,
-   "covered": 1
-  },
-  {
-   "title": "SenseWeather multimodal benchmark recovers RGB observations under extreme weather",
-   "url": "https://arxiv.org/abs/2610.14082",
-   "source": "arXiv cs.RO",
-   "summary": "SenseWeather studies using complementary sensors like depth and infrared upstream to recover task-compatible RGB observations without modifying downstream perception stacks.",
-   "why": "It addresses critical robustness issues for robotic perception in degraded weather conditions.",
-   "depth": "skim",
-   "hours": 10,
-   "covered": 1
-  },
-  {
-   "title": "Outcome-grounded confidence calibration improves multi-step LLM agent reliability",
-   "url": "https://huggingface.co/papers/2610.18614",
-   "source": "HF Daily Papers",
-   "summary": "Researchers propose a method to calibrate an LLM agent's step confidence against the eventual outcome of a multi-step episode using group relative policy optimization scoring.",
-   "why": "It helps engineers better decide when to trust agent actions during long-horizon tasks.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Image diffusion models model 3D human motion through joint-time images",
-   "url": "https://arxiv.org/abs/2610.14254",
-   "source": "arXiv cs.CV",
-   "summary": "This study investigates using image diffusion architectures to model 3D human motion via topology-informed joint-time images, accommodating heterogeneous skeletal layouts.",
-   "why": "It introduces a unified representation for motion generation across diverse skeletal structures.",
-   "depth": "read",
-   "hours": 10,
-   "covered": 1
-  },
-  {
-   "title": "Diffusion transformer backbone depth profile interpretations re-evaluated",
-   "url": "https://arxiv.org/abs/2610.14517",
-   "source": "arXiv cs.CV",
-   "summary": "The inverted-U-shaped performance curve across intermediate activations in diffusion backbones may be inaccurate, challenging long-held assumptions about changing signal granularity.",
-   "why": "It deepens foundational understanding of how diffusion models operate internally.",
-   "depth": "skim",
-   "hours": 10,
-   "covered": 1
-  },
-  {
-   "title": "Tamnoon builds agentic cloud security remediation using Amazon Bedrock",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
-   "source": "AWS Machine Learning",
-   "summary": "Tamnoon deployed Tami, an agentic cloud remediation orchestrator built on Amazon Bedrock, to autonomously investigate and safely remediate cloud security findings.",
-   "why": "It illustrates the practical enterprise impact of deploying agentic AI pipelines.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1
-  }
- ],
- "business": [
-  {
-   "title": "Science Corporation Implants Vision-Restoring Chip in Patient",
-   "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-   "source": "TechCrunch AI",
-   "summary": "Max Hodak detailed how Science Corporation implanted its vision-restoring PRIMA chip in its first Stargardt disease patient as part of BCI work.",
-   "why": "It tracks advanced neural interfacing and vision technology developments.",
+   "summary": "A hybrid pipeline links visual perception with forecasting by filtering bounding boxes with road masks, extracting features, and using LSTM, GRU, or TCN estimators to predict future traffic steps from camera feeds.",
+   "why": "Connects real-time computer vision object detection with short-horizon predictive machine learning.",
    "depth": "read",
    "hours": 15,
    "covered": 1
   },
   {
-   "title": "Anthropic Warns Small AI Models Could Self-Replicate",
-   "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-   "source": "Ars Technica AI",
-   "summary": "Anthropic warns that small weight-based replicators could act through IoT devices to usher in a new generation of computer worms.",
-   "why": "Autonomous self-replication risks in smaller models pose serious security implications for connected devices.",
+   "title": "SenseWeather Benchmark Recovering RGB Observations for Robust Robotic Perception Under Extreme Conditions",
+   "url": "https://arxiv.org/abs/2610.14082",
+   "source": "arXiv cs.RO",
+   "summary": "SenseWeather introduces a controlled multimodal benchmark to study whether complementary sensors like depth and infrared can recover task-compatible RGB observations upstream when extreme weather degrades primary RGB inputs.",
+   "why": "Maintains downstream perception capabilities in severe environmental conditions without modifying pretrained stacks.",
+   "depth": "skim",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "New Physical Benchmark Measures LLMs in Closed-Loop Real-World Robotic Environments",
+   "url": "https://huggingface.co/papers/2610.15228",
+   "source": "HF Daily Papers",
+   "summary": "A new benchmark measures LLM performance in closed-loop physical interaction by connecting models to a harness system with real robotic arms, cameras, and sensors to process physical feedback and issue instructions.",
+   "why": "Examines how large language models act in real physical environments beyond static text or offline simulations.",
    "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Image Diffusion Architectures Model 3D Human Motion Across Heterogeneous Skeletal Layouts",
+   "url": "https://arxiv.org/abs/2610.14254",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers investigate image diffusion architectures for 3D human motion generation by organizing joint trajectories into topology-informed joint-time images and modeling global root dynamics through a latent stream.",
+   "why": "Accommodates heterogeneous skeletal layouts while preserving kinematic structure without dataset-specific skeletal representations.",
+   "depth": "read",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "RoboHarness Gives LLM Agents Visual-Geometric Control Panels for Embodied Manipulation",
+   "url": "https://arxiv.org/abs/2610.14018",
+   "source": "arXiv cs.RO",
+   "summary": "RoboHarness is presented as a robotic harness providing LLM agents with a visual-geometric control panel to realize generalist embodied manipulation through coding agent capabilities rather than traditional VLA training.",
+   "why": "Offers a potential alternative path toward generalist embodied AI compared to scaling vision-language-action models.",
+   "depth": "read",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "Behavioral Analysis Shows System One Models Read Correctly Yet Act Wrongly",
+   "url": "https://huggingface.co/papers/2610.18579",
+   "source": "HF Daily Papers",
+   "summary": "By pairing next-action choices with independent factual probes across benchmarks, researchers found that most incorrect actions by fast agent models follow correct reading of the environment states.",
+   "why": "Diagnoses decision failures in agent loops to better understand and improve fast model performance.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Inverted-U Depth Profile Interpretations Reevaluated in Diffusion Transformer Backbones",
+   "url": "https://arxiv.org/abs/2610.14517",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers analyze intermediate activations in diffusion backbones to show that the common interpretation of the inverted-U-shaped depth performance profile may be inaccurate and incomplete.",
+   "why": "Improves our fundamental understanding of diffusion transformer internal mechanics and feature evolution.",
+   "depth": "read",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA NeMo Gym Optimizes Agent Reliability and Tool Calling in Chip Design",
+   "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/",
+   "source": "NVIDIA Developer",
+   "summary": "AI agents are applied to complex chip design workflows, addressing their tendency to generate incorrect artifacts to improve productivity and tool calling efficiency using NVIDIA NeMo Gym.",
+   "why": "Tackles agent reliability challenges in specialized hardware engineering domains.",
+   "depth": "skim",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Agentic Code Judging Uses Generated Counterexamples for Verifiable Feedback",
+   "url": "https://huggingface.co/papers/2610.18760",
+   "source": "HF Daily Papers",
+   "summary": "To evaluate competitive programming solutions without official judging constraints, a new task formulates a model that judges and diagnoses candidate programs using problem statements, source code, and generated counterexamples.",
+   "why": "Enhances test-time scaling and model revision capabilities by providing informative failure feedback.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "TechCrunch Disrupt 2026: Day 2",
+   "url": "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/",
+   "source": "TechCrunch AI",
+   "summary": "Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, as well as an investor-only session, more roundtables, Side Events, and more. Register to save 50% on your pass.",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 2
+  },
+  {
+   "title": "Fifth Wall’s Brendan Wallace On Why The Best Proptech Bets May Not Look Like Proptech",
+   "url": "https://news.crunchbase.com/venture/real-estate-proptech-ai-startups-qa-wallace-fifth-wall/",
+   "source": "Crunchbase News",
+   "summary": "In a recent interview with Crunchbase News, Brendan Wallace, founder, CEO and chief investment officer of Fifth Wall, discussed the AI shift, why proptech funding totals may overlook some of the sector’s biggest investme",
+   "why": "",
+   "depth": "",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "JPMorgan's earnings miss, Delta delays Riyadh route, McDonald's chicken plans and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/10/13/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Tech",
+   "summary": "Here are five key things investors need to know to start the trading day.",
+   "why": "",
+   "depth": "",
+   "hours": 30,
+   "covered": 1
+  },
+  {
+   "title": "My AI doppelganger tells me what to eat",
+   "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+   "source": "The Verge AI",
+   "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For ",
+   "why": "",
+   "depth": "",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "How I Learned That Some Startup Problems Are Too Big For A Minimum Viable Product",
+   "url": "https://news.crunchbase.com/startups/minimum-viable-product-problems-ai-fintech-kjellen-freda/",
+   "source": "Crunchbase News",
+   "summary": "Complex, interconnected problems like compliance require a comprehensive product from the outset, argues guest columnist Daniel Kjellén, CEO and co-founder of Freda. Drawing on his experience selling Tink, he explains ho",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "AI Came for Math. Now It’s Chasing the Rest of Science",
+   "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
+   "source": "Wired AI",
+   "summary": "AI may soon be the default way to solve theoretical problems in economics, high-energy physics, and other fields, MIT researchers tell WIRED.",
+   "why": "",
+   "depth": "",
    "hours": 1,
    "covered": 1
   },
   {
-   "title": "Shopify Opens Billion-Item Catalog to AI Agents",
-   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-   "source": "The Verge AI",
-   "summary": "Shopify announced it will let shoppers configure AI agents to purchase products directly, granting agents access to over a billion catalog listings.",
-   "why": "Agentic commerce expansion directly impacts autonomous purchasing agents and market platforms.",
-   "depth": "read",
-   "hours": 18,
-   "covered": 1
-  },
-  {
-   "title": "Scimplify Raises $25 Million and Triples Revenue",
-   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
-   "source": "TechCrunch AI",
-   "summary": "Scimplify raised $25 million while its annualized revenue run rate tripled to $200 million as the company targets U.S. expansion.",
-   "why": "It demonstrates significant financial scaling and market impact for AI-driven material supply solutions.",
-   "depth": "skim",
-   "hours": 3,
-   "covered": 1
-  },
-  {
-   "title": "Anthropic to Disclose New Revenue Numbers to Investors",
-   "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
-   "source": "CNBC Tech",
-   "summary": "Anthropic will release updated financial figures to a group of investors gathering at its headquarters this week.",
-   "why": "Financial transparency from major AI labs shapes industry valuation and business strategy.",
-   "depth": "skim",
-   "hours": 17,
-   "covered": 1
-  },
-  {
-   "title": "Pluto Security Raises $42M Amid Enterprise AI Risks",
-   "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
-   "source": "TechCrunch AI",
-   "summary": "Pluto Security raised $42 million as widespread enterprise usage of AI tools creates new security vulnerabilities and system holes.",
-   "why": "Enterprise deployment of AI introduces critical security challenges that require new market solutions.",
-   "depth": "skim",
-   "hours": 21,
-   "covered": 1
-  },
-  {
-   "title": "Epic Games Refreshes Launcher Using AI Development",
-   "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-   "source": "The Verge AI",
-   "summary": "Epic Games previewed a faster PC games launcher supporting Linux, noting that the refresh was partly vibe coded using AI-assisted development.",
-   "why": "It showcases practical industry adoption of AI-assisted programming tools for software releases.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1
-  },
-  {
-   "title": "OpenAI Engineer Arrested for Planting Conference Room Bug",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-   "source": "The Verge AI",
-   "summary": "OpenAI engineer Abdulrahman Alfozan was arrested and charged with intercepting oral communications after a recording device was found in an office.",
-   "why": "Internal security incidents at major AI labs highlight corporate espionage and operational risks.",
-   "depth": "skim",
-   "hours": 17,
-   "covered": 1
-  },
-  {
-   "title": "Researchers Say OpenAI and Google Models Easily Tricked",
-   "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+   "title": "Researchers use AI design tools to create custom proteins",
+   "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
    "source": "Ars Technica AI",
-   "summary": "Researchers revealed an attack method that exposes flaws in OpenAI and Google safeguards, making models easily tricked into producing nudes.",
-   "why": "Model safety vulnerabilities impact the reliability and safety posture of frontier AI deployments.",
-   "depth": "skim",
-   "hours": 3,
-   "covered": 1
-  },
-  {
-   "title": "Marklo AI Secures $5 Million in Seed Funding",
-   "url": "https://news.crunchbase.com/venture/founder-raises-5m-next-act-ai-marketing-startup-marklo-herrin/",
-   "source": "Crunchbase News",
-   "summary": "Stella & Dot founder Jessica Herrin raised $5 million in a seed funding round led by Forerunner for her AI marketing startup Marklo.",
-   "why": "It highlights early-stage venture capital investments in AI marketing applications.",
+   "summary": "Researchers utilized AI design tools to engineer proteins capable of cutting up other proteins and breaking bonds stable for hundreds of years.",
+   "why": "It showcases practical scientific breakthroughs enabled by specialized AI design tools.",
    "depth": "skim",
    "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Berkshire Hathaway invests $330 million into Bending Spoons",
+   "url": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
+   "source": "CNBC Tech",
+   "summary": "Berkshire Hathaway made a $330 million investment in Bending Spoons, following a previous $600 million investment in the company's July IPO.",
+   "why": "It highlights major institutional capital moving into tech companies.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "AI marketing startup Marklo raises $5 million seed funding",
+   "url": "https://news.crunchbase.com/venture/founder-raises-5m-next-act-ai-marketing-startup-marklo-herrin/",
+   "source": "Crunchbase News",
+   "summary": "Stella & Dot founder Jessica Herrin raised $5 million in a seed funding round led by Forerunner for her new AI marketing startup, Marklo.",
+   "why": "It shows ongoing early-stage venture backing for AI-driven marketing solutions.",
+   "depth": "skim",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Scimplify raises $25 million and triples annualized revenue",
+   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+   "source": "TechCrunch AI",
+   "summary": "Scimplify raised $25 million to challenge China's grip on critical materials using AI, as its annualized revenue run rate tripled to $200 million.",
+   "why": "It demonstrates how AI-driven supply chain startups are scaling rapidly.",
+   "depth": "skim",
+   "hours": 8,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "Qwen-Image-2.1-Turbo Released with Accelerated Eight-Step Text-to-Image Generation",
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-   "source": "Hugging Face",
-   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint featuring eight denoising steps for image generation and editing. It maintains the 7B visual generation architecture, includes a preset sampling schedule, and utilizes prefix KV caching to speed up generation.",
-   "why": "It accelerates visual generation pipelines for faster image synthesis.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "Qwen/Qwen-Image-2.1-Turbo"
-  },
-  {
    "title": "MiniCPM-V 4.7 Introduces First Mixture-of-Experts On-Device Vision Model",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
    "source": "Hugging Face",
-   "summary": "MiniCPM-V 4.7 is a 35B-A3B variant and the first Mixture-of-Experts model in the MiniCPM-V series. It enhances single-image, multi-image, and video understanding with Lookahead Expert Scheduling and fine-grained quantization for smooth on-device inference.",
-   "why": "It advances efficient multimodal vision capabilities for edge and on-device deployment.",
+   "summary": "MiniCPM-V 4.7 is a 35B-A3B Mixture-of-Experts model featuring enhanced single-image, multi-image, and video understanding. It introduces Lookahead Expert Scheduling for smooth, lossless on-device inference.",
+   "why": "It advances efficient, high-performance multimodal vision capabilities on edge devices.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
-   "title": "Google DeepMind Releases EmbeddingGemma 2 Open Multimodal Embedding Model",
+   "title": "Google DeepMind Releases Open Multimodal Embedding Model EmbeddingGemma 2",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "source": "Hugging Face",
-   "summary": "EmbeddingGemma 2 is a 740M-parameter open multimodal embedding model mapping text, code, images, video, and audio into a unified 768-dimensional vector space. Designed for consumer hardware, it provides low-latency semantic representations for on-device search, RAG, and classification.",
-   "why": "It offers efficient on-device multimodal embedding capabilities for edge AI applications.",
+   "summary": "EmbeddingGemma 2 is an open multimodal embedding model mapping text, code, images, video, and audio into a unified 768-dimensional vector space. With 740M parameters, it runs locally on consumer hardware for low-latency search and RAG.",
+   "why": "It provides efficient, on-device multimodal embeddings for practical computer vision and NLP tasks.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "google/embeddinggemma-2"
   },
   {
-   "title": "Uncensored Quantized Formats of Qwen-Image-2.1 Released for Local Generation",
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "title": "Qwen-Image-2.1-Turbo Brings Accelerated 8-Step Text-to-Image Generation",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
    "source": "Hugging Face",
-   "summary": "This release provides GGUF, Safetensors, and MLX quantized formats for Qwen-Image-2.1. It includes companion text encoders and VAE files optimized for ComfyUI and local hardware execution using original upstream base weights.",
-   "why": "It enables efficient local deployment of Qwen-Image-2.1 across various hardware formats.",
+   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint offering text-to-image generation and editing using only 8 denoising steps. It features prefix KV caching and loads directly within Diffusers.",
+   "why": "It significantly accelerates image generation workflows using the 7B visual architecture.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+   "model": "Qwen/Qwen-Image-2.1-Turbo"
   },
   {
-   "title": "ConwayResearch Releases Underdog-Saluki-27B-1.0 Supporting Local Vision and Tool Calling",
+   "title": "Underdog-Saluki-27B-1.0 Fits Qwen3.8-27B Into Under 8 GB With Vision Support",
    "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
    "source": "Hugging Face",
-   "summary": "Underdog-Saluki-27B-1.0 is a 27B model packed into under 8 GB using GGUF format while preserving tool-calling functionality. It supports optional vision add-ons for processing images through the OpenAI chat API locally.",
-   "why": "It provides a lightweight local model supporting both tool calling and vision tasks.",
+   "summary": "ConwayResearch released Underdog-Saluki-27B-1.0, tuning Qwen3.8-27B to run in under 8 GB with tool calling intact. It supports vision inputs via an optional GGUF mmproj add-on.",
+   "why": "It makes large vision-language models accessible on resource-constrained hardware configurations.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
-   "title": "LiquidAI Releases d1-3B Multimodal Decision Model for Rapid Inferences",
+   "title": "LiquidAI Introduces d1-3B Multimodal Decision Model for Fast Processing",
    "url": "https://huggingface.co/LiquidAI/d1-3B",
    "source": "Hugging Face",
-   "summary": "d1-3B is a 3B parameter decision model built on LFM2.5-VL-3B that processes text, JSON, and images to output typed answers in a single forward pass with zero output tokens. It achieves high benchmark scores and fast execution times on consumer hardware.",
-   "why": "It provides an ultra-fast multimodal decision-making architecture for edge hardware.",
+   "summary": "d1-3B is a 3B parameter decision model built on LFM2.5-VL-3B that processes text, JSON, and images. It delivers typed answers in a single forward pass with zero output tokens in under 10 milliseconds.",
+   "why": "It delivers high-speed, multimodal decision-making capabilities optimized for edge and server deployment.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "LiquidAI/d1-3B"
+  },
+  {
+   "title": "Qwen Releases Qwen3.8-27B Post-Trained Model Weights and Configurations",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "Qwen3.8-27B model weights and configurations are now available in Hugging Face format. The model integrates with vLLM, SGLang, and TokenSpeed, with a hosted cloud API featuring a 1M context length coming soon.",
+   "why": "It offers a powerful new open backbone model optimized for scalable modern inference engines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
   }
  ]
 }

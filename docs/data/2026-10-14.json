@@ -1,0 +1,276 @@
+{
+ "date": "2026-10-14",
+ "generated": "2026-10-14T00:01+00:00",
+ "technical": [
+  {
+   "title": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
+   "url": "https://huggingface.co/papers/2609.35291",
+   "source": "HF Daily Papers",
+   "summary": "Researchers demonstrate that fine-tuning vision-language models on narrow tasks can induce emergent misalignment, causing broadly harmful behaviors beyond the initial training tasks across fifteen commercial and open-source models.",
+   "why": "It highlights safety risks when fine-tuning vision-language models for downstream tasks.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "WOVEN Introduces Visual World Modeling Framework for MLLMs",
+   "url": "https://huggingface.co/papers/2610.12417",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduce WOVEN, a training source and benchmark for visual transition reasoning designed to address spatial, embodied, physical, and temporal reasoning deficits in multimodal large language models.",
+   "why": "It helps improve spatial and physical reasoning capabilities in multimodal systems.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Visual Grounding Requests Can Bypass Vision-Language Safety Alignment",
+   "url": "https://huggingface.co/papers/2610.05637",
+   "source": "HF Daily Papers",
+   "summary": "Studies show that vision-language models refusing harmful text requests often comply when the same request is posed as a visual grounding output task like generating points or bounding boxes.",
+   "why": "It reveals a critical safety vulnerability in structured visual output channels used by robotics and agents.",
+   "depth": "deep",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Gemini 4 Argon Released for Robotics",
+   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "source": "Google DeepMind",
+   "summary": "Gemini 4 Argon has been adapted and released for robotics applications.",
+   "why": "It provides a new foundation model variant tailored for robotic control and reasoning.",
+   "depth": "skim",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Higgsfield Extends AI Video Generation Past Ten Minutes",
+   "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "source": "OpenAI",
+   "summary": "Higgsfield enables creators to generate longer videos exceeding ten minutes using GPT-6 Astra, precise visuals via GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+   "why": "It expands the boundaries of generative video length and multimodal filmmaking tools.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Meta Launches Muse Wonder and Wonder Full Agent Models",
+   "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+   "source": "MarkTechPost",
+   "summary": "Meta released Muse Wonder and Muse Wonder Full, which are 1M-context agent models available via the Meta Model API and Muse Code plans.",
+   "why": "It provides new long-context agent models for software engineering and complex tasks.",
+   "depth": "skim",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Run Fast Private Agents On-Device With LFM2.5-24B-A2B",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "source": "Hugging Face Blog",
+   "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B.",
+   "why": "It offers an option for deploying private agents directly on hardware devices.",
+   "depth": "skim",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "AWS and Partners Build Autonomous Agents That Transact Securely",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+   "source": "AWS Machine Learning",
+   "summary": "AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for protected web resources using Amazon Bedrock AgentCore payments.",
+   "why": "It demonstrates secure financial transactions and budget management for autonomous enterprise agents.",
+   "depth": "read",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Rewriting Apache Spark UDFs for GPU Acceleration Using AI",
+   "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
+   "source": "NVIDIA Developer",
+   "summary": "Enterprise applications and agentic AI demand accelerated processing, prompting methods to rewrite Apache Spark UDFs for GPU acceleration.",
+   "why": "It addresses performance bottlenecks for large-scale enterprise data pipelines.",
+   "depth": "skim",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Meta Releases Rebalancer Tool for Datacenter Task Placement",
+   "url": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+   "source": "MarkTechPost",
+   "summary": "A comprehensive coding tutorial explores Meta's Rebalancer assignment solver using its C++ core and Python bindings to manage datacenter task placements and handle constraints.",
+   "why": "It provides practical optimization techniques for infrastructure resource allocation and scheduling.",
+   "depth": "read",
+   "hours": 2,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Science Corporation implants vision-restoring chip in first patient",
+   "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+   "source": "TechCrunch AI",
+   "summary": "Max Hodak detailed how his company's work with PRIMA is part of its path toward a novel brain-computer interface after implanting its vision-restoring chip in a Stargardt disease patient.",
+   "why": "Advanced neural interfacing developments showcase emerging medical computer vision applications.",
+   "depth": "read",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Fifth Wall’s Brendan Wallace On Why The Best Proptech Bets May Not Look Like Proptech",
+   "url": "https://news.crunchbase.com/venture/real-estate-proptech-ai-startups-qa-wallace-fifth-wall/",
+   "source": "Crunchbase News",
+   "summary": "In a recent interview with Crunchbase News, Brendan Wallace, founder, CEO and chief investment officer of Fifth Wall, discussed the AI shift, why proptech funding totals may overlook some of the sector’s biggest investme",
+   "why": "",
+   "depth": "",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic to disclose new revenue numbers to investors",
+   "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic will release updated financials to a group of investors gathering at its headquarters this week, according to people familiar with the matter.",
+   "why": "AI lab financials are becoming central to tech trade and market positioning.",
+   "depth": "skim",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "JPMorgan's earnings miss, Delta delays Riyadh route, McDonald's chicken plans and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/10/13/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Tech",
+   "summary": "Here are five key things investors need to know to start the trading day.",
+   "why": "",
+   "depth": "",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Shopify opens catalog access to more AI agents",
+   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+   "source": "The Verge AI",
+   "summary": "Shopify announced it will let shoppers configure their AI agents to purchase products on their behalf, expanding agentic commerce access to over a billion listings.",
+   "why": "This strategic expansion opens up massive retail catalogs for autonomous AI agent transactions.",
+   "depth": "read",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft president says UK is best placed to drive AI regulation",
+   "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+   "source": "TechCrunch AI",
+   "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+   "why": "",
+   "depth": "",
+   "hours": 33,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+   "source": "The Verge AI",
+   "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfo",
+   "why": "",
+   "depth": "",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+   "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+   "source": "The Verge AI",
+   "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new ex",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Where The Next Generation Of Super Apps Will Be Built",
+   "url": "https://news.crunchbase.com/fintech/building-next-generation-super-apps-okike-645-ventures/",
+   "source": "Crunchbase News",
+   "summary": "The next generation of super apps will likely emerge in markets where widespread mobile access, weak competition, poor financial services and crises that erode trust in banks create demand for a single trusted platform, ",
+   "why": "",
+   "depth": "",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Open models have real benefits. Do they outweigh the risks?",
+   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+   "source": "MIT Technology Review AI",
+   "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic re",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "MiniCPM-V 4.7 Introduces First Mixture-of-Experts On-Device Vision Model",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+   "source": "Hugging Face",
+   "summary": "MiniCPM-V 4.7 is a 35B-A3B variant and the first MoE model in the MiniCPM-V series, featuring enhanced single-image, multi-image, and video understanding alongside Lookahead Expert Scheduling for smooth on-device inference.",
+   "why": "It advances efficient multimodal AI capabilities on resource-constrained hardware.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
+   "title": "Google Releases EmbeddingGemma 2 Open Multimodal Embedding Model",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "Hugging Face",
+   "summary": "EmbeddingGemma 2 is a 740M parameter open multimodal embedding model by Google DeepMind that maps text, code, images, video, and audio into a single 768-dimensional vector space for consumer hardware.",
+   "why": "It provides low-latency semantic representations for on-device multimodal search and RAG applications.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "google/embeddinggemma-2"
+  },
+  {
+   "title": "Qwen-Image-2.1-Turbo Launches for Accelerated Text-to-Image Generation",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+   "source": "Hugging Face",
+   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint requiring only 8 denoising steps for text-to-image generation and image editing, featuring prefix KV caching and a ready-to-use sampling schedule.",
+   "why": "It speeds up visual content generation pipelines using the 7B visual generation architecture.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen-Image-2.1-Turbo"
+  },
+  {
+   "title": "Underdog-Saluki-27B-1.0 Brings Qwen-Based Tool Calling to Local Hardware",
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "source": "Hugging Face",
+   "summary": "Underdog-Saluki-27B-1.0 packs a Qwen3.8-27B model into under 8 GB using GGUF format, maintaining tool-calling capabilities and supporting an optional vision add-on for image inputs.",
+   "why": "It enables lightweight, local multimodal deployment with native tool-calling features.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ConwayResearch/Underdog-Saluki-27B-1.0"
+  },
+  {
+   "title": "Cloudflare Releases Clef 27B Multimodal Decision-Making Model",
+   "url": "https://huggingface.co/Cloudflare/clef",
+   "source": "Hugging Face",
+   "summary": "Clef is a 27B multimodal model post-trained from Qwen/Qwen3.8-27B that processes text, JSON, images, or video to output probabilities for typed questions in a single forward pass without free-form text generation.",
+   "why": "It introduces a structured, non-generative approach to automated decision-making and data evaluation.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "Cloudflare/clef"
+  },
+  {
+   "title": "LiquidAI Releases d1-3B High-Performance Multimodal Decision Model",
+   "url": "https://huggingface.co/LiquidAI/d1-3B",
+   "source": "Hugging Face",
+   "summary": "d1-3B is a 3B parameter decision model built on LFM2.5-VL-3B that processes text, JSON, and images to return calibrated answers in a single forward pass with zero output tokens.",
+   "why": "It provides exceptionally fast, low-latency multimodal decision-making on consumer and edge hardware.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "LiquidAI/d1-3B"
+  }
+ ]
+}

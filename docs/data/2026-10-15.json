@@ -1,137 +1,127 @@
 {
  "date": "2026-10-15",
- "generated": "2026-10-15T18:46+00:00",
+ "generated": "2026-10-15T23:25+00:00",
  "technical": [
   {
-   "title": "MonoMIP adds multi-height inverse perspective mapping for monocular 3D object detection.",
+   "title": "MonoMIP introduces multi-height inverse perspective mapping for monocular 3D detection",
    "url": "https://arxiv.org/abs/2610.19071",
    "source": "arXiv cs.CV",
-   "summary": "MonoMIP is a dual-decoder framework that constructs Bird's-Eye View features via Multi-Height Inverse Perspective Mapping at multiple elevation planes to reduce misprojection and handle spatial distortion.",
-   "why": "It improves 3D geometric reasoning in monocular vision models for autonomous systems.",
+   "summary": "MonoMIP is a dual-decoder framework for monocular 3D object detection that constructs bird's-eye view features using multi-height inverse perspective mapping across multiple elevation planes to reduce spatial distortion.",
+   "why": "This improves spatial reasoning and accuracy for computer vision systems operating in perspective image planes.",
    "depth": "read",
-   "hours": 15,
+   "hours": 19,
    "covered": 1
   },
   {
-   "title": "End-to-end vision-language-action policies proposed for autonomous lunar rover docking.",
+   "title": "Drive3R enables block-wise streaming geometric foundation models for autonomous driving",
+   "url": "https://huggingface.co/papers/2610.15112",
+   "source": "HF Daily Papers",
+   "summary": "Drive3R is a block-wise streaming framework for continuous, long-horizon multi-view 3D reconstruction in autonomous driving, avoiding memory limits and trajectory drift.",
+   "why": "It solves computational bottlenecks for dense multi-view 3D reconstruction in closed-loop autonomous driving simulation.",
+   "depth": "deep",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA releases Nemotron 3.5 Super VL open multimodal agent model",
+   "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+   "source": "MarkTechPost",
+   "summary": "Nemotron 3.5 Super VL is an open 120B-parameter multimodal MoE model featuring 12B active parameters, a 1M-token context window, and NVFP4 weights.",
+   "why": "Provides engineers with a massive open-weight multimodal agent model that runs efficiently on specific hardware.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "End-to-end vision-language-action policies applied to autonomous lunar rover docking",
    "url": "https://arxiv.org/abs/2610.19224",
    "source": "arXiv cs.RO",
-   "summary": "End-to-end learned policies map lunar surface observations directly to control actions to bypass measurement error propagation in hand-engineered modular navigation pipelines.",
-   "why": "It showcases the application of vision-language-action models to planetary rover navigation.",
+   "summary": "This work explores mapping rover observations directly to control actions using vision-language-action models to bypass measurement errors in hand-engineered navigation pipelines.",
+   "why": "It demonstrates the use of end-to-end VLA policies for robust robotic navigation under extreme illumination.",
    "depth": "read",
-   "hours": 15,
+   "hours": 19,
    "covered": 1
   },
   {
-   "title": "Researchers introduce CLASHarness to benchmark multi-agent conflicts in computer-use workflows.",
-   "url": "https://huggingface.co/papers/2610.19128",
-   "source": "HF Daily Papers",
-   "summary": "CLASHarness evaluates vision-language models in multi-agent computer-use systems by generating verifiable environments where sub-agents face conflicts, outdated states, and competing permissions.",
-   "why": "It provides a scalable way to evaluate VLM agents handling real-world collaborative conflicts.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Survey examines data-centric approaches for spatial reasoning in multimodal large language models.",
+   "title": "Survey examines data-centric spatial reasoning in multimodal large language models",
    "url": "https://arxiv.org/abs/2610.19108",
    "source": "arXiv cs.CV",
-   "summary": "A comprehensive survey reviews fine-tuning techniques, dataset construction, data modality, and evaluation methods for improving spatial reasoning in multimodal large language models used in robotics.",
-   "why": "It offers valuable data-centric design principles for improving MLLM spatial capabilities.",
+   "summary": "A new survey explores dataset construction, modalities, annotations, and fine-tuning approaches for improving spatial reasoning in multimodal large language models used in robotics and embodied agents.",
+   "why": "It offers a data-centric perspective on overcoming perception limitations in vision-based MLLMs.",
    "depth": "skim",
-   "hours": 15,
+   "hours": 19,
    "covered": 1
   },
   {
-   "title": "VideoHarness-BRSI introduces recursive self-improvement for agentic video understanding.",
+   "title": "VideoHarness-SRSI advances recursive self-improvement for agentic video understanding",
    "url": "https://arxiv.org/abs/2610.19424",
    "source": "arXiv cs.CV",
-   "summary": "Researchers study recursive harness evolution for agentic video understanding, introducing a framework that evolves execution harnesses around a frozen vision-language model using limited feedback.",
-   "why": "It demonstrates how to automate the design of complex multimodal agent execution harnesses.",
+   "summary": "VideoHarness-BRSI introduces a recursive self-improvement framework to optimize execution harnesses around frozen vision-language models for complex video understanding tasks.",
+   "why": "It helps automate the design of reliable multi-modal execution harnesses for video analysis.",
    "depth": "skim",
-   "hours": 15,
+   "hours": 19,
    "covered": 1
   },
   {
-   "title": "Meta launches Muse Spark Open, an 816B mixture-of-experts model.",
-   "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
-   "source": "NVIDIA Developer",
-   "summary": "Meta introduces Muse Spark Open, a coding-optimized 816B MoE model with 42B active parameters and a 1M token context window, hosted on NVIDIA infrastructure.",
-   "why": "It gives engineers a massive new open-weight frontier model for advanced coding workflows.",
-   "depth": "skim",
-   "hours": 1,
-   "covered": 1
-  },
-  {
-   "title": "Third Moment Research scales 10,000 agents for multi-day operations.",
-   "url": "https://openai.com/index/third-moment-research",
-   "source": "OpenAI",
-   "summary": "An AI lab utilizes advanced GPT-6 models, Codex, and specialized cybersecurity tools to build and run agents that maintain focus for over 36 hours and self-improve.",
-   "why": "It offers insight into the infrastructure and reliability scaling required for long-horizon agents.",
-   "depth": "skim",
-   "hours": 36,
-   "covered": 1
-  },
-  {
-   "title": "WEDGE framework uses navigation agent failure modes to guide environment generation.",
-   "url": "https://huggingface.co/papers/2610.19420",
+   "title": "LayerTrim achieves training-free structured pruning for reasoning language models",
+   "url": "https://huggingface.co/papers/2610.19121",
    "source": "HF Daily Papers",
-   "summary": "WEDGE uses an LLM to propose executable weakness features from contrasting successful and failed attempts, generating targeted training environments for pretrained navigation agents.",
-   "why": "It directly connects simulated environment generation to specific embodied agent failure modes.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 2
-  },
-  {
-   "title": "Defining strategic selection as a meta game layered on top of LLM base games.",
-   "url": "https://huggingface.co/papers/2610.18354",
-   "source": "HF Daily Papers",
-   "summary": "Researchers extend game-theoretic evaluations by defining strategic selection as a meta-game, deploying an LLM portfolio selector to handle unknown, adaptive opponents under quality-cost trade-offs.",
-   "why": "It addresses how to select LLMs for strategic multi-agent interactions against adaptive opponents.",
-   "depth": "skim",
+   "summary": "LayerTrim is a training-free structured pruning method that removes redundant MLP features while preserving attention and depth, maintaining long-form reasoning performance.",
+   "why": "It reduces inference costs for large language models without degrading complex reasoning capabilities.",
+   "depth": "read",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "NVIDIA Nemotron 3.5 Super VL empowers specialized agents with advanced multimodal reasoning.",
+   "title": "NVIDIA Nemotron 3.5 Super VL powers specialized agents with multimodal reasoning",
    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
    "source": "NVIDIA Developer",
-   "summary": "NVIDIA launches Nemotron 3.5 Super VL to support always-on agents tackling complex, multi-source enterprise workflows.",
-   "why": "It provides new multimodal capabilities for enterprise agentic workflows.",
+   "summary": "Nemotron 3.5 Super VL enables always-on agents to handle complex enterprise workflows requiring document reading and cross-source verification.",
+   "why": "It highlights the practical deployment of large multimodal models for enterprise automation agents.",
    "depth": "skim",
-   "hours": 1,
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Meta launches Muse Spark Open coding-optimized mixture-of-experts model",
+   "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
+   "source": "NVIDIA Developer",
+   "summary": "Muse Spark Open is an 816B mixture-of-experts model with 42B active parameters and a 1M-token context window, optimized for agentic coding workflows.",
+   "why": "Represents a major frontier open-weight model release tailored for advanced agentic software engineering.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Meta introduces Muse Spark Open frontier multimodal mixture-of-experts model",
+   "url": "https://huggingface.co/blog/meta-muse-spark-open",
+   "source": "Hugging Face Blog",
+   "summary": "Meta welcomes Muse Spark Open as a new open-weight frontier multimodal mixture-of-experts model designed for advanced workflows.",
+   "why": "Expands the availability of high-end open-weight multimodal foundation models.",
+   "depth": "skim",
+   "hours": 23,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "Meta and Apple team up to run Muse AI models on Macs",
-   "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-   "source": "The Verge AI",
-   "summary": "Meta announced the Muse Spark Open AI model and partnered with Apple to allow the model to run on desktop hardware using two Apple M5 Ultra Mac Studios and the MLX framework.",
-   "why": "It highlights strategic hardware-software optimization for open-weight models on consumer workstation setups.",
-   "depth": "read",
-   "hours": 1,
-   "covered": 1
-  },
-  {
-   "title": "Tech giants race to deploy specialized engineering teams for AI returns",
+   "title": "Tech Giants Race to Deploy Specialized Engineering Teams",
    "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
    "source": "CNBC Tech",
-   "summary": "AWS, Anthropic, OpenAI, and Google are racing to build forward-deployed engineering teams to help companies prove returns on their AI investments.",
-   "why": "It shows how major AI players are restructuring technical deployment to secure enterprise confidence.",
+   "summary": "AWS, Anthropic, OpenAI, and Google are racing to build forward-deployed engineering teams as companies demand tangible returns on their massive AI investments.",
+   "why": "Understanding enterprise deployment strategies helps engineers align technical execution with business demands for ROI.",
    "depth": "read",
-   "hours": 5,
+   "hours": 9,
    "covered": 1
   },
   {
-   "title": "Anthropic reports third-quarter revenue hits $16.8 billion ahead of IPO",
+   "title": "Anthropic reports third-quarter revenue hits $16.8 billion",
    "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
    "source": "CNBC Tech",
-   "summary": "Anthropic has reported a third-quarter revenue of $16.8 billion as it prepares for an upcoming initial public offering.",
-   "why": "It gives you insight into the massive revenue scale of a leading AI lab ahead of going public.",
+   "summary": "Anthropic reports that its third-quarter revenue stands at $16.8 billion as the company prepares for its upcoming IPO.",
+   "why": "This massive revenue milestone highlights the rapid commercial scale of leading foundational model builders.",
    "depth": "skim",
-   "hours": 15,
+   "hours": 20,
    "covered": 1
   },
   {
@@ -141,8 +131,28 @@
    "summary": "Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, as well as an investor-only session, more roundtables, Side Events, and more. Register to save 50% on your pass.",
    "why": "",
    "depth": "",
-   "hours": 28,
+   "hours": 33,
    "covered": 2
+  },
+  {
+   "title": "Wall Street's latest AI spook, Netflix layoffs, 'good debt' and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/10/15/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Tech",
+   "summary": "Here are five key things investors need to know to start the trading day.",
+   "why": "",
+   "depth": "",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Cybersecurity and Privacy Startups Raise $6.8 Billion",
+   "url": "https://news.crunchbase.com/cybersecurity/q3-2026-large-venture-investments-ai-defense-startups/",
+   "source": "Crunchbase News",
+   "summary": "Global cybersecurity- and privacy-focused startups pulled in a total of $6.8 billion in the third quarter of 2026, marking a 50% increase from the prior quarter.",
+   "why": "This signals massive capital inflows into security infrastructure overlapping with data privacy needs in AI.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
   },
   {
    "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
@@ -151,7 +161,7 @@
    "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring",
    "why": "",
    "depth": "",
-   "hours": 1,
+   "hours": 5,
    "covered": 1
   },
   {
@@ -161,116 +171,106 @@
    "summary": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental music dating back decad",
    "why": "",
    "depth": "",
-   "hours": 5,
+   "hours": 9,
    "covered": 1
   },
   {
-   "title": "Friends don’t let friends feed their data to AI agents",
-   "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+   "title": "ChatGPT can peek at your Chrome tabs now",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
    "source": "The Verge AI",
-   "summary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal a",
+   "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT ca",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Sega Pulls Remaster After Disastrous AI Upscaling Launch",
+   "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+   "source": "The Verge AI",
+   "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch plagued by bugs and complaints regarding AI upscaling.",
+   "why": "It serves as a cautionary tale of market and consumer backlash against poorly implemented AI tooling in legacy products.",
+   "depth": "skim",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+   "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+   "source": "Wired AI",
+   "summary": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
    "why": "",
    "depth": "",
    "hours": 2,
-   "covered": 1
-  },
-  {
-   "title": "FTC probes Anthropic and OpenAI following political shifts",
-   "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-   "source": "Ars Technica AI",
-   "summary": "The FTC may fine AI firms on par with companies that delay data breach reports, initiating a probe into Anthropic and OpenAI.",
-   "why": "It highlights regulatory risks and potential compliance costs facing major foundational model providers.",
-   "depth": "read",
-   "hours": 3,
-   "covered": 1
-  },
-  {
-   "title": "Berkshire Hathaway makes $330 million investment in Bending Spoons",
-   "url": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
-   "source": "CNBC Tech",
-   "summary": "Berkshire Hathaway invested $330 million in Bending Spoons, following its prior $600 million investment made during the company's July IPO.",
-   "why": "It highlights major conglomerate backing in software and tech ecosystem companies.",
-   "depth": "skim",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "AI marketing startup Marklo raises $5 million seed funding round",
-   "url": "https://news.crunchbase.com/venture/founder-raises-5m-next-act-ai-marketing-startup-marklo-herrin/",
-   "source": "Crunchbase News",
-   "summary": "Stella & Dot founder Jessica Herrin raised $5 million in a seed funding round led by Forerunner to launch Marklo AI, solving marketing challenges.",
-   "why": "It tracks early-stage capital deployment into niche generative AI marketing tools.",
-   "depth": "skim",
-   "hours": 31,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "Google DeepMind Releases Open Multimodal Embedding Model EmbeddingGemma 2",
-   "url": "https://huggingface.co/google/embeddinggemma-2",
-   "source": "Hugging Face",
-   "summary": "EmbeddingGemma 2 is an open multimodal embedding model mapping text, code, images, video, and audio into a unified 768-dimensional vector space. With 740M total parameters, it runs on consumer hardware for on-device applications.",
-   "why": "It provides low-latency multimodal semantic representations for on-device computer vision tasks like retrieval and classification.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "google/embeddinggemma-2"
-  },
-  {
-   "title": "Qwen Releases Accelerated Qwen-Image-2.1-Turbo for Text-to-Image Generation",
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-   "source": "Hugging Face",
-   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint requiring only 8 denoising steps for text-to-image generation and editing. It uses a 7B visual generation architecture, CFG=1 by default, and prefix KV caching.",
-   "why": "It accelerates visual generation pipelines with efficient 8-step denoising directly inside the Diffusers framework.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "Qwen/Qwen-Image-2.1-Turbo"
-  },
-  {
-   "title": "OpenBMB Introduces MiniCPM-V 4.7 as First MoE Vision Model",
+   "title": "MiniCPM-V 4.7 Introduces First Open-Source MoE Vision-Language Model",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
    "source": "Hugging Face",
-   "summary": "MiniCPM-V 4.7 is a 35B-A3B Mixture of Experts vision model featuring single-image, multi-image, and video understanding capabilities. It introduces the Lookahead Expert Scheduling technique for lossless, smooth on-device inference.",
-   "why": "It delivers advanced multi-image and video understanding for efficient on-device computer vision applications.",
+   "summary": "MiniCPM-V 4.7 is a new 35B-A3B variant and the first mixture-of-experts model in the MiniCPM-V series. It combines multi-image, single-image, and video understanding with Lookahead Expert Scheduling for smooth on-device inference.",
+   "why": "It brings efficient, high-performance visual understanding to on-device hardware using MoE architecture.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
-   "title": "ConwayResearch Releases Underdog Saluki 27B 1.0 Quantized Model",
+   "title": "Google DeepMind Releases EmbeddingGemma 2 Open Multimodal Embedding Model",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "Hugging Face",
+   "summary": "EmbeddingGemma 2 is a 740M-parameter open multimodal model mapping text, code, images, video, and audio into a unified 768-dimensional vector space. Designed for consumer hardware, it powers low-latency on-device search, RAG, classification, and clustering.",
+   "why": "It provides efficient, low-latency multimodal embeddings for on-device applications.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "google/embeddinggemma-2"
+  },
+  {
+   "title": "Qwen-Image-2.1-Turbo Brings Accelerated Text-to-Image Generation",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+   "source": "Hugging Face",
+   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint requiring only 8 denoising steps for text-to-image generation and image editing. It uses a 7B architecture with prefix KV caching to reuse text and reference image context.",
+   "why": "It speeds up text-to-image pipelines with reduced denoising steps.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen-Image-2.1-Turbo"
+  },
+  {
+   "title": "LiquidAI Releases LFM2.5-24B-A2B On-Device Reasoning Model",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "source": "Hugging Face",
+   "summary": "LFM2.5-24B-A2B is a 24B parameter reasoning model utilizing 2B active parameters per token for fast, private on-device execution. It delivers competitive agentic and tool-use performance while running faster than comparable mixture-of-experts models.",
+   "why": "It delivers efficient agentic reasoning capabilities tailored for edge and on-device deployment.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "LiquidAI/LFM2.5-24B-A2B"
+  },
+  {
+   "title": "Underdog Saluki 27B Brings Qwen3.8-27B to Low-Memory Setups",
    "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
    "source": "Hugging Face",
-   "summary": "Underdog Saluki 27B 1.0 packs Qwen3.8-27B into under 8 GB using GGUF format while maintaining tool-calling capabilities. It also supports an optional vision add-on for processing images through the OpenAI chat API.",
-   "why": "It enables lightweight local deployment of a large vision-language model with tool-calling support.",
+   "summary": "Underdog-Saluki-27B-1.0 fits Qwen3.8-27B into under 8 GB using GGUF format while keeping tool-calling intact. It also supports an optional vision add-on for processing images through the OpenAI chat API locally.",
+   "why": "It allows engineers to run large vision-language models locally under tight memory constraints.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "ConwayResearch/Underdog-Saluki-27B-1.0"
   },
   {
-   "title": "Baidu Releases Unlimited-OCR for Long-Horizon Parsing",
+   "title": "Baidu Releases Unlimited-OCR for Long-Horizon Document Parsing",
    "url": "https://huggingface.co/baidu/Unlimited-OCR",
    "source": "Hugging Face",
-   "summary": "Unlimited-OCR is a model supporting one-shot long-horizon parsing. It integrates with ms-swift for training, vLLM for inference, and is available on Baidu Cloud, ModelScope, and Hugging Face Spaces.",
-   "why": "It advances document parsing and text extraction capabilities for complex computer vision workflows.",
+   "summary": "Unlimited-OCR is a one-shot long-horizon parsing model that supports training with ms-swift and inference via vLLM and Baidu Cloud. Its research paper and a Hugging Face Space demo are publicly available.",
+   "why": "It provides advanced OCR capabilities for complex, long-horizon document parsing tasks.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "baidu/Unlimited-OCR"
-  },
-  {
-   "title": "Abenzerps Releases Uncensored Quantized Formats for Qwen-Image-2.1",
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-   "source": "Hugging Face",
-   "summary": "This release provides GGUF, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation. It includes GGUF transformer, text encoder, and VAE companion files optimized for ComfyUI and Apple Silicon.",
-   "why": "It allows engineers to run local, quantized versions of advanced image generation models on consumer hardware.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   }
  ]
 }

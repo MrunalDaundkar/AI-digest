@@ -1,84 +1,74 @@
 {
  "date": "2026-10-16",
- "generated": "2026-10-16T07:40+00:00",
+ "generated": "2026-10-16T13:37+00:00",
  "technical": [
   {
-   "title": "SpaceCache speeds up point-cloud segmentation by reusing intermediate features",
+   "title": "SpaceCache Reuses Intermediate Features for Efficient Point-Cloud Stream Segmentation",
    "url": "https://arxiv.org/abs/2610.21207",
    "source": "arXiv cs.CV",
-   "summary": "SpaceCache is a training-free feature cache for point-cloud streams that reuses semantically consistent intermediate features from previous frames across transformer blocks, reducing redundant computations in autonomous driving.",
-   "why": "It optimizes inference efficiency for point-cloud processing pipelines essential to autonomous driving and robotics.",
+   "summary": "Point-cloud streams in autonomous driving usually process every frame from scratch despite heavy overlap. SpaceCache introduces a training-free feature cache that reuses intermediate features of point-cloud transformers across consecutive frames, allowing tokens of previously observed regions to skip computation blocks.",
+   "why": "This offers a practical efficiency boost for real-time autonomous driving and robotics perception pipelines.",
    "depth": "read",
-   "hours": 4,
+   "hours": 10,
    "covered": 1
   },
   {
-   "title": "Line-augmented cuVSLAM improves visual odometry in low-texture environments",
+   "title": "Line-Augmented cuVSLAM Delivers Robust Visual Odometry in Low-Texture Environments",
    "url": "https://arxiv.org/abs/2610.20958",
    "source": "arXiv cs.RO",
-   "summary": "A line-feature extension to CUDA-accelerated cuVSLAM utilizes Plüstracker coordinates and orthonormal representations to extract reliable straight-edge structures from featureless warehouses and aisles.",
-   "why": "It solves visual odometry failure modes in texture-poor industrial and warehousing environments for mobile robots.",
-   "depth": "read",
-   "hours": 4,
+   "summary": "To overcome featureless aisles and specular floors that defeat point-feature visual odometry, a line-feature extension to CUDA-accelerated cuVSLAM extracts straight-edge structures parameterized as Plücker and orthonormal representations.",
+   "why": "Crucial advancement for autonomous mobile robots operating in texture-poor warehouses and industrial facilities.",
+   "depth": "deep",
+   "hours": 10,
    "covered": 1
   },
   {
-   "title": "VLA-Δ framework supervises physical state transitions for better robot control",
-   "url": "https://huggingface.co/papers/2610.21306",
-   "source": "HF Daily Papers",
-   "summary": "VLA-Δ is a general framework designed to prevent vision-language-action models from overfitting observation-action correspondences by explicitly supervising physical state changes between current and future states.",
-   "why": "It improves robot control accuracy by addressing the lack of intermediate physical state supervision in traditional VLA models.",
+   "title": "DeSpatial Decomposes 3D Spatial Understanding to Fix Agent Perception Bottlenecks",
+   "url": "https://arxiv.org/abs/2610.20990",
+   "source": "arXiv cs.CV",
+   "summary": "Spatial agents often fail due to inconsistent predictions and fragmented object identities in 3D scenes. Researchers found that replacing tool-predicted perception with ground-truth bounding boxes solves this. DeSpatial explicitly decomposes spatial understanding to address this perception bottleneck.",
+   "why": "This directly impacts engineers building 3D spatial reasoning agents and computer vision systems.",
    "depth": "skim",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "OneWM Unifies World and Action Modeling via Causal Training for Embodied AI",
+   "url": "https://huggingface.co/papers/2610.21095",
+   "source": "HF Daily Papers",
+   "summary": "OneWM introduces a unified causal training framework treating actions as both conditions for world prediction and targets for policy learning. Evaluated on embodied testbeds, it investigates reciprocal benefits between forward dynamics and policy learning.",
+   "why": "Relevant for engineers working on world models and robotics policy learning.",
+   "depth": "read",
    "hours": 12,
    "covered": 2
   },
   {
-   "title": "MJev-Spatial simplifies spatial understanding via native attention matching",
-   "url": "https://huggingface.co/papers/2610.22276",
-   "source": "HF Daily Papers",
-   "summary": "MJev-Spatial treats candidate spatial locations as classes and scores them using native attention matching, providing a System 1 multimodal decision model for spatial tasks without relying on costly autoregressive text generation.",
-   "why": "It provides a faster, more unified approach to handling fundamental spatial intelligence tasks in vision-language models.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "DeSpatial addresses perception bottlenecks in 3D agentic spatial reasoning",
-   "url": "https://arxiv.org/abs/2610.20990",
-   "source": "arXiv cs.CV",
-   "summary": "DeSpatial explicitly decomposes spatial understanding to fix inconsistent predictions and fragmented object identities in spatial agents, addressing the core 3D perception bottleneck revealed through oracle experiments.",
-   "why": "It helps resolve critical perception inaccuracies that hinder reliable 3D scene interpretation for spatial agents.",
-   "depth": "skim",
-   "hours": 4,
-   "covered": 1
-  },
-  {
-   "title": "NVIDIA releases Nemotron 3.5 Super VL open multimodal agent model",
+   "title": "NVIDIA Releases Nemotron 3.5 Super VL Open 120B Multimodal Agent Model",
    "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
    "source": "MarkTechPost",
-   "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model featuring 12B active parameters, a 1M-token context window, NVFP4 weights, and two accompanying edge models.",
-   "why": "It delivers a powerful open architecture for deploying large-scale multimodal agents.",
+   "summary": "NVIDIA has released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model featuring 12B active parameters, a 1M-token context window, and NVFP4 weights designed to run efficiently on hardware like DGX Spark.",
+   "why": "Provides a high-capacity open-weight multimodal model option for agentic and vision applications.",
    "depth": "skim",
-   "hours": 12,
+   "hours": 18,
    "covered": 1
   },
   {
-   "title": "Block-sparse featurizers enable fine-grained steering in robot foundation models",
+   "title": "Block-Sparse Featurizers Enable Fine-Grained Steering in Robot Foundation Models",
    "url": "https://arxiv.org/abs/2610.20767",
    "source": "arXiv cs.RO",
-   "summary": "Researchers investigate block-sparse featurizers to recover multi-dimensional, task-relevant features from robot foundation models, establishing an interpretable interface for internal behavior steering and data shaping.",
-   "why": "It offers better internal interpretability and control over the behavior of vision-language-action models.",
-   "depth": "skim",
-   "hours": 4,
+   "summary": "Block-sparse featurizers represent features in low-dimensional subspaces to recover multi-dimensional task-relevant features like perception and language, providing an interpretable interface for steering vision-language-action models.",
+   "why": "Provides methods to interpret and control internal representations in robotic foundation models.",
+   "depth": "read",
+   "hours": 10,
    "covered": 1
   },
   {
-   "title": "CoWorld Reasoner uses video world models for agentic multimodal reasoning",
-   "url": "https://huggingface.co/papers/2610.21910",
+   "title": "FDE-Gym Benchmark Evaluates AI Agents on Real-World Customer Delivery Tasks",
+   "url": "https://huggingface.co/papers/2610.22350",
    "source": "HF Daily Papers",
-   "summary": "CoWorld Reasoner is an agentic framework that leverages a Video World Model as a unified visual reasoning engine to support flexible visual imagination across diverse spatiotemporal tasks.",
-   "why": "It offers an advanced approach for handling motion, actions, and view changes in multimodal reasoning.",
-   "depth": "skim",
+   "summary": "FDE-Gym introduces 95 end-to-end delivery tasks across 20 customer scenarios to evaluate forward-deployed engineering agents. Agents must clarify ambiguous requirements, operate in live systems, and handle unstated constraints in simulated environments.",
+   "why": "It provides a realistic benchmark for evaluating production-grade agentic engineering workflows.",
+   "depth": "read",
    "hours": 12,
    "covered": 1
   },
@@ -86,42 +76,52 @@
    "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
    "source": "NVIDIA Developer",
-   "summary": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
-   "why": "",
-   "depth": "",
-   "hours": 14,
+   "summary": "Always-on agents handle complex enterprise workflows spanning multiple information sources, a capability supported by models like NVIDIA's Super VL architecture for multimodal reasoning.",
+   "why": "Useful for understanding state-of-the-art enterprise multimodal agent capabilities.",
+   "depth": "skim",
+   "hours": 20,
    "covered": 1
   },
   {
-   "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+   "title": "EDEN Introduces Embedding-Space Directional Exploration for LLM RLVR",
+   "url": "https://huggingface.co/papers/2610.16105",
+   "source": "HF Daily Papers",
+   "summary": "To address limited within-group reward variation in reinforcement learning with verifiable rewards, EDEN intervenes at the rollout source using anchored input perturbations to explore beyond standard policy trajectories.",
+   "why": "It offers an advanced training technique for improving LLM reasoning optimization.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Meta Launches Muse Spark Open Coding-Optimized MoE Model on NVIDIA Hardware",
    "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
    "source": "NVIDIA Developer",
-   "summary": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on...",
-   "why": "",
-   "depth": "",
-   "hours": 14,
+   "summary": "Meta has launched Muse Spark Open, an 816B mixture-of-experts model optimized for coding with 42B active parameters and a 1M token context window, deployed on NVIDIA infrastructure.",
+   "why": "Important industry update for developers utilizing large open coding models.",
+   "depth": "skim",
+   "hours": 20,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "AWS, Anthropic, OpenAI, and Google Race to Build Engineering Teams",
+   "title": "Tech giants race to build forward deployed engineering teams",
    "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
    "source": "CNBC Tech",
-   "summary": "AWS, Anthropic, OpenAI, and Google are racing to deploy forward-engineered teams to prove that massive AI investments will successfully generate returns.",
-   "why": "Understanding enterprise deployment strategies helps gauge industry-wide pressure to monetize infrastructure spend.",
+   "summary": "AWS, Anthropic, OpenAI, and Google are racing to build specialized forward deployed engineering teams as companies demand returns on AI investments.",
+   "why": "Engineering deployment models directly impact how enterprise AI implementations succeed or fail in production.",
    "depth": "read",
-   "hours": 17,
+   "hours": 23,
    "covered": 1
   },
   {
-   "title": "Anthropic Reports Third-Quarter Revenue of $16.8 Billion Ahead of IPO",
+   "title": "Anthropic reports third-quarter revenue of $16.8 billion before IPO",
    "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
    "source": "CNBC Tech",
-   "summary": "Anthropic reports its third-quarter stands at $16.8 billion as the company prepares for an upcoming IPO.",
-   "why": "It highlights major revenue scaling in foundational model companies ahead of public offerings.",
+   "summary": "Anthropic reports its third-quarter revenue stands at $16.8 billion as it prepares for an initial public offering.",
+   "why": "Financial milestones of major AI labs indicate sector-wide commercial scaling and market maturity.",
    "depth": "skim",
-   "hours": 28,
+   "hours": 34,
    "covered": 1
   },
   {
@@ -131,17 +131,7 @@
    "summary": "Here are five key things investors need to know to start the trading day.",
    "why": "",
    "depth": "",
-   "hours": 19,
-   "covered": 1
-  },
-  {
-   "title": "Cal AI Generates Over $30 Million Before MyFitnessPal Acquisition",
-   "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-   "source": "TechCrunch AI",
-   "summary": "Driven by a network of influencers, Cal AI generated over $30 million in revenue over two years prior to its acquisition by MyFitnessPal in March.",
-   "why": "It demonstrates successful consumer monetization strategies for viral AI application startups.",
-   "depth": "skim",
-   "hours": 8,
+   "hours": 25,
    "covered": 1
   },
   {
@@ -151,16 +141,6 @@
    "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring",
    "why": "",
    "depth": "",
-   "hours": 14,
-   "covered": 1
-  },
-  {
-   "title": "Amazon-Owned Bee Launches Personal AI Devices Starting at $74.99",
-   "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-   "source": "TechCrunch AI",
-   "summary": "Amazon-owned Bee launched an updated wearable and a credit-card-sized recorder starting at $74.99, featuring conversation summaries and Alexa integration.",
-   "why": "It showcases hardware deployment and pricing strategies for consumer-facing edge AI devices.",
-   "depth": "skim",
    "hours": 20,
    "covered": 1
   },
@@ -171,7 +151,7 @@
    "summary": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental music dating back decad",
    "why": "",
    "depth": "",
-   "hours": 18,
+   "hours": 24,
    "covered": 1
   },
   {
@@ -181,7 +161,17 @@
    "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT ca",
    "why": "",
    "depth": "",
-   "hours": 9,
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
+   "url": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/",
+   "source": "Wired AI",
+   "summary": "A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it.",
+   "why": "",
+   "depth": "",
+   "hours": 3,
    "covered": 1
   },
   {
@@ -191,86 +181,96 @@
    "summary": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
    "why": "",
    "depth": "",
-   "hours": 10,
+   "hours": 16,
    "covered": 1
   },
   {
-   "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
-   "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
-   "source": "Wired AI",
-   "summary": "Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools.",
-   "why": "",
-   "depth": "",
-   "hours": 11,
+   "title": "Asian startups raised $38.5 billion in Q3, driven heavily by AI",
+   "url": "https://news.crunchbase.com/venture/q3-2026-asia-startup-funding-near-record-ai/",
+   "source": "Crunchbase News",
+   "summary": "Investors put $38.5 billion into seed- through growth-stage financings for Asian startups in Q3, with a majority going to AI-focused companies.",
+   "why": "It highlights regional investment flows and the dominance of AI funding in global markets.",
+   "depth": "skim",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Cal AI achieves viral success and acquisition after influencer push",
+   "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+   "source": "TechCrunch AI",
+   "summary": "Cal AI generated over $30 million in revenue in two years using influencers and was acquired by MyFitnessPal in March for an undisclosed amount.",
+   "why": "It demonstrates alternative go-to-market and growth strategies for consumer-facing AI applications.",
+   "depth": "skim",
+   "hours": 14,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "Qwen-Image-2.1-Turbo Accelerates Generation with Eight Denoising Steps",
-   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-   "source": "Hugging Face",
-   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint for text-to-image generation and editing using only 8 denoising steps. It leverages prefix KV caching to reuse context across steps and includes its recommended sampling schedule out of the box.",
-   "why": "It provides faster generation speeds for visual workflows using the Diffusers pipeline.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "Qwen/Qwen-Image-2.1-Turbo"
-  },
-  {
-   "title": "MiniCPM-V 4.7 Introduces First Open-Source MoE Vision Model with LES",
+   "title": "OpenBMB Introduces MiniCPM-V 4.7 with First MoE On-Device Architecture",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
    "source": "Hugging Face",
-   "summary": "MiniCPM-V 4.7 is a 35B-A3B variant and the first mixture-of-experts model in the MiniCPM-V series. It enhances single-image, multi-image, and video understanding while introducing Lookahead Expert Scheduling for smooth on-device inference.",
-   "why": "It advances efficient on-device video and multi-image understanding for edge computer vision tasks.",
+   "summary": "MiniCPM-V 4.7 is a new visual-language model featuring the 35B-A3B variant, marking the first mixture-of-experts model in the MiniCPM-V series. It enhances single-image, multi-image, and video understanding with lossless on-device inference using Lookahead Expert Scheduling.",
+   "why": "It brings advanced multi-modal MoE capabilities to on-device computer vision tasks.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
   },
   {
-   "title": "ConwayResearch Releases Underdog-Saluki-27B-1.0 Fitting in Under 8 GB",
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "title": "Qwen-Image-2.1-Turbo Released for Accelerated Text-to-Image Generation",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
    "source": "Hugging Face",
-   "summary": "Underdog-Saluki-27B-1.0 compresses Qwen3.8-27B to run in under 8 GB using GGUF for llama.cpp while keeping tool calling intact. It also offers a vision add-on compatible with the OpenAI chat API via `--mmproj`.",
-   "why": "It enables lightweight local execution of a large vision-language model with tool-calling support.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "ConwayResearch/Underdog-Saluki-27B-1.0"
-  },
-  {
-   "title": "Google DeepMind Releases EmbeddingGemma 2 Open Multimodal Embedding Model",
-   "url": "https://huggingface.co/google/embeddinggemma-2",
-   "source": "Hugging Face",
-   "summary": "EmbeddingGemma 2 is an open multimodal embedding model that maps text, images, video, and audio into a unified 768-dimensional vector space. With 740M parameters, it runs on consumer hardware for low-latency on-device search and RAG.",
-   "why": "It brings efficient, multimodal on-device embedding capabilities to developers working with edge hardware.",
+   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint requiring only 8 denoising steps for text-to-image generation and image editing. It uses a 7B visual generation architecture, loads directly via Diffusers, features a pre-configured sampling schedule, and uses CFG=1 with prefix KV caching.",
+   "why": "It speeds up visual generation tasks using an out-of-the-box pipeline with optimized step counts.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "google/embeddinggemma-2"
+   "model": "Qwen/Qwen-Image-2.1-Turbo"
+  },
+  {
+   "title": "Qwen-Image-2.1 Uncensored Quantized Formats Released for Local Generation",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "source": "Hugging Face",
+   "summary": "This repository provides GGFU, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation. It includes companion text encoder and VAE files optimized for ComfyUI, featuring options like Q4_K_M, INT8 ConvRot, and NVFP4.",
+   "why": "It enables efficient local execution of Qwen-Image models across various hardware setups including Apple Silicon.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
    "title": "LiquidAI Releases LFM2.5-24B-A2B Reasoning Model for Fast On-Device Agents",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
    "source": "Hugging Face",
-   "summary": "LFM2.5-24B-A2B is a 24B-parameter reasoning model with 2B active parameters designed for fast on-device agents. It incorporates a think-before-answer mechanism and runs up to 1.7x faster than comparable MoEs.",
-   "why": "It delivers competitive agentic and tool-use performance suited for private edge deployment.",
+   "summary": "LFM2.5-24B-A2B is a 24B parameter reasoning model utilizing 2 active parameters per token for fast, private on-device agent tasks. It scores 48.09 on LiveClaw and runs up to 1.7 times faster than comparable mixture-of-experts models.",
+   "why": "It delivers high-performance agentic reasoning and tool use suitable for resource-limited environments.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "LiquidAI/LFM2.5-24B-A2B"
   },
   {
-   "title": "Qwen-Image-2.1 Uncensored Quantized Formats Released for ComfyUI",
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "title": "Google DeepMind Releases Open Multimodal Embedding Model EmbeddingGemma 2",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
    "source": "Hugging Face",
-   "summary": "This repository provides GGUF, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation. It packages companion text encoders and VAE files directly for use with ComfyUI.",
-   "why": "It enables flexible, localized execution of Qwen-Image models across various hardware platforms.",
+   "summary": "EmbeddingGemma 2 is a 740M parameter open multimodal embedding model that maps text, code, images, video, and audio into a single 768-dimensional vector space. It combines a 270M text model with modular 170M vision and 300M audio encoders for low-latency on-device use.",
+   "why": "It provides efficient cross-modal semantic representations for resource-constrained edge applications like mobile search and RAG.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+   "model": "google/embeddinggemma-2"
+  },
+  {
+   "title": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "source": "Hugging Face",
+   "summary": "No model card text available.",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "Lightricks/LTX-2.5"
   }
  ]
 }

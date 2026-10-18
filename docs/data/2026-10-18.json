@@ -1,0 +1,276 @@
+{
+ "date": "2026-10-18",
+ "generated": "2026-10-18T02:04+00:00",
+ "technical": [
+  {
+   "title": "Kyutai releases REKI, a compact 2.4B vision-language-action robot model.",
+   "url": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
+   "source": "MarkTechPost",
+   "summary": "Kyutai, Inria, and École des Ponts released REKI, a 2.4B VLA model for robot manipulation pretrained on public data. It features a cheap memory of its recent past and outperforms models twice its size on out-of-distribution benchmarks.",
+   "why": "It provides roboticists with an efficient, open-weight model for manipulation tasks.",
+   "depth": "read",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA releases Nemotron 3.5 Super VL, a 120B open multimodal agent model.",
+   "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+   "source": "MarkTechPost",
+   "summary": "NVIDIA released Nemotron 3.5 Super VL, a 120B-parameter open multimodal MoE model featuring 12B active parameters, a 1M-token context window, NVFP4 weights running on single hardware setups, alongside two Bolt edge models.",
+   "why": "It provides computer vision and NLP engineers with a massive, highly efficient open model for multimodal agent apps.",
+   "depth": "read",
+   "hours": 54,
+   "covered": 1
+  },
+  {
+   "title": "Test-time diversity alignment improves generative model outputs using corpus statistics.",
+   "url": "https://huggingface.co/papers/2610.21185",
+   "source": "HF Daily Papers",
+   "summary": "Generative models struggle to sample diversely despite explicit instructions. The MINE-SAMPLE-RENDER pipeline externalizes diversity by mining a categorical schema from real artifacts, sampling configurations, and using the generative model as a conditional renderer.",
+   "why": "This helps vision and generative AI engineers achieve better sample diversity without retraining core models.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Perplexity open-sources SPACE, a Firecracker microVM sandbox for AI agents.",
+   "url": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
+   "source": "MarkTechPost",
+   "summary": "Perplexity open-sourced SPACE under the Apache 2.0 license, providing a production-tested isolation sandbox where each agent task runs in its own Firecracker microVM with externally controlled credentials and outbound traffic.",
+   "why": "It delivers a secure, production-ready isolation framework for developers building coding or browsing agents.",
+   "depth": "skim",
+   "hours": 26,
+   "covered": 1
+  },
+  {
+   "title": "Meta launches Muse Spark Open, an 816B coding-optimized MoE model.",
+   "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
+   "source": "NVIDIA Developer",
+   "summary": "Meta launched Muse Spark Open, a coding-optimized 816B mixture-of-experts model featuring 42B active parameters and a 1M token context window, optimized for scaling agentic coding workflows on advanced NVIDIA hardware.",
+   "why": "It offers developers a powerful new open foundation model tailored for large-scale code generation and agent workflows.",
+   "depth": "read",
+   "hours": 56,
+   "covered": 1
+  },
+  {
+   "title": "Researchers introduce semCER, a severity-weighted character error rate for OCR.",
+   "url": "https://huggingface.co/papers/2610.20461",
+   "source": "HF Daily Papers",
+   "summary": "Traditional character error rate treats typos and critical errors equally. Researchers introduced semCER, which uses an LLM judge to charge each grapheme edit a severity score, better tracking human ratings across English, Vietnamese, and Chinese.",
+   "why": "It offers computer vision engineers a more human-aligned evaluation metric for OCR and vision-language models.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "A new automated approach hardens agent environment verifiers against reward hacking.",
+   "url": "https://huggingface.co/papers/2610.15924",
+   "source": "HF Daily Papers",
+   "summary": "Programmatic verifiers in agent environments can be exploited to award full credit to cheating agents. Researchers introduced a fully automatic approach using scaled compute to harden verifiers and prevent reward hacking from stronger future models.",
+   "why": "It addresses critical evaluation and safety vulnerabilities in training autonomous LLM agents.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA Nemotron 3.5 Super VL powers specialized multimodal reasoning agents.",
+   "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+   "source": "NVIDIA Developer",
+   "summary": "Always-on agents handling long enterprise workflows require reading documents and checking information across multiple sources, a capability supported by NVIDIA Nemotron 3.5 Super VL's multimodal reasoning.",
+   "why": "It highlights architectural capabilities needed for complex, multi-step enterprise vision and text agents.",
+   "depth": "skim",
+   "hours": 56,
+   "covered": 1
+  },
+  {
+   "title": "A nine-stage evaluation framework catches silent quality regressions in AI agents.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "Autonomous AI agents can fail softly while latency remains flat. A new nine-stage evaluation framework built on Amazon Bedrock AgentCore catches silent quality regressions across the full agent lifecycle from first commit to live production.",
+   "why": "It provides a robust methodology for monitoring and maintaining production agent reliability.",
+   "depth": "skim",
+   "hours": 29,
+   "covered": 1
+  },
+  {
+   "title": "Reflection AI's Beam open-weight coding model deploys easily on AWS infrastructure.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+   "source": "AWS Machine Learning",
+   "summary": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. It can be deployed on AWS using Amazon SageMaker JumpStart real-time endpoints or HyperPod inference with SGLang or vLLM.",
+   "why": "It guides engineers on deploying advanced coding agents onto cloud-native GPU infrastructure.",
+   "depth": "skim",
+   "hours": 35,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Nvidia veteran views physical AI and robotics as in Lego era",
+   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+   "source": "TechCrunch AI",
+   "summary": "Amulya Vishwanath states robotics is currently in its Lego era with basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt, countering foundation model hype.",
+   "why": "This offers realistic industry insight directly relevant to autonomous driving and hardware robotics development timelines.",
+   "depth": "read",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Asian startup funding hits near-record highs in Q3 driven by AI",
+   "url": "https://news.crunchbase.com/venture/q3-2026-asia-startup-funding-near-record-ai/",
+   "source": "Crunchbase News",
+   "summary": "Investors put $38.5 billion into reported seed- through growth-stage financings for Asian startups in Q3 per Crunchbase data, with a majority going to AI-focused companies.",
+   "why": "It shows robust regional capital allocation towards AI technologies that heavily impact computer vision and autonomous systems markets.",
+   "depth": "skim",
+   "hours": 39,
+   "covered": 1
+  },
+  {
+   "title": "Major tech companies deploy specialized engineering teams for AI returns",
+   "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
+   "source": "CNBC Tech",
+   "summary": "AWS, Anthropic, OpenAI, and Google are racing to build forward deployed engineering teams as companies seek proven returns on their AI investments.",
+   "why": "Understanding enterprise deployment strategies clarifies how applied AI models are transitioned into production systems.",
+   "depth": "read",
+   "hours": 60,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia tests new RTX Spark processors and laptops",
+   "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+   "source": "The Verge AI",
+   "summary": "Nvidia's RTX Spark N1X processor is finally here in powerful new laptops and small desktop computers designed as a high-performing Arm-based SoC.",
+   "why": "Hardware releases from Nvidia shape local compute availability for edge AI, computer vision, and local model testing.",
+   "depth": "skim",
+   "hours": 35,
+   "covered": 1
+  },
+  {
+   "title": "AI stocks plunge as market experiences recent tech rotation",
+   "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+   "source": "CNBC Tech",
+   "summary": "The sinking AI trade rattled the market last week, though solid bank earnings and a rotation beyond tech provided reasons for optimism.",
+   "why": "Market volatility directly impacts corporate funding, hardware investments, and R&D budgets in the computer vision and autonomous driving sectors.",
+   "depth": "skim",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Wall Street's latest AI spook, Netflix layoffs, 'good debt' and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/10/15/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Tech",
+   "summary": "Here are five key things investors need to know to start the trading day.",
+   "why": "",
+   "depth": "",
+   "hours": 62,
+   "covered": 1
+  },
+  {
+   "title": "Elorian’s first AI model wants to reason with images, not just about them",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+   "source": "TechCrunch AI",
+   "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+   "why": "",
+   "depth": "",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+   "source": "TechCrunch AI",
+   "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+   "why": "",
+   "depth": "",
+   "hours": 36,
+   "covered": 1
+  },
+  {
+   "title": "Meta removes terms language that allowed scraping news sites",
+   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "source": "The Verge AI",
+   "summary": "Meta is updating its terms to remove language that suggested it could scrape content from websites, including news sites, to train its AI.",
+   "why": "Data acquisition policies directly influence the legal landscape surrounding model training and web scraping practices.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Websites begin closing doors to autonomous AI agents",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "source": "The Verge AI",
+   "summary": "As companies like OpenAI, Meta, Google, and Instinct promote autonomous agents that scour the internet, parts of the internet are blocking them.",
+   "why": "Agentic workflows and web interaction barriers affect how autonomous systems gather data and execute remote tasks.",
+   "depth": "read",
+   "hours": 13,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "EmbeddingGemma 2 maps multimodal inputs to a unified vector space",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "Hugging Face",
+   "summary": "EmbeddingGemma 2 is an open multimodal embedding model mapping text, code, images, video, and audio into a single 768-dimensional vector space for consumer hardware.",
+   "why": "It enables low-latency on-device retrieval-augmented generation and search applications.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "google/embeddinggemma-2"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 improves reasoning, coding, and visual benchmarks",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hugging Face",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update improving reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length.",
+   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "title": "MiniCPM-V 4.7 introduces the first MoE model in the series",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+   "source": "Hugging Face",
+   "summary": "MiniCPM-V 4.7 is a 35B-A3B Mixture of Experts model featuring enhanced multi-image and video understanding capabilities alongside lossless on-device inference.",
+   "why": "It advances efficient on-device multimodal visual encoding and inference.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
+   "title": "LFM2.5-24B-A2B provides efficient reasoning for private on-device agents",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "source": "Hugging Face",
+   "summary": "LFM2.5-24B-A2B is a 24B reasoning model with 2 active parameters designed for fast, private on-device agentic and tool-use tasks.",
+   "why": "It delivers high-speed reasoning and agent performance on consumer hardware.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "LiquidAI/LFM2.5-24B-A2B"
+  },
+  {
+   "title": "Qwen-Image-2.1-Turbo accelerates generation to eight steps",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+   "source": "Hugging Face",
+   "summary": "Qwen-Image-2.1-Turbo is an accelerated checkpoint enabling text-to-image generation and image editing in just eight denoising steps using prefix KV caching.",
+   "why": "It significantly speeds up visual generation tasks using standard pipelines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen-Image-2.1-Turbo"
+  },
+  {
+   "title": "Fish Audio Drama 3 launches for multi-character text-to-speech",
+   "url": "https://huggingface.co/fishaudio/drama-3",
+   "source": "Hugging Face",
+   "summary": "Fish Audio Drama 3 is a 35B parameter MoE text-to-speech model built for multi-speaker generation, voice cloning, and natural-language control in long-form content.",
+   "why": "It supports advanced multi-character audio generation out of the box.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "fishaudio/drama-3"
+  }
+ ]
+}

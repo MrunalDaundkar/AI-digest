@@ -1,137 +1,147 @@
 {
  "date": "2026-10-18",
- "generated": "2026-10-18T12:52+00:00",
+ "generated": "2026-10-18T17:39+00:00",
  "technical": [
   {
-   "title": "Voxel51 3.0 platform launches for physical AI data management",
+   "title": "Voxel51 3.0 launches as a unified multimodal data platform for physical AI.",
    "url": "https://www.marktechpost.com/2026/10/17/voxel51-3-0-physical-ai-data-platform/",
    "source": "MarkTechPost",
-   "summary": "Voxel51 3.0 merges search, curation, annotation, and evaluation of multimodal sensor data into a single platform for physical AI teams, adding the Voxel51 Agent with over 45 MCP tools.",
-   "why": "Unified multimodal data platforms streamline dataset management and computer vision model evaluation.",
+   "summary": "Voxel51 3.0 merges multimodal sensor data search, curation, annotation, and evaluation into a single platform for physical AI teams, adding the Voxel51 Agent with over 45 MCP tools and dataset versioning.",
+   "why": "It streamlines multimodal data management pipelines for computer vision and robotics engineering.",
+   "depth": "read",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Kyutai releases REKI, a 2.4B vision-language-action model for robot manipulation.",
+   "url": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
+   "source": "MarkTechPost",
+   "summary": "Kyutai, along with Inria and École des Ponts, released REKI, a 2.4B VLA model pretrained on public data that includes efficient memory of its recent past to compete with models twice its size on robot manipulation.",
+   "why": "Efficient small-scale VLA models lower compute barriers for robotics and autonomous manipulation research.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "Researchers introduce semCER, a severity-weighted character error rate for OCR models.",
+   "url": "https://huggingface.co/papers/2610.20461",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduced semCER, a metric that weights character errors by severity using an LLM judge rather than treating all typos equally. It better aligns with human ratings for OCR and vision-language model transcripts compared to standard CER.",
+   "why": "It offers a more human-aligned evaluation metric for computer vision and OCR pipelines.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Amazon Bedrock AgentCore introduces a framework for evaluating autonomous AI agents.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "This post shares a nine-stage production evaluation framework built on Amazon Bedrock AgentCore to catch silent quality regressions across the full agent lifecycle from first commit to production.",
+   "why": "Production evaluation frameworks help prevent quality degradation in deployed agentic systems.",
+   "depth": "read",
+   "hours": 45,
+   "covered": 1
+  },
+  {
+   "title": "Meta launches Muse Spark Open, an 816B mixture-of-experts coding model.",
+   "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
+   "source": "NVIDIA Developer",
+   "summary": "Meta released Muse Spark Open, a coding-optimized 816B mixture-of-experts model featuring 42B active parameters and a 1M token context window, optimized for agentic workflows.",
+   "why": "Large open-weight MoE models expand capabilities for advanced coding agents.",
+   "depth": "read",
+   "hours": 72,
+   "covered": 1
+  },
+  {
+   "title": "New test-time diversity alignment approach improves generative model output variation.",
+   "url": "https://huggingface.co/papers/2610.21185",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduce MINE-SAMPLE-RENDER, a test-time approach that externalizes diversity into a corpus-derived sampling procedure. It mines an interpretable categorical schema and uses the generative model purely as a conditional renderer of sampled configurations.",
+   "why": "This technique helps generative models overcome diversity bottlenecks during test-time deployment.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Automatic framework hardens agent environment verifiers against reward hacking.",
+   "url": "https://huggingface.co/papers/2610.15924",
+   "source": "HF Daily Papers",
+   "summary": "Researchers propose a scalable, fully automatic weak-to-strong verifier hardening approach to prevent exploitable programmatic verifiers from awarding full credit to cheating LLM agents during training.",
+   "why": "Robust verifiers are critical for preventing reward hacking as agent training environments scale.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+   "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+   "source": "MarkTechPost",
+   "summary": "Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test time. One refinement step lifted GLM-5 performance significantly without weight updates.",
+   "why": "Test-time harness optimization provides a lightweight way to boost agent performance.",
    "depth": "skim",
    "hours": 9,
    "covered": 1
   },
   {
-   "title": "Kyutai releases REKI, a 2.4B vision-language-action model for robotics",
-   "url": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
-   "source": "MarkTechPost",
-   "summary": "Kyutai, Inria, and École des Ponts released REKI, a 2.4B vision-language-action model for robot manipulation. Trained on public data with recent past memory, it outperforms models twice its size on benchmarks.",
-   "why": "Efficient memory integration in small VLA models advances edge deployment for autonomous robotics.",
-   "depth": "read",
-   "hours": 17,
-   "covered": 1
-  },
-  {
-   "title": "Researchers introduce semCER, a severity-weighted character error rate for OCR models",
-   "url": "https://huggingface.co/papers/2610.20461",
-   "source": "HF Daily Papers",
-   "summary": "Researchers introduce semCER, a severity-weighted character error rate metric for OCR and vision-language models. By using an LLM judge to assign grapheme edit severities, semCER tracks human error perception better than standard CER.",
-   "why": "Better evaluation metrics improve how you benchmark and train your computer vision and OCR pipelines.",
-   "depth": "read",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Google open-sources Harness2 framework for test-time agent rewriting",
-   "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
-   "source": "MarkTechPost",
-   "summary": "Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test time. A single refinement step improved GLM-5 performance on WorkBuddy-Bench without any weight updates.",
-   "why": "Test-time harness modifications offer a lightweight way to boost agent performance.",
-   "depth": "skim",
-   "hours": 5,
-   "covered": 1
-  },
-  {
-   "title": "NVIDIA Nemotron 3.5 Super VL powers specialized multimodal agents",
+   "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
    "source": "NVIDIA Developer",
-   "summary": "Always-on agents handle complex enterprise workflows requiring document reading and cross-source verification using advanced multimodal reasoning capabilities.",
-   "why": "Advanced multimodal vision-language models expand the capabilities of enterprise AI agents.",
+   "summary": "Always-on agents are taking on longer, more complex enterprise workflows, requiring multimodal reasoning across diverse sources and documents.",
+   "why": "Advanced multimodal models enable more capable enterprise AI agents.",
    "depth": "skim",
-   "hours": 67,
+   "hours": 72,
    "covered": 1
   },
   {
-   "title": "Amazon Bedrock AgentCore introduces production-ready agent evaluation framework",
-   "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
-   "source": "AWS Machine Learning",
-   "summary": "A nine-stage evaluation framework built on Amazon Bedrock AgentCore catches silent quality regressions and monitors latency across the full agent lifecycle from development to production.",
-   "why": "Reliable evaluation frameworks are essential for maintaining quality in autonomous AI agent deployments.",
-   "depth": "read",
-   "hours": 40,
-   "covered": 1
-  },
-  {
-   "title": "Meta launches Muse Spark Open coding model on NVIDIA hardware",
-   "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
-   "source": "NVIDIA Developer",
-   "summary": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts model with 42B active parameters and a 1M token context window, optimized for agentic coding workflows.",
-   "why": "Large-scale MoE models with massive context windows define new benchmarks for agentic coding tasks.",
-   "depth": "read",
-   "hours": 67,
-   "covered": 1
-  },
-  {
-   "title": "New test-time diversity alignment pipeline improves generative model outputs",
-   "url": "https://huggingface.co/papers/2610.21185",
-   "source": "HF Daily Papers",
-   "summary": "Researchers introduce MINE-SAMPLE-RENDER, a test-time approach that externalizes diversity into an explicit corpus-derived sampling procedure. It mines categorical schemas and uses generative models purely as conditional renderers to improve output diversity.",
-   "why": "This technique helps overcome diversity limitations in modern generative models without retraining.",
-   "depth": "read",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Researchers propose automated weak-to-strong verifier hardening for agent environments",
-   "url": "https://huggingface.co/papers/2610.15924",
-   "source": "HF Daily Papers",
-   "summary": "Agent environments use programmatic verifiers that can be exploited by cheating agents. Researchers introduce a scalable, fully automatic approach to weak-to-strong verifier hardening using scaled compute to prevent reward hacking.",
-   "why": "Ensuring robust verifiers is critical for safe reinforcement learning and agentic AI training.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Reflection Beam open-weight model deployed for agentic coding on AWS",
+   "title": "Reflection AI's Beam open-weight model deployed for agentic coding on AWS.",
    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
    "source": "AWS Machine Learning",
-   "summary": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. It can be deployed on AWS via Amazon SageMaker JumpStart or Kubernetes-native control using vLLM.",
-   "why": "Knowing how to deploy open-weight coding models helps scale agentic engineering infrastructure.",
+   "summary": "Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks, which can be deployed on AWS using SageMaker JumpStart endpoints or HyperPod infrastructure with SGLang and vLLM.",
+   "why": "Provides practical infrastructure deployment paths for open-weight coding agents.",
    "depth": "skim",
-   "hours": 45,
+   "hours": 50,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "Nvidia Veteran Says Physical AI Robotics Is in Lego Era",
+   "title": "Nvidia veteran views physical AI robotics in its Lego era",
    "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
    "source": "TechCrunch AI",
-   "summary": "Amulya Vishwanath says robotics is currently in its Lego era, with basic building blocks like actuators and safety standards still being rebuilt, countering foundation model hype.",
-   "why": "This provides a realistic hardware perspective for engineers building physical AI and autonomous systems.",
-   "depth": "deep",
-   "hours": 44,
-   "covered": 1
-  },
-  {
-   "title": "Tech Giants Deploy Specialized Engineers to Prove AI ROI",
-   "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
-   "source": "CNBC Tech",
-   "summary": "AWS, Anthropic, OpenAI, and Google are racing to build forward deployed engineering teams as companies seek tangible returns on their AI investments.",
-   "why": "It highlights the industry's shift toward ensuring enterprise AI implementations deliver measurable financial results.",
+   "summary": "Amulya Vishwanath, a former Nvidia robotics product marketing leader, states robotics is in its Lego era while basic building blocks like actuators, hands, and software are rebuilt.",
+   "why": "Understanding hardware and component maturity helps you gauge timelines for autonomous driving and physical AI deployments.",
    "depth": "read",
-   "hours": 71,
+   "hours": 49,
    "covered": 1
   },
   {
-   "title": "Asian Startup Funding Hits Near Record High Driven By AI",
-   "url": "https://news.crunchbase.com/venture/q3-2026-asia-startup-funding-near-record-ai/",
-   "source": "Crunchbase News",
-   "summary": "Investors put $38.5 billion into reported seed- through growth-stage financings for Asian startups in Q3, per Crunchbase data, with a majority going to AI-focused companies.",
-   "why": "It shows sustained regional capital inflow into AI infrastructure and startups.",
-   "depth": "skim",
+   "title": "Elorian releases Glimpse model for advanced visual reasoning",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+   "source": "TechCrunch AI",
+   "summary": "Elorian's new model Glimpse aims to reason with images rather than just about them, outperforming GPT-6 Astra on scientific chart reasoning and short-form video captioning.",
+   "why": "Advances in multi-modal visual reasoning directly impact computer vision and video understanding capabilities.",
+   "depth": "read",
    "hours": 50,
+   "covered": 1
+  },
+  {
+   "title": "The Week’s 10 Biggest Funding Rounds: Spending Contracts For Latest AI-Driven Startup Batch",
+   "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
+   "source": "Crunchbase News",
+   "summary": "Startup investors aren’t exactly hitting pause, but they did scale back on giant rounds this past week, with just two startup financings in the multiple hundreds of millions.",
+   "why": "",
+   "depth": "",
+   "hours": 48,
+   "covered": 1
+  },
+  {
+   "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
+   "url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+   "source": "CNBC Tech",
+   "summary": "The sinking AI trade rattled last week's market. But solid bank earnings and a rotation beyond tech gave us reasons for optimism.",
+   "why": "",
+   "depth": "",
+   "hours": 26,
    "covered": 1
   },
   {
@@ -141,7 +151,7 @@
    "summary": "Amid a wave of backlash, some industry-friendly groups are employing creative and time-tested strategies to woo the youth.",
    "why": "",
    "depth": "",
-   "hours": 2,
+   "hours": 7,
    "covered": 1
   },
   {
@@ -151,67 +161,68 @@
    "summary": "AI always-listening wearables from Apple, Amazon, Meta and other startups are getting creative with privacy rules and fueling concerns about covert recordings.",
    "why": "",
    "depth": "",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+   "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+   "source": "CNBC Tech",
+   "summary": "Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.",
+   "why": "",
+   "depth": "",
+   "hours": 43,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic gives outside AI watchdog “employee-like” access",
+   "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+   "source": "Ars Technica AI",
+   "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+   "why": "",
+   "depth": "",
    "hours": 1,
    "covered": 1
   },
   {
-   "title": "Elorian’s first AI model wants to reason with images, not just about them",
-   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-   "source": "TechCrunch AI",
-   "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+   "title": "Meta removes language that may have allowed it to scrape news sites",
+   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "source": "The Verge AI",
+   "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the ",
    "why": "",
    "depth": "",
-   "hours": 45,
+   "hours": 27,
    "covered": 1
   },
   {
-   "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
-   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-   "source": "TechCrunch AI",
-   "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
-   "why": "",
-   "depth": "",
-   "hours": 46,
-   "covered": 1
-  },
-  {
-   "title": "Websites Are Closing Their Doors to Autonomous AI Agents",
+   "title": "Websites are closing their doors to AI agents",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
    "source": "The Verge AI",
-   "summary": "As autonomous agents from companies like OpenAI, Meta, and Google promise to scour the internet, publishers and websites are increasingly blocking them.",
-   "why": "Access restrictions directly affect how autonomous web-scraping agents gather data and execute tasks.",
-   "depth": "read",
-   "hours": 24,
-   "covered": 1
-  },
-  {
-   "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
-   "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
-   "source": "Wired AI",
-   "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+   "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your",
    "why": "",
    "depth": "",
-   "hours": 2,
-   "covered": 1
-  },
-  {
-   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-   "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-   "source": "MIT Technology Review AI",
-   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints f",
-   "why": "",
-   "depth": "",
-   "hours": 43,
+   "hours": 29,
    "covered": 1
   }
  ],
  "models": [
   {
+   "title": "EmbeddingGemma 2 maps multimodal inputs into a unified vector space",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "Hugging Face",
+   "summary": "EmbeddingGemma 2 by Google DeepMind is an open multimodal embedding model mapping text, code, images, video, and audio into a single 768-dimensional vector space. It has 740M parameters and runs on consumer hardware.",
+   "why": "Provides low-latency semantic representations for on-device applications like search and RAG.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "google/embeddinggemma-2"
+  },
+  {
    "title": "MiniCPM-V 4.7 introduces the first MoE model in the series",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
    "source": "Hugging Face",
-   "summary": "MiniCPM-V 4.7 is available in a 35B-A3B variant, representing the first Mixture-of-Experts model in the MiniCPM-V series, featuring efficient visual encoding and Lookahead Expert Scheduling for on-device inference.",
-   "why": "It enhances single-image, multi-image, and video understanding with lossless on-device inference.",
+   "summary": "MiniCPM-V 4.7 features a 35B-A3B variant, making it the first Mixture of Experts model in the MiniCPM-V series. It enhances single-image, multi-image, and video understanding with efficient on-device inference.",
+   "why": "Brings lossless, smooth on-device vision-language inference via Lookahead Expert Scheduling.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
@@ -221,7 +232,7 @@
    "title": "DeepSeek-V4.1-Flash-1017 update improves reasoning, coding, and visual benchmarks",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks, while reducing task execution time and output length.",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update improving reasoning, coding, agentic tasks, and visual benchmarks. It reduces execution time and output length to complete tasks faster and cheaper.",
    "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
    "depth": "skim",
    "hours": 0,
@@ -229,48 +240,37 @@
    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "title": "EmbeddingGemma 2 maps multimodal inputs into a unified vector space",
-   "url": "https://huggingface.co/google/embeddinggemma-2",
-   "source": "Hugging Face",
-   "summary": "EmbeddingGemma 2 is an open multimodal embedding model by Google DeepMind mapping text, code, images, video, and audio into a single 768-dimensional vector space for consumer hardware.",
-   "why": "It provides low-latency semantic representations for on-device applications like search and RAG.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "google/embeddinggemma-2"
-  },
-  {
-   "title": "LFM2.5-24B-A2B reasoning model released for fast on-device agents",
+   "title": "LFM2.5-24B-A2B provides fast on-device reasoning with 2B active parameters",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
    "source": "Hugging Face",
-   "summary": "LFM2.5-24B-A2B is a 24B-parameter reasoning model with 2B active parameters built for fast, private agents on-device, offering competitive performance on agentic and tool-use tasks.",
-   "why": "It enables efficient reasoning and tool-use on-device with low active parameters.",
+   "summary": "LFM2.5-24B-A2B is a 24B-parameter reasoning model featuring 2B active parameters. It delivers competitive agentic and tool-use performance while executing efficiently on consumer hardware.",
+   "why": "Enables fast, private on-device reasoning agents with lower compute costs.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "LiquidAI/LFM2.5-24B-A2B"
   },
   {
-   "title": "Unlimited OCR model enables one-shot long-horizon parsing",
+   "title": "Baidu Unlimited OCR enables one-shot long-horizon document parsing",
    "url": "https://huggingface.co/baidu/Unlimited-OCR",
    "source": "Hugging Face",
-   "summary": "Baidu's Unlimited OCR model supports long-horizon parsing and is integrated with ms-swift for training and vLLM for inference.",
-   "why": "It offers advanced OCR capabilities with modern inference and training framework support.",
+   "summary": "Baidu's Unlimited OCR model supports one-shot long-horizon parsing and integrates with ms-swift for training, vLLM for inference, and is available via Hugging Face Spaces.",
+   "why": "Provides advanced parsing capabilities for computer vision and document understanding pipelines.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "baidu/Unlimited-OCR"
   },
   {
-   "title": "Fish Audio Drama 3 launches for multi-character and long-form text-to-speech",
-   "url": "https://huggingface.co/fishaudio/drama-3",
+   "title": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "source": "Hugging Face",
-   "summary": "Fish Audio Drama 3 is a text-to-speech model with 35B parameters (3B active) featuring an MoE text backbone, multi-speaker generation, voice cloning, and natural-language control.",
-   "why": "It supports multi-character scenes and automatic text chunking with streaming on SGLang-Omni.",
-   "depth": "skim",
+   "summary": "No model card text available.",
+   "why": "",
+   "depth": "",
    "hours": 0,
    "covered": 1,
-   "model": "fishaudio/drama-3"
+   "model": "black-forest-labs/flux-3-image-klein-comfy"
   }
  ]
 }

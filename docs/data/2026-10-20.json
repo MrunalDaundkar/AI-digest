@@ -1,0 +1,276 @@
+{
+ "date": "2026-10-20",
+ "generated": "2026-10-20T02:35+00:00",
+ "technical": [
+  {
+   "title": "STRIDE Benchmark Evaluates Spatiotemporal Reasoning in Autonomous Driving Edge Cases",
+   "url": "https://arxiv.org/abs/2610.22795",
+   "source": "arXiv cs.CV",
+   "summary": "STRIDE is an object-centric benchmark designed to test vision-language models on long-tail, safety-critical driving scenarios by evaluating how surrounding objects move and interact over time.",
+   "why": "It offers autonomous driving teams a way to measure safety-critical spatiotemporal reasoning in edge cases.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "TriSAR-3D Introduces Trimodal Dataset for 3D Person Detection in Rescue Robotics",
+   "url": "https://arxiv.org/abs/2610.22509",
+   "source": "arXiv cs.CV",
+   "summary": "TriSAR-3D is a multimodal dataset recorded with LiDAR, an RGB camera, and a thermal camera to improve 3D person detection for rescue robotics in complex, unstructured environments.",
+   "why": "It helps computer vision engineers train detection models for challenging real-world search and rescue scenarios.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Cambrian-BEV Improves Spatial Reasoning Using Bird's-Eye-View Visual Tokens",
+   "url": "https://arxiv.org/abs/2610.22700",
+   "source": "arXiv cs.CV",
+   "summary": "Cambrian-BEV extends Cambrian-S with a parameter-free geometric tokenization scheme that back-projects visual patch features into a stable bird's-eye-view space to support embodied spatial reasoning.",
+   "why": "This technique enhances spatial context handling for video multimodal large language models.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "MT Forcing Paradigm Enables Stable Multi-Turn Image Editing with Autoregressive Diffusion",
+   "url": "https://huggingface.co/papers/2610.25404",
+   "source": "HF Daily Papers",
+   "summary": "MT Forcing is a training paradigm for multi-turn image editing using unified multimodal models based on autoregressive diffusion, designed to reduce drift, visual artifacts, and content inconsistency.",
+   "why": "It provides computer vision engineers a method for more reliable interactive visual content creation.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "SpatialBEV Improves Off-road Dynamics Learning Using Structured Perception Representations",
+   "url": "https://arxiv.org/abs/2610.22900",
+   "source": "arXiv cs.RO",
+   "summary": "SpatialBEV queries bird's-eye-view feature representations at each step to capture the spatial structure of terrain interaction, improving vehicle dynamics modeling for high-speed off-road navigation.",
+   "why": "It helps autonomous systems model complex terrain interactions more accurately.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "VLA-Fabric Coordinates Composable Multi-Arm Vision-Language-Action Agents",
+   "url": "https://arxiv.org/abs/2610.23018",
+   "source": "arXiv cs.RO",
+   "summary": "VLA-Fabric organizes complete vision-language-action models per robot arm while preserving local perception and action ownership, enabling explicit interaction for multi-arm manipulation systems.",
+   "why": "It advances multi-robot coordination using end-to-end VLA architectures.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "EvoWeb Benchmark Evaluates Coding Agents on Evolving Web Applications",
+   "url": "https://huggingface.co/papers/2610.16402",
+   "source": "HF Daily Papers",
+   "summary": "EvoWeb is a benchmark with 320 cumulative requests across 32 web applications, testing coding agents iteratively on persistent codebases using a multimodal web agent in a live browser.",
+   "why": "It provides a rigorous way to evaluate coding agents on multi-step web development tasks.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "SimpleVLN Framework Advances Vision-Language Navigation with Native MLLMs",
+   "url": "https://arxiv.org/abs/2610.23203",
+   "source": "arXiv cs.RO",
+   "summary": "SimpleVLN is an architecture-preserving framework for vision-and-language navigation, combining single-turn decision inputs through studies of navigation formulation, data construction, and optimization.",
+   "why": "It explores the limits of native multimodal large language models for robotic navigation.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Self-HPO Framework Combines Harness and Policy Optimization for Coding Agents",
+   "url": "https://huggingface.co/papers/2610.22791",
+   "source": "HF Daily Papers",
+   "summary": "Self-HPO is a recursive self-improving framework that alternates harness and policy optimization for LLM coding agents, using the evolving policy as its own harness proposer.",
+   "why": "It addresses the limitations of optimizing policy and environment interaction loops separately.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "TwelveLabs Pegasus 1.5 Video Language Model Now Available on Amazon Bedrock",
+   "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
+   "source": "AWS Machine Learning",
+   "summary": "TwelveLabs' Pegasus 1.5 is available on Amazon Bedrock, turning long-form video into structured metadata with new video segmentation, multimodal prompting, and support for up to two-hour videos.",
+   "why": "It allows developers to integrate advanced video understanding features into cloud applications.",
+   "depth": "skim",
+   "hours": 10,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Nscale and Anthropic Reportedly Discussing $45 Billion Compute Deal",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+   "source": "TechCrunch AI",
+   "summary": "Nscale and Anthropic are reportedly in talks for a massive $45 billion compute deal, marking the latest in a long string of giant compute deals struck over the past year.",
+   "why": "Infrastructure scale directly dictates training limits and deployment costs for advanced vision and multimodal models.",
+   "depth": "read",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "CoreWeave Bonds Slip Into Distressed Debt Territory",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+   "source": "The Verge AI",
+   "summary": "CoreWeave bonds slipped into distressed territory after investors demanded 1,000 basis points more in yield than government bonds, sparking questions about a private credit bubble in the AI buildout.",
+   "why": "Financial stability of major cloud providers can disrupt GPU access and hardware scaling timelines for AI engineering teams.",
+   "depth": "read",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Tenstorrent Raises $1.5 Billion to Reach $6.2 Billion Valuation",
+   "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia challenger Tenstorrent raised $1.5 billion to remain independent, hitting a $6.2 billion valuation to scale open-weight AI chips after drawing acquisition interest earlier this year.",
+   "why": "Hardware funding trends directly impact the future availability of open-weight AI chips for computer vision and edge workloads.",
+   "depth": "skim",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "JPMorgan Chase Deploys First $5 Billion Into Defense Tech",
+   "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+   "source": "CNBC Tech",
+   "summary": "JPMorgan Chase has deployed $5 billion off its balance sheet, racing ahead on direct investments in defense tech, hardware, robot factories, and supply chains.",
+   "why": "Autonomous driving and computer vision technologies heavily overlap with defense hardware and robotics supply chain investments.",
+   "depth": "skim",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "LatAm Startup Funding Jumps 26% In Q3 As VCs Begin ‘Rediscovering’ The Region",
+   "url": "https://news.crunchbase.com/venture/q3-2026-latam-startup-funding-jumps-ai-fintech-mexico/",
+   "source": "Crunchbase News",
+   "summary": "A continued boom in late-stage and growth funding combined with a surge in seed-stage funding helped buoy venture investment in Latin America for the third quarter of 2026, Crunchbase data shows.",
+   "why": "",
+   "depth": "",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "The FDE Bubble: Silicon Valley’s Most Expensive Game Of Pretend",
+   "url": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived/",
+   "source": "Crunchbase News",
+   "summary": "Enterprise AI companies relying on armies of forward deployed engineers are disguising labor-intensive services as scalable software, inflating recurring revenue and valuations while falling short of autonomy claims, arg",
+   "why": "",
+   "depth": "",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+   "url": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+   "source": "CNBC Tech",
+   "summary": "Nvidia announced planned investments in four German startups as Chancellor Friedrich Merz urged businesses to embrace AI at an industry summit in Berlin.",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1
+  },
+  {
+   "title": "China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround",
+   "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+   "source": "CNBC Tech",
+   "summary": "CXMT shares fell nearly 8% on Monday after the company released its earnings forecast for the first nine months of 2026.",
+   "why": "",
+   "depth": "",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+   "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+   "source": "TechCrunch AI",
+   "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "The fossil fuel comeback is here",
+   "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+   "source": "The Verge AI",
+   "summary": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with m",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "MiniCPM-V 4.7 introduces the first open-source MoE vision model",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+   "source": "Hugging Face",
+   "summary": "MiniCPM-V 4.7 is a 35B-A3B variant and the first mixture-of-experts model in the MiniCPM-V series, combining single-image, multi-image, and video understanding with lossless on-device inference using Lookahead Expert Scheduling.",
+   "why": "It brings efficient multi-modal MoE capabilities to edge devices.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
+   "title": "MOSS-Image-SFT supports advanced text and layout image generation",
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+   "source": "Hugging Face",
+   "summary": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model derived from MOSS-Image-Base, supporting natural-language prompts, tag sequences, and JSON layouts for precise text placement and object arrangement.",
+   "why": "It improves layout control and text rendering in generated images.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "OpenMOSS-Team/MOSS-Image-SFT"
+  },
+  {
+   "title": "EmbeddingGemma 2 maps multimodal inputs to a unified vector space",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "Hugging Face",
+   "summary": "Google DeepMind released EmbeddingGemma 2, an open multimodal embedding model mapping text, code, images, video, and audio into a single 768-dimensional vector space for consumer hardware applications.",
+   "why": "It enables lightweight, low-latency multimodal retrieval and search on edge devices.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "google/embeddinggemma-2"
+  },
+  {
+   "title": "LFM2.5-24B-A2B reasoning model optimized for fast on-device agents",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "source": "Hugging Face",
+   "summary": "LFM2.5-24B-A2B is a 24B reasoning model with 2B active parameters designed for fast, private on-device agents, delivering competitive tool-use performance and efficient MoE inference speeds.",
+   "why": "It enables powerful agentic reasoning workflows on resource-constrained hardware.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "LiquidAI/LFM2.5-24B-A2B"
+  },
+  {
+   "title": "Qwen-Image-2.1 Uncensored Quantized released for local generation",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "source": "Hugging Face",
+   "summary": "This repository provides GGUF, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation, optimized for ComfyUI, Apple Silicon, and target GPU architectures.",
+   "why": "It facilitates efficient local deployment of advanced image generation models.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 improves reasoning, coding, and visual benchmarks",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hugging Face",
+   "summary": "DeepSeek-V4.1-Flash-1017 delivers substantial performance gains across reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length to lower costs.",
+   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  }
+ ]
+}

@@ -1,147 +1,147 @@
 {
  "date": "2026-10-20",
- "generated": "2026-10-20T02:35+00:00",
+ "generated": "2026-10-20T08:01+00:00",
  "technical": [
   {
-   "title": "STRIDE Benchmark Evaluates Spatiotemporal Reasoning in Autonomous Driving Edge Cases",
-   "url": "https://arxiv.org/abs/2610.22795",
-   "source": "arXiv cs.CV",
-   "summary": "STRIDE is an object-centric benchmark designed to test vision-language models on long-tail, safety-critical driving scenarios by evaluating how surrounding objects move and interact over time.",
-   "why": "It offers autonomous driving teams a way to measure safety-critical spatiotemporal reasoning in edge cases.",
+   "title": "Context-aware fusion architecture improves obstacle perception for ASVs",
+   "url": "https://arxiv.org/abs/2610.23873",
+   "source": "arXiv cs.RO",
+   "summary": "This research proposes a context-aware architecture combining RGB, long-wave infrared, and mmWave radar to handle glare, darkness, and motion for reliable obstacle perception on autonomous surface vessels.",
+   "why": "It offers robust sensor fusion techniques tailored for challenging marine environments.",
    "depth": "read",
-   "hours": 23,
+   "hours": 4,
    "covered": 1
   },
   {
-   "title": "TriSAR-3D Introduces Trimodal Dataset for 3D Person Detection in Rescue Robotics",
-   "url": "https://arxiv.org/abs/2610.22509",
+   "title": "CLARO orchestrates vision-language models for grasping in cluttered scenes",
+   "url": "https://arxiv.org/abs/2610.24016",
+   "source": "arXiv cs.RO",
+   "summary": "CLARO is a VLM agent that combines open-vocabulary detection, segmentation, and 6-DoF grasping with non-prehensile pushing to retrieve targets in heavily cluttered real-world environments.",
+   "why": "It advances robotic manipulation capabilities in complex, unconstrained spaces.",
+   "depth": "read",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Benchmark analyzes VLM operational trade-offs in autonomous UAV navigation",
+   "url": "https://arxiv.org/abs/2610.23877",
+   "source": "arXiv cs.RO",
+   "summary": "This paper evaluates the impact of inference latency, model scale, and hardware constraints on flight stability when integrating vision-language models into autonomous UAV navigation systems.",
+   "why": "It highlights critical latency bottlenecks for real-time robotic deployment.",
+   "depth": "read",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "BlenderWorld evaluates visual agents on real-world 3D creation tasks",
+   "url": "https://huggingface.co/papers/2610.23986",
+   "source": "HF Daily Papers",
+   "summary": "BlenderWorld is a new benchmark featuring 223 tasks designed to evaluate frontier multimodal models on realistic 3D creation and editing from diverse real-world visual references.",
+   "why": "It provides a rigorous evaluation tool for agents generating 3D content from visual data.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "EMMA system uses multi-agent retrieval for long video understanding",
+   "url": "https://arxiv.org/abs/2610.23892",
    "source": "arXiv cs.CV",
-   "summary": "TriSAR-3D is a multimodal dataset recorded with LiDAR, an RGB camera, and a thermal camera to improve 3D person detection for rescue robotics in complex, unstructured environments.",
-   "why": "It helps computer vision engineers train detection models for challenging real-world search and rescue scenarios.",
+   "summary": "EMMA is an event-driven multimodal memory system that segments long videos using a dual-stream visual and audio detector, replacing noisy fixed-length video clips with semantic event organization.",
+   "why": "It improves long-video retrieval accuracy for multimodal systems.",
    "depth": "skim",
-   "hours": 23,
+   "hours": 4,
    "covered": 1
   },
   {
-   "title": "Cambrian-BEV Improves Spatial Reasoning Using Bird's-Eye-View Visual Tokens",
-   "url": "https://arxiv.org/abs/2610.22700",
+   "title": "PhysRSI-eval quantifies physical recursive self-improvement in vision models",
+   "url": "https://huggingface.co/papers/2610.26848",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduce PhysRSI-eval to measure physical recursive self-improvement across a five-axis metric using 18 manipulation tasks, leading to the formulation of the Physical Barrel Hypothesis.",
+   "why": "It offers insights into how vision-language models scale and improve their physical manipulation skills.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Same Space or Not benchmark tests spatial intelligence via cross-view contradictions",
+   "url": "https://arxiv.org/abs/2610.23959",
    "source": "arXiv cs.CV",
-   "summary": "Cambrian-BEV extends Cambrian-S with a parameter-free geometric tokenization scheme that back-projects visual patch features into a stable bird's-eye-view space to support embodied spatial reasoning.",
-   "why": "This technique enhances spatial context handling for video multimodal large language models.",
+   "summary": "SSoN is a new benchmark comprising 1,000 questions across indoor scenes to evaluate whether spatial intelligence models can maintain a coherent scene representation and resolve cross-view contradictions.",
+   "why": "It targets core spatial reasoning flaws in embodied AI and multi-view vision systems.",
    "depth": "skim",
-   "hours": 23,
+   "hours": 4,
    "covered": 1
   },
   {
-   "title": "MT Forcing Paradigm Enables Stable Multi-Turn Image Editing with Autoregressive Diffusion",
-   "url": "https://huggingface.co/papers/2610.25404",
+   "title": "MemPilot framework orchestrates on-demand memory curation for LLM agents",
+   "url": "https://huggingface.co/papers/2610.06830",
    "source": "HF Daily Papers",
-   "summary": "MT Forcing is a training paradigm for multi-turn image editing using unified multimodal models based on autoregressive diffusion, designed to reduce drift, visual artifacts, and content inconsistency.",
-   "why": "It provides computer vision engineers a method for more reliable interactive visual content creation.",
+   "summary": "MemPilot is a flexible framework that addresses query-agnostic memory limitations by orchestrating on-demand multimodal memory curation to balance performance, cost, and latency.",
+   "why": "It helps optimize runtime memory management for resource-constrained agent systems.",
    "depth": "skim",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "SpatialBEV Improves Off-road Dynamics Learning Using Structured Perception Representations",
-   "url": "https://arxiv.org/abs/2610.22900",
-   "source": "arXiv cs.RO",
-   "summary": "SpatialBEV queries bird's-eye-view feature representations at each step to capture the spatial structure of terrain interaction, improving vehicle dynamics modeling for high-speed off-road navigation.",
-   "why": "It helps autonomous systems model complex terrain interactions more accurately.",
-   "depth": "skim",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "VLA-Fabric Coordinates Composable Multi-Arm Vision-Language-Action Agents",
-   "url": "https://arxiv.org/abs/2610.23018",
-   "source": "arXiv cs.RO",
-   "summary": "VLA-Fabric organizes complete vision-language-action models per robot arm while preserving local perception and action ownership, enabling explicit interaction for multi-arm manipulation systems.",
-   "why": "It advances multi-robot coordination using end-to-end VLA architectures.",
-   "depth": "skim",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "EvoWeb Benchmark Evaluates Coding Agents on Evolving Web Applications",
-   "url": "https://huggingface.co/papers/2610.16402",
-   "source": "HF Daily Papers",
-   "summary": "EvoWeb is a benchmark with 320 cumulative requests across 32 web applications, testing coding agents iteratively on persistent codebases using a multimodal web agent in a live browser.",
-   "why": "It provides a rigorous way to evaluate coding agents on multi-step web development tasks.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "SimpleVLN Framework Advances Vision-Language Navigation with Native MLLMs",
-   "url": "https://arxiv.org/abs/2610.23203",
-   "source": "arXiv cs.RO",
-   "summary": "SimpleVLN is an architecture-preserving framework for vision-and-language navigation, combining single-turn decision inputs through studies of navigation formulation, data construction, and optimization.",
-   "why": "It explores the limits of native multimodal large language models for robotic navigation.",
-   "depth": "skim",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "Self-HPO Framework Combines Harness and Policy Optimization for Coding Agents",
-   "url": "https://huggingface.co/papers/2610.22791",
-   "source": "HF Daily Papers",
-   "summary": "Self-HPO is a recursive self-improving framework that alternates harness and policy optimization for LLM coding agents, using the evolving policy as its own harness proposer.",
-   "why": "It addresses the limitations of optimizing policy and environment interaction loops separately.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "TwelveLabs Pegasus 1.5 Video Language Model Now Available on Amazon Bedrock",
+   "title": "TwelveLabs Pegasus 1.5 video language model launches on Amazon Bedrock",
    "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
    "source": "AWS Machine Learning",
-   "summary": "TwelveLabs' Pegasus 1.5 is available on Amazon Bedrock, turning long-form video into structured metadata with new video segmentation, multimodal prompting, and support for up to two-hour videos.",
-   "why": "It allows developers to integrate advanced video understanding features into cloud applications.",
+   "summary": "Pegasus 1.5 is now accessible via Amazon Bedrock, providing structured JSON video metadata, precise segmentation, reference image prompting, and processing capabilities for up to two-hour videos.",
+   "why": "It simplifies long-form video indexing and retrieval pipelines using managed cloud infrastructure.",
    "depth": "skim",
-   "hours": 10,
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "Push-based KV transfer improves vLLM disaggregated inference performance",
+   "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+   "source": "AWS Machine Learning",
+   "summary": "A new push-based NIXL connector moves KV cache transfer coordination off the critical path in vLLM disaggregated setups, delivering up to 3x better TTFT and 30% better TPOT on AWS.",
+   "why": "It provides practical throughput optimizations for large-scale distributed LLM serving.",
+   "depth": "read",
+   "hours": 16,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "Nscale and Anthropic Reportedly Discussing $45 Billion Compute Deal",
+   "title": "Nscale And Anthropic Reportedly Discussing $45 Billion Compute Deal",
    "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
    "source": "TechCrunch AI",
-   "summary": "Nscale and Anthropic are reportedly in talks for a massive $45 billion compute deal, marking the latest in a long string of giant compute deals struck over the past year.",
-   "why": "Infrastructure scale directly dictates training limits and deployment costs for advanced vision and multimodal models.",
+   "summary": "Anthropic and Nscale are reportedly in talks for a massive $45 billion compute deal, marking the latest in a string of giant infrastructure agreements.",
+   "why": "Infrastructure spending scale dictates the availability and cost of compute for heavy AI model training and deployment.",
    "depth": "read",
-   "hours": 3,
-   "covered": 1
-  },
-  {
-   "title": "CoreWeave Bonds Slip Into Distressed Debt Territory",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-   "source": "The Verge AI",
-   "summary": "CoreWeave bonds slipped into distressed territory after investors demanded 1,000 basis points more in yield than government bonds, sparking questions about a private credit bubble in the AI buildout.",
-   "why": "Financial stability of major cloud providers can disrupt GPU access and hardware scaling timelines for AI engineering teams.",
-   "depth": "read",
-   "hours": 5,
-   "covered": 1
-  },
-  {
-   "title": "Tenstorrent Raises $1.5 Billion to Reach $6.2 Billion Valuation",
-   "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-   "source": "TechCrunch AI",
-   "summary": "Nvidia challenger Tenstorrent raised $1.5 billion to remain independent, hitting a $6.2 billion valuation to scale open-weight AI chips after drawing acquisition interest earlier this year.",
-   "why": "Hardware funding trends directly impact the future availability of open-weight AI chips for computer vision and edge workloads.",
-   "depth": "skim",
    "hours": 8,
    "covered": 1
   },
   {
-   "title": "JPMorgan Chase Deploys First $5 Billion Into Defense Tech",
+   "title": "CoreWeave Bonds Slip Into Distressed Territory Amid Bubble Concerns",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+   "source": "The Verge AI",
+   "summary": "CoreWeave bonds slipped into distressed territory as investors demanded 1,000 basis points more in yield, sparking market questions about a potential private credit bubble in the AI buildout.",
+   "why": "Financial stability of major cloud providers can impact compute availability and pricing across the AI industry.",
+   "depth": "read",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Tenstorrent Raises $1.5 Billion And Hits $6.2 Billion Valuation",
+   "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia challenger Tenstorrent has raised $1.5 billion to remain independent, reaching a valuation of $6.2 billion to scale its open-weight AI chips.",
+   "why": "Hardware developments directly impact the chip supply and acceleration options available for computer vision workloads.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "JPMorgan Chase Deploys $5 Billion Into Defense Investments",
    "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
    "source": "CNBC Tech",
-   "summary": "JPMorgan Chase has deployed $5 billion off its balance sheet, racing ahead on direct investments in defense tech, hardware, robot factories, and supply chains.",
-   "why": "Autonomous driving and computer vision technologies heavily overlap with defense hardware and robotics supply chain investments.",
+   "summary": "JPMorgan Chase has deployed $5 billion off its balance sheet for direct investments in defense tech, hardware, and supply chains, including robot factories and hypersonic missiles.",
+   "why": "Massive capital inflows into hardware and robotics signal expanding commercial and industrial applications for automation.",
    "depth": "skim",
-   "hours": 14,
+   "hours": 19,
    "covered": 1
   },
   {
@@ -151,7 +151,7 @@
    "summary": "A continued boom in late-stage and growth funding combined with a surge in seed-stage funding helped buoy venture investment in Latin America for the third quarter of 2026, Crunchbase data shows.",
    "why": "",
    "depth": "",
-   "hours": 16,
+   "hours": 21,
    "covered": 1
   },
   {
@@ -161,7 +161,7 @@
    "summary": "Enterprise AI companies relying on armies of forward deployed engineers are disguising labor-intensive services as scalable software, inflating recurring revenue and valuations while falling short of autonomy claims, arg",
    "why": "",
    "depth": "",
-   "hours": 16,
+   "hours": 21,
    "covered": 1
   },
   {
@@ -171,7 +171,7 @@
    "summary": "Nvidia announced planned investments in four German startups as Chancellor Friedrich Merz urged businesses to embrace AI at an industry summit in Berlin.",
    "why": "",
    "depth": "",
-   "hours": 0,
+   "hours": 6,
    "covered": 1
   },
   {
@@ -181,7 +181,7 @@
    "summary": "CXMT shares fell nearly 8% on Monday after the company released its earnings forecast for the first nine months of 2026.",
    "why": "",
    "depth": "",
-   "hours": 19,
+   "hours": 24,
    "covered": 1
   },
   {
@@ -191,7 +191,7 @@
    "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
    "why": "",
    "depth": "",
-   "hours": 1,
+   "hours": 7,
    "covered": 1
   },
   {
@@ -201,76 +201,76 @@
    "summary": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with m",
    "why": "",
    "depth": "",
-   "hours": 5,
+   "hours": 10,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "MiniCPM-V 4.7 introduces the first open-source MoE vision model",
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
-   "source": "Hugging Face",
-   "summary": "MiniCPM-V 4.7 is a 35B-A3B variant and the first mixture-of-experts model in the MiniCPM-V series, combining single-image, multi-image, and video understanding with lossless on-device inference using Lookahead Expert Scheduling.",
-   "why": "It brings efficient multi-modal MoE capabilities to edge devices.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
-  },
-  {
-   "title": "MOSS-Image-SFT supports advanced text and layout image generation",
-   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-   "source": "Hugging Face",
-   "summary": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model derived from MOSS-Image-Base, supporting natural-language prompts, tag sequences, and JSON layouts for precise text placement and object arrangement.",
-   "why": "It improves layout control and text rendering in generated images.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "OpenMOSS-Team/MOSS-Image-SFT"
-  },
-  {
-   "title": "EmbeddingGemma 2 maps multimodal inputs to a unified vector space",
+   "title": "EmbeddingGemma 2 maps text, images, video and audio to vector space",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "source": "Hugging Face",
-   "summary": "Google DeepMind released EmbeddingGemma 2, an open multimodal embedding model mapping text, code, images, video, and audio into a single 768-dimensional vector space for consumer hardware applications.",
-   "why": "It enables lightweight, low-latency multimodal retrieval and search on edge devices.",
+   "summary": "EmbeddingGemma 2 is an open multimodal embedding model by Google DeepMind with 740M total parameters that maps text, code, images, video, and audio into a unified 768-dimensional vector space for consumer hardware.",
+   "why": "It enables low-latency multimodal retrieval and RAG on edge devices.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "google/embeddinggemma-2"
   },
   {
-   "title": "LFM2.5-24B-A2B reasoning model optimized for fast on-device agents",
+   "title": "DeepSeek V4.1 Flash 1017 improves reasoning and visual benchmarks",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hugging Face",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length.",
+   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "title": "MiniCPM-V 4.7 introduces the series first mixture of experts model",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+   "source": "Hugging Face",
+   "summary": "MiniCPM-V 4.7 is available in a 35B-A3B variant, making it the first MoE model in the MiniCPM-V series, combining single-image, multi-image, and video understanding with lossless on-device inference.",
+   "why": "It brings efficient MoE visual understanding and on-device inference.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
+   "title": "LFM2.5 24B A2B reasoning model delivers fast private on-device agents",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
    "source": "Hugging Face",
-   "summary": "LFM2.5-24B-A2B is a 24B reasoning model with 2B active parameters designed for fast, private on-device agents, delivering competitive tool-use performance and efficient MoE inference speeds.",
-   "why": "It enables powerful agentic reasoning workflows on resource-constrained hardware.",
+   "summary": "LFM2.5-24B-A2B is a 24B-parameter reasoning model with 2B active parameters, built for fast, private on-device agents that think before answering and run up to 1.7x faster than comparable MoEs.",
+   "why": "It provides efficient, competitive agentic capabilities for edge deployment.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "LiquidAI/LFM2.5-24B-A2B"
   },
   {
-   "title": "Qwen-Image-2.1 Uncensored Quantized released for local generation",
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "title": "MOSS Image SFT fine tunes text to image generation layout control",
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
    "source": "Hugging Face",
-   "summary": "This repository provides GGUF, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation, optimized for ComfyUI, Apple Silicon, and target GPU architectures.",
-   "why": "It facilitates efficient local deployment of advanced image generation models.",
+   "summary": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model derived from MOSS-Image-Base, supporting natural-language prompts, tag sequences, and JSON layouts for text placement and object arrangement.",
+   "why": "It improves text grouping and layout structure in generated images.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+   "model": "OpenMOSS-Team/MOSS-Image-SFT"
   },
   {
-   "title": "DeepSeek-V4.1-Flash-1017 improves reasoning, coding, and visual benchmarks",
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "title": "MOSS Image Base text to image model released with layout control",
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
    "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 delivers substantial performance gains across reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length to lower costs.",
-   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "summary": "MOSS-Image-Base is a base text-to-image model supporting natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement.",
+   "why": "It serves as the base architecture for structured layout text-to-image generation.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   "model": "OpenMOSS-Team/MOSS-Image-Base"
   }
  ]
 }

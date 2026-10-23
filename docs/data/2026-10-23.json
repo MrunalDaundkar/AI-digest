@@ -1,177 +1,177 @@
 {
  "date": "2026-10-23",
- "generated": "2026-10-23T02:30+00:00",
+ "generated": "2026-10-23T08:04+00:00",
  "technical": [
   {
-   "title": "Foundation4D unifies perception, reconstruction, and tracking for autonomous vehicles.",
-   "url": "https://huggingface.co/papers/2610.30340",
+   "title": "WeVisOne-VL Unifies Visual Perception from Objects to Pixels",
+   "url": "https://huggingface.co/papers/2610.31329",
    "source": "HF Daily Papers",
-   "summary": "Researchers introduced Foundation4D, a feed-forward model using spatiotemporal attention and pose graph optimization for geometry estimation, 3D detection, semantic occupancy, and Gaussian reconstruction from multi-camera driving video, alongside the PAI-Foundation4D benchmark.",
-   "why": "This model offers a unified approach for multi-camera perception and reconstruction pipelines in autonomous driving.",
+   "summary": "Researchers present WeVisOne-VL, a vision-language model integrating object-level and pixel-level perception via structured next-token prediction, supporting tasks like detection, OCR, and segmentation using a lightweight pixel decoder.",
+   "why": "It advances fine-grained visual perception capabilities in modern computer vision architectures.",
    "depth": "read",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "Liquid AI launches RIPL for real-time inference of sub-50 ms LFMs.",
-   "url": "https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/",
-   "source": "MarkTechPost",
-   "summary": "Liquid AI released RIPL, a real-time inference engine achieving significantly lower p95 latency on B200 hardware compared to standard setups like vLLM running alternative models.",
-   "why": "It showcases inference optimization techniques crucial for low-latency edge and server deployments.",
-   "depth": "read",
-   "hours": 9,
-   "covered": 1
-  },
-  {
-   "title": "Factor-Aware Predictive Learning improves MLLM latents for cinematic video generation.",
-   "url": "https://huggingface.co/papers/2610.30926",
-   "source": "HF Daily Papers",
-   "summary": "The proposed Factor-Aware Predictive Learning framework addresses how video diffusion transformers bypass MLLM priors by establishing effective latent use as a shared prerequisite for factor-aware control and temporal prediction.",
-   "why": "It bridges the gap between MLLM semantic priors and controllable video generation architectures.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "LocalAgent introduces collaborative agentic verification for fine-grained instance consistency.",
-   "url": "https://arxiv.org/abs/2610.29174",
+   "title": "Foundation4D Provides Unified Perception and Reconstruction for Vehicles",
+   "url": "https://arxiv.org/abs/2610.30340",
    "source": "arXiv cs.CV",
-   "summary": "LocalAgent is a collaborative agentic framework designed to tackle fine-grained instance-level consistency verification, determining whether two images depict the exact same physical object under varying viewpoints and lighting conditions.",
-   "why": "It helps solve challenges in verifying subtle visual differences between similar objects across images.",
-   "depth": "skim",
-   "hours": 23,
+   "summary": "Foundation4D is a unified feed-forward model for geometry estimation, 3D detection, semantic occupancy, and Gaussian reconstruction from multi-camera driving video, utilizing factorized spatiotemporal attention and pose graph optimization.",
+   "why": "It offers significant architectural improvements for end-to-end autonomous driving perception stacks.",
+   "depth": "read",
+   "hours": 4,
    "covered": 1
   },
   {
-   "title": "NVIDIA OpenShell architecture secures and governs scalable AI agent workloads.",
-   "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
-   "source": "NVIDIA Developer",
-   "summary": "The reference architecture addresses security and governance for autonomous agents that execute complex multi-hour tasks, access tools and files, and spawn collaborating sub-agents.",
-   "why": "It provides crucial architectural patterns for safely deploying long-running autonomous agent workloads.",
-   "depth": "skim",
-   "hours": 41,
+   "title": "TerraTransfer++ Offers Demonstration-Free End-to-End Autonomous Planning",
+   "url": "https://arxiv.org/abs/2610.30319",
+   "source": "arXiv cs.RO",
+   "summary": "TerraTransfer++ proposes a demonstration-free end-to-end planner that circumvents the high costs of fleet-scale imitation learning and sample-inefficient simulation by leveraging vectorized simulator self-play.",
+   "why": "It presents a scalable, cost-efficient training paradigm for autonomous driving planners.",
+   "depth": "read",
+   "hours": 4,
    "covered": 1
   },
   {
-   "title": "Vercel open-sources durable-harness to enable crash-proof coding agents.",
-   "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents/",
-   "source": "MarkTechPost",
-   "summary": "Vercel released durable-harness, an open-source package that logs model and tool calls to let coding agent sessions resume seamlessly after crashes, timeouts, and redeploys.",
-   "why": "It improves reliability for engineering workflows involving stateful coding agents.",
-   "depth": "skim",
-   "hours": 28,
-   "covered": 1
-  },
-  {
-   "title": "MMedAgent-Plus scales multimodal medical agents across multiple tasks and modalities.",
-   "url": "https://huggingface.co/papers/2610.27233",
+   "title": "Analyzing Generation-Side Representations for Fine-Grained Multimodal Understanding",
+   "url": "https://huggingface.co/papers/2610.23987",
    "source": "HF Daily Papers",
-   "summary": "MMedAgent-Plus combines a vision-language planner with 18 specialist models across 12 tasks and 8 modalities, utilizing a unified tool interface and instruction tuning on thousands of medical benchmark samples.",
-   "why": "It demonstrates how to coordinate multiple specialist vision-language models for complex medical workflows.",
+   "summary": "Researchers systematically explore native generation-side representations in unified multimodal models to improve fine-grained visual understanding, discovering they are more sensitive to local attributes and spatial relations.",
+   "why": "It provides insights into better leveraging multimodal generation pathways for precise visual tasks.",
    "depth": "skim",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "Short briefing entry lists updates on DeepInfer, PyTorch on TPUs, and Ramp.",
-   "url": "https://tldr.tech/ai/2026-10-21",
-   "source": "TLDR AI",
-   "summary": "This title-only entry mentions DeepSeek DeepInfer, PyTorch on TPUs, and Ramp's agent framework without providing further context or details.",
-   "why": "It offers a quick pointer to external engineering tooling updates.",
-   "depth": "skim",
-   "hours": 51,
-   "covered": 1
-  },
-  {
-   "title": "Patch the Planet coordinates global responses as agents uncover vulnerabilities.",
-   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-   "source": "OpenAI",
-   "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to address critical vulnerabilities across open source software ecosystems.",
-   "why": "It highlights collaborative security coordination in vulnerability management.",
-   "depth": "skim",
-   "hours": 44,
-   "covered": 1
-  },
-  {
-   "title": "OpenAI built a novel LLM-powered ad stack for ChatGPT.",
-   "url": "https://openai.com/index/building-chatgpt-ad-stack",
-   "source": "OpenAI",
-   "summary": "OpenAI developed an ad stack designed to understand conversational intent, keep advertisements separate from core answers, and deliver relevant ads at scale while maintaining user trust.",
-   "why": "It outlines system design choices for integrating conversational AI with advertising models.",
-   "depth": "skim",
-   "hours": 44,
-   "covered": 1
-  }
- ],
- "business": [
-  {
-   "title": "OpenAI Nears $30 Billion Funding Round At $1.25 Trillion Valuation",
-   "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
-   "source": "CNBC Tech",
-   "summary": "OpenAI is finalizing a funding round of up to $30 billion, led by UAE investors, serving as a bridge to its anticipated 2027 IPO.",
-   "why": "This massive capital raise sets new valuation records for private AI companies and shapes market dynamics.",
-   "depth": "skim",
-   "hours": 6,
-   "covered": 1
-  },
-  {
-   "title": "DeepSeek Reportedly Raises $15 Billion In Major Funding Round",
-   "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-   "source": "TechCrunch AI",
-   "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, occurring just days after U.S. agencies were ordered to restrict its technology.",
-   "why": "Geopolitical tensions and large-scale funding directly impact competitive dynamics in the global AI hardware and software landscape.",
-   "depth": "skim",
-   "hours": 13,
-   "covered": 1
-  },
-  {
-   "title": "SpaceX And Tesla Form Special Committees To Discuss Potential Merger",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-   "source": "The Verge AI",
-   "summary": "SpaceX and Tesla have formed special committees to discuss a merger, as SpaceX reportedly prepares to borrow $40 billion for Nvidia chips.",
-   "why": "Massive hardware expenditures and corporate consolidation heavily influence the availability of AI compute resources.",
-   "depth": "read",
-   "hours": 7,
-   "covered": 1
-  },
-  {
-   "title": "Analyst Warns Anthropic IPO Valuation Faces Dot-Com Bubble Parallels",
-   "url": "https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/",
-   "source": "Crunchbase News",
-   "summary": "Airrived CEO Anurag Gurtu argues that Anthropic's rapid revenue growth does not justify a $2 trillion IPO valuation due to infrastructure costs and competition.",
-   "why": "Understanding market bubbles and enterprise value helps contextualize the broader financial stability of the AI industry.",
-   "depth": "read",
-   "hours": 16,
-   "covered": 1
-  },
-  {
-   "title": "OpenAI Targets Record $1.25 Trillion Valuation Ahead Of IPO",
-   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-   "source": "TechCrunch AI",
-   "summary": "OpenAI is working on a new $30 billion raise that would push its valuation to over $1 trillion, making it the most highly valued private company ever.",
-   "why": "The massive capital requirements of frontier AI labs influence the broader semiconductor and computing market.",
+   "title": "Addressing Visual Grounding Bottlenecks in Multimodal In-Context Learning",
+   "url": "https://arxiv.org/abs/2610.30592",
+   "source": "arXiv cs.CV",
+   "summary": "The study identifies visual grounding as the key bottleneck in multimodal in-context learning, showing that current multimodal LLMs over-rely on text cues instead of attending to task-relevant visual evidence.",
+   "why": "Understanding this bottleneck helps fix generalization failures in multimodal LLMs.",
    "depth": "skim",
    "hours": 4,
    "covered": 1
   },
   {
-   "title": "Elon Musk Pours $366 Million Into Campaigns Impacting SpaceX And Tesla",
-   "url": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
-   "source": "CNBC Tech",
-   "summary": "Elon Musk has invested $366 million into political campaigns, focusing heavily on the Senate to influence future regulations and federal spending affecting SpaceX and Tesla.",
-   "why": "Regulatory shifts directly impact autonomous driving and aerospace deployment timelines.",
+   "title": "FRED Framework Improves World Action Models via Self-Distillation",
+   "url": "https://huggingface.co/papers/2610.30320",
+   "source": "HF Daily Papers",
+   "summary": "The FRED framework trains world action models using self-distillation with temporal context to enhance the quality of intermediate future video representations, boosting inference efficiency for robot policies.",
+   "why": "It improves action prediction and inference efficiency for vision-based robotics.",
    "depth": "skim",
-   "hours": 5,
+   "hours": 12,
+   "covered": 2
+  },
+  {
+   "title": "KinoUAV Benchmark Enhances Safe and Stable UAV Navigation",
+   "url": "https://arxiv.org/abs/2610.30609",
+   "source": "arXiv cs.CV",
+   "summary": "KinoUAV introduces a kinodynamic benchmark and agent with a hierarchical trajectory generation pipeline to improve safety, motion stability, and navigation success rates for unmanned aerial vehicles.",
+   "why": "It addresses stability and collision issues in vision-language UAV navigation systems.",
+   "depth": "skim",
+   "hours": 4,
    "covered": 1
   },
   {
-   "title": "Meta Plans New Stock Class To Fund Broad AI Buildout",
+   "title": "Alpha Framework Evaluates Robustness of LLM-Driven Manipulation",
+   "url": "https://arxiv.org/abs/2610.30197",
+   "source": "arXiv cs.RO",
+   "summary": "Alpha is a systematic fault-injection and robustness-evaluation framework for LLM-driven robot manipulation, injecting calibrated faults across perception, actuation, kinematics, and planning in simulation.",
+   "why": "It helps isolate physical vulnerabilities from planner sensitivities in embodied AI.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA OpenShell Secures and Governs AI Agent Workloads",
+   "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
+   "source": "NVIDIA Developer",
+   "summary": "The NVIDIA OpenShell reference architecture addresses the security and governance challenges of complex autonomous agent workloads executing tasks over extended periods.",
+   "why": "It provides structural guidance for safely executing autonomous agent workflows at scale.",
+   "depth": "skim",
+   "hours": 46,
+   "covered": 1
+  },
+  {
+   "title": "CMAR-search Enhances Object Search in Dynamic Interactive Environments",
+   "url": "https://arxiv.org/abs/2610.30606",
+   "source": "arXiv cs.RO",
+   "summary": "CMAR-search introduces commonsense and memory augmented reasoning to improve dynamic object search in large-scale environments by addressing limitations in coarse-grained 3D scene graphs and functional area understanding.",
+   "why": "It advances spatial reasoning and efficient exploration for interactive robotics.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation",
+   "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+   "source": "CNBC Tech",
+   "summary": "OpenAI is close to finalizing a funding round of up to $30 billion, aiming for a $1.25 trillion valuation led by UAE investors as a bridge to its 2027 IPO.",
+   "why": "This massive valuation sets a new benchmark for private AI companies and market capital requirements.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "DeepSeek reportedly raises $15 billion in funding round",
+   "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+   "source": "TechCrunch AI",
+   "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, occurring just days after U.S. agencies were ordered to remove its technology.",
+   "why": "Geopolitical restrictions and large-scale Asian investments directly impact global AI hardware and market competition.",
+   "depth": "skim",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic's IPO valuation questioned amid infrastructure and market pressures",
+   "url": "https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/",
+   "source": "Crunchbase News",
+   "summary": "An industry analysis argues that Anthropic's rapid revenue growth does not justify its proposed $2 trillion IPO valuation due to enormous infrastructure commitments and competition.",
+   "why": "Evaluating inflated valuations helps engineers understand the financial realities and sustainability of large foundational model providers.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI targets record $1.25 trillion valuation in new raise",
+   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+   "source": "TechCrunch AI",
+   "summary": "If OpenAI successfully secures its new funding round at a $1.25 trillion valuation, it will break records as the most highly valued private company ever.",
+   "why": "It highlights the unprecedented capital concentration in top-tier generative AI labs.",
+   "depth": "skim",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "SpaceX records $561 million investment gain from stake in Elon Musk's Boring Co.",
+   "url": "https://www.cnbc.com/2026/10/22/spacex-records-561-million-investment-gain-from-stake-in-boring-co.html",
+   "source": "CNBC Tech",
+   "summary": "SpaceX's stake in Boring Co. helped boost its net income in the third quarter.",
+   "why": "",
+   "depth": "",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "SpaceX and Tesla form special committees to discuss potential merger",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+   "source": "The Verge AI",
+   "summary": "SpaceX and Tesla have formed special committees to discuss a potential merger, while SpaceX faces high credit risk as it borrows billions for Nvidia chips.",
+   "why": "Financial maneuvers and hardware acquisition strategies by major autonomous and aerospace players affect the broader tech ecosystem.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Meta plans new stock strategy to fund broad AI buildout",
    "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
    "source": "TechCrunch AI",
-   "summary": "Meta is planning a new stock strategy to finance its extensive investments in AI models and services.",
-   "why": "Alternative financing methods highlight the intense capital expenditure required to maintain competitive AI infrastructure.",
+   "summary": "Meta is creating a new class of stock to help power its massive capital investments in AI models and infrastructure services.",
+   "why": "Corporate financing strategies dictate how major players sustain long-term compute and infrastructure expansions.",
    "depth": "skim",
-   "hours": 28,
+   "hours": 33,
    "covered": 1
   },
   {
@@ -181,7 +181,7 @@
    "summary": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's interna",
    "why": "",
    "depth": "",
-   "hours": 6,
+   "hours": 12,
    "covered": 1
   },
   {
@@ -191,7 +191,7 @@
    "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens ",
    "why": "",
    "depth": "",
-   "hours": 18,
+   "hours": 23,
    "covered": 1
   },
   {
@@ -201,76 +201,76 @@
    "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that all",
    "why": "",
    "depth": "",
-   "hours": 5,
+   "hours": 10,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "DeepSeek Releases Minor Update Improving Reasoning, Coding, and Visual Benchmarks",
+   "title": "Recursive Flint is a mixture-of-experts language model for coding agents",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "Hugging Face",
+   "summary": "Flint is a 39.8B parameter mixture-of-experts model designed to investigate codebases, fix bugs, implement features, and write tests, with multi-turn tool use support.",
+   "why": "It offers state-of-the-art coding and agent capabilities with an SGLang serving kit.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "RecursiveSI/flint"
+  },
+  {
+   "title": "EmbeddingGemma 2 maps multimodal inputs into a unified vector space",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "Hugging Face",
+   "summary": "Built by Google DeepMind, this 740M parameter open multimodal embedding model maps text, code, images, video, and audio into a single 768-dimensional vector space for low-latency on-device applications.",
+   "why": "It powers efficient multimodal retrieval-augmented generation and search on consumer hardware.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "google/embeddinggemma-2"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 delivers performance updates across reasoning, coding, and visual benchmarks",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length.",
-   "why": "It advances the performance-cost Pareto frontier for AI engineers working with agent harnesses.",
+   "summary": "This minor update improves reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length to cut costs.",
+   "why": "It advances the performance-cost Pareto frontier for AI agents.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "title": "Google DeepMind Releases Open Multimodal Embedding Model for Consumer Hardware",
-   "url": "https://huggingface.co/google/embeddinggemma-2",
-   "source": "Hugging Face",
-   "summary": "EmbeddingGemma 2 is an open multimodal embedding model mapping text, code, images, video, and audio into a unified 768-dimensional vector space for low-latency on-device applications.",
-   "why": "It enables efficient multimodal retrieval-augmented generation and search on consumer hardware.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "google/embeddinggemma-2"
-  },
-  {
-   "title": "black-forest-labs/flux-3-image-klein-comfy",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-   "source": "Hugging Face",
-   "summary": "No model card text available.",
-   "why": "",
-   "depth": "",
-   "hours": 0,
-   "covered": 1,
-   "model": "black-forest-labs/flux-3-image-klein-comfy"
-  },
-  {
-   "title": "OpenMOSS Launches Supervised Fine-Tuned Text-to-Image Model with Layout Controls",
+   "title": "MOSS-Image-SFT provides supervised fine-tuning for improved text-to-image layout control",
    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
    "source": "Hugging Face",
-   "summary": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model derived from MOSS-Image-Base, supporting natural-language prompts, tag sequences, and JSON layouts for text placement and object arrangement.",
-   "why": "It offers computer vision engineers precise control over text placement and object layouts.",
+   "summary": "Derived from MOSS-Image-Base, this fine-tuned text-to-image model supports natural-language prompts, tag sequences, and JSON layouts for text placement and object arrangement, featuring clearer text grouping.",
+   "why": "It helps engineers better control text placement and object layouts in generated images.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "OpenMOSS-Team/MOSS-Image-SFT"
   },
   {
-   "title": "Recursive Releases Flint Mixture-of-Experts Language Model for Coding Agents",
-   "url": "https://huggingface.co/RecursiveSI/flint",
+   "title": "MOSS-Image repackages model files for ComfyUI integration",
+   "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
    "source": "Hugging Face",
-   "summary": "Flint is a 39.8B parameter mixture-of-experts model designed to investigate codebases, fix bugs, implement features, and write tests, utilizing approximately 2.5 billion active parameters per token.",
-   "why": "It provides a local MoE engine equipped for multi-turn tool use and code generation.",
+   "summary": "This repository provides repackaged model files and directory structures to easily run MOSS-Image base, SFT, and color depth control variants inside ComfyUI.",
+   "why": "It simplifies local deployment of MOSS-Image models for computer vision developers.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "RecursiveSI/flint"
+   "model": "Comfy-Org/MOSS-Image"
   },
   {
-   "title": "OpenMOSS Introduces Base Text-to-Image Model with JSON Layout Support",
-   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+   "title": "Qwen-Image-2.1 Uncensored Quantized offers multiple local deployment formats",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "source": "Hugging Face",
-   "summary": "MOSS-Image-Base is a new text-to-image model supporting natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement.",
-   "why": "It serves as the base architecture for fine-tuned image generation tasks with layout control.",
+   "summary": "This repository provides GGUF, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation, complete with companion text encoders and VAE files for ComfyUI.",
+   "why": "It provides optimized local inference options for custom image generation setups.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "OpenMOSS-Team/MOSS-Image-Base"
+   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   }
  ]
 }

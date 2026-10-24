@@ -1,66 +1,76 @@
 {
  "date": "2026-10-24",
- "generated": "2026-10-24T07:43+00:00",
+ "generated": "2026-10-24T12:59+00:00",
  "technical": [
   {
-   "title": "Kyutai releases CADRE video autoencoders for interactive world models",
+   "title": "Kyutai CADRE video autoencoders cut world model lag below 230 ms",
    "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
    "source": "MarkTechPost",
-   "summary": "Kyutai released CADRE, a family of seven open causal diffusion video autoencoders that achieve interactive world model latencies under 230 ms at 20 fps on an H100.",
-   "why": "It directly impacts real-time simulation and world model development for autonomous systems.",
-   "depth": "read",
-   "hours": 8,
+   "summary": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models. World models built on CADRE run at 20 fps on a single H100 and react in under 230 ms.",
+   "why": "It matters for autonomous driving and robotics researchers building low-latency interactive world models.",
+   "depth": "skim",
+   "hours": 14,
    "covered": 1
   },
   {
-   "title": "AI agents teach robots to walk and navigate in simulation",
+   "title": "NVIDIA TensorRT adds Global Performance Tuner for automated optimization",
+   "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
+   "source": "NVIDIA Developer",
+   "summary": "The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1, providing automatic and accuracy-aware performance optimization.",
+   "why": "It matters to computer vision engineers because it simplifies TensorRT model optimization beyond a single build route.",
+   "depth": "skim",
+   "hours": 20,
+   "covered": 2
+  },
+  {
+   "title": "AI agents teach robots like Microduck to walk in simulation",
    "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
    "source": "NVIDIA Developer",
-   "summary": "Teaching robots like Microduck to navigate obstacle courses requires walking policies, perception, and balance adjustments handled via simulation.",
-   "why": "It touches on core simulation and control concepts for robotics engineering.",
+   "summary": "Teaching a robot to navigate an obstacle course requires a walking policy, perception of surroundings, balance maintenance, and action adjustment using simulation environments.",
+   "why": "It matters for robotics engineers building autonomous navigation and control systems in simulation.",
    "depth": "skim",
-   "hours": 17,
+   "hours": 22,
    "covered": 1
   },
   {
-   "title": "NVIDIA releases Nemotron 3.5 Bolt small language model",
+   "title": "NVIDIA releases Nemotron 3.5 Bolt small language model for local edge deployment",
    "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
    "source": "MarkTechPost",
-   "summary": "NVIDIA released Nemotron 3.5 Bolt E4B 4GB, an open small language model targeting local voice assistants, game characters, and robots requiring about 4GB of VRAM.",
-   "why": "It provides a lightweight local model option for edge robotics and voice applications.",
+   "summary": "NVIDIA released Nemotron 3.5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B, targeting about 4GB of VRAM on RTX and Jetson for local voice assistants, game characters, and robots.",
+   "why": "It matters to engineers deploying efficient edge models for local robotics and interactive voice applications.",
    "depth": "skim",
-   "hours": 4,
+   "hours": 9,
    "covered": 1
   },
   {
    "title": "EvalResearchBench automates evaluation research for recursive self-improvement",
    "url": "https://huggingface.co/papers/2610.04184",
    "source": "HF Daily Papers",
-   "summary": "Researchers introduced EvalResearchBench, a benchmark where AI agents automate evaluation research by selecting, synthesizing, and testing tasks to create executable evaluators under fixed budgets.",
-   "why": "It matters because automating evaluation feedback can significantly reduce the cost of recursive self-improvement.",
+   "summary": "Recursive self-improvement relies on evaluation feedback, but running complex benchmarks is costly. Researchers introduced EvalResearchBench, a benchmark where AI agents automate evaluation design by selecting or synthesizing tasks, implementing graders, and revising them in pilot tests.",
+   "why": "It matters because automating evaluation design helps accelerate recursive self-improvement without heavy manual benchmark costs.",
    "depth": "skim",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "ID-TAP enables scalable test-time agent personalization",
+   "title": "Agent Mosaic quantifies confidentiality leaks in agentic LLM systems",
+   "url": "https://huggingface.co/papers/2610.30418",
+   "source": "HF Daily Papers",
+   "summary": "Modern LLM agents can retrieve information from accessible documents and disclose sensitive conclusions, creating a mosaic effect risk. Testing 30 examples across multiple agents showed that even top models disclose forbidden composites in some answers.",
+   "why": "It matters because understanding confidentiality leaks helps engineers secure LLM agents operating over sensitive enterprise data.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "ID-TAP introduces information-directed dueling for test-time agent personalization",
    "url": "https://huggingface.co/papers/2610.24385",
    "source": "HF Daily Papers",
-   "summary": "ID-TAP combines a query-conditioned neural utility model with a lightweight Bradley-Terry explorer for large discrete persona spaces using binary comparisons.",
-   "why": "It provides a scalable neural dueling-bandit framework for adapting LLM agents to user preferences.",
+   "summary": "Effective test-time personalization requires LLM agents to adapt to user preferences from lightweight interaction. Researchers present ID-TAP, a neural dueling-bandit framework combining a query-conditioned neural utility model with a lightweight Bradley-Terry explorer.",
+   "why": "It matters because it provides a scalable way to personalize LLM agents dynamically at test-time using binary comparisons.",
    "depth": "skim",
    "hours": 12,
    "covered": 1
-  },
-  {
-   "title": "NVIDIA releases Global Performance Tuner in TensorRT 11.1",
-   "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
-   "source": "NVIDIA Developer",
-   "summary": "The Global Performance Tuner is a new feature for automatic, accuracy-aware performance tuning released in NVIDIA TensorRT 11.1.",
-   "why": "It offers automated performance optimization for deployment workflows.",
-   "depth": "skim",
-   "hours": 14,
-   "covered": 2
   },
   {
    "title": "OpenAI nears $1.25T 💰, ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖",
@@ -69,7 +79,17 @@
    "summary": "",
    "why": "",
    "depth": "",
-   "hours": 32,
+   "hours": 37,
+   "covered": 1
+  },
+  {
+   "title": "Stateful agentic engineering copilots built with Letta extend memory",
+   "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+   "source": "MarkTechPost",
+   "summary": "A comprehensive guide explores extending agentic memory beyond basic prompts by building a stateful engineering copilot with Letta, covering inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows.",
+   "why": "It matters because it helps engineers build advanced, stateful AI agents with persistent and inspectable memory architectures.",
+   "depth": "skim",
+   "hours": 2,
    "covered": 1
   },
   {
@@ -79,27 +99,7 @@
    "summary": "",
    "why": "",
    "depth": "",
-   "hours": 33,
-   "covered": 1
-  },
-  {
-   "title": "NVIDIA OpenShell secures and governs AI agent workloads",
-   "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
-   "source": "NVIDIA Developer",
-   "summary": "Autonomous agents execute long-running tasks by accessing files, tools, and spawning other agents, requiring a reference architecture for security and governance.",
-   "why": "It addresses infrastructure security needs for scalable autonomous agent deployments.",
-   "depth": "skim",
-   "hours": 70,
-   "covered": 1
-  },
-  {
-   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-   "url": "https://huggingface.co/blog/allenai/litpivot",
-   "source": "Hugging Face Blog",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 15,
+   "hours": 39,
    "covered": 1
   }
  ],
@@ -108,70 +108,70 @@
    "title": "OpenAI Nears $30 Billion Funding Round at $1.25 Trillion Valuation",
    "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
    "source": "CNBC Tech",
-   "summary": "OpenAI is close to finalizing a new funding round meant as a bridge to its 2027 IPO, targeting up to $30 billion.",
-   "why": "This massive capital influx signals major shifts in private company valuations and future infrastructure spending.",
+   "summary": "OpenAI is close to finalizing a funding round of up to $30 billion, aiming to serve as a bridge to its 2027 IPO.",
+   "why": "This massive valuation highlights the immense capital flowing into foundational AI companies ahead of public markets.",
    "depth": "skim",
-   "hours": 19,
+   "hours": 24,
    "covered": 1
   },
   {
-   "title": "OpenAI Now Trains Frontier AI Models With No Internet Access",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-   "source": "The Verge AI",
-   "summary": "OpenAI is training its most advanced AI models without internet access in an offline testing environment following rogue hacking incidents.",
-   "why": "Security measures for frontier model training affect how data pipelines and offline safety verifications are designed.",
-   "depth": "read",
-   "hours": 11,
-   "covered": 1
-  },
-  {
-   "title": "Data Storage Costs Emerge as Hidden Expense of AI Inference",
-   "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-   "source": "MIT Technology Review AI",
-   "summary": "Beyond GPU hardware and power demands, massive back-end data storage costs for billions of daily prompts, images, and videos represent an overlooked expense.",
-   "why": "Storage economics directly impact the operational expenditure of scaling large-scale AI applications and vision models.",
-   "depth": "read",
-   "hours": 47,
-   "covered": 1
-  },
-  {
-   "title": "DeepSeek Reports $15 Billion Funding Round Following U.S. Restrictions",
-   "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-   "source": "TechCrunch AI",
-   "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after U.S. agencies were ordered to remove its technology.",
-   "why": "It highlights major geopolitical shifts and capital movements within the global AI hardware and software market.",
-   "depth": "skim",
-   "hours": 43,
-   "covered": 1
-  },
-  {
-   "title": "Neocloud Pressure and Pulled IPOs Hit AI Buildout",
+   "title": "Turmoil Hits AI Buildout as Neoclouds Face Credit Risks",
    "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
    "source": "CNBC Tech",
-   "summary": "Stock slumps, pulled IPOs, and rising credit default swap spreads are setting the stage for hyperscaler earnings amid growing pressure on neoclouds.",
-   "why": "Financial instability in cloud infrastructure directly impacts GPU availability and enterprise deployment costs.",
+   "summary": "Stock slumps, pulled IPOs, and rising credit default swap spreads set the stage for upcoming hyperscaler earnings amid pressure on neoclouds.",
+   "why": "Market turbulence in infrastructure financing could impact hardware procurement and expansion timelines.",
    "depth": "skim",
-   "hours": 1,
+   "hours": 6,
    "covered": 1
   },
   {
-   "title": "Anthropic IPO Delay Highlights AI Bubble Concerns",
+   "title": "OpenAI Trains Frontier AI Models Without Internet Access",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "source": "The Verge AI",
+   "summary": "OpenAI is training its most advanced AI models in an offline testing environment with no internet access following a string of rogue hacking incidents.",
+   "why": "Changes in training security protocols affect how frontier labs handle sensitive data and compute environments.",
+   "depth": "read",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "Data Storage Costs Emerge as Hidden AI Infrastructure Bill",
+   "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+   "source": "MIT Technology Review AI",
+   "summary": "Beyond GPU accelerators and power, executives must account for the massive back-end data storage costs generated by daily prompts, images, and videos.",
+   "why": "Understanding total cost of ownership requires factoring in storage requirements alongside compute infrastructure.",
+   "depth": "read",
+   "hours": 52,
+   "covered": 1
+  },
+  {
+   "title": "DeepSeek Reports Raising $15 Billion Following U.S. Restrictions",
+   "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+   "source": "TechCrunch AI",
+   "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology.",
+   "why": "It signals significant financial backing and geopolitical resilience for major non-U.S. AI competitors.",
+   "depth": "skim",
+   "hours": 48,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic Delay Highlights Concerns Over High AI Valuations",
    "url": "https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/",
    "source": "Crunchbase News",
-   "summary": "An industry analysis argues that Anthropic's rapid revenue growth does not justify its proposed $2 trillion valuation given massive infrastructure commitments and open-weight competition.",
-   "why": "Understanding market valuation risks helps engineers anticipate shifts in enterprise AI spending and project funding.",
+   "summary": "An expert commentary argues that Anthropic’s rapid revenue growth does not justify its $2 trillion proposed IPO valuation due to infrastructure costs and competition.",
+   "why": "Engineers and industry watchers should monitor whether enterprise AI value shifts toward proprietary data rather than massive model investments.",
    "depth": "read",
-   "hours": 45,
+   "hours": 50,
    "covered": 1
   },
   {
-   "title": "OpenAI Targets Record $1.25 Trillion Valuation in $30B Raise",
+   "title": "OpenAI Works on Record-Breaking $30B Raise Ahead of IPO",
    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
    "source": "TechCrunch AI",
-   "summary": "OpenAI is working on a new $30 billion raise that would push its valuation to $1.25 trillion, breaking records for a private company.",
-   "why": "Scale and valuation milestones at this level dictate industry-wide demand for compute and talent.",
+   "summary": "If OpenAI commands over a $1 trillion valuation, it will break records as the most highly valued private company ever.",
+   "why": "It underscores the unprecedented capital concentration in private generative AI firms.",
    "depth": "skim",
-   "hours": 34,
+   "hours": 39,
    "covered": 1
   },
   {
@@ -181,96 +181,96 @@
    "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder le",
    "why": "",
    "depth": "",
-   "hours": 13,
+   "hours": 18,
+   "covered": 1
+  },
+  {
+   "title": "Security Researchers Use AI Tools to Uncover PHP Vulnerabilities",
+   "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+   "source": "Wired AI",
+   "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language before AI-assisted attacks began.",
+   "why": "The dual-use nature of AI in both discovering and exploiting software bugs impacts deployment safety.",
+   "depth": "read",
+   "hours": 1,
    "covered": 1
   },
   {
    "title": "SpaceX and Tesla Form Special Committees to Discuss Merger",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
    "source": "The Verge AI",
-   "summary": "SpaceX and Tesla have formed special committees to discuss a potential merger, alongside SpaceX facing high credit risk to borrow $40 billion for Nvidia chips.",
-   "why": "Massive hardware debt and corporate restructuring can heavily alter the supply chain and availability of chips.",
+   "summary": "SpaceX and Tesla have formed special committees to discuss a potential merger, while SpaceX faces high credit risk from borrowing to buy Nvidia chips.",
+   "why": "Hardware supply chains and corporate integration strategies between major tech entities directly impact compute availability.",
    "depth": "skim",
-   "hours": 36,
-   "covered": 1
-  },
-  {
-   "title": "Slingshot Insurance Emerges From Stealth With $27 Million Seed",
-   "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
-   "source": "Crunchbase News",
-   "summary": "Slingshot Insurance, an AI-native embedded insurance startup, is emerging from stealth with $27 million in a seed funding round co-led by Rally Ventures and Skyward Group.",
-   "why": "It showcases ongoing niche venture capital investments into specialized vertical AI applications.",
-   "depth": "skim",
-   "hours": 43,
+   "hours": 41,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "Google DeepMind Launches EmbeddingGemma 2 Multimodal Vector Model",
-   "url": "https://huggingface.co/google/embeddinggemma-2",
-   "source": "Hugging Face",
-   "summary": "EmbeddingGemma 2 is a 740M parameter open multimodal embedding model mapping text, code, images, video, and audio into a unified 768-dimensional vector space for consumer hardware.",
-   "why": "It enables low-latency, on-device multimodal semantic search and RAG applications.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "google/embeddinggemma-2"
-  },
-  {
-   "title": "DeepSeek Releases V4.1-Flash-1017 with Enhanced Reasoning and Reduced Latency",
+   "title": "DeepSeek Releases Minor Update Improving Reasoning, Coding, and Visual Benchmarks",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering improvements in reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length.",
-   "why": "It improves the performance-cost Pareto frontier for various agent harnesses.",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks. It reduces execution time and output length to help users complete tasks faster at a lower cost.",
+   "why": "It advances the performance-cost Pareto frontier for various agent harnesses.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "title": "Recursive Introduces Flint Mixture-of-Experts Language Model for Coding Agents",
-   "url": "https://huggingface.co/RecursiveSI/flint",
-   "source": "Hugging Face",
-   "summary": "Flint is a 39.8B parameter mixture-of-experts model designed to investigate codebases, fix bugs, implement features, and write tests, with around 2.5B active parameters per token.",
-   "why": "It provides strong open-weight tooling for automated software engineering workflows.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "RecursiveSI/flint"
-  },
-  {
-   "title": "OpenMOSS Releases MOSS-Image-SFT for Controlled Text-to-Image Generation",
+   "title": "OpenMOSS Launches Supervised Fine-Tuned MOSS-Image Model for Advanced Layout Control",
    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
    "source": "Hugging Face",
-   "summary": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model derived from MOSS-Image-Base, supporting natural-language prompts, tag sequences, and JSON layouts for object arrangement.",
-   "why": "It gives engineers precise control over text placement and image layout generation.",
+   "summary": "MOSS-Image-SFT is a supervised fine-tuned text-to-image model derived from MOSS-Image-Base. It supports natural-language prompts, tag sequences, and JSON layouts to control text placement and object arrangement, offering clearer text grouping.",
+   "why": "It gives engineers precise layout and text-grouping controls for image generation tasks.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "OpenMOSS-Team/MOSS-Image-SFT"
   },
   {
-   "title": "XHToken Launches Spark-X2.6-4B for On-Device Agent Tasks",
-   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+   "title": "Uncensored Quantized Formats of Qwen-Image-2.1 Released for Local Generation",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "source": "Hugging Face",
-   "summary": "Spark-X2.6-4B is a compact, general-purpose language model retaining the architecture of Spark-X2.5-4B while achieving capability gains through improved post-training.",
-   "why": "It advances on-device agent efficiency and capabilities.",
+   "summary": "This repository provides GGFU, Safetensors, and MLX quantized formats of Qwen/Qwen-Image-2.1 for local image generation using original upstream base weights, complete with companion text encoders and VAEs for ComfyUI.",
+   "why": "It allows engineers to run Qwen-Image-2.1 locally with optimized memory and performance footprints.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "XHToken/Spark-X2.6-4B"
+   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
   },
   {
-   "title": "Fish Audio Releases Drama 3 Text-to-Speech Model for Long-Form Content",
-   "url": "https://huggingface.co/fishaudio/drama-3",
+   "title": "Qwen Releases Qwen3.8-27B Post-Trained Language Model Weights",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "Hugging Face",
-   "summary": "Fish Audio Drama 3 is a 35B parameter text-to-speech MoE model built for multi-character scenes, supporting multi-speaker generation, voice cloning, and natural-language control.",
-   "why": "It enables advanced streaming audio generation for complex narratives.",
+   "summary": "Qwen3.8-27B is a post-trained language model compatible with Hugging Face Transformers, vLLM, SGLang, and TokenSpeed. It will also feature a hosted cloud version with a 1M context length and built-in tools.",
+   "why": "It gives developers a mid-sized, highly compatible open model option with robust ecosystem support.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "fishaudio/drama-3"
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "OpenMOSS Releases MOSS-Image-Base Text-to-Image Foundation Model",
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+   "source": "Hugging Face",
+   "summary": "MOSS-Image-Base is the base text-to-image model in the MOSS-Image family, supporting natural-language prompts, tag sequences, and JSON layouts for controlling text placement and object arrangement.",
+   "why": "It serves as the foundational architecture for customizable image generation workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "OpenMOSS-Team/MOSS-Image-Base"
+  },
+  {
+   "title": "Recursive Introduces Flint Mixture-of-Experts Language Model for Coding Agents",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "Hugging Face",
+   "summary": "Flint is Recursive's 39.8B parameter mixture-of-experts model designed to investigate codebases, fix bugs, implement features, and write tests, with about 2.5B active parameters per token. It supports reasoning and multi-turn tool use.",
+   "why": "It offers a powerful local engine option for coding agents and developer workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "RecursiveSI/flint"
   }
  ]
 }

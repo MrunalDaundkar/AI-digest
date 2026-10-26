@@ -1,147 +1,147 @@
 {
  "date": "2026-10-26",
- "generated": "2026-10-26T02:16+00:00",
+ "generated": "2026-10-26T08:16+00:00",
  "technical": [
   {
-   "title": "AI agents used to teach robots like Microduck to walk in simulation",
+   "title": "BEVCA framework tests adversarial camouflage robustness in multi-view autonomous driving 3D perception",
+   "url": "https://arxiv.org/abs/2610.32230",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers propose BEVCA, an adversarial camouflage generation framework tailored for multi-view Bird's-Eye-View 3D perception models, integrating a BEV-feature-based adversarial loss with a multi-view neural rendering module to address robustness gaps in autonomous driving systems.",
+   "why": "It exposes critical adversarial vulnerabilities in modern multi-view autonomous driving perception models.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "FLORA open model suite scales robotics data engines for foundational model training",
+   "url": "https://arxiv.org/abs/2610.31779",
+   "source": "arXiv cs.RO",
+   "summary": "Flora is an industrial-quality data engine for training GR00T models, providing outcome rewards, process rewards, and timestamped captions to achieve state-of-the-art scores on WGO-Bench, RoboReward, and Robometer benchmarks.",
+   "why": "It offers critical data infrastructure and reward modeling frameworks for robotics foundation models.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "KiRoSe uses kinematics data for efficient temporal and semantic segmentation of robot demonstrations",
+   "url": "https://arxiv.org/abs/2610.31801",
+   "source": "arXiv cs.RO",
+   "summary": "KiRoSe leverages robot kinematic data streams, inspired by classical entropy coding, to segment robot demonstrations into disjoint temporal and semantic subsegments, avoiding the high computational costs of feeding raw video streams directly into MLLMs.",
+   "why": "It provides an efficient alternative for processing robot demonstration data without exhausting MLLM context windows.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "SyncVid uses world-equivariant diffusion for synchronized multi-view video generation",
+   "url": "https://arxiv.org/abs/2610.31765",
+   "source": "arXiv cs.CV",
+   "summary": "SyncVid synchronizes the diffusion process by sampling the Gaussian noise prior in a canonical 3D space derived from the source video, resolving the challenge of maintaining fine-grained dynamic geometry consistency across multiple camera views.",
+   "why": "It advances multi-view video generation consistency for dynamic, complex scenes.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "PnP* provides the first practical certifiable solver for Perspective-n-Point maximum likelihood estimation",
+   "url": "https://arxiv.org/abs/2610.31797",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers propose PnP*, the first practical computer vision solver that guarantees efficient computation and returns a certifiable globally optimal solution for 3D-2D camera pose estimation under moderate noise.",
+   "why": "It solves a fundamental computer vision estimation problem with theoretical global optimality guarantees.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "AI agents teach robots like Microduck to walk and navigate obstacles in simulation",
    "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
    "source": "NVIDIA Developer",
-   "summary": "Teaching a robot to navigate obstacle courses requires combining perception, balance control, and policy adjustments using simulation environments.",
-   "why": "Connecting AI agents with robotic simulation improves physical policy training.",
+   "summary": "Using AI agents, robots like Microduck are trained in simulation environments to perceive surroundings, maintain balance, adjust actions, and successfully navigate obstacle courses alongside walking policies.",
+   "why": "It demonstrates practical simulation-to-real workflows for training embodied robotic locomotion.",
    "depth": "skim",
-   "hours": 59,
+   "hours": 65,
    "covered": 1
   },
   {
-   "title": "Microsoft open-sources Agensh multi-agent harness for up to 1,024 agents",
+   "title": "MMVistaReason offers open-data post-training recipes to improve multimodal reasoning models",
+   "url": "https://huggingface.co/papers/2610.01352",
+   "source": "HF Daily Papers",
+   "summary": "MMVistaReason introduces a post-training recipe for open multimodal reasoning models, featuring broad capability coverage across analytical and real-world groups, plus efficient SFT and RL data construction utilizing staged cleaning and difficulty-aware teacher distillation.",
+   "why": "It provides actionable recipes for improving multimodal reasoning and data post-training pipelines.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "MultiAgent-OPD combines on-policy distillation and reinforcement learning for hierarchical multi-agent systems",
+   "url": "https://huggingface.co/papers/2610.23234",
+   "source": "HF Daily Papers",
+   "summary": "MultiAgent-OPD addresses the challenge of indirect subagent feedback by combining on-policy distillation with reinforcement learning to jointly train a shared-parameter Leader-Searcher-Answerer team end-to-end using a frozen Teacher model.",
+   "why": "It offers a novel training methodology for complex, hierarchical multi-agent LLM teams.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "HGWM hierarchical graph-guided world model improves zero-shot object navigation for agents",
+   "url": "https://arxiv.org/abs/2610.32554",
+   "source": "arXiv cs.RO",
+   "summary": "HGWM couples an LLM-generated room-anchor prior with persistent spatial-semantic memory, using a coarse stage for visual-semantic scoring and a fine stage for symbolic compatibility to achieve a 62.6% success rate on HM3D v0.1.",
+   "why": "It enhances embodied agent spatial reasoning and zero-shot object navigation capabilities.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft open-sources Agensh multi-agent harness scaling up to 1,024 orchestrator-free agents",
    "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
    "source": "MarkTechPost",
-   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness featuring no central orchestrator. It uses self-organizing workers sharing a Git repository and findings board to scale from 1 to 1,024 agents.",
-   "why": "Decentralized multi-agent harnesses offer new architectural patterns for large-scale agent collaboration.",
-   "depth": "read",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "NVIDIA details Global Performance Tuner for TensorRT performance optimization",
-   "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
-   "source": "NVIDIA Developer",
-   "summary": "The Global Performance Tuner is a feature for automatic performance optimization introduced in NVIDIA TensorRT 11.1, providing automatic and accuracy-aware tuning.",
-   "why": "Direct optimization tools in TensorRT help maximize inference throughput for vision and AI models.",
+   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness featuring no central orchestrator where self-organizing workers share a Git repository, chat, and findings board to scale from 1 to 1,024 agents.",
+   "why": "It showcases scalable infrastructure patterns for large-scale multi-agent software engineering tasks.",
    "depth": "skim",
-   "hours": 57,
-   "covered": 2
-  },
-  {
-   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-   "url": "https://huggingface.co/blog/allenai/litpivot",
-   "source": "Hugging Face Blog",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 58,
-   "covered": 1
-  },
-  {
-   "title": "Researchers introduce EvalResearchBench to automate evaluation research for AI agents",
-   "url": "https://huggingface.co/papers/2610.04184",
-   "source": "HF Daily Papers",
-   "summary": "Recursive self-improvement relies on costly evaluation feedback. To automate this, researchers introduced EvalResearchBench, a benchmark where an agent selects or synthesizes tasks, implements graders, and revises them under fixed budgets.",
-   "why": "It offers a novel way to automate evaluation design for recursive agent self-improvement.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "New research quantifies confidentiality leaks in agentic LLM systems",
-   "url": "https://huggingface.co/papers/2610.30418",
-   "source": "HF Daily Papers",
-   "summary": "Modern LLM agents can retrieve information and disclose sensitive conclusions through the mosaic effect. Testing shows that even top-performing models like GPT-5.6-Sol disclose forbidden composites in over seven percent of simulation answers.",
-   "why": "Understanding confidentiality risks is critical when deploying agents over sensitive data.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "ID-TAP framework enables test-time personalization for large discrete persona spaces",
-   "url": "https://huggingface.co/papers/2610.24385",
-   "source": "HF Daily Papers",
-   "summary": "Effective test-time personalization requires adapting to user preferences. Researchers present ID-TAP, a neural dueling-bandit framework combining a query-conditioned neural utility model with a lightweight Bradley-Terry explorer for efficient persona selection.",
-   "why": "It provides a scalable approach for adapting LLM agents to user preferences during test time.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Nanbeige releases Nanbeige4.3-33B open agentic coding model",
-   "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
-   "source": "MarkTechPost",
-   "summary": "Nanbeige LLM Lab has released Nanbeige4.3-33B, a 33-billion dense Apache 2.0 model featuring a 512K context window and strong performance on Terminal-Bench 2.1.",
-   "why": "Open-source coding models with massive context windows are valuable for engineering tasks.",
-   "depth": "skim",
-   "hours": 5,
-   "covered": 1
-  },
-  {
-   "title": "Cognition open-sources Devin Vulnerability Fixes plugin for system security",
-   "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
-   "source": "MarkTechPost",
-   "summary": "Cognition released the Devin Vulnerability Fixes plugin, featuring three MIT-licensed agent skills that inventory, patch, and test deployments hit by recent RCE flaws, opening one pull request per repository.",
-   "why": "Automated security patching plugins can streamline infrastructure maintenance and threat response.",
-   "depth": "skim",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "Hands-on guide details multi-turn reinforcement learning on Amazon SageMaker AI",
-   "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
-   "source": "AWS Machine Learning",
-   "summary": "A new guide explains how to train models on the outcome of multi-step tasks using Multi-Turn Reinforcement Learning on Amazon SageMaker AI, walking through deployment, dataset preparation, and evaluation.",
-   "why": "MTRL techniques are vital for improving complex multi-step reasoning capabilities in agents.",
-   "depth": "skim",
-   "hours": 56,
+   "hours": 29,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "SpaceX Closes $40 Billion Debt Deal for GPUs",
+   "title": "SpaceX closes $40 billion debt deal for AI chips",
    "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
    "source": "CNBC Tech",
-   "summary": "Elon Musk announced on X that SpaceX has successfully closed $40 billion in debt financing specifically designated to purchase GPUs.",
-   "why": "Massive hardware investments continue to drive compute infrastructure expansion for AI workloads.",
+   "summary": "Elon Musk announced in an X post that SpaceX has successfully closed $40 billion in debt financing dedicated to purchasing GPUs.",
+   "why": "Massive hardware acquisitions by major tech players directly impact the supply chain for AI chips.",
    "depth": "skim",
-   "hours": 2,
+   "hours": 8,
    "covered": 1
   },
   {
-   "title": "OpenAI Nears $30 Billion Funding Round",
+   "title": "OpenAI nears $30 billion funding round at $1.25 trillion valuation",
    "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
    "source": "CNBC Tech",
-   "summary": "OpenAI is nearing the finalization of a funding round up to $30 billion at a $1.25 trillion valuation, led by UAE investors as a bridge to its 2027 IPO.",
-   "why": "This massive capital injection shapes the competitive landscape and funding dynamics of foundational AI labs.",
-   "depth": "read",
-   "hours": 62,
-   "covered": 1
-  },
-  {
-   "title": "Neoclouds Face Credit Risks and Pulled IPOs",
-   "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-   "source": "CNBC Tech",
-   "summary": "The AI buildout faces turmoil as neoclouds confront pressure, credit risks mount, stock slumps, and Solidigm pulls its IPO ahead of hyperscaler earnings.",
-   "why": "Infrastructure financing struggles could impact the availability and cost of cloud compute.",
+   "summary": "OpenAI is close to finalizing a new funding round led by UAE investors, acting as a bridge to its planned 2027 IPO.",
+   "why": "Unprecedented valuations and funding rounds indicate massive capital concentration in foundational AI labs.",
    "depth": "skim",
-   "hours": 44,
+   "hours": 68,
    "covered": 1
   },
   {
-   "title": "Apollo Economist Reports Zero Financial Payoff from AI",
+   "title": "SoftBank plans $50 billion tech investment in Malaysia",
+   "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+   "source": "CNBC Tech",
+   "summary": "SoftBank Group reportedly plans to invest $50 billion in Malaysia's technology sector, focusing on artificial intelligence and data centers.",
+   "why": "This massive regional investment highlights growing global infrastructure spending on AI capabilities.",
+   "depth": "skim",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Apollo economist claims AI delivers zero financial payoff",
    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
    "source": "TechCrunch AI",
-   "summary": "An Apollo economist stated that despite massive investments and hype, artificial intelligence has delivered zero financial payoff to corporate America outside of the tech sector.",
-   "why": "It highlights potential market corrections and enterprise hesitation regarding AI ROI.",
+   "summary": "According to an Apollo economist, artificial intelligence has delivered zero financial payoff to corporate America outside of the tech sector despite massive investments.",
+   "why": "Market impact analysis shows potential enterprise spending caution regarding AI return on investment.",
    "depth": "skim",
-   "hours": 9,
+   "hours": 15,
    "covered": 1
   },
   {
@@ -151,7 +151,7 @@
    "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
    "why": "",
    "depth": "",
-   "hours": 5,
+   "hours": 11,
    "covered": 1
   },
   {
@@ -161,7 +161,7 @@
    "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
    "why": "",
    "depth": "",
-   "hours": 12,
+   "hours": 18,
    "covered": 1
   },
   {
@@ -171,7 +171,7 @@
    "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
    "why": "",
    "depth": "",
-   "hours": 16,
+   "hours": 22,
    "covered": 1
   },
   {
@@ -181,7 +181,7 @@
    "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, ",
    "why": "",
    "depth": "",
-   "hours": 13,
+   "hours": 19,
    "covered": 1
   },
   {
@@ -191,82 +191,82 @@
    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ",
    "why": "",
    "depth": "",
-   "hours": 14,
+   "hours": 20,
    "covered": 1
   },
   {
-   "title": "Tenstorrent and Flapping Airplanes Secure Top AI Funding",
+   "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
    "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/",
    "source": "Crunchbase News",
-   "summary": "The week's largest startup financings went to AI processor developer Tenstorrent and AI lab Flapping Airplanes, alongside other varied large rounds.",
-   "why": "Tracking hardware and lab investments reveals where specialized compute and research capital is flowing.",
-   "depth": "skim",
-   "hours": 55,
+   "summary": "It was another interesting week for AI-related startup funding, with a number of large rounds and quirky companies. The largest financings went to Tenstorrent, a developer of AI processors and systems, and AI lab Flappin",
+   "why": "",
+   "depth": "",
+   "hours": 61,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "MiniMax Releases MiniMax-M3.1-Flash Native Multimodal MoE Model",
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
-   "source": "Hugging Face",
-   "summary": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model supporting text, image, and video inputs with up to a 1M token context window, featuring sparse attention and speculative decoding.",
-   "why": "It delivers high inference efficiency and multimodal capabilities for advanced agentic and computer use tasks.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "MiniMaxAI/MiniMax-M3.1-Flash"
-  },
-  {
-   "title": "DeepSeek Releases V4.1-Flash-1017 Update With Improved Reasoning and Performance",
+   "title": "DeepSeek-V4.1-Flash-1017 delivers reasoning and coding improvements while reducing task time.",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length.",
-   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update improving reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length.",
+   "why": "It offers a way to complete tasks faster and at a lower cost.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "title": "Qwen Team Announces Qwen3.8-27B Post-Trained Language Model",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "title": "MiniMax-M3.1-Flash introduces native multimodality with sparse attention and a 1M context.",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
    "source": "Hugging Face",
-   "summary": "Qwen3.8-27B provides model weights and configuration files compatible with Hugging Face Transformers, vLLM, and SGLang, with a hosted cloud API offering a 1M context length coming soon.",
-   "why": "It supplies a powerful open-weights medium model for scalable NLP and agent pipelines.",
-   "depth": "skim",
+   "summary": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model supporting text, image, and video inputs with a context window of up to 1M tokens. It enhances inference efficiency using sparse attention and speculative decoding.",
+   "why": "It pushes efficiency boundaries for long-context multimodal agentic workflows.",
+   "depth": "read",
    "hours": 0,
    "covered": 1,
-   "model": "Qwen/Qwen3.8-27B"
+   "model": "MiniMaxAI/MiniMax-M3.1-Flash"
   },
   {
-   "title": "Shanghai AI Laboratory Releases Sage-A1.5 Agentic MoE Model",
+   "title": "Sage-A1.5 debuts as a 35B MoE agentic model for scientific problem solving.",
    "url": "https://huggingface.co/InternScience/Sage-A1.5",
    "source": "Hugging Face",
-   "summary": "Sage-A1.5 is a 35B mixture-of-experts agentic model based on Qwen3.6 and Agents-A1, designed to advance long-horizon scientific problem-solving through adaptive capability composition.",
-   "why": "It enables complex planning and self-revision during execution for advanced scientific AI agents.",
-   "depth": "read",
+   "summary": "Sage-A1.5 is a 35B Mixture-of-Experts agentic model based on Qwen3.6 and Agents-A1. It is built to advance long-horizon scientific problem solving by organizing work and revising its approach during execution.",
+   "why": "It introduces advanced adaptive capability composition for complex agentic workflows.",
+   "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "InternScience/Sage-A1.5"
   },
   {
-   "title": "Recursive Introduces Flint Mixture-of-Experts Model for Coding Agents",
+   "title": "Non-uniform GGUF quantizations released for DeepSeek-V4.1-Flash-1017.",
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "source": "Hugging Face",
+   "summary": "This repository provides non-uniform GGUF quantizations of the 763B-parameter DeepSeek-V4.1-Flash-1017 model using gradient-based search to allocate precision according to per-tensor sensitivity under a total size budget.",
+   "why": "It enables efficient local execution of massive MoE models through optimized precision allocation.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
+  },
+  {
+   "title": "Recursive releases Flint, a 39.8B parameter mixture-of-experts model for coding agents.",
    "url": "https://huggingface.co/RecursiveSI/flint",
    "source": "Hugging Face",
-   "summary": "Flint is a mixture-of-experts language model with 39.8 billion total parameters and 2.5 billion active per token, designed to investigate codebases, fix bugs, implement features, and write tests.",
-   "why": "It provides a specialized MoE backbone for autonomous coding agent workflows.",
+   "summary": "Flint is Recursive's mixture-of-experts language model featuring 39.8 billion total parameters and 2.5 billion active per token. It is designed to investigate codebases, fix bugs, implement features, and write tests.",
+   "why": "It provides a local MoE engine optimized for software development workflows.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "RecursiveSI/flint"
   },
   {
-   "title": "XHToken Launches Spark-X2.6-4B Compact On-Device Agent Model",
+   "title": "Spark-X2.6-4B advances compact on-device language models through post-training.",
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
    "source": "Hugging Face",
-   "summary": "Spark-X2.6-4B is the latest generation compact, general-purpose language model for on-device deployment, retaining the exact architecture of Spark-X2.5-4B while achieving capability gains through improved post-training.",
-   "why": "It offers refined capabilities for lightweight on-device agent deployment.",
+   "summary": "Spark-X2.6-4B is the latest generation of compact, general-purpose language models for on-device deployment. It retains the exact architecture of its predecessor, achieving capability gains purely through post-training.",
+   "why": "It demonstrates performance improvements for edge deployment without changing the model architecture.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,

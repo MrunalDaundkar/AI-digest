@@ -1,0 +1,276 @@
+{
+ "date": "2026-10-26",
+ "generated": "2026-10-26T02:16+00:00",
+ "technical": [
+  {
+   "title": "AI agents used to teach robots like Microduck to walk in simulation",
+   "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+   "source": "NVIDIA Developer",
+   "summary": "Teaching a robot to navigate obstacle courses requires combining perception, balance control, and policy adjustments using simulation environments.",
+   "why": "Connecting AI agents with robotic simulation improves physical policy training.",
+   "depth": "skim",
+   "hours": 59,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft open-sources Agensh multi-agent harness for up to 1,024 agents",
+   "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+   "source": "MarkTechPost",
+   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness featuring no central orchestrator. It uses self-organizing workers sharing a Git repository and findings board to scale from 1 to 1,024 agents.",
+   "why": "Decentralized multi-agent harnesses offer new architectural patterns for large-scale agent collaboration.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA details Global Performance Tuner for TensorRT performance optimization",
+   "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
+   "source": "NVIDIA Developer",
+   "summary": "The Global Performance Tuner is a feature for automatic performance optimization introduced in NVIDIA TensorRT 11.1, providing automatic and accuracy-aware tuning.",
+   "why": "Direct optimization tools in TensorRT help maximize inference throughput for vision and AI models.",
+   "depth": "skim",
+   "hours": 57,
+   "covered": 2
+  },
+  {
+   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "url": "https://huggingface.co/blog/allenai/litpivot",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 58,
+   "covered": 1
+  },
+  {
+   "title": "Researchers introduce EvalResearchBench to automate evaluation research for AI agents",
+   "url": "https://huggingface.co/papers/2610.04184",
+   "source": "HF Daily Papers",
+   "summary": "Recursive self-improvement relies on costly evaluation feedback. To automate this, researchers introduced EvalResearchBench, a benchmark where an agent selects or synthesizes tasks, implements graders, and revises them under fixed budgets.",
+   "why": "It offers a novel way to automate evaluation design for recursive agent self-improvement.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "New research quantifies confidentiality leaks in agentic LLM systems",
+   "url": "https://huggingface.co/papers/2610.30418",
+   "source": "HF Daily Papers",
+   "summary": "Modern LLM agents can retrieve information and disclose sensitive conclusions through the mosaic effect. Testing shows that even top-performing models like GPT-5.6-Sol disclose forbidden composites in over seven percent of simulation answers.",
+   "why": "Understanding confidentiality risks is critical when deploying agents over sensitive data.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "ID-TAP framework enables test-time personalization for large discrete persona spaces",
+   "url": "https://huggingface.co/papers/2610.24385",
+   "source": "HF Daily Papers",
+   "summary": "Effective test-time personalization requires adapting to user preferences. Researchers present ID-TAP, a neural dueling-bandit framework combining a query-conditioned neural utility model with a lightweight Bradley-Terry explorer for efficient persona selection.",
+   "why": "It provides a scalable approach for adapting LLM agents to user preferences during test time.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Nanbeige releases Nanbeige4.3-33B open agentic coding model",
+   "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
+   "source": "MarkTechPost",
+   "summary": "Nanbeige LLM Lab has released Nanbeige4.3-33B, a 33-billion dense Apache 2.0 model featuring a 512K context window and strong performance on Terminal-Bench 2.1.",
+   "why": "Open-source coding models with massive context windows are valuable for engineering tasks.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Cognition open-sources Devin Vulnerability Fixes plugin for system security",
+   "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+   "source": "MarkTechPost",
+   "summary": "Cognition released the Devin Vulnerability Fixes plugin, featuring three MIT-licensed agent skills that inventory, patch, and test deployments hit by recent RCE flaws, opening one pull request per repository.",
+   "why": "Automated security patching plugins can streamline infrastructure maintenance and threat response.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Hands-on guide details multi-turn reinforcement learning on Amazon SageMaker AI",
+   "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+   "source": "AWS Machine Learning",
+   "summary": "A new guide explains how to train models on the outcome of multi-step tasks using Multi-Turn Reinforcement Learning on Amazon SageMaker AI, walking through deployment, dataset preparation, and evaluation.",
+   "why": "MTRL techniques are vital for improving complex multi-step reasoning capabilities in agents.",
+   "depth": "skim",
+   "hours": 56,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "SpaceX Closes $40 Billion Debt Deal for GPUs",
+   "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+   "source": "CNBC Tech",
+   "summary": "Elon Musk announced on X that SpaceX has successfully closed $40 billion in debt financing specifically designated to purchase GPUs.",
+   "why": "Massive hardware investments continue to drive compute infrastructure expansion for AI workloads.",
+   "depth": "skim",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI Nears $30 Billion Funding Round",
+   "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+   "source": "CNBC Tech",
+   "summary": "OpenAI is nearing the finalization of a funding round up to $30 billion at a $1.25 trillion valuation, led by UAE investors as a bridge to its 2027 IPO.",
+   "why": "This massive capital injection shapes the competitive landscape and funding dynamics of foundational AI labs.",
+   "depth": "read",
+   "hours": 62,
+   "covered": 1
+  },
+  {
+   "title": "Neoclouds Face Credit Risks and Pulled IPOs",
+   "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+   "source": "CNBC Tech",
+   "summary": "The AI buildout faces turmoil as neoclouds confront pressure, credit risks mount, stock slumps, and Solidigm pulls its IPO ahead of hyperscaler earnings.",
+   "why": "Infrastructure financing struggles could impact the availability and cost of cloud compute.",
+   "depth": "skim",
+   "hours": 44,
+   "covered": 1
+  },
+  {
+   "title": "Apollo Economist Reports Zero Financial Payoff from AI",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "source": "TechCrunch AI",
+   "summary": "An Apollo economist stated that despite massive investments and hype, artificial intelligence has delivered zero financial payoff to corporate America outside of the tech sector.",
+   "why": "It highlights potential market corrections and enterprise hesitation regarding AI ROI.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+   "source": "TechCrunch AI",
+   "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "The hottest AI wearables and gadgets you should know about",
+   "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+   "source": "TechCrunch AI",
+   "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+   "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+   "source": "Wired AI",
+   "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
+   "why": "",
+   "depth": "",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "r/opensource just banned AI, non-English speakers, and more",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+   "source": "The Verge AI",
+   "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, ",
+   "why": "",
+   "depth": "",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Google’s AI search changes upended online publishing",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+   "source": "The Verge AI",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Tenstorrent and Flapping Airplanes Secure Top AI Funding",
+   "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/",
+   "source": "Crunchbase News",
+   "summary": "The week's largest startup financings went to AI processor developer Tenstorrent and AI lab Flapping Airplanes, alongside other varied large rounds.",
+   "why": "Tracking hardware and lab investments reveals where specialized compute and research capital is flowing.",
+   "depth": "skim",
+   "hours": 55,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "MiniMax Releases MiniMax-M3.1-Flash Native Multimodal MoE Model",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "source": "Hugging Face",
+   "summary": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model supporting text, image, and video inputs with up to a 1M token context window, featuring sparse attention and speculative decoding.",
+   "why": "It delivers high inference efficiency and multimodal capabilities for advanced agentic and computer use tasks.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-M3.1-Flash"
+  },
+  {
+   "title": "DeepSeek Releases V4.1-Flash-1017 Update With Improved Reasoning and Performance",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hugging Face",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length.",
+   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "title": "Qwen Team Announces Qwen3.8-27B Post-Trained Language Model",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "Qwen3.8-27B provides model weights and configuration files compatible with Hugging Face Transformers, vLLM, and SGLang, with a hosted cloud API offering a 1M context length coming soon.",
+   "why": "It supplies a powerful open-weights medium model for scalable NLP and agent pipelines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Shanghai AI Laboratory Releases Sage-A1.5 Agentic MoE Model",
+   "url": "https://huggingface.co/InternScience/Sage-A1.5",
+   "source": "Hugging Face",
+   "summary": "Sage-A1.5 is a 35B mixture-of-experts agentic model based on Qwen3.6 and Agents-A1, designed to advance long-horizon scientific problem-solving through adaptive capability composition.",
+   "why": "It enables complex planning and self-revision during execution for advanced scientific AI agents.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "InternScience/Sage-A1.5"
+  },
+  {
+   "title": "Recursive Introduces Flint Mixture-of-Experts Model for Coding Agents",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "Hugging Face",
+   "summary": "Flint is a mixture-of-experts language model with 39.8 billion total parameters and 2.5 billion active per token, designed to investigate codebases, fix bugs, implement features, and write tests.",
+   "why": "It provides a specialized MoE backbone for autonomous coding agent workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "RecursiveSI/flint"
+  },
+  {
+   "title": "XHToken Launches Spark-X2.6-4B Compact On-Device Agent Model",
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+   "source": "Hugging Face",
+   "summary": "Spark-X2.6-4B is the latest generation compact, general-purpose language model for on-device deployment, retaining the exact architecture of Spark-X2.5-4B while achieving capability gains through improved post-training.",
+   "why": "It offers refined capabilities for lightweight on-device agent deployment.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "XHToken/Spark-X2.6-4B"
+  }
+ ]
+}

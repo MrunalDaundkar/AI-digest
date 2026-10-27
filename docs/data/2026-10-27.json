@@ -1,177 +1,127 @@
 {
  "date": "2026-10-27",
- "generated": "2026-10-27T08:29+00:00",
+ "generated": "2026-10-27T15:01+00:00",
  "technical": [
   {
-   "title": "MoViD introduces a physics-inspired algorithm for real-time motion detection.",
-   "url": "https://arxiv.org/abs/2610.33351",
-   "source": "arXiv cs.CV",
-   "summary": "MoViD (Motion estimation via Virtual dispersion and phase Detection) is a physics-inspired algorithm grounded in photonic time stretch principles, designed to improve motion perception in complex or dynamic computer vision scenes.",
-   "why": "It provides a robust alternative to traditional optical flow and frame-differencing for autonomous vehicles and robotics.",
-   "depth": "read",
-   "hours": 4,
-   "covered": 1
-  },
-  {
-   "title": "RoboWorM evaluates movement realism and spatiotemporal fidelity in video world models.",
-   "url": "https://arxiv.org/abs/2610.33807",
-   "source": "arXiv cs.RO",
-   "summary": "RoboWorM is a deployment-aware benchmark leveraging hardware priors like robot kinematic trees and fixed camera configurations to systematically examine structural and spatiotemporal fidelity across 1,605 episodes.",
-   "why": "It improves the rigorous evaluation of video world models used as neural simulators for robotic manipulation.",
-   "depth": "read",
-   "hours": 4,
-   "covered": 1
-  },
-  {
-   "title": "An uncertainty-aware pipeline provides interpretable collision avoidance for autonomous vehicles.",
-   "url": "https://arxiv.org/abs/2610.33186",
-   "source": "arXiv cs.RO",
-   "summary": "Researchers present a modular perception-prediction-planning pipeline that handles dynamic environments like intersections and roundabouts, guaranteeing collision avoidance under uncertainty while retaining real-time feasibility and interpretability.",
-   "why": "It directly targets core safety and reliability challenges in autonomous driving path planning.",
-   "depth": "deep",
-   "hours": 4,
-   "covered": 1
-  },
-  {
-   "title": "SATE-Bench evaluates active exocentric view-exploration and visual self-awareness in MLLMs.",
-   "url": "https://huggingface.co/papers/2610.34149",
-   "source": "HF Daily Papers",
-   "summary": "Researchers introduce SATE-Bench, an interactive benchmark with 316 real-world scenes and 2,525 QA pairs, designed to test MLLMs on visual self-awareness and active exocentric view-exploration to handle occlusions in human-centric scenes.",
-   "why": "It helps computer vision engineers evaluate MLLM spatial capabilities beyond passive observation.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Aerial-R1 reinforces visual reasoning and segmentation for aerial MLLMs.",
+   "title": "Aerial-R1 Reinforces Visual Reasoning and Segmentation in Aerial MLLMs",
    "url": "https://arxiv.org/abs/2610.33056",
    "source": "arXiv cs.CV",
-   "summary": "Aerial-R1 is the first aerial MLLM framework designed to reduce hallucinations and model uncertainty in the aerial domain, handling extreme scale variations and visual ambiguities.",
-   "why": "It offers improved reasoning for computer vision models operating in challenging aerial environments.",
+   "summary": "Aerial-R1 is a new MLLM framework designed to mitigate severe hallucinations in aerial domains caused by extreme scale variations, incorporating reasoning-incentivizing mechanisms to handle tiny or ambiguous objects.",
+   "why": "It addresses crucial perception limitations for computer vision tasks in aerial environments.",
    "depth": "skim",
-   "hours": 4,
+   "hours": 11,
    "covered": 1
   },
   {
-   "title": "EmbodiedLab benchmarks embodied agents that act to know through physical interaction.",
-   "url": "https://huggingface.co/papers/2610.35385",
-   "source": "HF Daily Papers",
-   "summary": "EmbodiedLab evaluates embodied agents designed to accomplish real-world goals by interacting with surroundings, observing feedback, and exploring physical systems rather than relying solely on symbolic actions.",
-   "why": "It advances evaluation techniques for physical AI and robotics interacting with dynamic environments.",
+   "title": "MoViD Physics-Inspired Algorithm Enables Real-Time Motion Detection in Video",
+   "url": "https://arxiv.org/abs/2610.33351",
+   "source": "arXiv cs.CV",
+   "summary": "MoViD is a physics-inspired algorithm modeled after photonic time stretch designed to perform ultrafast real-time motion estimation in complex or dynamic scenes without sacrificing spatial resolution.",
+   "why": "It offers an alternative approach to traditional optical flow for physical AI and computer vision.",
    "depth": "skim",
-   "hours": 12,
+   "hours": 11,
    "covered": 1
   },
   {
-   "title": "Nemotron 3.5 Bolt 74B-A9B delivers a hybrid vision-language model for local AI.",
+   "title": "Nemotron 3.5 Bolt 74B-A9B Hybrid Vision-Language Model Released for Local AI",
    "url": "https://arxiv.org/abs/2610.33039",
    "source": "arXiv cs.CV",
-   "summary": "Nemotron 3.5 Bolt 74B-A9B 24GB is a hybrid Mamba-Transformer vision-language model optimized for speed, reasoning, agentic tool use, and local deployment using Star Elastic compression and 2-bit Quantization-Aware Distillation.",
-   "why": "It provides an efficient option for deploying vision-language models on memory-constrained local hardware.",
-   "depth": "read",
-   "hours": 4,
-   "covered": 1
-  },
-  {
-   "title": "Tsinghua AI open-sources AKV, a cache engineering server for LLM agents.",
-   "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
-   "source": "MarkTechPost",
-   "summary": "Tsinghua researchers released AKV, an SGLang-based serving system that lets LLM agents drop and reposition KV cache instead of summarizing history, reducing average costs by 27.7% across four agent benchmarks.",
-   "why": "This server optimizes memory management and lowers operational costs for deploying LLM agents.",
-   "depth": "skim",
-   "hours": 25,
-   "covered": 1
-  },
-  {
-   "title": "AutoTavern builds a Hearthstone Battlegrounds AI via self-improving LLM agents.",
-   "url": "https://huggingface.co/papers/2610.33845",
-   "source": "HF Daily Papers",
-   "summary": "AutoTavern is a self-improving research system where specialized LLM research agents share typed memory, pass verification gates, and use live games to build TavernGym, a faithful full-scale simulator for Hearthstone Battlegrounds.",
-   "why": "It demonstrates how autonomous LLM agents can handle complex, stochastic real-world problem domains.",
-   "depth": "read",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "A new review explores causal-based approaches for autonomous robot self-extension.",
-   "url": "https://arxiv.org/abs/2610.33227",
-   "source": "arXiv cs.RO",
-   "summary": "This review examines how deep learning and automated planning empower robots with perception and task-solving capabilities, while addressing the need for causal understanding to improve performance, reliability, and trustworthiness.",
-   "why": "It highlights foundational gaps in why autonomous robots execute certain perceptions or actions.",
-   "depth": "skim",
-   "hours": 4,
-   "covered": 1
-  }
- ],
- "business": [
-  {
-   "title": "Anthropic files S-1 prospectus for public debut",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
-   "source": "The Verge AI",
-   "summary": "Anthropic filed its S-1 prospectus with the SEC, detailing executive pay, IPO spending plans, and business risks across more than 300 pages.",
-   "why": "Understanding major AI lab financials helps gauge market stability and industry valuation trends.",
-   "depth": "read",
-   "hours": 15,
-   "covered": 1
-  },
-  {
-   "title": "Anthropic officially files for initial public offering",
-   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-   "source": "TechCrunch AI",
-   "summary": "Anthropic officially filed for an IPO, revealing soaring revenue, mounting losses, enterprise adoption, and a governance structure to preserve its safety mission.",
-   "why": "This public offering is a major milestone for the business side of the foundational AI industry.",
-   "depth": "read",
-   "hours": 18,
-   "covered": 1
-  },
-  {
-   "title": "Highway thieves spoof GPS to steal data center cargo",
-   "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
-   "source": "Ars Technica AI",
-   "summary": "Investigators revealed that highway thieves spoofed GPS signals to steal $100 million in data center equipment.",
-   "why": "Physical supply chain vulnerabilities directly threaten the hardware deployment required for AI scaling.",
-   "depth": "skim",
-   "hours": 15,
-   "covered": 1
-  },
-  {
-   "title": "Anthropic IPO filing reveals enterprise customer retention strategy",
-   "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-   "source": "TechCrunch AI",
-   "summary": "Anthropic's S-1 shows over half of its large customers use both the Claude Platform and a first-party app, driving enterprise stickiness via cross-selling.",
-   "why": "Enterprise monetization models dictate the long-term economic viability of AI infrastructure.",
-   "depth": "read",
-   "hours": 16,
-   "covered": 1
-  },
-  {
-   "title": "Anthropic S-1 highlights data center natural gas dependency",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-   "source": "The Verge AI",
-   "summary": "Anthropic's SEC filing reveals intense competition for power and data center locations, showing generative AI's heavy reliance on natural gas.",
-   "why": "Power availability constraints are becoming a primary bottleneck for scaling AI data centers.",
+   "summary": "NVIDIA introduced Nemotron 3.5 Bolt 74B-A9B, a hybrid Mamba-Transformer vision-language model optimized for memory-constrained local agentic deployments using Star Elastic compression and quantization-aware distillation.",
+   "why": "It delivers efficient local multimodal inference for resource-constrained engineering environments.",
    "depth": "read",
    "hours": 11,
    "covered": 1
   },
   {
-   "title": "Anthropic files to list on Nasdaq under ticker ANT",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
-   "source": "The Verge AI",
-   "summary": "Anthropic filed its S-1 with the SEC to list on the Nasdaq under the ticker symbol ANT, aiming to beat OpenAI to the public market.",
-   "why": "Public listings shift the competitive dynamics and capital access of top AI research labs.",
-   "depth": "read",
-   "hours": 19,
+   "title": "Causal-Based Approaches Enhance Reliability and Reasoning in Autonomous Robotics",
+   "url": "https://arxiv.org/abs/2610.33227",
+   "source": "arXiv cs.RO",
+   "summary": "A review of causal-based approaches highlights how combining deep learning with automated planning helps robots internalize the reasons behind perceptions and actions, addressing critical reliability gaps in autonomous systems.",
+   "why": "It connects causal reasoning directly to improving the trustworthiness of autonomous robots.",
+   "depth": "skim",
+   "hours": 11,
    "covered": 1
   },
   {
-   "title": "SoftBank plans $50 billion tech investment in Malaysia",
-   "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
-   "source": "CNBC Tech",
-   "summary": "SoftBank Group reportedly plans to invest $50 billion in Malaysia's technology sector, focusing on artificial intelligence and data centers.",
-   "why": "This massive infrastructure investment signals growing global capacity for AI compute and data centers.",
+   "title": "RoboWorM Benchmark Evaluates Movement Realism in Embodied Video World Models",
+   "url": "https://arxiv.org/abs/2610.33807",
+   "source": "arXiv cs.RO",
+   "summary": "RoboWorM is a deployment-aware benchmark using hardware priors like robot kinematic trees to evaluate structural and spatiotemporal fidelity across 1,605 embodied robotic video generation episodes.",
+   "why": "It establishes rigorous kinematic evaluation standards for robotic video world models.",
+   "depth": "read",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes",
+   "url": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes/",
+   "source": "NVIDIA Developer",
+   "summary": "NVIDIA Mission Control 2.5 introduces built-in monitoring and automation to optimize cluster resiliency and handle autonomous recovery during large-scale AI training runs across thousands of GPUs.",
+   "why": "It addresses high-stakes infrastructure reliability challenges for large GPU cluster management.",
    "depth": "skim",
-   "hours": 28,
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "Constrained Decoding Preserves or Improves LLM Performance Through Causal Ablations",
+   "url": "https://huggingface.co/papers/2610.35328",
+   "source": "HF Daily Papers",
+   "summary": "Constrained decoding guarantees format conformity but is often assumed to hurt reasoning. Theoretical and empirical evaluations show that proper constraints can preserve or enhance performance by removing invalid trajectories.",
+   "why": "It proves you can enforce output structure without necessarily sacrificing model reasoning quality.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "AKV Open-Source SGLang Cache Engineering Server Cuts Agent Costs",
+   "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
+   "source": "MarkTechPost",
+   "summary": "Tsinghua researchers released AKV, an SGLang-based serving system that lets LLM agents drop and reposition KV cache instead of summarizing history, reducing average costs by 27.7% across four agent benchmarks.",
+   "why": "It provides a practical cache management strategy to reduce serving overhead for LLM agents.",
+   "depth": "read",
+   "hours": 31,
+   "covered": 1
+  },
+  {
+   "title": "vLLM Semantic Router Releases d3-ultra 27B Open Multimodal Decision Model",
+   "url": "https://www.marktechpost.com/2026/10/26/vllm-semantic-router-d3-ultra-27b-multimodal-decision-model/",
+   "source": "MarkTechPost",
+   "summary": "The vLLM Semantic Router team released d3-ultra, an open-weight 27B multimodal model that processes text, images, and video simultaneously to output answer probabilities, scoring 87.2 on their SR-Text test.",
+   "why": "It provides an open multimodal decision model option for routing and perception pipelines.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Harness Self-Evolution Skills Benefit Strong Models But Degrade Weak Ones",
+   "url": "https://huggingface.co/papers/2610.33024",
+   "source": "HF Daily Papers",
+   "summary": "Harness self-evolution allows LLM agents to improve from experience without weight updates, but its benefits depend on model capabilities. Across seven models, skills that improved strong models degraded weaker ones due to unmet prerequisites.",
+   "why": "It highlights the need for capability-matched skill adaptation when designing agent harnesses.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Global robotics venture funding jumps 185% in Q3",
+   "url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/",
+   "source": "Crunchbase News",
+   "summary": "Crunchbase data shows global venture funding to robotics startups reached $9.9 billion in Q3, more than double the $4.3 billion from Q3 2025, led by the U.S. and China.",
+   "why": "This surge signals massive capital influx into physical AI and robotics.",
+   "depth": "read",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia and AMD to invest $4 billion in Meta",
+   "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+   "source": "CNBC Tech",
+   "summary": "Meta announced plans to raise $95 billion to fund artificial intelligence infrastructure, including a $4 billion investment from Nvidia and AMD.",
+   "why": "It highlights major hardware investments shaping AI infrastructure scale.",
+   "depth": "skim",
+   "hours": 1,
    "covered": 1
   },
   {
@@ -179,49 +129,88 @@
    "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
    "source": "CNBC Tech",
    "summary": "Elon Musk announced in an X post that SpaceX has closed $40 billion in debt financing specifically to purchase GPUs.",
-   "why": "It highlights massive capital allocation by major private players to secure critical AI hardware.",
+   "why": "It reflects massive hardware acquisition strategies by major aerospace and tech players.",
+   "depth": "skim",
+   "hours": 26,
+   "covered": 1
+  },
+  {
+   "title": "General Compute raises $100 million Series A funding",
+   "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+   "source": "TechCrunch AI",
+   "summary": "General Compute secured a $100 million Series A round to bet on inference chips from outside the Nvidia ecosystem.",
+   "why": "It highlights alternative hardware market movements in the AI chip sector.",
+   "depth": "skim",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic officially files for initial public offering",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "source": "TechCrunch AI",
+   "summary": "Anthropic officially filed for an IPO, disclosing revenue, losses, enterprise adoption, and a governance structure to protect its safety mission.",
+   "why": "Understanding competitor financials helps gauge market stability and growth.",
+   "depth": "read",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic S-1 highlights data center natural gas dependency",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+   "source": "The Verge AI",
+   "summary": "Anthropic's S-1 filing acknowledges that intense competition for power has data centers increasingly relying on natural gas.",
+   "why": "Power constraints directly impact inference and training operational scaling.",
+   "depth": "read",
+   "hours": 17,
+   "covered": 1
+  },
+  {
+   "title": "SoftBank plans $50 billion tech investment in Malaysia",
+   "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+   "source": "CNBC Tech",
+   "summary": "SoftBank Group reportedly plans to invest $50 billion into Malaysia's technology sector, focusing on artificial intelligence and data centers.",
+   "why": "It shows expanding international capital allocation for AI infrastructure.",
+   "depth": "skim",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic files its S-1 prospectus for public debut",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+   "source": "The Verge AI",
+   "summary": "Anthropic filed its S-1 prospectus with the SEC, offering a 300-page look into executive compensation, IPO spending plans, and business risks.",
+   "why": "Public filings reveal key business metrics for foundational model builders.",
+   "depth": "skim",
+   "hours": 22,
+   "covered": 1
+  },
+  {
+   "title": "Analysts analyze Anthropic's massive IPO filing details",
+   "url": "https://news.crunchbase.com/public/anthropic-ipo-filing-ai-earnings-growth-risks/",
+   "source": "Crunchbase News",
+   "summary": "Anthropic released a 335-page S-1 filing detailing earnings, growth, and risks ahead of what could be a record IPO.",
+   "why": "It provides deep insight into the financial health of leading AI labs.",
    "depth": "skim",
    "hours": 19,
    "covered": 1
   },
   {
-   "title": "Anthropic lays out extensive earnings and growth details",
-   "url": "https://news.crunchbase.com/public/anthropic-ipo-filing-ai-earnings-growth-risks/",
-   "source": "Crunchbase News",
-   "summary": "In a 335-page S-1 filing, Anthropic detailed its earnings, growth, key stakeholders, and potential risks ahead of its potential record-setting IPO.",
-   "why": "It provides deep insight into the financial mechanics and risk profiles of leading AI developers.",
+   "title": "Rapid data center buildout triggers nationwide voter backlash",
+   "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+   "source": "The Verge AI",
+   "summary": "The rapid construction and expenses of massive data centers have sparked local community opposition across the U.S.",
+   "why": "Infrastructure scaling faces heavy regulatory and public hurdles.",
    "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Apollo economist says AI yields zero financial payoff",
-   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-   "source": "TechCrunch AI",
-   "summary": "An economist at Apollo stated that despite massive investments and hype, AI has delivered zero financial payoff to corporate America outside of the tech sector.",
-   "why": "It offers a cautionary counter-narrative regarding enterprise ROI on AI adoption.",
-   "depth": "skim",
-   "hours": 40,
+   "hours": 5,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "MiniMax-M3.1-Flash introduces a native multimodal mixture-of-experts model",
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
-   "source": "Hugging Face",
-   "summary": "MiniMax-M3.1-Flash is a native multimodal MoE model supporting text, image, and video inputs with up to 1M context tokens, improving inference efficiency via sparse attention and quantization-aware training.",
-   "why": "It delivers generational leaps in agentic workflows, computer use, and cybersecurity tasks.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "MiniMaxAI/MiniMax-M3.1-Flash"
-  },
-  {
-   "title": "DeepSeek-V4.1-Flash-1017 delivers substantial updates across reasoning and visual benchmarks",
+   "title": "DeepSeek Releases V4.1 Flash 1017 with Substantial Reasoning and Visual Improvements",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update improving reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length.",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering improvements across reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length.",
    "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
    "depth": "skim",
    "hours": 0,
@@ -229,48 +218,59 @@
    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "title": "Flint is a mixture-of-experts language model for coding agents",
+   "title": "Recursive Introduces Flint Mixture-of-Experts Language Model for Coding Agents",
    "url": "https://huggingface.co/RecursiveSI/flint",
    "source": "Hugging Face",
-   "summary": "Flint is Recursive's mixture-of-experts language model with 39.8 billion total parameters, designed to investigate codebases, fix bugs, implement features, and write tests.",
-   "why": "It offers a specialized MoE architecture for code-related agent tasks.",
-   "depth": "skim",
+   "summary": "Flint is a 39.8 billion parameter mixture-of-experts model designed to investigate codebases, fix bugs, implement features, and write tests, with 2.5 billion active parameters per token.",
+   "why": "It provides a dedicated open option for automated software engineering and code-based agents.",
+   "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "RecursiveSI/flint"
   },
   {
-   "title": "DeepSeek-V4.1-Flash-1017 GSQ-RCO GGUFs provide non-uniform quantizations",
+   "title": "MiniMax Releases Multimodal Mixture-of-Experts Model MiniMax-M3.1-Flash",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "source": "Hugging Face",
+   "summary": "MiniMax-M3.1-Flash is a native multimodal mixture-of-experts model supporting text, image, and video inputs with a 1M token context window, using sparse attention and speculative decoding for efficiency.",
+   "why": "It delivers high performance on computer use, cybersecurity, and multimodal agentic workflows.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-M3.1-Flash"
+  },
+  {
+   "title": "Shanghai AI Laboratory Introduces Sage-A1.5 Mixture-of-Experts Agentic Model",
+   "url": "https://huggingface.co/InternScience/Sage-A1.5",
+   "source": "Hugging Face",
+   "summary": "Sage-A1.5 is a 35B mixture-of-experts agentic model based on Qwen3.6 and Agents-A1, built to advance long-horizon scientific problem solving through adaptive capability composition.",
+   "why": "It advances models capable of organizing work and revising strategies during execution.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "InternScience/Sage-A1.5"
+  },
+  {
+   "title": "Nanbeige Launches Nanbeige4.3-33B as Flagship Teacher Agent Model",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "source": "Hugging Face",
+   "summary": "Nanbeige4.3-33B is designed as a high-capacity teacher model to anchor the distillation of advanced agentic capabilities into smaller models, excelling at complex coding and professional cowork tasks.",
+   "why": "It offers a powerful open option for real-world deployment and capability distillation.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Nanbeige/Nanbeige4.3-33B"
+  },
+  {
+   "title": "Researchers Provide Non-Uniform GGUF Quantizations for DeepSeek-V4.1-Flash",
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "source": "Hugging Face",
-   "summary": "This repository provides non-uniform GGUF quantizations of a 763B-parameter DeepSeek model using gradient-based sensitivity searches to allocate precision per tensor.",
-   "why": "It enables running massive MoE models under tight size budgets.",
+   "summary": "This repository provides GGUF quantizations of the 763B-parameter DeepSeek-V4.1-Flash-1017 model using gradient-based precision allocation across individual tensors rather than uniform quantization.",
+   "why": "It demonstrates advanced quantization strategies for massive mixture-of-experts models.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF"
-  },
-  {
-   "title": "Qwen3.8-27B model weights and configuration files are released",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-   "source": "Hugging Face",
-   "summary": "This repository contains post-trained model weights and configuration files for Qwen3.8-27B, compatible with vLLM, SGLang, and Hugging Face Transformers.",
-   "why": "It offers an updated mid-sized Qwen model for scalable inference.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "Qwen/Qwen3.8-27B"
-  },
-  {
-   "title": "Sage-A1.5 is a 35B Mixture-of-Experts agentic model",
-   "url": "https://huggingface.co/InternScience/Sage-A1.5",
-   "source": "Hugging Face",
-   "summary": "Sage-A1.5 is built to advance long-horizon scientific problem solving through adaptive capability composition, learning to organize work and revise approaches during execution.",
-   "why": "It advances long-horizon scientific problem solving for agents.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "InternScience/Sage-A1.5"
   }
  ]
 }

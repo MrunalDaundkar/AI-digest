@@ -1,0 +1,276 @@
+{
+ "date": "2026-10-29",
+ "generated": "2026-10-29T03:27+00:00",
+ "technical": [
+  {
+   "title": "PRISM-BENCH evaluates grounded and faithful multimodal reasoning beyond final accuracy",
+   "url": "https://arxiv.org/abs/2610.36554",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers introduce PRISM-BENCH, a 1,000-question benchmark with human-annotated reasoning traces designed to test whether vision-language models actually ground their answers in images and produce valid reasoning.",
+   "why": "This helps computer vision engineers rigorously test the deployment readiness of vision-language models.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Task-Utility IQA rethinks image quality assessment for embodied tasks",
+   "url": "https://arxiv.org/abs/2610.35905",
+   "source": "arXiv cs.CV",
+   "summary": "This paper proposes shifting image quality assessment from generic human ratings to goal-conditioned judgment defined by embodied task utility, utilizing an MLLM-based agent framework that reasons about task requirements.",
+   "why": "It aligns visual quality metrics with the actual decision-making needs of embodied AI and autonomous agents.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "RoboAuto enables autonomous robot program search via physical understanding",
+   "url": "https://arxiv.org/abs/2610.36533",
+   "source": "arXiv cs.RO",
+   "summary": "RoboAuto introduces a framework for robotic program search that explicitly incorporates physical understanding—such as scene geometry and object manipulation constraints—rather than relying solely on execution feedback.",
+   "why": "It advances robotic manipulation and autonomous driving systems by integrating physical reasoning into code generation.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "EmbeddingGemma 2 offers unified and efficient multimodal representations",
+   "url": "https://huggingface.co/papers/2610.37364",
+   "source": "HF Daily Papers",
+   "summary": "Google presents EmbeddingGemma 2, an open multimodal embedding model natively representing text, images, audio, and video in a unified space, establishing a new Pareto frontier across multimodal benchmarks.",
+   "why": "It provides a highly efficient multimodal embedding solution for resource-constrained environments.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Wiener-informed Decoding eases training of pixel-space flow models",
+   "url": "https://huggingface.co/papers/2610.36192",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduce Wiener-informed Decoding (WiD), using coarse second-order image statistics and frozen Wiener estimates to ease velocity learning and organize decoder computation in pixel-space flow models.",
+   "why": "It provides an effective technique to simplify and accelerate generative pixel-space model training.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 2
+  },
+  {
+   "title": "BrailleBench benchmarks and improves VLM capabilities in reading Braille",
+   "url": "https://arxiv.org/abs/2610.36195",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers introduce BrailleBench to evaluate vision-language models on transcribing Grade-1 and Grade-2 Braille images, discovering that standalone general models struggle while tool-assisted systems and specialized fine-tuning succeed.",
+   "why": "It highlights critical accessibility gaps and solutions in current multimodal text transcription capabilities.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "AlphaBet uses reinforcement learning to train LLM event forecasting agents",
+   "url": "https://huggingface.co/papers/2610.22684",
+   "source": "HF Daily Papers",
+   "summary": "AlphaBet introduces an agentic reinforcement learning framework that trains a single LLM policy to search, reason, and report probabilities across multiple pre-resolution dates, supervising decisions under different information states.",
+   "why": "It improves how language model agents handle dynamic information acquisition and reasoning over time.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "url": "https://openai.com/index/retell-ai",
+   "source": "OpenAI",
+   "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "why": "",
+   "depth": "",
+   "hours": 36,
+   "covered": 1
+  },
+  {
+   "title": "MiniMax open-sources MCode Stack with daily coding agent skills",
+   "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
+   "source": "MarkTechPost",
+   "summary": "MiniMax open-sourced MCode Stack, an MIT-licensed repository containing 17 SKILL.md skills and checklists used daily by its coding team for code review, subagent splits, and context budgets.",
+   "why": "It offers practical agentic workflows and skills that engineering teams can immediately adopt.",
+   "depth": "skim",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "source": "OpenAI",
+   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Q3 robotics startup funding jumps 185% led by US and China",
+   "url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/",
+   "source": "Crunchbase News",
+   "summary": "Global venture funding to robotics startups reached $9.9 billion in Q3, more than double the $4.3 billion invested in Q3 2025, with the bulk of investments directed to companies in the U.S. and China.",
+   "why": "Surging physical AI investments directly signal growth and capital availability in autonomous driving and robotics sectors.",
+   "depth": "read",
+   "hours": 40,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft recorded $10 billion in revenue from OpenAI partnership",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+   "source": "TechCrunch AI",
+   "summary": "Microsoft reported $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, for the quarter ending September 30, underscoring the deep financial dependency of the partnership.",
+   "why": "This highlights the massive capital and revenue scales moving through major generative AI commercial partnerships.",
+   "depth": "read",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "Alphabet sinks 10% as it holds 2026 capex unchanged",
+   "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+   "source": "CNBC Tech",
+   "summary": "Alphabet missed Q3 expectations on earnings and revenue, marking its first top-and-bottom-line miss in nearly four years, while keeping 2026 capex unchanged and projecting a significant increase for 2027.",
+   "why": "Infrastructure investment trajectories dictate hardware demand and market capacity for computer vision workloads.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft discloses Azure quarterly revenue at $33.2 billion",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+   "source": "TechCrunch AI",
+   "summary": "For the first time, Microsoft disclosed Azure's quarterly revenue in dollars, revealing it reached $33.2 billion as it closes in on market leader AWS.",
+   "why": "Cloud revenue figures reflect the infrastructure scale supporting heavy AI and autonomous training pipelines.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Microsoft stock jumps 4% on strong Azure cloud growth",
+   "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "source": "CNBC Tech",
+   "summary": "Microsoft reported better-than-expected financial results, driven by a 48% growth rate in Azure cloud revenue.",
+   "why": "Cloud expansion metrics indicate the pace at which enterprise compute capacity is scaling for AI workloads.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "xAI subsidiary offers buyouts to homeowners near data center",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+   "source": "The Verge AI",
+   "summary": "A subsidiary of Elon Musk's xAI is offering to buy homes in a Southaven, Mississippi neighborhood on the condition that residents do not join a lawsuit targeting a nearby data center and power plant.",
+   "why": "Physical infrastructure buildouts for large-scale AI clusters face local friction and environmental pushback.",
+   "depth": "read",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Enterprise context integration challenges multi-platform AI deployments",
+   "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+   "source": "MIT Technology Review AI",
+   "summary": "While businesses deploy multiple advanced AI platforms, conversational assistants, and automation tools simultaneously, their outcomes can sometimes end up wrong, confused, or lacking proper context.",
+   "why": "Managing complex multi-system interactions is a core systems challenge for enterprise AI engineering.",
+   "depth": "skim",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Google expands AI Search ads globally as core ad growth slows",
+   "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+   "source": "TechCrunch AI",
+   "summary": "Google announced the global expansion of its AI Search ads alongside parent company Alphabet's third-quarter earnings report, which revealed year-over-year revenue growth of 25% to $127.6 billion.",
+   "why": "Understanding ad format shifts helps anticipate where monetization models are heading in AI search platforms.",
+   "depth": "skim",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic public benefit structure creates risks for IPO investors",
+   "url": "https://www.cnbc.com/2026/10/28/anthropic-pbc-what-its-structure-means-for-investors-.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic's public benefit corporation structure could put its AI safety and ethical mission ahead of maximizing shareholder returns.",
+   "why": "Corporate governance structures impact how AI safety labs approach commercialization and market competition.",
+   "depth": "skim",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "Texas voters and local groups push back against data centers",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+   "source": "The Verge AI",
+   "summary": "Data center developers facing project opposition in Austin and surrounding suburbs encounter resistance from local residents and leaders, such as fights over proposed sites in places like Taylor.",
+   "why": "Local opposition to physical infrastructure can introduce bottlenecks for deploying massive AI training clusters.",
+   "depth": "skim",
+   "hours": 15,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "MiniMax-M3.1-Flash brings native multimodal mixture-of-experts capabilities with a 1M context.",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "source": "Hugging Face",
+   "summary": "MiniMax-M3.1-Flash is a native multimodal MoE model supporting text, image, and video inputs with a 1M token context, using sparse attention and speculative decoding for efficiency.",
+   "why": "It delivers high performance on computer use, coding, and multimodal benchmarks.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-M3.1-Flash"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 delivers improvements across reasoning and visual benchmarks.",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hugging Face",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update improving reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length.",
+   "why": "It improves the performance-cost Pareto frontier for multimodal and agent workloads.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "title": "Tencent launches Hy-SimulMT for real-time bidirectional speech translation.",
+   "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
+   "source": "Hugging Face",
+   "summary": "Hy-SimulMT is a low-latency speech-to-speech translation model for Chinese and English that performs real-time voice cloning to preserve speaker characteristics during live communication.",
+   "why": "It provides a real-time translation tool preserving vocal characteristics for live settings.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "tencent/Hy-SimulMT-30B-A3B-FP8"
+  },
+  {
+   "title": "Unlimited OCR 2 pioneers unlimited-horizon document parsing and OCR-3.0.",
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+   "source": "Hugging Face",
+   "summary": "Unlimited OCR 2 introduces unlimited-horizon document parsing alongside the MarathonDocBench benchmark for ultra-long document analysis.",
+   "why": "It advances document parsing capabilities for long-horizon computer vision and text extraction tasks.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "baidu/Unlimited-OCR-2"
+  },
+  {
+   "title": "Nanbeige4.3-33B acts as a flagship teacher model for open lightweight agents.",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "source": "Hugging Face",
+   "summary": "Nanbeige4.3-33B is a 33B parameter flagship teacher model designed to anchor the distillation of advanced agentic capabilities into smaller models, excelling at complex coding and professional cowork tasks.",
+   "why": "It provides a foundation for distilling advanced agentic capabilities into smaller models.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Nanbeige/Nanbeige4.3-33B"
+  },
+  {
+   "title": "Recursive Flint is a mixture-of-experts model for coding agents.",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "Hugging Face",
+   "summary": "Flint is a 39.8B total parameter mixture-of-experts language model with 2.5B active parameters per token, built to investigate codebases, fix bugs, implement features, and write tests with multi-turn tool use.",
+   "why": "It offers an open MoE option optimized for codebase interaction and coding agents.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "RecursiveSI/flint"
+  }
+ ]
+}

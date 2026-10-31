@@ -1,239 +1,250 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T16:30+00:00",
+ "generated": "2026-10-31T20:46+00:00",
  "technical": [
   {
-   "title": "Vercel Labs open-sources agent-desktop for cross-platform OS computer use",
-   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-   "source": "MarkTechPost",
-   "summary": "Vercel Labs released agent-desktop, a Rust CLI tool under the Apache-2.0 license that gives AI agents computer use capabilities on macOS, Windows, and Linux by reading OS accessibility trees.",
-   "why": "It gives engineers a lightweight, accessibility-tree-based desktop control mechanism for agents instead of fragile pixel-based interactions.",
+   "title": "Unlocking any-order generation in pretrained autoregressive image models",
+   "url": "https://huggingface.co/papers/2610.39293",
+   "source": "HF Daily Papers",
+   "summary": "Standard autoregressive image models use a fixed raster-scan order, limiting inpainting and editing. The text argues that pretrained models can achieve any-order generation without the high compute costs or inference ecosystem sacrifices of discrete-diffusion models.",
+   "why": "This matters for computer vision engineers seeking flexible image generation while maintaining compatibility with standard inference architectures.",
    "depth": "read",
-   "hours": 6,
+   "hours": 12,
    "covered": 1
   },
   {
-   "title": "TokenEconomizer plugin cuts coding agent token costs significantly",
+   "title": "Vercel Labs open-sources agent-desktop for multi-platform computer use",
+   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+   "source": "MarkTechPost",
+   "summary": "Vercel Labs released agent-desktop, a Rust CLI tool under the Apache-2.0 license. It grants AI agents computer use capabilities across macOS, Windows, and Linux by leveraging OS accessibility trees and stable references instead of pixels.",
+   "why": "It gives developers a robust OS-level integration tool for building computer-using agents.",
+   "depth": "read",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Deploy NVIDIA Nemotron Super VL models on Amazon EKS",
+   "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+   "source": "AWS Machine Learning",
+   "summary": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts multimodal model with reasoning and tool use capabilities. The post details its deployment on Amazon EKS and SageMaker HyperPod EKS using NVIDIA Dynamo and vLLM.",
+   "why": "It outlines scalable cloud deployment patterns for large multimodal reasoning models.",
+   "depth": "read",
+   "hours": 53,
+   "covered": 1
+  },
+  {
+   "title": "TokenEconomizer reduces coding agent token costs significantly",
    "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
    "source": "MarkTechPost",
-   "summary": "Microsoft Research and UC Berkeley introduced TokenEconomizer, an open-source plugin that cuts coding agent token costs by up to 30.9% on SWE-Bench by learning from past sessions without modifying the agent.",
-   "why": "It offers an immediate way to reduce operational token costs for LLM-based coding agents.",
+   "summary": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that cuts coding agent token costs on SWE-Bench by 18.4% to 30.9% by learning from past sessions without modifying the agent.",
+   "why": "It offers a practical method for reducing inference expenses in software engineering agent workflows.",
+   "depth": "read",
+   "hours": 27,
+   "covered": 1
+  },
+  {
+   "title": "Factory Droid 1.0 launches model-independent coding agent harness",
+   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+   "source": "MarkTechPost",
+   "summary": "Factory released Droid 1.0, a model-independent coding agent harness prioritizing programmatic tool calling. It achieved 65.2% on Terminal-Bench 4 runs using Claude Opus 5.5.",
+   "why": "It introduces a benchmarked harness option for engineering programmatic software agents.",
+   "depth": "read",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Amazon Bedrock AgentCore enables live web app previews",
+   "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+   "source": "AWS Machine Learning",
+   "summary": "Amazon Bedrock AgentCore Session endpoints provide authenticated URLs forwarding HTTP and WebSocket connections to allowed ports, enabling developers to watch live Vite web app updates in a browser as a coding agent edits files.",
+   "why": "It improves the developer feedback loop when building web applications with autonomous coding agents.",
    "depth": "read",
    "hours": 23,
    "covered": 1
   },
   {
-   "title": "Amazon Bedrock AgentCore enables live web app preview during coding sessions",
-   "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
-   "source": "AWS Machine Learning",
-   "summary": "Amazon Bedrock AgentCore Session endpoints provide authenticated URLs forwarding HTTP and WebSocket traffic to container ports, allowing developers to watch live Vite web apps update as a coding agent edits files.",
-   "why": "It streamlines the developer feedback loop by offering live visual verification for agentic web development.",
-   "depth": "read",
-   "hours": 19,
-   "covered": 1
-  },
-  {
-   "title": "Unlocking any-order generation in pretrained autoregressive image models without retraining",
-   "url": "https://huggingface.co/papers/2610.39293",
-   "source": "HF Daily Papers",
-   "summary": "Researchers address the limitations of standard raster-scan autoregressive image models, arguing that costly retraining or abandoning the AR inference ecosystem is unnecessary for enabling tasks like inpainting, outpainting, and editing.",
-   "why": "It offers insights into more flexible image generation while retaining compatibility with standard AR inference infrastructure.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "NVIDIA Nemotron 3.5 Super VL brings multimodal reasoning to Amazon EKS",
-   "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
-   "source": "AWS Machine Learning",
-   "summary": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model combining reasoning, tool use, and multimodal understanding, deployable on Amazon EKS and SageMaker HyperPod EKS using NVIDIA Dynamo and vLLM.",
-   "why": "It provides an enterprise deployment path for large multimodal reasoning models on cloud infrastructure.",
-   "depth": "skim",
-   "hours": 48,
-   "covered": 1
-  },
-  {
-   "title": "Edge AI applications expand to monitor driver attention and cabin conditions",
-   "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
-   "source": "NVIDIA Developer",
-   "summary": "AI deployment is expanding beyond data centers as developers build edge agents to handle tasks like monitoring driver attention and cabin conditions.",
-   "why": "Relevant to computer vision and edge engineering use cases in autonomous driving.",
-   "depth": "skim",
-   "hours": 20,
-   "covered": 1
-  },
-  {
-   "title": "Factory Droid 1.0 launched as a model-independent coding agent harness",
-   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
-   "source": "MarkTechPost",
-   "summary": "Factory released Droid 1.0, a coding agent harness prioritizing programmatic tool calling by default, achieving 65.2% on Terminal-Bench 4 runs with Claude Opus 5.5.",
-   "why": "It demonstrates the performance benefits of programmatic tool use over traditional text-based tool calling in harnesses.",
-   "depth": "read",
-   "hours": 6,
-   "covered": 1
-  },
-  {
-   "title": "Researchers introduce EPSBench to evaluate LLM agents in earnings forecasting",
-   "url": "https://huggingface.co/papers/2610.38293",
-   "source": "HF Daily Papers",
-   "summary": "EPSBench evaluates LLM agents across 149 firm-quarters from 86 US companies by requiring them to read filings, estimate income-statement drivers with cited evidence, and calculate GAAP diluted EPS using a shared accounting calculator.",
-   "why": "It provides a standardized, verifiable benchmark for assessing financial reasoning capabilities in LLM agents.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "ABF-Bench introduces verifiable evaluation for agentic blockchain forensics",
-   "url": "https://huggingface.co/papers/2610.23656",
-   "source": "HF Daily Papers",
-   "summary": "ABF-Bench is an interactive benchmark designed to evaluate evidence-backed fund tracing for AI agents, requiring every claimed movement to cite retrieved ledger records across well-posed tasks.",
-   "why": "It establishes a rigorous framework for testing agents on adversarial, open-ended real-world tracing tasks.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "NVIDIA NemoClaw helps developers build specialized agents on a controlled stack",
+   "title": "NVIDIA NemoClaw secures specialized autonomous agent stacks",
    "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
    "source": "NVIDIA Developer",
-   "summary": "Developers need a secure runtime that enforces controls when building autonomous agents using models, harnesses, and domain-specific tools.",
-   "why": "It highlights emerging runtime security requirements for enterprise agent deployment.",
+   "summary": "Developers building autonomous agents require models, harnesses, and domain-specific tools. NemoClaw provides a secure runtime to deploy these specialized agents.",
+   "why": "It addresses security deployment requirements for engineering production-grade autonomous agents.",
    "depth": "skim",
-   "hours": 25,
+   "hours": 29,
+   "covered": 1
+  },
+  {
+   "title": "AI expansion drives edge application development for agents",
+   "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
+   "source": "NVIDIA Developer",
+   "summary": "AI models are moving beyond data centers to edge applications. Developers are building agents to handle tasks like monitoring driver attention and cabin conditions.",
+   "why": "It highlights architectural shifts toward deploying intelligent agents directly on edge hardware.",
+   "depth": "skim",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI employs layered monitoring to detect frontier model misalignment",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "source": "OpenAI",
+   "summary": "OpenAI utilizes layered monitoring systems to identify unauthorized agent behavior and frontier model misalignment, allowing responders to intervene early.",
+   "why": "It provides insight into safety monitoring practices for advanced AI systems.",
+   "depth": "skim",
+   "hours": 60,
+   "covered": 1
+  },
+  {
+   "title": "EPSBench evaluates LLM agents on quarterly earnings forecasting tasks",
+   "url": "https://huggingface.co/papers/2610.38293",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduced EPSBench to study LLM agent abilities in connecting financial evidence to income-statement line items. The benchmark evaluates six models across 149 firm-quarters, using a shared accounting calculator to convert estimates into GAAP diluted EPS.",
+   "why": "It provides a standardized approach for benchmarking financial reasoning capabilities in language models.",
+   "depth": "skim",
+   "hours": 12,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "Physical AI and predictions lead top weekly funding rounds",
-   "url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
-   "source": "Crunchbase News",
-   "summary": "Manufacturing startup Re:Build closed a $2.1 billion round, while predictions marketplace Kalshi picked up another $1 billion, leading the week's biggest funding rounds.",
-   "why": "Physical AI and industrial automation continue to attract massive capital allocations from investors.",
-   "depth": "read",
-   "hours": 24,
-   "covered": 1
-  },
-  {
-   "title": "Starbucks explores personalized digital menus via drive-thru AI",
+   "title": "Starbucks plans to use AI for personalized drive-thru menus",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
    "source": "The Verge AI",
-   "summary": "During an earnings call, Starbucks CEO Brian Niccol announced plans to explore drive-thru experiences that recognize participating customers, present personalized digital menus, and streamline payments.",
-   "why": "It demonstrates enterprise deployment of computer vision and customer recognition at the edge.",
+   "summary": "Starbucks CEO Brian Niccol announced plans to explore AI experiences that recognize customers at drive-thrus to present personalized digital menus.",
+   "why": "Retail computer vision and personalization deployments represent growing commercial endpoints for AI.",
    "depth": "read",
-   "hours": 23,
+   "hours": 27,
    "covered": 1
   },
   {
-   "title": "Nvidia considers cosigning loan for Nscale AI data center",
-   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-   "source": "TechCrunch AI",
-   "summary": "Nvidia is weighing playing the cosigner for Nscale's AI data center in West Virginia to help alleviate investor nervousness regarding AI spending.",
-   "why": "Hardware vendors are directly stepping into financial guarantees to maintain data center buildouts.",
-   "depth": "skim",
-   "hours": 15,
-   "covered": 1
-  },
-  {
-   "title": "OpenAI-backed Thrive Holdings acquires ADT for $15.3 billion",
-   "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-   "source": "TechCrunch AI",
-   "summary": "OpenAI-backed Thrive Holdings is acquiring ADT in a $15.3 billion deal, with explicit plans to bring AI technology into the home security business.",
-   "why": "It highlights major private equity deployment of AI integration into traditional consumer hardware sectors.",
-   "depth": "read",
-   "hours": 45,
-   "covered": 1
-  },
-  {
-   "title": "Anthropic faces high junk credit rating forecast after IPO",
-   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-   "source": "TechCrunch AI",
-   "summary": "A Financial Times report states Blackstone forecasts Anthropic will receive a high junk rating following an IPO, potentially making it costlier and harder to fund massive operational spending.",
-   "why": "Debt-market hurdles for foundational model labs could constrain future compute acquisitions.",
-   "depth": "read",
-   "hours": 19,
-   "covered": 1
-  },
-  {
-   "title": "Google reports negative cash flow of $9.06 billion",
-   "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
-   "source": "Ars Technica AI",
-   "summary": "Google admitted that AI search generates less revenue and confirmed its negative cash flow ballooned to $9.06 billion, triggering a stock price tumble following Q3 earnings.",
-   "why": "Monetization shifts in core search impact the economic sustainability of running heavy LLM queries.",
-   "depth": "read",
-   "hours": 48,
-   "covered": 1
-  },
-  {
-   "title": "Amazon reports negative free cash flow of $42.4 billion",
-   "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+   "title": "OpenAI lowers its fundraising goal and seeks up to $20 billion",
+   "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
    "source": "CNBC Tech",
-   "summary": "Amazon's negative free cash flow ballooned during the third quarter, while earnings and revenue fell short of Wall Street expectations. The company decided to hold its 2026 capex unchanged.",
-   "why": "It signals shifting capital expenditures and financial pressures across the major cloud providers funding AI infrastructure.",
-   "depth": "skim",
-   "hours": 42,
-   "covered": 1
-  },
-  {
-   "title": "Series B funding reaches $48 billion despite fewer deals",
-   "url": "https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/",
-   "source": "Crunchbase News",
-   "summary": "Crunchbase data shows investors poured around $48 billion into Series B financings so far this year, marking the highest tally in years. However, round counts are below year-ago levels and tracking toward a multiyear low.",
-   "why": "Early-stage capital is concentrating into fewer startups, altering the competitive landscape for emerging tech firms.",
-   "depth": "skim",
-   "hours": 53,
-   "covered": 1
-  },
-  {
-   "title": "Big Tech earnings reignite AI spending fears and volatility",
-   "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
-   "source": "CNBC Tech",
-   "summary": "Stocks started the week with promise but ended in a big reversal as Big Tech earnings reignited AI spending fears, driving investors toward defensive stocks.",
-   "why": "Market sentiment directly impacts public funding availability for future AI hardware and infrastructure deployments.",
+   "summary": "OpenAI is currently seeking up to $20 billion in its ongoing funding round, which has not yet closed and remains subject to change.",
+   "why": "Changes in mega-round funding targets signal shifting capital dynamics for foundational model developers.",
    "depth": "skim",
    "hours": 1,
    "covered": 1
   },
   {
-   "title": "Sam Altman says data centers need RAM more than PCs",
+   "title": "Nvidia weighs cosigning a loan for Nscale data center",
+   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+   "source": "TechCrunch AI",
+   "summary": "Chipmaker Nvidia is considering acting as a cosigner for Nscale's AI data center loan in West Virginia to alleviate investor nervousness regarding AI spending.",
+   "why": "Vendor financing strategies highlight the creative financial mechanisms being used to sustain data center expansion.",
+   "depth": "skim",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "Physical AI and predictions lead weekly startup funding rounds",
+   "url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
+   "source": "Crunchbase News",
+   "summary": "Manufacturing startup Re:Build closed a $2.1 billion round and predictions marketplace Kalshi picked up $1 billion in a robust week for funding.",
+   "why": "Physical AI and automated manufacturing continue to attract major capital investments.",
+   "depth": "skim",
+   "hours": 28,
+   "covered": 1
+  },
+  {
+   "title": "Google reports lower AI search revenue and adds more ads",
+   "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+   "source": "Ars Technica AI",
+   "summary": "Google's negative cash flow expanded to -$9.06 billion and its stock tumbled following Q3 earnings where it admitted lower monetization from AI search.",
+   "why": "Monetization challenges in generative search directly impact search infrastructure and model economics.",
+   "depth": "read",
+   "hours": 52,
+   "covered": 1
+  },
+  {
+   "title": "Amazon posts negative free cash flow of $42.4 billion",
+   "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+   "source": "CNBC Tech",
+   "summary": "Amazon reported a ballooning negative free cash flow of $42.4 billion during the third quarter, while earnings and revenue missed Wall Street expectations.",
+   "why": "Massive capital expenditure patterns by tech giants directly impact the broader infrastructure market.",
+   "depth": "skim",
+   "hours": 46,
+   "covered": 1
+  },
+  {
+   "title": "Big Tech earnings spark AI spending fears and market selloff",
+   "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+   "source": "CNBC Tech",
+   "summary": "Fears surrounding high AI spending were reignited by Big Tech earnings reports, driving investors away from growth assets and into defensive stocks.",
+   "why": "Macroeconomic sentiment shifts driven by AI ROI concerns can suddenly alter industry investment climates.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Thrive Holdings acquires ADT for $15.3 billion to add AI",
+   "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+   "source": "TechCrunch AI",
+   "summary": "OpenAI-backed Thrive Holdings is purchasing ADT in a $15.3 billion acquisition to integrate artificial intelligence into the home security market.",
+   "why": "Large vertical acquisitions show how AI technologies are expanding into traditional physical security sectors.",
+   "depth": "read",
+   "hours": 49,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic faces high junk credit rating prediction after IPO",
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "source": "TechCrunch AI",
+   "summary": "A Blackstone forecast predicts Anthropic could receive a high junk rating from credit agencies following an IPO, potentially increasing its borrowing costs.",
+   "why": "Credit ratings for major labs affect their long-term borrowing capacity for high-cost infrastructure.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Sam Altman says RAM belongs in data centers over PCs",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
    "source": "The Verge AI",
-   "summary": "Addressing supply chain shortages on the Cheeky Pint podcast, OpenAI CEO Sam Altman stated it is terrible to have RAM in personal PCs instead of data centers.",
-   "why": "Compute allocation strategies heavily favor centralized cloud infrastructure over edge consumer devices.",
+   "summary": "Addressing supply chain shortages like RAM, OpenAI CEO Sam Altman stated it is terrible to have RAM in personal PCs instead of data centers.",
+   "why": "Hardware allocation priorities by AI leaders dictate the availability of components for edge versus cloud compute.",
    "depth": "skim",
-   "hours": 20,
+   "hours": 24,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "Mistral Large 4 Released as a One Trillion-Parameter Multimodal Model",
+   "title": "Mistral Large 4 Launches as Trillion-Parameter Multimodal MoE Model",
    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
    "source": "Hugging Face",
-   "summary": "Mistral Large 4 is a 1-trillion-parameter natively multimodal Mixture-of-Experts model trained on 3,800 GPUs, unifying instruction following, reasoning, coding, and agentic workflows with superior visual grounding.",
-   "why": "It offers frontier-level multimodal performance across diverse enterprise workloads.",
+   "summary": "Mistral Large 4 is a 1 trillion-parameter natively multimodal Mixture-of-Experts model featuring 49 billion active parameters per token, demonstrating strong performance in reasoning, coding, and visual grounding.",
+   "why": "Its superior visual grounding and frontier-level multimodal capabilities are essential for advanced computer vision and agent workflows.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "mistralai/Mistral-Large-4-1T-A52B"
   },
   {
-   "title": "DeepSeek-V4.1-Flash-1017 Released with Substantial Performance Improvements",
+   "title": "Nanbeige4.3-33B Released as Flagship Teacher Model for Lightweight Agents",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "source": "Hugging Face",
+   "summary": "Nanbeige4.3-33B is a ~30B parameter teacher model designed to anchor the distillation of advanced agentic capabilities into smaller models, delivering state-of-the-art open performance in complex coding and professional cowork tasks.",
+   "why": "It provides a robust foundational model for distilling efficient, high-performing coding and agentic models.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Nanbeige/Nanbeige4.3-33B"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 Update Improves Reasoning, Coding, and Visual Benchmarks",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 introduces minor updates delivering major gains across reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length.",
-   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "summary": "DeepSeek-V4.1-Flash-1017 brings substantial performance improvements across reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length to lower operational costs.",
+   "why": "Faster and cheaper execution makes it a compelling option for high-throughput coding and agent pipelines.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-   "title": "Baidu Releases Unlimited OCR 2 for Ultra-Long Document Parsing",
+   "title": "Baidu Introduces Unlimited OCR 2 for Ultra-Long Document Parsing",
    "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
    "source": "Hugging Face",
-   "summary": "Unlimited OCR 2 pioneers unlimited-horizon parsing alongside the release of the MarathonDocBench benchmark for ultra-long document parsing.",
-   "why": "It pushes the boundaries of long-document text extraction and visual parsing.",
+   "summary": "Unlimited OCR 2 pioneers unlimited-horizon document parsing, backed by the release of the MarathonDocBench benchmark designed to evaluate ultra-long document processing capabilities.",
+   "why": "It offers advanced document parsing features valuable for extracting data from complex, lengthy technical documents.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
@@ -251,26 +262,15 @@
    "model": "Lightricks/LTX-2.5"
   },
   {
-   "title": "Qwen3.5-4B-3D-Coder Released for General Coding and Interactive 3D Scenes",
+   "title": "Qwen3.5-4B-3D-Coder Explores Small Models for 3D Scene Generation",
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
    "source": "Hugging Face",
-   "summary": "CCORE released an independent fine-tune of Qwen3.5-4B focused on general-purpose coding with an emphasis on generating interactive 3D scenes using Three.js.",
-   "why": "It experiments with small language model capabilities for specialized 3D graphics generation.",
+   "summary": "Qwen3.5-4B-3D-Coder is an independent fine-tune of the Qwen 4B model exploring general coding capabilities with a specific focus on interactive 3D scene generation using Three.js.",
+   "why": "It demonstrates the feasibility of utilizing small language models for specialized 3D graphics tasks.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "ccore/Qwen3.5-4B-3D-Coder"
-  },
-  {
-   "title": "Recursive Introduces Flint Mixture-of-Experts Model for Coding Agents",
-   "url": "https://huggingface.co/RecursiveSI/flint",
-   "source": "Hugging Face",
-   "summary": "Flint is a 39.8B parameter mixture-of-experts model designed to investigate codebases, fix bugs, implement features, and write tests, with multi-turn tool use support.",
-   "why": "It delivers high performance on major coding benchmarks like SWE-bench.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "RecursiveSI/flint"
   }
  ]
 }

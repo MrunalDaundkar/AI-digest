@@ -1,127 +1,197 @@
 {
  "date": "2026-11-02",
- "generated": "2026-11-02T10:16+00:00",
+ "generated": "2026-11-02T21:02+00:00",
  "technical": [
   {
-   "title": "Geometry-Aware Token Selection uses LiDAR and radar to optimize autonomous driving vision models",
+   "title": "GATS uses LiDAR geometry to select image tokens for efficient autonomous driving",
    "url": "https://arxiv.org/abs/2610.40935",
    "source": "arXiv cs.CV",
-   "summary": "Geometry-Aware Token Selection leverages 3D point projections to select driving-critical image tokens before the vision backbone runs, discarding irrelevant background data.",
-   "why": "It improves efficiency and planning performance in sparse latent world models.",
-   "depth": "deep",
-   "hours": 5,
-   "covered": 1
-  },
-  {
-   "title": "TinyAstral transfers self-evolving harnesses to compact robotic manipulation agents",
-   "url": "https://arxiv.org/abs/2610.41216",
-   "source": "arXiv cs.RO",
-   "summary": "TinyAstral uses recursive self-improvement with frontier LLMs to refine a teacher's harness, then transfers the optimized harness and trajectories to a smaller agent.",
-   "why": "It enables smaller robotic agents to inherit advanced planning logic with lower compute costs.",
+   "summary": "Geometry-Aware Token Selection (GATS) uses LiDAR and radar point projections to select a small fraction of relevant image tokens before the vision backbone runs, improving efficiency and removing irrelevant visual clutter for planners.",
+   "why": "This directly optimizes vision-centric autonomous driving pipelines by reducing compute overhead and eliminating noisy tokens.",
    "depth": "read",
-   "hours": 5,
+   "hours": 16,
    "covered": 1
   },
   {
-   "title": "CalibSwitch framework recovers and maintains camera-LiDAR extrinsics for mobile robots",
-   "url": "https://arxiv.org/abs/2610.41352",
-   "source": "arXiv cs.RO",
-   "summary": "CalibSwitch separates absolute extrinsic recovery from selective state maintenance using bidirectional feature interaction and geometry-regularized learning from sensor observations.",
-   "why": "It ensures robust multimodal perception despite installation variations and changing observation quality.",
-   "depth": "read",
-   "hours": 5,
-   "covered": 1
-  },
-  {
-   "title": "Direct Manifold Action Transformer models bimanual manipulation actions directly",
-   "url": "https://arxiv.org/abs/2610.41643",
-   "source": "arXiv cs.RO",
-   "summary": "DMAT reformulates action generation by directly modeling clean observation-conditioned joint-space action chunks, avoiding iterative denoising latency.",
-   "why": "It offers a faster and more robust alternative to diffusion policies in visuomotor control.",
-   "depth": "read",
-   "hours": 5,
-   "covered": 1
-  },
-  {
-   "title": "DeepSeek open-sources dsh-superagent router-worker coding agent for parallel tasks",
-   "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
-   "source": "MarkTechPost",
-   "summary": "DeepSeek released dsh-superagent under the MIT license, turning GitHub and Feishu requests into parallel worker sessions to reduce task completion time.",
-   "why": "It provides a blueprint for efficient agentic software engineering workflows.",
-   "depth": "read",
-   "hours": 26,
-   "covered": 1
-  },
-  {
-   "title": "NVIDIA releases Auto Ontology to ground AI agent SQL queries",
-   "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
-   "source": "MarkTechPost",
-   "summary": "Auto Ontology is an Apache 2.0 library that generates a semantic layer from enterprise metadata, grounding agent SQL in certified definitions and serving context via MCP, CLI, and API.",
-   "why": "It helps enterprise developers reliably connect AI agents to internal databases.",
-   "depth": "read",
-   "hours": 2,
-   "covered": 1
-  },
-  {
-   "title": "Edge AI tools enable real-time application development for driver and cabin monitoring",
-   "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
-   "source": "NVIDIA Developer",
-   "summary": "Developers are utilizing edge AI capabilities to build applications that monitor driver attention and cabin conditions using compact commands.",
-   "why": "It highlights practical deployment patterns for computer vision in automotive edge environments.",
-   "depth": "skim",
-   "hours": 62,
-   "covered": 1
-  },
-  {
-   "title": "VoxLock target-speaker extraction model improves voice agent speech recognition accuracy",
-   "url": "https://huggingface.co/papers/2610.40727",
+   "title": "SOMA benchmark evaluates fine-grained human body motion understanding in MLLMs",
+   "url": "https://huggingface.co/papers/2610.36384",
    "source": "HF Daily Papers",
-   "summary": "A fine-tuned causal target-speaker extraction model uses a voice sample from the call itself to filter background speech, achieving a low word error rate on benchmarks.",
-   "why": "It removes background noise for voice agents without requiring a separate enrollment step.",
+   "summary": "SOMA is a new benchmark featuring 1,632 human-verified questions designed to evaluate MLLMs on fine-grained egocentric body-motion understanding, focusing on body configuration, motion dynamics, and temporal reasoning.",
+   "why": "It provides a robust way to assess multimodal models on complex egocentric human motion tasks.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "SimpleLoRIF traces and filters safety degradation in instruction fine-tuning data",
+   "url": "https://huggingface.co/papers/2610.37481",
+   "source": "HF Daily Papers",
+   "summary": "SimpleLoRIF uses a scalable gradient embedding method restricted to the final transformer blocks to identify fine-tuning instruction data that quietly degrades model safety, enabling practical filtering of million-scale datasets.",
+   "why": "It gives you a practical engineering tool to audit and clean post-training datasets for hidden safety issues.",
    "depth": "read",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "Drone-PUR dataset and benchmark improve vision-language model reasoning in UAV scenes",
-   "url": "https://arxiv.org/abs/2610.40801",
-   "source": "arXiv cs.CV",
-   "summary": "Drone-PUR targets perception, understanding, and reasoning challenges in UAV scenes involving small targets, subtle attributes, and changing viewpoints.",
-   "why": "It helps address limitations of vision-language models under complex aerial observations.",
-   "depth": "skim",
-   "hours": 5,
+   "title": "TinyAstral transfers self-improving harnesses to compact manipulation agents",
+   "url": "https://arxiv.org/abs/2610.41216",
+   "source": "arXiv cs.RO",
+   "summary": "TinyAstral uses recursive self-improvement on a teacher model's harness to generate optimized tools and recovery logic, transferring these improvements into a smaller, low-compute generalist manipulation agent.",
+   "why": "It provides a blueprint for distilling advanced agent harnesses into efficient, compact robotics models.",
+   "depth": "read",
+   "hours": 16,
    "covered": 1
   },
   {
-   "title": "Nace AI open-sources Drex Max v1 multimodal decision model for Apple Silicon",
-   "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
-   "source": "MarkTechPost",
-   "summary": "Drex Max v1 is a 27B multimodal decision model scoring 67.52 that has been open-sourced to run locally on Apple Silicon.",
-   "why": "It expands local deployment options for large multimodal decision architectures.",
+   "title": "CalibSwitch provides observation-driven camera-LiDAR extrinsic recovery and maintenance",
+   "url": "https://arxiv.org/abs/2610.41352",
+   "source": "arXiv cs.RO",
+   "summary": "CalibSwitch is an observation-driven framework for mobile robots and autonomous vehicles that separates absolute extrinsic recovery from selective state maintenance, ensuring reliable camera-LiDAR sensor geometry during operation.",
+   "why": "It addresses critical calibration drift issues in multimodal robotic perception systems.",
    "depth": "skim",
-   "hours": 26,
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "DMAT models observation-conditioned joint-space action chunks for bimanual manipulation",
+   "url": "https://arxiv.org/abs/2610.41643",
+   "source": "arXiv cs.RO",
+   "summary": "The Direct Manifold Action Transformer (DMAT) bypasses iterative denoising or numerical integration in diffusion policies by directly modeling clean, observation-conditioned action chunks in a structured joint-action space.",
+   "why": "It reduces execution latency and mismatch in visuomotor policies for robotic manipulation.",
+   "depth": "read",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "DeepSeek open-sources dsh-superagent router-worker coding agent",
+   "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+   "source": "MarkTechPost",
+   "summary": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions, reducing p95 task completion times in simulations.",
+   "why": "It gives software engineers a look at efficient parallelized agent architectures for coding workloads.",
+   "depth": "read",
+   "hours": 37,
+   "covered": 1
+  },
+  {
+   "title": "GEPA-Curator improves prompt optimization by selecting effective agent experiences",
+   "url": "https://huggingface.co/papers/2610.37651",
+   "source": "HF Daily Papers",
+   "summary": "GEPA-Curator is a new framework that enhances reflective prompt optimizers by carefully selecting which agent execution experiences provide useful learning signals, avoiding noisy or harmful task failures during prompt optimization.",
+   "why": "It offers a cleaner methodology for improving multi-turn agentic workloads through targeted experience curation.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Drone-PUR benchmark measures vision-language reasoning in UAV scenes",
+   "url": "https://arxiv.org/abs/2610.40801",
+   "source": "arXiv cs.CV",
+   "summary": "Drone-PUR introduces a dataset and benchmark organized around visual clue discovery, interpretation, and integration to evaluate vision-language models on perception, understanding, and reasoning in challenging UAV environments.",
+   "why": "It helps rigorously test VLM performance under small targets, changing viewpoints, and complex aerial conditions.",
+   "depth": "skim",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "Multi-agent engineering assistant built with Amazon Nova and Bedrock",
+   "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "Learn how to build a multi-agent engineering assistant that evaluates aerospace component substitutions using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands Agents SDK.",
+   "why": "It demonstrates practical multi-agent design patterns for enterprise multimodal engineering workflows.",
+   "depth": "skim",
+   "hours": 4,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "South Korea targets sovereign AI with record new budget",
+   "title": "South Korea targets sovereign AI model with record budget",
    "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
    "source": "CNBC Tech",
-   "summary": "South Korea's 2027 budget will rise 12.8% to 820.9 trillion won, including a 21.3 trillion won investment into semiconductors, physical AI and AI data centers.",
-   "why": "Massive state backing for physical AI and infrastructure signals strong market demand for hardware and data center engineering.",
-   "depth": "skim",
-   "hours": 4,
+   "summary": "The 2027 budget will rise 12.8% to 820.9 trillion won, including a 21.3 trillion won investment into semiconductors, physical AI and AI data centers.",
+   "why": "Government spending heavily influences regional hardware demand and autonomous driving research investments.",
+   "depth": "read",
+   "hours": 15,
    "covered": 1
   },
   {
-   "title": "Physical AI leads top weekly venture funding rounds",
-   "url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
-   "source": "Crunchbase News",
-   "summary": "Manufacturing startup Re:Build closed on $2.1 billion and predictions marketplace Kalshi picked up $1 billion in a robust funding week.",
-   "why": "Points to heavy capital deployment specifically targeting physical AI and manufacturing automation sectors.",
+   "title": "Nvidia weighs cosigning loan for Nscale data center",
+   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia is considering playing the cosigner for Nscale’s AI data center in West Virginia as investors grow nervous about AI spending.",
+   "why": "Chipmaker financing strategies reveal how physical AI infrastructure bottlenecks are being directly managed.",
    "depth": "skim",
-   "hours": 66,
+   "hours": 68,
+   "covered": 1
+  },
+  {
+   "title": "Apple plans $1,000 home robot for FaceTime and lights",
+   "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+   "source": "Ars Technica AI",
+   "summary": "Backed by CEO John Ternus, Apple's upcoming home robot may launch in 2027 with a hefty price tag and limited uses.",
+   "why": "Consumer hardware robotics releases indicate commercial viability and consumer robotics market strategies.",
+   "depth": "skim",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Omen AI acquires Aquatic Labs for $16 million",
+   "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+   "source": "TechCrunch AI",
+   "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal, combining liquid know-how.",
+   "why": "Data center infrastructure costs and cooling solutions directly impact physical AI hardware scaling.",
+   "depth": "skim",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "Venture capital funding concentrates heavily in massive AI rounds",
+   "url": "https://news.crunchbase.com/venture/q3-2026-charts-funding-amounts-vs-round-counts/",
+   "source": "Crunchbase News",
+   "summary": "Record venture funding in 2026 has been increasingly concentrated in massive AI rounds, while seed- and early-stage deal counts are on the decline.",
+   "why": "Understanding venture capital allocation trends helps engineers anticipate industry market movements and startup viability.",
+   "depth": "read",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI pitches data center power plants with Grid Protectors",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+   "source": "The Verge AI",
+   "summary": "OpenAI will pilot its Grid Protectors Program at a Georgia data center, promising to free up to 1,000 megawatts of power during emergencies.",
+   "why": "Power availability constraints directly limit the scale of future computer vision and training clusters.",
+   "depth": "read",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "New York Times sues Brave web browser over scraping",
+   "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+   "source": "The Verge AI",
+   "summary": "The New York Times and other publications filed lawsuits against Brave over alleged unlawful AI training scraping and paywall bypassing.",
+   "why": "Scraping legality impacts data acquisition strategies for foundation model training and computer vision datasets.",
+   "depth": "read",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "AI coding agents consume significantly more tokens than basic prompts",
+   "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+   "source": "MIT Technology Review AI",
+   "summary": "When developers give AI agents coding tasks, iterative planning and testing uses 10 to 50 times more tokens than basic chat prompts.",
+   "why": "Token consumption economics heavily influence infrastructure costs for automated code generation tools.",
+   "depth": "read",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI signs four Abu Dhabi agreements with Sam Altman",
+   "url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+   "source": "CNBC Tech",
+   "summary": "OpenAI signed four Abu Dhabi agreements spanning energy, government and investment as Sam Altman met the emirate’s crown prince.",
+   "why": "Major international investments shape the global compute and capital landscape for AI infrastructure.",
+   "depth": "skim",
+   "hours": 10,
    "covered": 1
   },
   {
@@ -129,148 +199,78 @@
    "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
    "source": "CNBC Tech",
    "summary": "Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.",
-   "why": "Proves tangible business value and enterprise adoption beyond experimental phases.",
+   "why": "Enterprise adoption trends dictate overall industry market stability and software engineering priorities.",
    "depth": "skim",
-   "hours": 22,
-   "covered": 1
-  },
-  {
-   "title": "OpenAI pares fundraising goal to $20 billion",
-   "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
-   "source": "CNBC Tech",
-   "summary": "OpenAI is now seeking up to $20 billion in its latest funding round, which is still in progress and subject to change.",
-   "why": "Shifts in funding targets affect massive compute investments and GPU procurement scales.",
-   "depth": "skim",
-   "hours": 38,
-   "covered": 1
-  },
-  {
-   "title": "Nvidia weighs cosigning Nscale AI data center loan",
-   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-   "source": "TechCrunch AI",
-   "summary": "Nvidia is considering playing the cosigner for Nscale's AI data center in West Virginia to ease investor nervousness about AI spending.",
-   "why": "Highlights novel hardware vendor financing strategies for massive infrastructure builds.",
-   "depth": "skim",
-   "hours": 57,
-   "covered": 1
-  },
-  {
-   "title": "The agentic web arrives for autonomous software navigation",
-   "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-   "source": "MIT Technology Review AI",
-   "summary": "Tim Berners-Lee's 2001 vision of the Semantic Web outlines an internet designed to be navigated by autonomous software agents.",
-   "why": "Autonomous agent deployment shifts architectural requirements for web applications and computer vision integrations.",
-   "depth": "read",
-   "hours": 1,
-   "covered": 1
-  },
-  {
-   "title": "Starbucks explores personalized digital menus at drive-thrus",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-   "source": "The Verge AI",
-   "summary": "Starbucks CEO Brian Niccol announced plans to explore experiences recognizing customers at arrival with personalized digital menus.",
-   "why": "Shows edge AI, computer vision, and personalization deploying directly into physical retail environments.",
-   "depth": "skim",
-   "hours": 65,
-   "covered": 1
-  },
-  {
-   "title": "Meta's Muse agents could upend multiple businesses",
-   "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
-   "source": "Wired AI",
-   "summary": "Companies have spent weeks reassuring investors that Muse and other AI agents pose more opportunity than threat.",
-   "why": "Agentic workflows and automation tools threaten traditional business models while opening new software frontiers.",
-   "depth": "read",
-   "hours": 48,
-   "covered": 1
-  },
-  {
-   "title": "Anthropic expected to receive high junk rating",
-   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-   "source": "TechCrunch AI",
-   "summary": "Blackstone forecasts Anthropic will receive a high junk rating from credit agencies following an IPO, making capital raising costlier.",
-   "why": "Financing costs dictate the long-term sustainability of foundational model development and infrastructure scaling.",
-   "depth": "skim",
-   "hours": 60,
-   "covered": 1
-  },
-  {
-   "title": "Travel tech funding hits multiyear low despite AI",
-   "url": "https://news.crunchbase.com/travel-tourism/travel-tech-startup-venture-funding-low-ai/",
-   "source": "Crunchbase News",
-   "summary": "Investor appetite for travel tech startups has cooled to a multiyear low despite a wave of startups promising AI improvements.",
-   "why": "Illustrates uneven venture capital distribution where AI applications do not guarantee funding across all verticals.",
-   "depth": "skim",
-   "hours": 71,
+   "hours": 32,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "Mistral Large 4 introduces a 1-trillion-parameter natively multimodal Mixture-of-Experts architecture",
+   "title": "Speridlabs Introduces Idol for Single-Image 3D Gaussian Splatting",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol converts a single picture, render, or generated image into a 3D Gaussian splat with up to 1,048,576 Gaussians. It runs on consumer GPUs using 7.2 GB of VRAM in under 2 seconds.",
+   "why": "It significantly accelerates 3D reconstruction from a single photo on consumer hardware.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "Mistral AI Announces Mistral Large 4 Multimodal Mixture-of-Experts Model",
    "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
    "source": "Hugging Face",
-   "summary": "Mistral Large 4 is a 1-trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token. It unifies instruction following, reasoning, coding, and agent workflows while excelling at visual grounding.",
-   "why": "It provides a massive open-weight model option surpassing frontier closed models on visual grounding.",
+   "summary": "Mistral Large 4 is a 1-trillion-parameter natively multimodal Mixture-of-Experts model featuring 49 billion active parameters per token, fluent in 160+ languages and excelling in visual grounding.",
+   "why": "It offers state-of-the-art capabilities in multimodal understanding and visual grounding.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "mistralai/Mistral-Large-4-1T-A52B"
   },
   {
-   "title": "Idol converts single images into 3D Gaussian splats rapidly",
-   "url": "https://huggingface.co/speridlabs/idol",
+   "title": "CCORE Releases Qwen3.5-4B-3D-Coder for Interactive 3D Scenes",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
    "source": "Hugging Face",
-   "summary": "Idol is a model that turns a single picture, render, or generated image into a 3D Gaussian splat containing up to a million Gaussians. It runs on consumer GPUs using 7.2 GB of VRAM in under 2 seconds.",
-   "why": "It accelerates 3D asset generation directly from single 2D images for computer vision pipelines.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "speridlabs/idol"
-  },
-  {
-   "title": "DeepSeek-V4.1-Flash-1017 improves reasoning, coding, and visual benchmarks",
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "source": "Hugging Face",
-   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements in reasoning, coding, agentic tasks, and visual benchmarks while reducing execution time and output length.",
-   "why": "It advances the performance-cost Pareto frontier for agent harnesses.",
+   "summary": "Qwen3.5-4B-3D-Coder is an independent fine-tune of Qwen/Qwen3.5-4B focusing on general coding and generating interactive 3D scenes with Three.js.",
+   "why": "It demonstrates the feasibility of small language models for specialized 3D scene generation tasks.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   "model": "ccore/Qwen3.5-4B-3D-Coder"
   },
   {
-   "title": "LiquidAI releases LFM3-1.7B, a tri-hybrid text model for edge agents",
+   "title": "LiquidAI Releases LFM3-1.7B Text Model for Local Agents",
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
    "source": "Hugging Face",
-   "summary": "LFM3-1.7B is a text model for local agents built on a new tri-hybrid architecture. It features a 256K-token context window, fits into about 1 GB of memory at 4-bit precision, and supports single-GPU fine-tuning.",
-   "why": "It enables efficient local agent deployment on edge devices like phones and laptops.",
+   "summary": "LFM3-1.7B is a text model built on a tri-hybrid architecture with a 256K-token context window. Designed for edge devices, it consumes about 1 GB of memory at 4-bit precision and supports single-GPU fine-tuning.",
+   "why": "It provides a lightweight option for running local agentic workflows on edge hardware.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "LiquidAI/LFM3-1.7B"
   },
   {
-   "title": "Qwen releases weights and configuration files for Qwen3.8-27B",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "title": "Baidu Releases Unlimited OCR 2 for Long-Horizon Document Parsing",
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
    "source": "Hugging Face",
-   "summary": "The Qwen3.8-27B repository contains model weights and configuration files compatible with Hugging Face Transformers, vLLM, SGLang, and TokenSpeed, with a managed cloud API featuring a 1M context length coming soon.",
-   "why": "It offers a scalable 27B model option optimized for modern inference engines.",
+   "summary": "Unlimited OCR 2 pioneers the OCR-3.0 era by achieving unlimited-horizon parsing with SR-SWA, accompanied by the MarathonDocBench benchmark for ultra-long documents.",
+   "why": "It expands document parsing capabilities to handle ultra-long horizons effectively.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "Qwen/Qwen3.8-27B"
+   "model": "baidu/Unlimited-OCR-2"
   },
   {
-   "title": "Qwen-Image-2.1 Uncensored Quantized formats released for local generation",
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "title": "Pika-Labs Releases Pika H3 Flex for Professional Video Iteration",
+   "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
    "source": "Hugging Face",
-   "summary": "This repository provides GGUF, Safetensors, and MLX quantized formats of Qwen-Image-2.1 for local image generation using ComfyUI, including recommended configurations like Q4_K_M and MLX for Apple Silicon.",
-   "why": "It enables localized, optimized image generation workflows across diverse hardware architectures.",
+   "summary": "Pika H3 Flex is a post-trained H3 video generation model featuring six-step generation, omni-reference support for up to 12 inputs, and synchronized audio.",
+   "why": "It provides professional creators with precise control over video and audio generation workflows.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+   "model": "Pika-Labs/Pika-H3-Flex"
   }
  ]
 }

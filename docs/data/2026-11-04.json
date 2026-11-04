@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-04",
+ "generated": "2026-11-04T00:57+00:00",
+ "technical": [
+  {
+   "title": "DR Pixel introduces page-native deep research using vision-language models",
+   "url": "https://huggingface.co/papers/2611.03097",
+   "source": "HF Daily Papers",
+   "summary": "DR Pixel is an open-source multimodal deep research agent that directly retrieves and reasons over rendered document page images rather than relying on OCR-extracted text, evaluated on the new DRPixelBench benchmark.",
+   "why": "This offers a novel approach to multimodal document understanding for computer vision and NLP engineers.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "BedBench benchmark reveals severe 3D reasoning failures in vision-language models",
+   "url": "https://huggingface.co/papers/2610.39639",
+   "source": "HF Daily Papers",
+   "summary": "A controlled benchmark called BedBench exposes major gaps in 3D object property reasoning among vision-language models, where humans score 93.3% versus 7.2% for top models in per-color counting.",
+   "why": "Understanding these exact 3D perception failures is critical for autonomous driving and spatial AI development.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "WorldSketch uses VLMs to build kinematic world models for robotics",
+   "url": "https://arxiv.org/abs/2611.00513",
+   "source": "arXiv cs.RO",
+   "summary": "WorldSketch proposes an agentic robotics paradigm where a VLM actively queries perception tools to build and validate a minimal kinematic world model instead of generating robot actions directly.",
+   "why": "It presents an alternative architecture for robotic manipulation and VLM integration.",
+   "depth": "read",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "JADE enables vision-language models to act as joint action denoisers",
+   "url": "https://arxiv.org/abs/2611.01215",
+   "source": "arXiv cs.RO",
+   "summary": "JADE is a Joint Action Denoiser allowing pretrained VLMs and diffusion action experts to jointly refine actions at every denoising step by reading noisy action latents alongside visual and language inputs.",
+   "why": "This bridges perception and action generation for more robust vision-language-action models in robotics.",
+   "depth": "read",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "ClothDojo provides learned data generation for bimanual garment manipulation",
+   "url": "https://arxiv.org/abs/2611.01190",
+   "source": "arXiv cs.RO",
+   "summary": "ClothDojo is a simulation platform that generates adaptive manipulation trajectories at scale for garment flattening and folding, encoding mesh coordinates as NOCS textures for vision-language-action models.",
+   "why": "This provides robust simulation and data generation tools for complex robotic deformation tasks.",
+   "depth": "read",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "IdeaTaste benchmark measures how well LLMs match human research taste",
+   "url": "https://huggingface.co/papers/2611.03424",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduce IdeaTaste, a benchmark scoring LLMs on how closely proposals written from a 2025 literature snapshot match actual 2026 publications, finding current agents fall well short of human communities.",
+   "why": "It highlights current limitations in autonomous scientific ideation and planning.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Zyphra introduces hierarchical attention for subquadratic LLM context scaling",
+   "url": "https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/",
+   "source": "MarkTechPost",
+   "summary": "Zyphra Hierarchical Attention is a tree-indexed sparse attention method that retrofits frozen LLMs with token distillation to match dense attention on reasoning and retrieval benchmarks.",
+   "why": "It provides an efficient architectural technique for scaling context lengths in large models.",
+   "depth": "skim",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "Transformers Model Integration Contracts",
+   "url": "https://huggingface.co/blog/transformers-mic",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 25,
+   "covered": 1
+  },
+  {
+   "title": "Amazon builds multi-agent engineering assistant using multimodal embeddings",
+   "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "Amazon demonstrates a multi-agent engineering assistant using Nova Multimodal Embeddings and Bedrock AgentCore to compress aerospace component substitution evaluation from days to minutes.",
+   "why": "It showcases enterprise multi-agent architectures utilizing multimodal embedding models.",
+   "depth": "skim",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "Soniox STT v6 updates speech-to-text with agent text input and echo filtering",
+   "url": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/",
+   "source": "MarkTechPost",
+   "summary": "Soniox STT v6 is a speech-to-text API release that reads what a voice agent says while hearing callers, using the text to recognize short replies and drop the agent's own voice.",
+   "why": "It offers useful engineering improvements for real-time voice agent pipelines.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "AMD stock jumps 8% on strong third-quarter earnings",
+   "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+   "source": "CNBC Tech",
+   "summary": "AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips, causing its data center revenue to nearly double.",
+   "why": "It highlights the surging market demand for hardware driving AI infrastructure.",
+   "depth": "skim",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "AI inference startup Fal doubles valuation to $16 billion",
+   "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+   "source": "TechCrunch AI",
+   "summary": "The five-year-old AI inference startup Fal raised a $1.3 billion funding round led by Bessemer, successfully doubling its valuation to $16 billion as demand surges.",
+   "why": "It demonstrates massive valuation multipliers for core AI inference infrastructure providers.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Global venture funding reaches $59 billion in October",
+   "url": "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/",
+   "source": "Crunchbase News",
+   "summary": "Global venture funding in October totaled $59 billion, marking a 45% jump from a year earlier, largely driven by a record-setting $15.9 billion funding round for China’s DeepSeek.",
+   "why": "It shows massive capital injections fueling top-tier AI startups globally.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Apple hints at revenue growth from third-party AI apps",
+   "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+   "source": "TechCrunch AI",
+   "summary": "Apple hinted at ways that it could spur revenue through third-party AI app opportunities during its Monday night earnings call.",
+   "why": "It points to potential ecosystem monetization strategies for AI developers.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Apple posts best-ever fiscal year driven by strong sales",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+   "source": "The Verge AI",
+   "summary": "Apple posted its best-ever fiscal year for revenue and earnings per share, with iPhone revenue rising 17.5%, while capitalizing on the AI boom without heavy infrastructure spending.",
+   "why": "It illustrates alternative hardware-focused financial strategies in the current AI boom.",
+   "depth": "read",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Venture funding in 2026 concentrates on massive AI rounds",
+   "url": "https://news.crunchbase.com/venture/q3-2026-charts-funding-amounts-vs-round-counts/",
+   "source": "Crunchbase News",
+   "summary": "Record venture funding in 2026 has been increasingly concentrated in massive AI rounds, while seed- and early-stage deal counts decline, continuing a dollars-up-but-deals-down trend.",
+   "why": "It reveals the changing investment landscape favoring late-stage AI giants over early startups.",
+   "depth": "read",
+   "hours": 37,
+   "covered": 1
+  },
+  {
+   "title": "Reverse game theory proposed to keep AI agents safe",
+   "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+   "source": "MIT Technology Review AI",
+   "summary": "A new approach known as reverse game theory aims to control powerful AI models by designing systems that incentivize them to stick to rules and align with human desires.",
+   "why": "It introduces advanced theoretical frameworks for safety alignment in autonomous AI agents.",
+   "depth": "read",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Ballistic Ventures seeks $490 million for cybersecurity funds",
+   "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+   "source": "TechCrunch AI",
+   "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle amid an AI-driven cybersecurity boom.",
+   "why": "It signals growing venture capital focus on AI-adjacent cybersecurity infrastructure.",
+   "depth": "skim",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Palantir stock sinks after earnings report",
+   "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+   "source": "CNBC Tech",
+   "summary": "Palantir's stock fell following its earnings release as analysts pointed to a slowdown in total contract value, failing to impress investors.",
+   "why": "It reflects market scrutiny on large enterprise software and AI contract growth metrics.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Ukraine drone strikes spur Russian underground data centers",
+   "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+   "source": "Ars Technica AI",
+   "summary": "Russia is making hasty plans for underground data centers and trying to fix exposed digital infrastructure as Ukraine's drone strikes backfire on its digital operations.",
+   "why": "It underscores physical security and infrastructure vulnerabilities for regional data centers.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Idol Generates 3D Gaussian Splats From a Single Image",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol converts a single picture of an object into up to a million 3D Gaussians written as a standard 3DGS .ply file, including unseen sides. It runs on consumer GPUs using 7.2 GB of VRAM in under 2 seconds.",
+   "why": "It enables rapid single-image 3D asset generation for computer vision and rendering pipelines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 Update Improves Reasoning and Visual Benchmarks",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hugging Face",
+   "summary": "DeepSeek-V4.1-Flash-1017 is a minor update delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time, output length, and cost.",
+   "why": "It improves the performance-cost Pareto frontier for engineers deploying agent harnesses.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "title": "Mistral Releases Large 4 Le Chonk 1-Trillion-Parameter Multimodal MoE Model",
+   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+   "source": "Hugging Face",
+   "summary": "Mistral Large 4 is a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token. It unifies instruction following, reasoning, coding, and agentic workflows, showing strong visual grounding performance and fluency in 160+ languages.",
+   "why": "It represents a massive open frontier model with exceptional multimodal and visual grounding capabilities.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "mistralai/Mistral-Large-4-1T-A52B"
+  },
+  {
+   "title": "CCORE Releases Qwen3.5-4B-3D-Coder Early Preview for 3D Scenes",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "Hugging Face",
+   "summary": "Qwen3.5-4B-3D-Coder is an independent fine-tune of Qwen/Qwen3.5-4B focusing on general coding and high-quality 3D scene generation, particularly interactive Three.js scenes.",
+   "why": "It tests the limits of small language models for specialized 3D graphics generation tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "title": "Qwen Releases Qwen3.8-27B Model Weights and Configuration",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The Qwen3.8-27B repository provides post-trained model weights compatible with Hugging Face Transformers, vLLM, SGLang, and TokenSpeed, with a managed API version featuring a 1M context length coming soon.",
+   "why": "It delivers a scalable mid-sized open model option optimized for high-throughput inference engines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Burner22 Publishes Numbat 14T Parameter Hybrid MoE Checkpoint",
+   "url": "https://huggingface.co/burner22/numbat",
+   "source": "Hugging Face",
+   "summary": "Numbat is a mid-pretraining checkpoint from Anthropic's next Mythos-class training run, featuring a ~14T parameter hybrid GDN/MLA MoE architecture across 7.72 TB of safetensors shards.",
+   "why": "It offers an unprecedented glimpse into the internal architecture of next-generation frontier training runs.",
+   "depth": "deep",
+   "hours": 0,
+   "covered": 1,
+   "model": "burner22/numbat"
+  }
+ ]
+}

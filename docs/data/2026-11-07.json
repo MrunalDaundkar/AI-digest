@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-07",
+ "generated": "2026-11-07T00:30+00:00",
+ "technical": [
+  {
+   "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+   "url": "https://huggingface.co/papers/2611.07613",
+   "source": "HF Daily Papers",
+   "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses th",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 2
+  },
+  {
+   "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+   "url": "https://huggingface.co/papers/2611.08237",
+   "source": "HF Daily Papers",
+   "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "PSGAgent: Enhancing MLLMs' Dynamic Visual Perception for Panoptic Scene Graph Generation via Agentic Reasoning",
+   "url": "https://arxiv.org/abs/2611.07408",
+   "source": "arXiv cs.CV",
+   "summary": "arXiv:2611.07408v1 Announce Type: new Abstract: Panoptic Scene Graph generation (PSG) requires holistic yet fine-grained reasoning over complex relations among objects. However, current Multimodal Large Language Models (",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+   "url": "https://huggingface.co/papers/2611.08483",
+   "source": "HF Daily Papers",
+   "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow becau",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "source": "OpenAI",
+   "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+   "why": "",
+   "depth": "",
+   "hours": 25,
+   "covered": 1
+  },
+  {
+   "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+   "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
+   "source": "AWS Machine Learning",
+   "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a s",
+   "why": "",
+   "depth": "",
+   "hours": 7,
+   "covered": 2
+  },
+  {
+   "title": "Segment What It Can Draw: Querying a Text-to-Image Generator with Its Own Images for Skin Lesion Segmentation",
+   "url": "https://arxiv.org/abs/2611.07061",
+   "source": "arXiv cs.CV",
+   "summary": "arXiv:2611.07061v1 Announce Type: new Abstract: Skin lesion segmentation without annotated masks requires the target to be specified through other cues. Existing approaches rely on dermoscopy-specific rules, annotation-d",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "Development of Anthropomorphic Arm for collaborative and Home Service Robot CHARMIE",
+   "url": "https://arxiv.org/abs/2611.08013",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.08013v1 Announce Type: new Abstract: Service Robots are becoming a reality and are progressing by leaps and bounds. Alongside this avenue of robotics is also the field of prosthetics, which is evolving rapidly",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+   "url": "https://arxiv.org/abs/2611.08039",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.08039v1 Announce Type: new Abstract: Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "source": "Google DeepMind",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 31,
+   "covered": 2
+  }
+ ],
+ "business": [
+  {
+   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "source": "TechCrunch AI",
+   "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+   "why": "",
+   "depth": "",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "source": "The Verge AI",
+   "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 bil",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "General Catalyst Tops Lead Investors For October In Busy Month For US Startup Dealmaking",
+   "url": "https://news.crunchbase.com/venture/october-2026-lead-startup-investors/",
+   "source": "Crunchbase News",
+   "summary": "October was a busy month for U.S. startup funding, led by well-known venture investors with a healthy appetite for big deals. We take a look at active investor rankings across three categories: lead deal count, largest l",
+   "why": "",
+   "depth": "",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+   "source": "TechCrunch AI",
+   "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+   "why": "",
+   "depth": "",
+   "hours": 29,
+   "covered": 1
+  },
+  {
+   "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
+   "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
+   "source": "CNBC Tech",
+   "summary": "CoreWeave and Nebius earnings, alongside key inflation reports that could shape the Fed's next interest rate decision, are the focus.",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "source": "TechCrunch AI",
+   "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+   "why": "",
+   "depth": "",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+   "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+   "source": "CNBC Tech",
+   "summary": "Voters across the country on Tuesday voiced their support for candidates who have pledged to place restrictions on data center development.",
+   "why": "",
+   "depth": "",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+   "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic could list below a $1.5 trillion valuation, trailing previous expectations, as the AI trade sours on Wall Street.",
+   "why": "",
+   "depth": "",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "The Week’s 10 Biggest Funding Rounds: AI, Defense And Space Tech Lead For Large Rounds",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/",
+   "source": "Crunchbase News",
+   "summary": "This week brought another plethora of large funding rounds for startups and growth-stage companies. Shield AI, a defense tech player focused on autonomy and virtual simulations, secured the largest financing, bringing in",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States",
+   "url": "https://news.crunchbase.com/venture/2026-post-election-funding-red-states-drops/",
+   "source": "Crunchbase News",
+   "summary": "So far this year, less than 2% of all startup investment has gone to companies in post-election red states, a share that is much smaller than in years past due to five states shifting to purple in the most recent electio",
+   "why": "",
+   "depth": "",
+   "hours": 53,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "moonshotai/Kimi-K3.1-Pro",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "source": "Hugging Face",
+   "summary": "📰 Tech Blog | 🚀 API Quickstart ## 1. Model Introduction Kimi K3.1 Pro is an open-weight, natively multimodal agentic model, and our most capable 3T-class model to date. Post-trained from Kimi K3 with large-scale joint re",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "title": "speridlabs/idol",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol A single image to a 3D Gaussian splat. One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed. Idol turns one picture of an object into a 3D Gaussian splat. Give ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "ccore/Qwen3.5-4B-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "Hugging Face",
+   "summary": "# Qwen3.5-4B-3D-Coder ### Early preview · General coding with a focus on 3D **An experiment exploring the feasibility of small language models for general-purpose coding and high-quality 3D scene generation.** This is an",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "title": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "source": "Hugging Face",
+   "summary": "No model card text available.",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "Lightricks/LTX-2.5"
+  },
+  {
+   "title": "burner22/numbat",
+   "url": "https://huggingface.co/burner22/numbat",
+   "source": "Hugging Face",
+   "summary": "# numbat ~14T param, 114 layers, hybrid GDN/MLA, MoE (1,224 experts, top-48 + 1 shared), NVFP4. Internal codename `numbat`, Anthropic's next Mythos-class training run. `numbat` is the codename referenced in the Claude Co",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "burner22/numbat"
+  },
+  {
+   "title": "FusionCow/Sulphur-3",
+   "url": "https://huggingface.co/FusionCow/Sulphur-3",
+   "source": "Hugging Face",
+   "summary": "No model card text available.",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "FusionCow/Sulphur-3"
+  }
+ ]
+}

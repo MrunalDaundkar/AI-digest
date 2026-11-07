@@ -1,240 +1,251 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T00:30+00:00",
+ "generated": "2026-11-07T09:25+00:00",
  "technical": [
   {
-   "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+   "title": "New Transformer method improves full-waveform LiDAR for autonomous driving under adverse conditions.",
    "url": "https://huggingface.co/papers/2611.07613",
    "source": "HF Daily Papers",
-   "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses th",
-   "why": "",
-   "depth": "",
+   "summary": "Full-waveform LiDAR captures complete return histograms for robotics and autonomous driving, but faces high computational overhead and scarce training data. Researchers address these bottlenecks using intensity-guided token reduction and physics-aware data augmentation.",
+   "why": "This research directly improves computer vision and perception pipelines for autonomous vehicles operating in adverse weather.",
+   "depth": "read",
    "hours": 12,
-   "covered": 2
+   "covered": 1
   },
   {
-   "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+   "title": "Continuous latent context compression model reduces tool output overhead for LLM agents.",
+   "url": "https://huggingface.co/papers/2611.06500",
+   "source": "HF Daily Papers",
+   "summary": "To combat context overhead and attention dilution from raw text tool outputs, researchers propose Coca-Cola, a continuous latent context compression model. It compresses observations into latent tokens and embeds them directly into the input embedding stream.",
+   "why": "It provides a more efficient mechanism for managing agent context windows during multi-step interactions.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Greenlight Financial builds an autonomous security operations center using Amazon Bedrock AgentCore.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "Greenlight Financial uses Luna, a tiered multi-agent system on Amazon Bedrock AgentCore, to autonomously resolve over 90% of its monthly security and risk cases. The architecture leverages episodic memory for continuous learning.",
+   "why": "It demonstrates a real-world, large-scale deployment of multi-agent systems for automated risk triage.",
+   "depth": "read",
+   "hours": 17,
+   "covered": 1
+  },
+  {
+   "title": "Optimizing image generation inference latency using FLUX 3 Image Klein on NVIDIA GPUs.",
+   "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+   "source": "NVIDIA Developer",
+   "summary": "Developers deploying diffusion models in visual production workflows must account for inference latency when using hardware like NVIDIA Blackwell GPUs for image generation pipelines.",
+   "why": "It concerns performance optimization for generative visual models on specialized hardware.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Zyphra releases ZYFA open-source FP8 FlashAttention kernels for AMD Instinct accelerators.",
+   "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
+   "source": "MarkTechPost",
+   "summary": "Zyphra launched ZYFA, providing open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X GPUs. The FP8 kernels achieve up to 1.76x faster performance than AMD's AITER on real model activations with reduced error.",
+   "why": "It offers hardware-specific performance optimizations for running large models on AMD infrastructure.",
+   "depth": "read",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "ToyBlocks provides a controlled simulation world for robot learning and evaluation.",
+   "url": "https://huggingface.co/blog/allenai/toyblocks",
+   "source": "Hugging Face Blog",
+   "summary": "No additional details were provided in the text regarding the ToyBlocks environment other than its role as a controlled world for robot learning and evaluation.",
+   "why": "Simulation environments are foundational for training and testing robotics and embodied AI systems.",
+   "depth": "skim",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "New terminal-style benchmark evaluates agentic mathematical modeling on real-world contest problems.",
    "url": "https://huggingface.co/papers/2611.08237",
    "source": "HF Daily Papers",
-   "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically",
-   "why": "",
-   "depth": "",
+   "summary": "TB-MathModel introduces the first agentic, verifiable benchmark for mathematical modeling using 18 real CUMCM and MCM problems. Tasks run in a containerized terminal environment where agents turn open-ended problems into complete, physically feasible recommendations.",
+   "why": "It offers rigorous evaluation for advanced AI agents tackling complex, multi-step problem solving.",
+   "depth": "skim",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "PSGAgent: Enhancing MLLMs' Dynamic Visual Perception for Panoptic Scene Graph Generation via Agentic Reasoning",
-   "url": "https://arxiv.org/abs/2611.07408",
-   "source": "arXiv cs.CV",
-   "summary": "arXiv:2611.07408v1 Announce Type: new Abstract: Panoptic Scene Graph generation (PSG) requires holistic yet fine-grained reasoning over complex relations among objects. However, current Multimodal Large Language Models (",
-   "why": "",
-   "depth": "",
-   "hours": 20,
-   "covered": 1
-  },
-  {
-   "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-   "url": "https://huggingface.co/papers/2611.08483",
-   "source": "HF Daily Papers",
-   "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow becau",
-   "why": "",
-   "depth": "",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "title": "OpenAI introduces BioBasicsBench to measure agent performance on everyday wet-lab science.",
    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
    "source": "OpenAI",
-   "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-   "why": "",
-   "depth": "",
-   "hours": 25,
+   "summary": "OpenAI presents BioBasicsBench, a new 100-task benchmark designed to measure how effectively AI agents can interpret raw experimental data and manage everyday wet-lab science workflows.",
+   "why": "It expands the evaluation of domain-specific scientific reasoning capabilities in AI agents.",
+   "depth": "skim",
+   "hours": 33,
    "covered": 1
   },
   {
-   "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+   "title": "Enterprise architecture guide details governing AI agent access using Okta and Amazon Bedrock.",
    "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
    "source": "AWS Machine Learning",
-   "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a s",
-   "why": "",
-   "depth": "",
-   "hours": 7,
+   "summary": "Part 2 of this guide scales enterprise agent access by using Amazon Bedrock AgentCore Gateway as a single front door, integrating Okta grants, enforcing Cedar tool policies, and utilizing Amazon CloudWatch for observability and tracing.",
+   "why": "It outlines essential security and governance patterns for deploying production-grade enterprise agents.",
+   "depth": "skim",
+   "hours": 16,
    "covered": 2
   },
   {
-   "title": "Segment What It Can Draw: Querying a Text-to-Image Generator with Its Own Images for Skin Lesion Segmentation",
-   "url": "https://arxiv.org/abs/2611.07061",
-   "source": "arXiv cs.CV",
-   "summary": "arXiv:2611.07061v1 Announce Type: new Abstract: Skin lesion segmentation without annotated masks requires the target to be specified through other cues. Existing approaches rely on dermoscopy-specific rules, annotation-d",
-   "why": "",
-   "depth": "",
-   "hours": 20,
+   "title": "OpenAI introduces GPT-6 Cyber to advance aligned cybersecurity agents for finding vulnerabilities.",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "source": "OpenAI",
+   "summary": "OpenAI presents GPT-6 Cyber, a specialized cybersecurity model designed to discover exploitable vulnerabilities and develop fixes while operating strictly within authorized parameters.",
+   "why": "It showcases frontier developments in autonomous vulnerability discovery and security alignment.",
+   "depth": "skim",
+   "hours": 48,
    "covered": 1
-  },
-  {
-   "title": "Development of Anthropomorphic Arm for collaborative and Home Service Robot CHARMIE",
-   "url": "https://arxiv.org/abs/2611.08013",
-   "source": "arXiv cs.RO",
-   "summary": "arXiv:2611.08013v1 Announce Type: new Abstract: Service Robots are becoming a reality and are progressing by leaps and bounds. Alongside this avenue of robotics is also the field of prosthetics, which is evolving rapidly",
-   "why": "",
-   "depth": "",
-   "hours": 20,
-   "covered": 1
-  },
-  {
-   "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
-   "url": "https://arxiv.org/abs/2611.08039",
-   "source": "arXiv cs.RO",
-   "summary": "arXiv:2611.08039v1 Announce Type: new Abstract: Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across",
-   "why": "",
-   "depth": "",
-   "hours": 20,
-   "covered": 1
-  },
-  {
-   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "source": "Google DeepMind",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 31,
-   "covered": 2
   }
  ],
  "business": [
   {
-   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-   "source": "TechCrunch AI",
-   "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-   "why": "",
-   "depth": "",
-   "hours": 2,
-   "covered": 1
-  },
-  {
-   "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-   "source": "The Verge AI",
-   "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 bil",
-   "why": "",
-   "depth": "",
-   "hours": 1,
-   "covered": 1
-  },
-  {
-   "title": "General Catalyst Tops Lead Investors For October In Busy Month For US Startup Dealmaking",
-   "url": "https://news.crunchbase.com/venture/october-2026-lead-startup-investors/",
-   "source": "Crunchbase News",
-   "summary": "October was a busy month for U.S. startup funding, led by well-known venture investors with a healthy appetite for big deals. We take a look at active investor rankings across three categories: lead deal count, largest l",
-   "why": "",
-   "depth": "",
-   "hours": 13,
-   "covered": 1
-  },
-  {
-   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-   "source": "TechCrunch AI",
-   "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-   "why": "",
-   "depth": "",
-   "hours": 29,
-   "covered": 1
-  },
-  {
-   "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
-   "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
-   "source": "CNBC Tech",
-   "summary": "CoreWeave and Nebius earnings, alongside key inflation reports that could shape the Fed's next interest rate decision, are the focus.",
-   "why": "",
-   "depth": "",
-   "hours": 1,
-   "covered": 1
-  },
-  {
-   "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-   "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-   "source": "TechCrunch AI",
-   "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-   "why": "",
-   "depth": "",
-   "hours": 9,
-   "covered": 1
-  },
-  {
-   "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
-   "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
-   "source": "CNBC Tech",
-   "summary": "Voters across the country on Tuesday voiced their support for candidates who have pledged to place restrictions on data center development.",
-   "why": "",
-   "depth": "",
-   "hours": 2,
-   "covered": 1
-  },
-  {
-   "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
-   "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
-   "source": "CNBC Tech",
-   "summary": "Anthropic could list below a $1.5 trillion valuation, trailing previous expectations, as the AI trade sours on Wall Street.",
-   "why": "",
-   "depth": "",
-   "hours": 3,
-   "covered": 1
-  },
-  {
-   "title": "The Week’s 10 Biggest Funding Rounds: AI, Defense And Space Tech Lead For Large Rounds",
+   "title": "Shield AI and Zipline lead large weekly funding rounds",
    "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/",
    "source": "Crunchbase News",
-   "summary": "This week brought another plethora of large funding rounds for startups and growth-stage companies. Shield AI, a defense tech player focused on autonomy and virtual simulations, secured the largest financing, bringing in",
-   "why": "",
-   "depth": "",
-   "hours": 5,
+   "summary": "Shield AI secured $2 billion in financing for autonomy and virtual simulations, while drone delivery provider Zipline International pulled in $1.5 billion.",
+   "why": "Autonomous systems and robotics are absorbing massive amounts of venture capital.",
+   "depth": "skim",
+   "hours": 14,
    "covered": 1
   },
   {
-   "title": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States",
-   "url": "https://news.crunchbase.com/venture/2026-post-election-funding-red-states-drops/",
-   "source": "Crunchbase News",
-   "summary": "So far this year, less than 2% of all startup investment has gone to companies in post-election red states, a share that is much smaller than in years past due to five states shifting to purple in the most recent electio",
-   "why": "",
-   "depth": "",
-   "hours": 53,
+   "title": "OpenAI reportedly raises an additional $11 billion in funding",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "source": "TechCrunch AI",
+   "summary": "OpenAI has reportedly raised an additional $11 billion in a funding round that is expected to close in the coming weeks.",
+   "why": "This massive capital raise directly impacts the competitive landscape and funding availability in the AI industry.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI valued at $1.25 trillion as rival Anthropic nears IPO",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "source": "The Verge AI",
+   "summary": "OpenAI is valued at $1.25 trillion in a new $11 billion funding round, following an earlier $122 billion investment in March at an $852 billion valuation.",
+   "why": "Valuation milestones for market leaders signal massive capital inflows relevant to overall AI industry health.",
+   "depth": "skim",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Meta warns election backlash against data centers threatens investments",
+   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+   "source": "TechCrunch AI",
+   "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments as communities push back against infrastructure projects.",
+   "why": "Community pushback against data centers can directly delay or restrict the physical infrastructure required for large-scale AI deployment.",
+   "depth": "skim",
+   "hours": 38,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI will continue investing in AI data centers despite elections",
+   "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+   "source": "CNBC Tech",
+   "summary": "Despite voters showing support for candidates pledging restrictions on data center development, OpenAI's CFO states the company will keep investing.",
+   "why": "Continued data center buildout despite political hurdles impacts long-term compute capacity.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "China recruited Megaspeed executive to spy on Jensen Huang",
+   "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+   "source": "The Verge AI",
+   "summary": "China's Ministry of State Security enlisted Megaspeed executive Alice Huang to glean information about American AI chips and influence chip availability.",
+   "why": "Geopolitical espionage targeting key hardware executives highlights intense global competition over advanced AI chips.",
+   "depth": "read",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Humanoid robot cleaning service launches in San Francisco",
+   "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+   "source": "MIT Technology Review AI",
+   "summary": "A user shares an experience signing up for a new humanoid-robot cleaning service in San Francisco.",
+   "why": "Commercial deployment of humanoid robots in consumer services demonstrates real-world progress in physical AI agents.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Crusoe sells troubled Wyoming data center project to Google",
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+   "source": "TechCrunch AI",
+   "summary": "Crusoe has sold its troubled Wyoming data center project to Google, highlighting the ongoing challenges of developing massive AI data centers.",
+   "why": "Infrastructure bottlenecks and project sales directly impact hardware availability and compute scaling.",
+   "depth": "skim",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "CoreWeave and Nebius earnings face upcoming market hurdles",
+   "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
+   "source": "CNBC Tech",
+   "summary": "CoreWeave and Nebius earnings, along with key inflation reports shaping the Fed's interest rate decisions, are the focus for the week.",
+   "why": "Earnings and interest rates impact the financial climate and hardware investment capacity of AI infrastructure providers.",
+   "depth": "skim",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Investors brace for lower Anthropic valuation ahead of IPO",
+   "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic could list below a $1.5 trillion valuation, trailing previous expectations as the AI trade sours on Wall Street.",
+   "why": "Shifting market sentiment toward major AI labs affects startup valuations and sector momentum.",
+   "depth": "skim",
+   "hours": 12,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "moonshotai/Kimi-K3.1-Pro",
-   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-   "source": "Hugging Face",
-   "summary": "📰 Tech Blog | 🚀 API Quickstart ## 1. Model Introduction Kimi K3.1 Pro is an open-weight, natively multimodal agentic model, and our most capable 3T-class model to date. Post-trained from Kimi K3 with large-scale joint re",
-   "why": "",
-   "depth": "",
-   "hours": 0,
-   "covered": 1,
-   "model": "moonshotai/Kimi-K3.1-Pro"
-  },
-  {
-   "title": "speridlabs/idol",
+   "title": "Idol converts a single image into a 3D Gaussian splat",
    "url": "https://huggingface.co/speridlabs/idol",
    "source": "Hugging Face",
-   "summary": "Idol A single image to a 3D Gaussian splat. One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed. Idol turns one picture of an object into a 3D Gaussian splat. Give ",
-   "why": "",
-   "depth": "",
+   "summary": "Idol takes a single photograph, render, or generated image, removes the background, and outputs up to 1,048,576 3D Gaussians in a standard .ply format. It runs on consumer GPUs in under two seconds.",
+   "why": "It enables rapid 3D asset generation directly from single 2D images for computer vision pipelines.",
+   "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "speridlabs/idol"
   },
   {
-   "title": "ccore/Qwen3.5-4B-3D-Coder",
+   "title": "Moonshot AI releases Kimi K3.1 Pro open-weight multimodal agentic model",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "source": "Hugging Face",
+   "summary": "Kimi K3.1 Pro is a 2.8T-parameter Mixture-of-Experts open-weight multimodal model featuring a 1-million-token context window. It delivers significant improvements in coding, 3D creation, financial research, and factual accuracy.",
+   "why": "Its massive context window and agentic capabilities make it a strong candidate for complex automated workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "title": "Ricursive Intelligence launches Ripple-65B Preview dense Transformer model",
+   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+   "source": "Hugging Face",
+   "summary": "Ripple-65B Preview is a 65B parameter dense model pretrained on 12 trillion tokens with support for up to 1 million tokens of context, scoring 80.52 on TerminalBench 2.1.",
+   "why": "It provides open-weight model users with strong agentic coding performance that rivals much larger models.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "ricursiveAI/Ripple-65B-Preview"
+  },
+  {
+   "title": "CCORE introduces Qwen3.5-4B-3D-Coder for interactive 3D scene generation",
    "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
    "source": "Hugging Face",
-   "summary": "# Qwen3.5-4B-3D-Coder ### Early preview · General coding with a focus on 3D **An experiment exploring the feasibility of small language models for general-purpose coding and high-quality 3D scene generation.** This is an",
-   "why": "",
-   "depth": "",
+   "summary": "Qwen3.5-4B-3D-Coder is an early-preview, independent fine-tune of Qwen/Qwen3.5-4B focused on general-purpose coding and generating interactive 3D scenes using Three.js.",
+   "why": "It tests the feasibility of small language models handling specialized 3D coding tasks.",
+   "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "ccore/Qwen3.5-4B-3D-Coder"
@@ -260,17 +271,6 @@
    "hours": 0,
    "covered": 1,
    "model": "burner22/numbat"
-  },
-  {
-   "title": "FusionCow/Sulphur-3",
-   "url": "https://huggingface.co/FusionCow/Sulphur-3",
-   "source": "Hugging Face",
-   "summary": "No model card text available.",
-   "why": "",
-   "depth": "",
-   "hours": 0,
-   "covered": 1,
-   "model": "FusionCow/Sulphur-3"
   }
  ]
 }

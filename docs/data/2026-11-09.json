@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-09",
+ "generated": "2026-11-09T00:17+00:00",
+ "technical": [
+  {
+   "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+   "url": "https://huggingface.co/papers/2611.07613",
+   "source": "HF Daily Papers",
+   "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses th",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+   "url": "https://huggingface.co/papers/2611.08237",
+   "source": "HF Daily Papers",
+   "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+   "url": "https://huggingface.co/papers/2611.06500",
+   "source": "HF Daily Papers",
+   "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+   "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
+   "source": "MarkTechPost",
+   "summary": "Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyan",
+   "why": "",
+   "depth": "",
+   "hours": 40,
+   "covered": 1
+  },
+  {
+   "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+   "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
+   "source": "AWS Machine Learning",
+   "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a s",
+   "why": "",
+   "depth": "",
+   "hours": 55,
+   "covered": 2
+  },
+  {
+   "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+   "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
+   "source": "MarkTechPost",
+   "summary": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code. The post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appeared f",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture",
+   "why": "",
+   "depth": "",
+   "hours": 55,
+   "covered": 1
+  },
+  {
+   "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+   "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+   "source": "NVIDIA Developer",
+   "summary": "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an...",
+   "why": "",
+   "depth": "",
+   "hours": 50,
+   "covered": 1
+  },
+  {
+   "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+   "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
+   "source": "MarkTechPost",
+   "summary": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Routing Does Each MoE Mo",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "url": "https://huggingface.co/blog/allenai/toyblocks",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 58,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Shield AI and Zipline lead large startup funding rounds",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/",
+   "source": "Crunchbase News",
+   "summary": "Shield AI secured $2 billion in financing for autonomy and virtual simulations, while drone delivery provider Zipline pulled in $1.5 billion.",
+   "why": "Large rounds in autonomy and robotics signal continued investor appetite for physical AI applications.",
+   "depth": "skim",
+   "hours": 53,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI reportedly raises $11 billion in ongoing funding round",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "source": "TechCrunch AI",
+   "summary": "OpenAI has reportedly raised an additional $11 billion in a funding round that is expected to close in the coming weeks.",
+   "why": "This massive capital influx demonstrates the continued aggressive scaling of foundational AI models.",
+   "depth": "skim",
+   "hours": 49,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI reaches $1.25 trillion valuation as Anthropic nears IPO",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "source": "The Verge AI",
+   "summary": "OpenAI is valued at $1.25 trillion following an $11 billion funding round, while rival Anthropic approaches its public market debut.",
+   "why": "Tracking valuations helps you gauge market capitalization trends across the top AI labs.",
+   "depth": "skim",
+   "hours": 49,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "source": "TechCrunch AI",
+   "summary": "In a memo to the company, Huang admitted that he had an affair.",
+   "why": "",
+   "depth": "",
+   "hours": 3,
+   "covered": 3
+  },
+  {
+   "title": "General Catalyst Tops Lead Investors For October In Busy Month For US Startup Dealmaking",
+   "url": "https://news.crunchbase.com/venture/october-2026-lead-startup-investors/",
+   "source": "Crunchbase News",
+   "summary": "October was a busy month for U.S. startup funding, led by well-known venture investors with a healthy appetite for big deals. We take a look at active investor rankings across three categories: lead deal count, largest l",
+   "why": "",
+   "depth": "",
+   "hours": 60,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+   "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic is poised to become the first pure-play AI company to hit the public market at a time when the public is increasingly leary of the industry.",
+   "why": "",
+   "depth": "",
+   "hours": 35,
+   "covered": 1
+  },
+  {
+   "title": "Read Huang's email to his staff and statement from Nvidia's board of directors",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "source": "CNBC Tech",
+   "summary": "Here is the text of a staff email from Huang obtained by CNBC and a statement released Sunday about the investigation from Nvidia's board of directors.",
+   "why": "",
+   "depth": "",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Google acquires Crusoe's troubled Wyoming data center project",
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+   "source": "TechCrunch AI",
+   "summary": "Crusoe has sold its troubled Wyoming data center project to Google, highlighting the development challenges of massive AI infrastructure.",
+   "why": "Infrastructure bottlenecks directly impact how quickly large-scale computer vision and AI workloads can be deployed.",
+   "depth": "skim",
+   "hours": 47,
+   "covered": 1
+  },
+  {
+   "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+   "source": "The Verge AI",
+   "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing t",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
+   "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html",
+   "source": "CNBC Tech",
+   "summary": "CoreWeave and Nebius earnings, alongside key inflation reports that could shape the Fed's next interest rate decision, are the focus.",
+   "why": "",
+   "depth": "",
+   "hours": 49,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Idol Turns Single Images into 3D Gaussian Splats Efficiently",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol converts a single picture, render, or generated image into up to 1,048,576 3D Gaussians written as a standard 3DGS .ply file. It runs on consumer GPUs, uses 7.2 GB of VRAM, and executes in under 2 seconds.",
+   "why": "It offers rapid single-image 3D asset generation directly on consumer hardware.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "Kimi K3.1 Pro Launched as Open-Weight Multimodal Agentic Model",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "source": "Hugging Face",
+   "summary": "Kimi K3.1 Pro is an open-weight, natively multimodal agentic 2.8T-class MoE model with 104B activated parameters and a 1-million-token context window, delivering major improvements in coding, 3D creation, and financial research.",
+   "why": "It introduces a massive open-weight multimodal architecture with strong agentic and 3D capabilities.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "title": "Qwen3.5-4B-3D-Coder Explores Small Models for 3D Scene Generation",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "Hugging Face",
+   "summary": "CCORE released an early preview of Qwen3.5-4B-3D-Coder, an independent fine-tune focused on general-purpose coding and generating interactive 3D scenes using Three.js.",
+   "why": "Explores the feasibility of lightweight models for specialized 3D graphical coding tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "title": "Ripple-65B Preview Dense Transformer Released with 1M Token Context",
+   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+   "source": "Hugging Face",
+   "summary": "Ricursive Intelligence introduced Ripple-65B Preview, a 65B dense Transformer pretrained on 12 trillion tokens supporting up to 1 million context tokens. It scores 80.52 on TerminalBench 2.1, outperforming several larger open-weight models.",
+   "why": "Demonstrates high-performance agentic coding capabilities in a dense 65B architecture.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ricursiveAI/Ripple-65B-Preview"
+  },
+  {
+   "title": "Qwen3.8-27B Model Weights and Configuration Files Published",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The repository provides model weights and configuration files for the post-trained Qwen3.8-27B model, compatible with Hugging Face Transformers, vLLM, SGLang, and TokenSpeed.",
+   "why": "Provides direct access to a mid-sized Qwen base model for local inference and integration.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED Released as Compact Reasoning Model",
+   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+   "source": "Hugging Face",
+   "summary": "A decensored and reasoning-focused fine-tune of Qwen3.5-9B, this 9B parameter model is distilled from DeepSeek-V4-Pro in Max Effect mode, concentrating its supervised training signal on mathematics and STEM problem solving.",
+   "why": "Provides an open, distilled reasoning model tailored for math and technical tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+  }
+ ]
+}

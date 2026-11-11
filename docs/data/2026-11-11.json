@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-11",
+ "generated": "2026-11-11T03:43+00:00",
+ "technical": [
+  {
+   "title": "New VLM-driven framework improves cooperative perception in multi-agent traffic environments.",
+   "url": "https://arxiv.org/abs/2611.10819",
+   "source": "arXiv cs.RO",
+   "summary": "Researchers propose a VLM-driven agentic framework for blind spot reasoning and dialogue-based cooperative perception. A mixed-model architecture integrates conventional object detection to selectively perform cooperative perception only in safety-critical traffic scenarios.",
+   "why": "This helps autonomous driving engineers reduce the high resource intensity of multi-agent perception tasks.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "REINS self-evolving agent harness targets real-time trajectory planning challenges.",
+   "url": "https://arxiv.org/abs/2611.10748",
+   "source": "arXiv cs.RO",
+   "summary": "The paper addresses how agent harnesses common in software engineering have failed to take hold in trajectory planning due to strict millisecond-level control budgets and non-evolving runtime planners.",
+   "why": "It addresses runtime agent constraints relevant to autonomous driving and motion planning pipelines.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Autonomous vehicle developers deploy reasoning models within strict onboard compute limits.",
+   "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/",
+   "source": "NVIDIA Developer",
+   "summary": "AV developers face the ongoing challenge of operating larger reasoning models within the tight latency and compute constraints typical of onboard vehicle hardware systems.",
+   "why": "It highlights the core deployment bottleneck for advanced reasoning models in autonomous driving.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "MAEP training-free framework optimizes expert pruning for Mixture-of-Experts multimodal models.",
+   "url": "https://huggingface.co/papers/2611.05927",
+   "source": "HF Daily Papers",
+   "summary": "To address memory domination by expert parameters in MoE-MLLMs, researchers propose MAEP. This training-free framework decomposes expert importance by recognizing that identical experts serve distinct roles for vision versus language processing.",
+   "why": "It offers an efficient compression strategy for large multimodal models dominating memory footprints.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Gemini Robotics 2.5 enhances robot dexterity, reliability, and safety.",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "source": "Google DeepMind",
+   "summary": "The latest vision-language-action model improves general robot dexterity, reliability, and safety for real-world execution.",
+   "why": "It demonstrates advancements in multimodal models applied directly to physical robot control.",
+   "depth": "skim",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA Nemotron 3.5 Super VL is now available on Amazon SageMaker JumpStart.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+   "source": "AWS Machine Learning",
+   "summary": "The 120B-parameter multimodal vision-language model, NVIDIA Nemotron 3.5 Super VL, is now available in Amazon SageMaker JumpStart in NVFP4 and BF16 variants for document intelligence and computer-use agents.",
+   "why": "It gives engineers easy deployment access to a massive multimodal model for enterprise agentic workloads.",
+   "depth": "skim",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "EmoHarness boosts multimodal emotion understanding via meta-harness evolving mechanisms.",
+   "url": "https://huggingface.co/papers/2611.11994",
+   "source": "HF Daily Papers",
+   "summary": "EmoHarness runs a frozen small multimodal model inside an evolving harness where a Builder LLM reads errors offline to edit prompts and verification code, enhancing emotion judgment when audio, text, and visual cues conflict.",
+   "why": "It provides a robust strategy for improving multimodal reasoning without retraining base models.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "HippoMamba network improves hippocampal segmentation and serial volumetry in Alzheimer's disease.",
+   "url": "https://arxiv.org/abs/2611.09958",
+   "source": "arXiv cs.CV",
+   "summary": "HippoMamba combines a 3D convolutional encoder-decoder with a Mamba selective state space block at the bottleneck to process one or more MRI visits, achieving top performance on the Medical Segmentation Decathlon dataset.",
+   "why": "It showcases the effectiveness of Mamba architectures for medical computer vision and longitudinal volumetric analysis.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Benchmark highlights representation learning challenges for 3D brain imaging.",
+   "url": "https://arxiv.org/abs/2611.10007",
+   "source": "arXiv cs.CV",
+   "summary": "The study discusses how domain gaps with natural 2D images hinder direct transfer of computer vision models to clinical applications, emphasizing the need for standardized benchmarks and self-supervised 3D foundation models.",
+   "why": "It outlines foundational dataset challenges for computer vision engineers tackling medical 3D volumes.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Agibot offers an open-source modular platform for agricultural robotics research.",
+   "url": "https://arxiv.org/abs/2611.10235",
+   "source": "arXiv cs.RO",
+   "summary": "Agibot is an open-source, low-cost robotics platform integrating four-wheel independent swerve drive, swappable computing, distributed embedded control, and multimodal sensing for agricultural autonomy and education.",
+   "why": "It provides a flexible, modular hardware platform for testing robotics and autonomous systems algorithms.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "CoreWeave beats revenue and lifts guidance",
+   "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+   "source": "CNBC Tech",
+   "summary": "CoreWeave beat on revenue and raised its guidance in its Q3 earnings report, easing concerns about an AI slowdown following a period of stock volatility.",
+   "why": "Strong cloud infrastructure performance directly signals continued enterprise demand for heavy compute workloads.",
+   "depth": "read",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic seeks record $88.5B in IPO and private placement",
+   "url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+   "source": "Crunchbase News",
+   "summary": "Anthropic submitted an updated S-1 filing, seeking up to $88.5 billion in its planned IPO and concurrent private placement in what could be the largest fundraise tied to a public debut.",
+   "why": "It represents a landmark capital raise that will heavily influence public funding dynamics for AI infrastructure and research.",
+   "depth": "deep",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Building sustainable AI companies requires durable revenue and global investors",
+   "url": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+   "source": "Crunchbase News",
+   "summary": "AI startups should prioritize durable revenue, full-price renewals, and healthy margins over paper valuations, while building global investor bases to support customer acquisition and market entry.",
+   "why": "It offers strategic guidance on navigating financial metrics and investor relations in the current AI market.",
+   "depth": "read",
+   "hours": 40,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic sets IPO price range for $1.404 trillion valuation",
+   "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+   "source": "TechCrunch AI",
+   "summary": "Anthropic set an IPO price range of $70 to $78 per share, targeting an implied valuation of up to $1.404 trillion on a fully diluted basis.",
+   "why": "This massive valuation sets a historic benchmark for public market pricing of AI platform companies.",
+   "depth": "read",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic targets IPO with valuation up to $1.4 trillion",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+   "source": "The Verge AI",
+   "summary": "Anthropic confirmed its IPO price is expected to be between $70.00 and $78.00 per share, pushing its valuation as high as $1.4 trillion in one of the biggest IPOs ever.",
+   "why": "Such scale demonstrates the massive capital concentration currently flowing into foundational AI developers.",
+   "depth": "read",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Data center backlash may center on electricity demand",
+   "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+   "source": "MIT Technology Review AI",
+   "summary": "Public pushback against expanding data center hubs, such as Data Center Alley in Ashburn, Virginia, is increasingly rooted in local electricity constraints.",
+   "why": "Power availability is becoming a critical operational bottleneck for scaling heavy AI infrastructure.",
+   "depth": "read",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "Ukraine fiber-optic drones squeezed by AI data center demand",
+   "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+   "source": "Ars Technica AI",
+   "summary": "Ukraine is currently competing directly against Russia and AI data centers for China's optical fiber supply, impacting its fiber-optic drone production.",
+   "why": "It highlights how surging global AI data center infrastructure demands can create unexpected supply chain choke points for hardware.",
+   "depth": "read",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "Jensen Huang navigates geopolitics and Nvidia's dominance",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+   "source": "The Verge AI",
+   "summary": "Nvidia CEO Jensen Huang manages one of the world's most valuable companies, controlling the in-demand technology fueling the AI boom while remaining a prominent target for geopolitical scrutiny.",
+   "why": "Nvidia's market position underpins the entire hardware stack required for autonomous driving and computer vision deployments.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Oura to acquire Counsel Health for $625M",
+   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+   "source": "TechCrunch AI",
+   "summary": "Oura is acquiring AI-native primary care startup Counsel Health for $625 million. This follows Oura's recent indefinite postponement of its up to $2.2 billion IPO due to market uncertainty.",
+   "why": "It highlights consolidation and strategic shifts within the health tech and AI sector.",
+   "depth": "skim",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic opens Australian retail IPO offering",
+   "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic has opened its Australia retail IPO offering, allowing individual investors to apply for shares ahead of its planned public market debut.",
+   "why": "It marks a key retail distribution milestone for one of the industry's biggest upcoming public offerings.",
+   "depth": "skim",
+   "hours": 2,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Idol Turns a Single Image Into a 3D Gaussian Splat",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol takes a render, generated image, or photo, removes the background, frames the object, and generates up to 1,048,576 3D Gaussians including unseen sides in under two seconds on consumer GPUs.",
+   "why": "This provides rapid single-image 3D Gaussian splat generation relevant to computer vision workflows.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "Qwen3.5-4B-3D-Coder Explores Small Models for 3D Scenes",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "Hugging Face",
+   "summary": "An independent fine-tune by CCORE exploring small language models for general coding with a focus on creating interactive 3D scenes using Three.js.",
+   "why": "It provides a preliminary experiment on utilizing small language models for 3D scene generation tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "title": "Kimi K3.1 Pro Open-Weight Multimodal Agentic Model Released",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "source": "Hugging Face",
+   "summary": "Kimi K3.1 Pro is a 2.8T Mixture-of-Experts open-weight model with a 1-million-token context window, delivering improvements in coding, 3D creation, financial research, and agentic capabilities.",
+   "why": "Its large context window and multimodal features expand open-weight agentic capabilities.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "title": "Qwen3.8-27B Weights and Configuration Files Released",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "Qwen3.8-27B model weights and configuration files are available in Hugging Face Transformers format, compatible with frameworks like vLLM and SGLang.",
+   "why": "It provides standard base weights for a prominent model architecture ready for deployment.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Viggle Remake Video Recasting Tool Launched",
+   "url": "https://huggingface.co/Viggle/Viggle-Remake",
+   "source": "Hugging Face",
+   "summary": "Viggle Remake allows users to remake any video by recasting characters, changing outfits, altering weather, and adding or removing elements using a simple prompt or app setup.",
+   "why": "It highlights practical applications in video editing and AI-generated parody generation.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Viggle/Viggle-Remake"
+  },
+  {
+   "title": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic Model Released for Math and STEM",
+   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+   "source": "Hugging Face",
+   "summary": "This is a decensored 9B reasoning model distilled from DeepSeek-V4-Pro in Max Effect mode, concentrating supervised signals on mathematics and STEM problem solving.",
+   "why": "It offers a compact distilled reasoning model optimized for mathematical and STEM tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+  }
+ ]
+}

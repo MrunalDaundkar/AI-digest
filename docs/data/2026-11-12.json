@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-12",
+ "generated": "2026-11-12T04:52+00:00",
+ "technical": [
+  {
+   "title": "LO-World unifies 4D occupancy and LiDAR forecasting in a shared BEV latent space",
+   "url": "https://huggingface.co/papers/2611.11912",
+   "source": "HF Daily Papers",
+   "summary": "LO-World is a unified 4D world model that forecasts both LiDAR point clouds and 3D semantic occupancy within a shared BEV latent space, enabling dense semantics and metric geometry to mutually reinforce each other.",
+   "why": "It eliminates multi-pipeline redundancy for autonomous driving perception and world modeling.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "GEMOR-GS refines 3D Gaussian splatting SLAM mapping and relocalization",
+   "url": "https://arxiv.org/abs/2611.13528",
+   "source": "arXiv cs.RO",
+   "summary": "GEMOR-GS is a LiDAR-inertial-visual SLAM system that refines global extrinsic calibration and provides online relocalization for 3D Gaussian-Splatting maps, delivering geometrically accurate and photorealistic scene representations.",
+   "why": "It improves scene geometry and appearance for continuous robot perception and decision-making.",
+   "depth": "read",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "URL-Sim unifies and regulates LiDAR simulation for dynamic driving scenes",
+   "url": "https://arxiv.org/abs/2611.12932",
+   "source": "arXiv cs.CV",
+   "summary": "URL-Sim uses 3D Gaussian splatting to reconstruct high-fidelity LiDAR simulation scenes from real-world driving logs, addressing the slow rendering speeds of NeRFs and the unconstrained primitive densification of prior methods.",
+   "why": "It enables cost-effective safety validation and data generation for autonomous driving.",
+   "depth": "read",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "RaMOD detects moving objects from raw mmWave radar cubes",
+   "url": "https://arxiv.org/abs/2611.13271",
+   "source": "arXiv cs.RO",
+   "summary": "RaMOD is a real-time framework for moving-object detection and velocity estimation using raw range-azimuth-Doppler cubes from a vehicle-mounted single-chip radar, overcoming ego motion and Doppler wrapping challenges.",
+   "why": "It unlocks weather-robust moving-object perception from raw automotive radar data.",
+   "depth": "read",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "GTAGym evaluates agent perception and reinforcement learning in GTA V",
+   "url": "https://huggingface.co/papers/2611.13028",
+   "source": "HF Daily Papers",
+   "summary": "GTAGym introduces an environment and benchmark derived from GTA V main-story missions, featuring 103 online tasks across nine task families and 47 image-based shooting tasks to evaluate agent perception, reasoning, and control.",
+   "why": "This provides a rich testbed for testing computer vision and reinforcement learning agents in complex virtual environments.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 2
+  },
+  {
+   "title": "Embodied First Exam evaluates coding agents controlling diverse robots",
+   "url": "https://huggingface.co/papers/2611.12177",
+   "source": "HF Daily Papers",
+   "summary": "The Embodied First Exam is a comprehensive, agent-native evaluation framework featuring 1,156 tasks across 35 suites on 47 robots, allowing coding agents to choose direct control, code generation, or policy training.",
+   "why": "It tests whether coding agents can reliably control robotic systems under physical-world constraints.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Maze Runner provides open autonomous stack for maze navigation",
+   "url": "https://arxiv.org/abs/2611.12949",
+   "source": "arXiv cs.RO",
+   "summary": "Maze Runner is an open autonomy stack in C++ and ROS 2 using 2D LiDAR, RANSAC wall line extraction, and Extended Kalman Filters for localization and mapping to navigate simulated mazes safely.",
+   "why": "It offers a practical reference implementation for autonomous robot localization, mapping, and control.",
+   "depth": "read",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "MBZUAI releases PAN 2 open 29B world model for physical AI",
+   "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+   "source": "MarkTechPost",
+   "summary": "MBZUAI's Institute of Foundation Models released PAN 2, an Apache 2.0 world model coupling an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video.",
+   "why": "It offers an open-weights model for physical AI simulation and planning tasks.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "Gemini Robotics 2.5 accelerates real-world general robotic dexterity",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "source": "Google DeepMind",
+   "summary": "This vision-language-action model update enhances robot dexterity, reliability, and safety for real-world operations.",
+   "why": "It represents a core model upgrade for embodied AI and physical manipulation systems.",
+   "depth": "skim",
+   "hours": 57,
+   "covered": 1
+  },
+  {
+   "title": "VIGOR benchmark evaluates visual rationale correctness in MLLMs",
+   "url": "https://arxiv.org/abs/2611.13150",
+   "source": "arXiv cs.CV",
+   "summary": "VIGOR evaluates visually grounded rationales in multimodal large language models using an automatic annotation framework that pairs explicit concepts with pixel-level groundings across multiple abstraction levels.",
+   "why": "It helps assess whether MLLMs base their conclusions on correct visual evidence.",
+   "depth": "skim",
+   "hours": 24,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Anthropic Seeks Record $88.5B in Public Market Debut",
+   "url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+   "source": "Crunchbase News",
+   "summary": "Anthropic submitted an updated S-1 filing seeking up to $88.5 billion through an upcoming IPO and concurrent private placement.",
+   "why": "This marks a massive capital injection into foundational AI model development and market scaling.",
+   "depth": "read",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia Board Prepares to Dismiss CEO Jensen Huang",
+   "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+   "source": "The Verge AI",
+   "summary": "Nvidia's board is reportedly preparing to dismiss CEO Jensen Huang following reports of extramarital affairs.",
+   "why": "Leadership stability at Nvidia carries profound implications for the entire AI hardware and industry landscape.",
+   "depth": "deep",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
+   "url": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+   "source": "Crunchbase News",
+   "summary": "AI startups should be judged by durable revenue, full-price renewals and healthy margins after delivery costs, with embedded customer workflows providing stronger defensibility as model access gets cheaper, rather than t",
+   "why": "",
+   "depth": "",
+   "hours": 65,
+   "covered": 1
+  },
+  {
+   "title": "AI Data Center Boom Faces Severe Real-World Obstacles",
+   "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+   "source": "TechCrunch AI",
+   "summary": "The data center boom faces local opposition, permitting delays, and electricity shortages, with many announced infrastructure projects potentially never being built.",
+   "why": "Infrastructure bottlenecks directly impact the scaling and deployment capabilities of heavy AI workloads.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+   "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+   "source": "TechCrunch AI",
+   "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more",
+   "why": "",
+   "depth": "",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Megaspeed Linked to U.S. Probe Over Restricted Chips",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
+   "source": "CNBC Tech",
+   "summary": "Nvidia partner Megaspeed is facing a U.S. probe regarding its role in shipping billions of restricted Nvidia chips to China.",
+   "why": "Supply chain restrictions and geopolitical probes directly impact hardware availability for AI engineering.",
+   "depth": "skim",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Exclusive: Nubank Alum Raises $14M For Colombia’s Palomma To Tackle Rent Payments, Landlord Financing",
+   "url": "https://news.crunchbase.com/fintech/nubank-alum-colombia-startup-palomma-ai-rental-services/",
+   "source": "Crunchbase News",
+   "summary": "Colombia-based startup, Palomma, has raised $10 million in Series A funding led by Mexican venture firm Cometa to expand its financial services business for landlords, tenants and property managers, Crunchbase News has e",
+   "why": "",
+   "depth": "",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "TSMC to Invest $1B in Anthropic and OpenAI",
+   "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+   "source": "Ars Technica AI",
+   "summary": "Semiconductor giant TSMC is investing $1 billion across Anthropic and OpenAI amid wobbling AI trade conditions.",
+   "why": "Circular financing between chipmakers and frontier labs binds semiconductor manufacturing tightly to AI market growth.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "The backlash about data centers might really just be about electricity",
+   "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+   "source": "MIT Technology Review AI",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, p",
+   "why": "",
+   "depth": "",
+   "hours": 57,
+   "covered": 1
+  },
+  {
+   "title": "Oura to Acquire Counsel Health for $625M",
+   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+   "source": "TechCrunch AI",
+   "summary": "Oura is acquiring AI-native primary care startup Counsel Health for $625 million, following its decision to postpone an up to $2.2 billion IPO due to market uncertainty.",
+   "why": "It highlights consolidation and strategic shifts within the health tech and AI hardware ecosystem.",
+   "depth": "skim",
+   "hours": 33,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Idol turns a single image into a 3D Gaussian splat",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol takes a single picture of an object and generates up to 1,048,576 3D Gaussians written as a standard 3DGS .ply, including unseen sides. It runs on consumer GPUs in under 2 seconds.",
+   "why": "It enables rapid single-image 3D Gaussian splat generation directly on consumer hardware.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "Ripple-65B Preview dense Transformer model launched with 1Mi context",
+   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+   "source": "Hugging Face",
+   "summary": "Ripple-65B Preview is a 65B parameter dense Transformer pretrained on 12 trillion tokens supporting up to 1Mi context. It scores 80.52 on TerminalBench 2.1, outperforming several much larger models.",
+   "why": "It delivers high-end agentic coding performance in a dense 65B architecture with massive context length.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "ricursiveAI/Ripple-65B-Preview"
+  },
+  {
+   "title": "MiniMax-H3-Image open-source model launched for image generation and editing",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "MiniMax-H3-Image is an open-source model for image generation and editing from the MiniMax H3 family, combining intelligent understanding of creative intent with precise instruction following.",
+   "why": "It gives you a state-of-the-art open-source option for visual generation and editing tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "Kimi K3.1 Pro natively multimodal agentic model released with 1M context",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "source": "Hugging Face",
+   "summary": "Kimi K3.1 Pro is an open-weight, natively multimodal 2.8T MoE model with 104B activated parameters and a 1-million-token context window, delivering improvements in coding, 3D creation, and research.",
+   "why": "It offers an advanced open-weight multimodal agent model with a massive context window for complex tasks.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "moonshotai/Kimi-K3.1-Pro"
+  },
+  {
+   "title": "Qwen3.8-27B model weights and configuration files released",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "Official model weights and configuration files for Qwen3.8-27B are now available in the Hugging Face Transformers format, compatible with frameworks like vLLM and SGLang.",
+   "why": "It supplies the foundational base weights for deploying the Qwen3.8-27B model locally or via inference engines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Qwen3.5-4B-3D-Coder experimental small language model released",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "Hugging Face",
+   "summary": "This is an independent early preview fine-tune of Qwen3.5-4B focusing on general coding and creating interactive 3D scenes with Three.js using small language models.",
+   "why": "It explores the capabilities of lightweight models for specialized 3D scene generation and coding.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ccore/Qwen3.5-4B-3D-Coder"
+  }
+ ]
+}

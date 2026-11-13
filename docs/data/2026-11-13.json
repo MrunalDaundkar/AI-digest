@@ -1,117 +1,117 @@
 {
  "date": "2026-11-13",
- "generated": "2026-11-13T04:03+00:00",
+ "generated": "2026-11-13T13:37+00:00",
  "technical": [
   {
-   "title": "Evaluating intermediate layers and modules improves transformer foundation model representations",
-   "url": "https://huggingface.co/papers/2611.11531",
-   "source": "HF Daily Papers",
-   "summary": "An analysis of transformer representations through extensive linear probing shows that jointly choosing layers and modules yields larger gains than probing only final layers.",
-   "why": "This helps computer vision and AI engineers extract better features from vision foundation models beyond standard final-layer probing.",
+   "title": "Sophon diagnostic reveals spatial reasoning failures in open-source vision-language models.",
+   "url": "https://arxiv.org/abs/2611.14838",
+   "source": "arXiv cs.CV",
+   "summary": "While open-weight VLMs score high on spatial benchmarks, Sophon demonstrates they collapse to chance on simple geometric questions when priors are removed. Frontier models clear 77%, while open architectures cluster near 50%.",
+   "why": "It provides a rigorous tool to evaluate genuine spatial understanding in vision-language models.",
    "depth": "read",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "MBZUAI releases PAN 2 open world model for physical AI",
-   "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
-   "source": "MarkTechPost",
-   "summary": "MBZUAI released PAN 2, an open-source world model coupling an LLM planner with a 29B diffusion transformer to simulate action outcomes as video.",
-   "why": "World models simulating physical actions are vital for advancing autonomous driving and physical AI simulation.",
-   "depth": "read",
-   "hours": 44,
-   "covered": 1
-  },
-  {
-   "title": "Researchers discover subliminal learning occurs across various vision-language models",
-   "url": "https://huggingface.co/papers/2611.08538",
-   "source": "HF Daily Papers",
-   "summary": "Researchers study subliminal learning in vision-language models by finetuning teacher models with hidden preferences and evaluating student models on unrelated geometric shape tasks.",
-   "why": "Understanding hidden preference transfer in vision models is critical for safety and alignment in computer vision applications.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "ScrapeBench evaluates the legal compliance of web-scraping AI agents",
-   "url": "https://huggingface.co/papers/2611.11306",
-   "source": "HF Daily Papers",
-   "summary": "ScrapeBench evaluates AI agent legal compliance with website scraping policies, finding that most agents have very low compliance rates below five percent.",
-   "why": "This highlights critical legal and compliance risks for autonomous web agents attempting to scrape restricted websites.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-   "source": "Hugging Face Blog",
-   "summary": "",
-   "why": "",
-   "depth": "",
    "hours": 9,
    "covered": 1
   },
   {
-   "title": "AWS releases local service emulator built entirely by autonomous agents",
+   "title": "DroneDiffusion planner uses uncertainty mapping to avoid UAV sensing failure zones.",
+   "url": "https://arxiv.org/abs/2611.15277",
+   "source": "arXiv cs.RO",
+   "summary": "DroneDiffusion is a perception-aware local 3-D UAV trajectory generator that models and avoids failure zones like lens flare and overexposure. It uses a vision-language reliability map combined with a diffusion model and training-free CHOMP guidance.",
+   "why": "It offers an advanced approach for autonomous driving and drone navigation under degraded visual conditions.",
+   "depth": "read",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Survey examines cross-scenario transfer limits in self-improving multimodal agents.",
+   "url": "https://huggingface.co/papers/2611.14256",
+   "source": "HF Daily Papers",
+   "summary": "Recent multimodal agents self-improve without human annotation, but mechanisms are typically tested in isolation. This survey investigates asymmetric mechanism transfer across multimodal reasoning, generation, GUI navigation, and embodied manipulation using a three-stage self-evolving loop.",
+   "why": "Understanding cross-scenario limitations is crucial for building robust, self-improving multimodal systems.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Analysis shows visual distractors degrade VLM accuracy despite correct image selection.",
+   "url": "https://arxiv.org/abs/2611.15039",
+   "source": "arXiv cs.CV",
+   "summary": "Evaluating open 7-8B VLMs on perception benchmarks with distractor images reveals that irrelevant visual information reduces accuracy even when models successfully identify the correct target image, proving selection alone is insufficient.",
+   "why": "This highlights a core robustness challenge for computer vision systems handling cluttered real-world inputs.",
+   "depth": "read",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Autonomous bicycle robot achieves high-speed off-road trail racing via semantic terrain layers.",
+   "url": "https://arxiv.org/abs/2611.15280",
+   "source": "arXiv cs.RO",
+   "summary": "Researchers demonstrate off-road mountain bike navigation for a two-wheeled robot by encoding the trail as a semantic terrain layer reconstructed onboard from camera and LiDAR data, unifying perception and control.",
+   "why": "It showcases cutting-edge perception and locomotion capabilities for complex autonomous robotic platforms.",
+   "depth": "read",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "MBZUAI releases PAN 2 open 29B world model for physical AI.",
+   "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+   "source": "MarkTechPost",
+   "summary": "The Institute of Foundation Models at MBZUAI released PAN 2, an open world model coupling an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of physical action outcomes as video.",
+   "why": "It provides foundational video simulation tools for researchers working in physical AI and robotics.",
+   "depth": "read",
+   "hours": 54,
+   "covered": 1
+  },
+  {
+   "title": "Study highlights criteria exposure risks in embodied agent self-improvement.",
+   "url": "https://huggingface.co/papers/2611.08318",
+   "source": "HF Daily Papers",
+   "summary": "Researchers analyze Criteria Exposure in robot simulation benchmarks, where success criteria designed for imitation learning are exposed to learning agents. This practice can inflate scores without ensuring actual task completion.",
+   "why": "It prompts computer vision and robotics engineers to rethink how agent performance and task success are validated.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "DeepStress dynamic framework tests search agent robustness under degraded evidence.",
+   "url": "https://huggingface.co/papers/2607.13920",
+   "source": "HF Daily Papers",
+   "summary": "To address the lack of robustness testing for search agents against poor-quality evidence, DeepStress replaces retrieval modules with synthetic environments to dynamically control document trustworthiness, relevance, and factuality.",
+   "why": "It helps engineers evaluate multi-step question-answering systems against realistic, low-quality data.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "RoboCup SPARC initiative launches standard hardware and simulation for rescue robots.",
+   "url": "https://arxiv.org/abs/2611.15443",
+   "source": "arXiv cs.RO",
+   "summary": "The RoboCup Standard Platform for Autonomous Rescue Competition introduces the Unitree A2-W platform and benchmark environments to make disaster-response AI research accessible without custom hardware development.",
+   "why": "It lowers barriers for researchers working on embodied AI and autonomous navigation in crisis scenarios.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "AWS releases local AWS Emulator built entirely by autonomous AI agents.",
    "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
    "source": "MarkTechPost",
-   "summary": "AWS released a local emulator of over 200 AWS services whose code was entirely written by autonomous agents.",
-   "why": "It showcases a practical real-world application of autonomous agents building functional software infrastructure.",
-   "depth": "skim",
-   "hours": 11,
-   "covered": 1
-  },
-  {
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-   "url": "https://huggingface.co/blog/3d-lora-finetuning",
-   "source": "Hugging Face Blog",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 28,
-   "covered": 1
-  },
-  {
-   "title": "Google introduces Gemini Decisions API for multimodal decisions",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-   "source": "Google AI Blog",
-   "summary": "Google launched the Gemini Decisions API, powered by the Gemini Decision model, to deliver fast and calibrated multimodal decisions.",
-   "why": "Provides engineers with a new tool for fast multimodal decision-making workflows.",
-   "depth": "skim",
-   "hours": 34,
-   "covered": 1
-  },
-  {
-   "title": "Introducing Gemini 4 Hydrogen",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-   "source": "Google DeepMind",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 10,
-   "covered": 1
-  },
-  {
-   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-   "url": "https://huggingface.co/blog/qvac/botpsy",
-   "source": "Hugging Face Blog",
-   "summary": "",
-   "why": "",
-   "depth": "",
-   "hours": 47,
+   "summary": "AWS launched AWS Emulator, a free local emulator of over 200 AWS services created completely by autonomous agents from 438 API models, achieving a 56.6% pass rate on launch fidelity tests.",
+   "why": "It demonstrates a massive engineering feat achieved through fully autonomous AI coding workflows.",
+   "depth": "read",
+   "hours": 20,
    "covered": 1
   }
  ],
  "business": [
   {
-   "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
-   "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
+   "title": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
    "source": "CNBC Tech",
-   "summary": "UFORCE's NEMESIS drones have completed 300,000 combat flights, and its MAGURA naval vessels have contributed to the destruction of Russian warships.",
+   "summary": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
    "why": "",
    "depth": "",
-   "hours": 19,
+   "hours": 6,
    "covered": 1
   },
   {
@@ -121,7 +121,7 @@
    "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
    "why": "",
    "depth": "",
-   "hours": 5,
+   "hours": 15,
    "covered": 1
   },
   {
@@ -131,7 +131,7 @@
    "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
    "why": "",
    "depth": "",
-   "hours": 7,
+   "hours": 16,
    "covered": 1
   },
   {
@@ -141,7 +141,7 @@
    "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
    "why": "",
    "depth": "",
-   "hours": 1,
+   "hours": 11,
    "covered": 1
   },
   {
@@ -151,7 +151,7 @@
    "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadershi",
    "why": "",
    "depth": "",
-   "hours": 9,
+   "hours": 19,
    "covered": 1
   },
   {
@@ -161,7 +161,7 @@
    "summary": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
    "why": "",
    "depth": "",
-   "hours": 7,
+   "hours": 16,
    "covered": 1
   },
   {
@@ -171,7 +171,7 @@
    "summary": "Recent startup investment has shifted away from meat substitutes and toward stuffing more protein into other packaged foods and drinks. It’s a fad that’s obvious on supermarket shelves, where startups and established bra",
    "why": "",
    "depth": "",
-   "hours": 16,
+   "hours": 26,
    "covered": 1
   },
   {
@@ -181,7 +181,7 @@
    "summary": "Colombia-based startup, Palomma, has raised $10 million in Series A funding led by Mexican venture firm Cometa to expand its financial services business for landlords, tenants and property managers, Crunchbase News has e",
    "why": "",
    "depth": "",
-   "hours": 39,
+   "hours": 49,
    "covered": 1
   },
   {
@@ -191,7 +191,7 @@
    "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review i",
    "why": "",
    "depth": "",
-   "hours": 8,
+   "hours": 17,
    "covered": 1
   },
   {
@@ -201,76 +201,76 @@
    "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct re",
    "why": "",
    "depth": "",
-   "hours": 12,
+   "hours": 22,
    "covered": 1
   }
  ],
  "models": [
   {
-   "title": "New computer vision tool converts single images to 3D Gaussian splats",
+   "title": "New Tool Turns Single Image Into 3D Gaussian Splat",
    "url": "https://huggingface.co/speridlabs/idol",
    "source": "Hugging Face",
-   "summary": "Idol takes a single render, generated image, or photo, removes the background, and generates up to a million 3D Gaussians including unseen sides in under two seconds on consumer GPUs.",
-   "why": "It directly impacts computer vision engineers building rapid 3D reconstruction pipelines from monocular images.",
+   "summary": "Idol is a model that converts a single picture, render, or generated image into up to 1.05 million 3D Gaussian Gaussians. It runs on consumer GPUs using 7.2 GB of VRAM in under two seconds.",
+   "why": "It enables fast, single-image 3D Gaussian splatting on consumer hardware for computer vision tasks.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "speridlabs/idol"
   },
   {
-   "title": "Compressed few-step model generates video and synchronized stereo audio",
+   "title": "Compressed Few-Step Model Generates Synchronized Video and Audio",
    "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
    "source": "Hugging Face",
-   "summary": "HyperFlow H3 Flash is a compressed 14B version of MiniMax-H3 that generates 5.2 to 15-second videos at 24 fps with a 32 kHz stereo soundtrack in 4, 6, or 8 steps.",
-   "why": "It introduces a fast, multi-modal generation approach combining video and audio synthesis.",
+   "summary": "HyperFlow H3 Flash is a compressed, few-step variant of MiniMax-H3 that generates 5.2 to 15-second videos at 24 fps alongside a 32 kHz stereo soundtrack in 4 to 8 sampling steps.",
+   "why": "It introduces a faster, resource-efficient approach to joint video and audio generation.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "VideoRebirthAI/hyperflow-h3-flash"
   },
   {
-   "title": "MiniMax H3 Image model files repackaged for ComfyUI",
-   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
-   "source": "Hugging Face",
-   "summary": "This repository provides repackaged model files and directory structures to run MiniMax H3 Image locally within ComfyUI.",
-   "why": "It enables computer vision practitioners to integrate the image model directly into local node-based pipelines.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "Comfy-Org/MiniMax-H3-Image"
-  },
-  {
-   "title": "Early preview explores small language models for 3D scene generation",
-   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-   "source": "Hugging Face",
-   "summary": "An independent fine-tune based on Qwen3.5-4B focuses on general-purpose coding and generating interactive 3D scenes with Three.js.",
-   "why": "It offers insight into utilizing smaller language models for specialized 3D coding tasks.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "ccore/Qwen3.5-4B-3D-Coder"
-  },
-  {
-   "title": "Compact reasoning model distilled from DeepSeek-V4-Pro released",
-   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-   "source": "Hugging Face",
-   "summary": "This release introduces a 9B reasoning model fine-tuned from Qwen3.5-9B and distilled from DeepSeek-V4-Pro, trained on about 250K math and STEM samples.",
-   "why": "It provides a smaller, resource-efficient reasoning model option for technical tasks.",
-   "depth": "skim",
-   "hours": 0,
-   "covered": 1,
-   "model": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
-  },
-  {
-   "title": "New open-source image generation and editing model family introduced",
+   "title": "State-of-the-Art Open-Source Model Released for Image Generation and Editing",
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
    "source": "Hugging Face",
-   "summary": "MiniMax-H3-Image is an open-source model designed for image generation and editing that combines creative intent understanding with precise instruction following.",
-   "why": "It offers new capabilities for visual content creation and automated image editing workflows.",
+   "summary": "MiniMax-H3-Image is a new open-source model designed for image generation and editing. It combines creative intent understanding with precise instruction following to build visual worlds.",
+   "why": "It provides new capabilities for open-source visual content generation and editing.",
    "depth": "skim",
    "hours": 0,
    "covered": 1,
    "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "New Model Post-Trained to Alter Biases in Chinese-Trained Models",
+   "url": "https://huggingface.co/NousResearch/Arete-27B",
+   "source": "Hugging Face",
+   "summary": "Arete-27B is a post-trained version of Alibaba's Qwen3.8-27B created to reinforce western values and reduce political biases. It raised its fact score and significantly cut propaganda answers.",
+   "why": "It demonstrates how open-source weights can be modified to shift a model's underlying values.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "NousResearch/Arete-27B"
+  },
+  {
+   "title": "Qwen3.8-27B Model Weights and Configuration Files Published",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The official repository for Qwen3.8-27B provides model weights and configuration files compatible with Hugging Face Transformers, vLLM, and SGLang, with a hosted API service coming soon.",
+   "why": "It provides direct access to a major foundational model architecture for local deployment.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "MiniMax H3 Image Repackaged for ComfyUI Integration",
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "This repository provides repackaged model files for MiniMax H3 Image specifically structured for integration into ComfyUI workflows, complete with recommended text encoders and VAE files.",
+   "why": "It simplifies the pipeline for running MiniMax image generation models inside ComfyUI.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Comfy-Org/MiniMax-H3-Image"
   }
  ]
 }

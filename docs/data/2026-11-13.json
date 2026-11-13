@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-13",
+ "generated": "2026-11-13T04:03+00:00",
+ "technical": [
+  {
+   "title": "Evaluating intermediate layers and modules improves transformer foundation model representations",
+   "url": "https://huggingface.co/papers/2611.11531",
+   "source": "HF Daily Papers",
+   "summary": "An analysis of transformer representations through extensive linear probing shows that jointly choosing layers and modules yields larger gains than probing only final layers.",
+   "why": "This helps computer vision and AI engineers extract better features from vision foundation models beyond standard final-layer probing.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "MBZUAI releases PAN 2 open world model for physical AI",
+   "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+   "source": "MarkTechPost",
+   "summary": "MBZUAI released PAN 2, an open-source world model coupling an LLM planner with a 29B diffusion transformer to simulate action outcomes as video.",
+   "why": "World models simulating physical actions are vital for advancing autonomous driving and physical AI simulation.",
+   "depth": "read",
+   "hours": 44,
+   "covered": 1
+  },
+  {
+   "title": "Researchers discover subliminal learning occurs across various vision-language models",
+   "url": "https://huggingface.co/papers/2611.08538",
+   "source": "HF Daily Papers",
+   "summary": "Researchers study subliminal learning in vision-language models by finetuning teacher models with hidden preferences and evaluating student models on unrelated geometric shape tasks.",
+   "why": "Understanding hidden preference transfer in vision models is critical for safety and alignment in computer vision applications.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "ScrapeBench evaluates the legal compliance of web-scraping AI agents",
+   "url": "https://huggingface.co/papers/2611.11306",
+   "source": "HF Daily Papers",
+   "summary": "ScrapeBench evaluates AI agent legal compliance with website scraping policies, finding that most agents have very low compliance rates below five percent.",
+   "why": "This highlights critical legal and compliance risks for autonomous web agents attempting to scrape restricted websites.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "AWS releases local service emulator built entirely by autonomous agents",
+   "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
+   "source": "MarkTechPost",
+   "summary": "AWS released a local emulator of over 200 AWS services whose code was entirely written by autonomous agents.",
+   "why": "It showcases a practical real-world application of autonomous agents building functional software infrastructure.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 28,
+   "covered": 1
+  },
+  {
+   "title": "Google introduces Gemini Decisions API for multimodal decisions",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "source": "Google AI Blog",
+   "summary": "Google launched the Gemini Decisions API, powered by the Gemini Decision model, to deliver fast and calibrated multimodal decisions.",
+   "why": "Provides engineers with a new tool for fast multimodal decision-making workflows.",
+   "depth": "skim",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Introducing Gemini 4 Hydrogen",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "source": "Google DeepMind",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "url": "https://huggingface.co/blog/qvac/botpsy",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 47,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
+   "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
+   "source": "CNBC Tech",
+   "summary": "UFORCE's NEMESIS drones have completed 300,000 combat flights, and its MAGURA naval vessels have contributed to the destruction of Russian warships.",
+   "why": "",
+   "depth": "",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+   "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+   "source": "TechCrunch AI",
+   "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "source": "TechCrunch AI",
+   "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+   "why": "",
+   "depth": "",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+   "source": "CNBC Tech",
+   "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+   "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+   "source": "TechCrunch AI",
+   "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadershi",
+   "why": "",
+   "depth": "",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+   "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+   "source": "CNBC Tech",
+   "summary": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+   "why": "",
+   "depth": "",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor",
+   "url": "https://news.crunchbase.com/venture/protein-startups-raise-funding-medici/",
+   "source": "Crunchbase News",
+   "summary": "Recent startup investment has shifted away from meat substitutes and toward stuffing more protein into other packaged foods and drinks. It’s a fad that’s obvious on supermarket shelves, where startups and established bra",
+   "why": "",
+   "depth": "",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "Exclusive: Nubank Alum Raises $14M For Colombia’s Palomma To Tackle Rent Payments, Landlord Financing",
+   "url": "https://news.crunchbase.com/fintech/nubank-alum-colombia-startup-palomma-ai-rental-services/",
+   "source": "Crunchbase News",
+   "summary": "Colombia-based startup, Palomma, has raised $10 million in Series A funding led by Mexican venture firm Cometa to expand its financial services business for landlords, tenants and property managers, Crunchbase News has e",
+   "why": "",
+   "depth": "",
+   "hours": 39,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+   "source": "MIT Technology Review AI",
+   "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review i",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+   "source": "The Verge AI",
+   "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct re",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "New computer vision tool converts single images to 3D Gaussian splats",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol takes a single render, generated image, or photo, removes the background, and generates up to a million 3D Gaussians including unseen sides in under two seconds on consumer GPUs.",
+   "why": "It directly impacts computer vision engineers building rapid 3D reconstruction pipelines from monocular images.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "Compressed few-step model generates video and synchronized stereo audio",
+   "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+   "source": "Hugging Face",
+   "summary": "HyperFlow H3 Flash is a compressed 14B version of MiniMax-H3 that generates 5.2 to 15-second videos at 24 fps with a 32 kHz stereo soundtrack in 4, 6, or 8 steps.",
+   "why": "It introduces a fast, multi-modal generation approach combining video and audio synthesis.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "VideoRebirthAI/hyperflow-h3-flash"
+  },
+  {
+   "title": "MiniMax H3 Image model files repackaged for ComfyUI",
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "This repository provides repackaged model files and directory structures to run MiniMax H3 Image locally within ComfyUI.",
+   "why": "It enables computer vision practitioners to integrate the image model directly into local node-based pipelines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Comfy-Org/MiniMax-H3-Image"
+  },
+  {
+   "title": "Early preview explores small language models for 3D scene generation",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "Hugging Face",
+   "summary": "An independent fine-tune based on Qwen3.5-4B focuses on general-purpose coding and generating interactive 3D scenes with Three.js.",
+   "why": "It offers insight into utilizing smaller language models for specialized 3D coding tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "ccore/Qwen3.5-4B-3D-Coder"
+  },
+  {
+   "title": "Compact reasoning model distilled from DeepSeek-V4-Pro released",
+   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+   "source": "Hugging Face",
+   "summary": "This release introduces a 9B reasoning model fine-tuned from Qwen3.5-9B and distilled from DeepSeek-V4-Pro, trained on about 250K math and STEM samples.",
+   "why": "It provides a smaller, resource-efficient reasoning model option for technical tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+  },
+  {
+   "title": "New open-source image generation and editing model family introduced",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "MiniMax-H3-Image is an open-source model designed for image generation and editing that combines creative intent understanding with precise instruction following.",
+   "why": "It offers new capabilities for visual content creation and automated image editing workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  }
+ ]
+}

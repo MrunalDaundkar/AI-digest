@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-14",
+ "generated": "2026-11-14T04:00+00:00",
+ "technical": [
+  {
+   "title": "Sophon diagnostic reveals vision-language models struggle with basic spatial reasoning.",
+   "url": "https://arxiv.org/abs/2611.14838",
+   "source": "arXiv cs.CV",
+   "summary": "Sophon is a procedural diagnostic tool utilizing colored point-cloud stimuli to test spatial reasoning, showing open-weight VLM accuracy drops significantly when priors are removed.",
+   "why": "It highlights critical geometric and spatial blind spots in current vision-language architectures.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "DroneDiffusion plans UAV trajectories while avoiding sensing failure zones.",
+   "url": "https://arxiv.org/abs/2611.15277",
+   "source": "arXiv cs.RO",
+   "summary": "DroneDiffusion uses a vision-language perceptual safety estimator and a denoising diffusion probabilistic model to generate 3-D UAV trajectories that avoid glare, overexposure, and reflections.",
+   "why": "It bridges perception safety and motion planning for autonomous drone navigation.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Autonomous bicycle robots achieve high-speed trail racing using semantic terrain encoding.",
+   "url": "https://arxiv.org/abs/2611.15280",
+   "source": "arXiv cs.RO",
+   "summary": "Researchers demonstrate off-road bicycle robot navigation by encoding trails as semantic layers of the terrain, reconstructed onboard via camera and LiDAR data.",
+   "why": "It advances complex locomotion and high-speed perception for two-wheeled autonomous platforms.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "EgoX framework aligns heterogeneous demonstrations for cross-embodiment robot manipulation.",
+   "url": "https://huggingface.co/papers/2611.16728",
+   "source": "HF Daily Papers",
+   "summary": "EgoX uses a Modularized Cross-Embodiment Transformer with Embodiment Dreaming to organize heterogeneous human, robot, and simulation demonstrations using semantically corresponding observation and action modalities.",
+   "why": "It enables generalist manipulation policies to learn effectively from combined multi-source agent demonstrations.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "PixVid replaces VAE decoders to lift latent video diffusion into pixel space.",
+   "url": "https://huggingface.co/papers/2611.17336",
+   "source": "HF Daily Papers",
+   "summary": "PixVid bypasses VAE latent space compression bottlenecks by using a convolutional head to render outputs directly into pixels, enabling high-resolution and interactive video generation.",
+   "why": "This directly addresses resolution scaling limits and latency issues in video generation models.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Visual distractors degrade vision-language model accuracy despite correct image selection.",
+   "url": "https://arxiv.org/abs/2611.15039",
+   "source": "arXiv cs.CV",
+   "summary": "A systematic analysis of open VLMs on distractor-inclusive perception benchmarks shows that background clutter reduces performance even when models correctly isolate target images.",
+   "why": "Understanding visual distraction mechanics is crucial for building robust computer vision systems.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "MixUA manages memory sharing across heterogeneous agents and users securely.",
+   "url": "https://huggingface.co/papers/2611.10439",
+   "source": "HF Daily Papers",
+   "summary": "MixUA is a new memory system that distills independent user-agent trajectories into lessons, assigning scopes based on user benefits and data privacy.",
+   "why": "It provides a robust framework for multi-agent knowledge sharing without compromising data privacy.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "SPARC launches standard platform and datasets for autonomous robot rescue competitions.",
+   "url": "https://arxiv.org/abs/2611.15443",
+   "source": "arXiv cs.RO",
+   "summary": "The RoboCup Standard Platform for Autonomous Rescue Competition utilizes the Unitree A2-W hardware platform and benchmark environments to democratize embodied AI disaster research.",
+   "why": "It offers standardized environments for roboticists focusing on navigation, perception, and disaster response.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Serve GLM-5.3 across multiple NVIDIA DGX Stations using vLLM.",
+   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+   "source": "NVIDIA Developer",
+   "summary": "A technical overview addresses running frontier-scale models locally that exceed the memory capacity of a single machine by distributing weights across multiple devices.",
+   "why": "Practical infrastructure guide for locally deploying massive foundation models.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Route coding agent requests efficiently using NVIDIA NeMo Switchyard on Bedrock.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+   "source": "AWS Machine Learning",
+   "summary": "An AWS CDK deployment guide shows how to use LiteLLM with the NVIDIA NeMo Switchyard routing plugin to optimize coding agent costs per solved task on Amazon Bedrock.",
+   "why": "Optimizing task routing directly impacts operational costs for engineering teams deploying LLMs.",
+   "depth": "skim",
+   "hours": 6,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Jensen Huang's departure threatens AI startup funding and valuations",
+   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him, founders and VCs are bracing for smaller checks and lower valuations.",
+   "why": "Changes in Nvidia's leadership could impact capital availability for your infrastructure or computer vision startup.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Nebius tests neocloud playbook with $40 billion in planned spending",
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "source": "TechCrunch AI",
+   "summary": "Nebius plans to fund a $40 billion AI infrastructure expansion through customer prepayments and loans, despite data center delays raising financing model questions.",
+   "why": "Alternative cloud providers are taking on massive debt and prepayments to scale infrastructure capacity.",
+   "depth": "read",
+   "hours": 31,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia startup funding deals hit a record before Huang crisis",
+   "url": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
+   "source": "Crunchbase News",
+   "summary": "Before facing crisis, Nvidia continued its pace as a busy startup investor, backing many of the biggest venture deals of 2026.",
+   "why": "Understanding Nvidia's past investment patterns helps forecast where future funding may stall.",
+   "depth": "skim",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Cerebras stock pops on strong revenue and Microsoft deal",
+   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+   "source": "CNBC Tech",
+   "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle, beating quarterly revenue expectations.",
+   "why": "Hardware competitors securing major cloud contracts signal shifts in the AI infrastructure market.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Cisco beats earnings and projects doubling of AI infrastructure revenue",
+   "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+   "source": "CNBC Tech",
+   "summary": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom, forecasting its infrastructure revenue will double this fiscal year.",
+   "why": "Traditional networking giants are scaling up to capture enterprise AI infrastructure spend.",
+   "depth": "skim",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Agentic AI and infrastructure lead major weekly startup funding rounds",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
+   "source": "Crunchbase News",
+   "summary": "Mirendil led the week with a $1 billion series A for agentic AI in R&D, followed by Mercor securing $750 million to connect developers with human experts.",
+   "why": "Tracking massive funding rounds reveals where capital and commercial interest are consolidating in the AI stack.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor",
+   "url": "https://news.crunchbase.com/venture/protein-startups-raise-funding-medici/",
+   "source": "Crunchbase News",
+   "summary": "Recent startup investment has shifted away from meat substitutes and toward stuffing more protein into other packaged foods and drinks. It’s a fad that’s obvious on supermarket shelves, where startups and established bra",
+   "why": "",
+   "depth": "",
+   "hours": 40,
+   "covered": 1
+  },
+  {
+   "title": "What’s really at stake in the Jensen Huang saga",
+   "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+   "source": "The Verge AI",
+   "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be ",
+   "why": "",
+   "depth": "",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia privately confirmed chip tracking feasibility to fight smuggling",
+   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+   "source": "MIT Technology Review AI",
+   "summary": "Nvidia representatives told Representative Bill Foster that anti-smuggling tracking measures in the Chip Security Act are technically possible, despite industry groups calling them infeasible.",
+   "why": "Hardware tracking mandates could introduce new compliance and hardware integration requirements for deployments.",
+   "depth": "read",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "Amazon has a plan to index the world’s online shopping data",
+   "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+   "source": "The Verge AI",
+   "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, cal",
+   "why": "",
+   "depth": "",
+   "hours": 4,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Idol Generates 3D Gaussian Splats From a Single Image",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol takes a single photograph, render, or generated image, removes the background, and generates up to 1,048,576 3D Gaussians in a standard .ply file in under two seconds on consumer GPUs.",
+   "why": "This drastically accelerates single-image 3D reconstruction pipelines for computer vision applications.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "MiniMax-H3-Image Model Launches for Open-Source Image Generation and Editing",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "MiniMax-H3-Image is an open-source model combining intelligent understanding of creative intent with precise instruction following for image generation and editing tasks.",
+   "why": "It offers computer vision engineers a new open-source tool for advanced image generation and editing workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "MiniMax-H3-Image Repackaged for ComfyUI Integration",
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "This repository provides repackaged model files and directory setups for running MiniMax-H3-Image directly within ComfyUI pipelines, utilizing recommended prompt enhancers.",
+   "why": "It allows vision developers to easily integrate the MiniMax image generation model into node-based ComfyUI workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Comfy-Org/MiniMax-H3-Image"
+  },
+  {
+   "title": "Arete-27B Post-Trained Model Reinforces Western Values on Chinese-Trained Architecture",
+   "url": "https://huggingface.co/NousResearch/Arete-27B",
+   "source": "Hugging Face",
+   "summary": "Researchers post-trained Alibaba's Qwen3.8-27B to reduce politically sensitive refusals and CCP-framed answers, raising its fact score and cutting propaganda-containing answers.",
+   "why": "It demonstrates a method for altering foundational model biases and values through targeted post-training.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "NousResearch/Arete-27B"
+  },
+  {
+   "title": "Qwen3.8-27B Model Weights and Configuration Files Made Available",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "This repository provides model weights and configuration files for Qwen3.8-27B in Hugging Face Transformers format, compatible with tools like vLLM and SGLang.",
+   "why": "It gives engineers direct local access to a large baseline model suited for scalable inference pipelines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Qwen3.8-27B-TURBO Fine-Tune Reduces Thinking Tokens and Ups ARC Scores",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "source": "Hugging Face",
+   "summary": "This fine-tune drastically reduces thinking tokens by half to one-tenth while maintaining output quality, achieving high scores on ARC benchmarks in 8-bit and 4-bit configurations.",
+   "why": "It presents a way to speed up inference times for reasoning-heavy language models.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+  }
+ ]
+}

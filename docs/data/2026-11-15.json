@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-15",
+ "generated": "2026-11-15T00:31+00:00",
+ "technical": [
+  {
+   "title": "EgoX framework enables cross-embodiment robot manipulation learning",
+   "url": "https://huggingface.co/papers/2611.16728",
+   "source": "HF Daily Papers",
+   "summary": "EgoX organizes heterogeneous demonstrations from humans, real robots, and simulations using semantically corresponding observation and action modalities via MXT+ pretraining.",
+   "why": "It improves generalist manipulation policies by effectively combining multi-embodiment robotic training data.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "PixVid lifts latent video diffusion models directly into pixel space",
+   "url": "https://huggingface.co/papers/2611.17336",
+   "source": "HF Daily Papers",
+   "summary": "PixVid replaces the VAE decoder in pretrained latent video models with a convolutional head, eliminating compression bottlenecks to enable high-resolution, interactive generation.",
+   "why": "It offers computer vision engineers a way to bypass VAE compression limits for better video generation.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Build robot pick-and-place simulations using SimReady assets",
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "source": "Hugging Face Blog",
+   "summary": "A guide or resource announcement focused on setting up robotic pick-and-place simulations with pre-made assets.",
+   "why": "It offers practical simulation resources for robotics and computer vision developers.",
+   "depth": "skim",
+   "hours": 31,
+   "covered": 1
+  },
+  {
+   "title": "Cmpnd releases weight-space programming prototype dspy-wsp",
+   "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+   "source": "MarkTechPost",
+   "summary": "dspy-wsp is a DSPy optimizer where a frontier LLM reads, edits, and tests a smaller model's weights directly in a sandbox without gradients.",
+   "why": "It introduces gradient-free model optimization techniques for AI engineers.",
+   "depth": "read",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Serve large language models across multiple NVIDIA DGX stations",
+   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+   "source": "NVIDIA Developer",
+   "summary": "Guide on running massive frontier-scale models locally by splitting weights across multiple GPU machines using vLLM.",
+   "why": "It addresses hardware scaling bottlenecks for deploying large local models.",
+   "depth": "read",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "Vercel releases UI SDK for AI coding agents",
+   "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+   "source": "MarkTechPost",
+   "summary": "Vercel Labs released an open-source library of 50+ UI behaviors that coding agents can compose into accessible components across major frontend frameworks.",
+   "why": "It provides tools to improve how AI coding agents generate functional frontend interfaces.",
+   "depth": "read",
+   "hours": 18,
+   "covered": 1
+  },
+  {
+   "title": "MixUA framework manages multi-agent and multi-user memory sharing securely",
+   "url": "https://huggingface.co/papers/2611.10439",
+   "source": "HF Daily Papers",
+   "summary": "MixUA distills user-agent trajectories into lessons, assigning scopes based on benefits and privacy, and is evaluated using CrossLearnBench.",
+   "why": "It addresses data privacy and collaborative learning challenges in multi-agent autonomous deployments.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Stanford open-sources Memorilla for efficient LLM memory compression",
+   "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+   "source": "MarkTechPost",
+   "summary": "Memorilla compresses document collections into 16 memory tokens for a frozen Qwen3-8B model, achieving high accuracy with drastically fewer tokens.",
+   "why": "It provides a resource-efficient technique for handling large document contexts in language models.",
+   "depth": "skim",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Route coding agent requests using NVIDIA NeMo Switchyard on Bedrock",
+   "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+   "source": "AWS Machine Learning",
+   "summary": "Deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock to optimize cost per solved coding task across model groups.",
+   "why": "It helps engineering teams optimize inference costs for autonomous coding agents.",
+   "depth": "skim",
+   "hours": 26,
+   "covered": 1
+  },
+  {
+   "title": "Amplitude builds proactive product agent Wave with OpenAI",
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "source": "OpenAI",
+   "summary": "Amplitude uses proactive product agents and coding agents powered by OpenAI to identify, build, and ship improvements rapidly.",
+   "why": "It illustrates end-to-end agentic engineering workflows in product development.",
+   "depth": "skim",
+   "hours": 53,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Jensen Huang's departure threatens smaller checks and lower AI startup valuations",
+   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia poured tens of billions into AI startups under Jensen Huang. Following his resignation, founders and VCs are bracing for smaller checks and lower valuations.",
+   "why": "It signals potential shifts in hardware-backed funding availability for your ecosystem.",
+   "depth": "skim",
+   "hours": 26,
+   "covered": 1
+  },
+  {
+   "title": "Mirendil and Mercor lead latest week's biggest AI startup funding rounds",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
+   "source": "Crunchbase News",
+   "summary": "Mirendil secured a $1 billion series A for agentic AI in R&D, while Mercor raised $750 million to connect AI developers with human experts.",
+   "why": "Tracking top funding rounds highlights where massive capital continues to flow in AI.",
+   "depth": "skim",
+   "hours": 29,
+   "covered": 1
+  },
+  {
+   "title": "Asian governments react to Nvidia CEO Jensen Huang's unexpected exit",
+   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "source": "TechCrunch AI",
+   "summary": "Following Jensen Huang's exit, some Asian governments moved to confirm chip supply commitments while others monitored local project impacts or ongoing investigations.",
+   "why": "Geopolitical reactions directly affect regional hardware supply chains and autonomous development.",
+   "depth": "skim",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Wider fallout looms following Jensen Huang's resignation from Nvidia",
+   "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+   "source": "The Verge AI",
+   "summary": "Following Jensen Huang's resignation from Nvidia, a much bigger story may unfold regarding Nvidia's dealings in China and the US government's stance.",
+   "why": "Regulatory probes and leadership changes at key hardware suppliers impact industry strategy.",
+   "depth": "read",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia privately confirmed it could track chips to fight smuggling",
+   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+   "source": "MIT Technology Review AI",
+   "summary": "Nvidia representatives told Representative Bill Foster that anti-smuggling measures under the Chip Security Act are technically feasible, despite industry claims of infeasibility.",
+   "why": "Potential anti-smuggling tracking tech could drastically alter future GPU deployment and distribution.",
+   "depth": "read",
+   "hours": 52,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia's startup funding deals hit record highs before Jensen Huang's exit",
+   "url": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
+   "source": "Crunchbase News",
+   "summary": "Before facing recent crisis and leadership change, Nvidia and its venture arm NVentures maintained a fast pace as startup investors, backing many major venture deals of 2026.",
+   "why": "Understanding past investment velocity helps gauge market changes ahead.",
+   "depth": "skim",
+   "hours": 28,
+   "covered": 1
+  },
+  {
+   "title": "Two Nvidia investors urge board to consider potential return of Jensen Huang",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "source": "CNBC Tech",
+   "summary": "Two Nvidia investors holding about $2.13 billion of stock as of June 30 are calling for a deliberate leadership search following Jensen Huang's resignation.",
+   "why": "Investor pressure could influence upcoming governance decisions affecting the AI hardware market.",
+   "depth": "skim",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia security chief departed prior to Jensen Huang's resignation over relationships",
+   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia's security chief left in August before CEO Jensen Huang stepped down over relationships, including one with an executive at a company suspected of funneling chips to China.",
+   "why": "Corporate security lapses highlight supply chain and compliance vulnerabilities in the hardware sector.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1
+  },
+  {
+   "title": "Singapore bars Alice Huang amid ongoing investigations involving Nvidia chips and China",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+   "source": "CNBC Tech",
+   "summary": "Singapore barred Alice Huang from re-entering the country and stated that U.S. authorities provided limited help with its yearlong investigations.",
+   "why": "Cross-border chip trafficking investigations impact international market access.",
+   "depth": "skim",
+   "hours": 41,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic's seven co-founders poised to become multi-billionaires after founding in 2021",
+   "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic was founded in 2021 by four researchers, a former journalist, a public policymaker, and an engineer, and they are now poised to become multi-billionaires.",
+   "why": "It showcases wealth generation trends among foundational AI lab creators.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "New Tool Generates 3D Gaussian Splats From a Single Image",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol takes a single photo, render, or generated image, removes the background, and outputs up to a million 3D Gaussians in a standard PLY format.",
+   "why": "It enables rapid single-image 3D reconstruction running locally on consumer GPUs.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "New Open-Source Model Released for Image Generation and Editing",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "MiniMax-H3-Image is a state-of-the-art open-source model combining creative intent understanding with precise instruction-following for visual world building.",
+   "why": "It offers computer vision engineers a new open-source option for image editing and generation tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "Compact Reasoning Model Distilled from DeepSeek-V4-Pro Released on Hugging Face",
+   "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+   "source": "Hugging Face",
+   "summary": "This model is a reasoning-focused fine-tune of Qwen3.5-9B, distilled from DeepSeek-V4-Pro responses using about 250K math and STEM samples.",
+   "why": "It provides a smaller, efficient reasoning model option for technical tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+  },
+  {
+   "title": "Model Weights and Configuration Files Released for Qwen3.8-27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The repository contains post-trained model weights for Qwen3.8-27B, compatible with Hugging Face Transformers, vLLM, SGLang, and TokenSpeed.",
+   "why": "It provides foundational model weights for a major new open model generation.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "New Fine-Tune Drastically Reduces Thinking Tokens While Improving Accuracy",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "source": "Hugging Face",
+   "summary": "This fine-tune of Qwen3.8-27B reduces thinking tokens by 1/2 to 1/10 to speed up outputs, while exceeding high benchmark scores in arc-c and arc-e.",
+   "why": "It showcases inference speed optimizations for large reasoning models.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+  },
+  {
+   "title": "New Post-Trained Model Reinforces Western Values on Alibaba's Qwen",
+   "url": "https://huggingface.co/NousResearch/Arete-27B",
+   "source": "Hugging Face",
+   "summary": "Arete-27B is post-trained over Qwen3.8-27B to alter biases, raising fact scores and cutting answers containing propaganda on politically sensitive topics.",
+   "why": "It demonstrates how open-source models can be post-trained to modify underlying behavioral biases.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "NousResearch/Arete-27B"
+  }
+ ]
+}

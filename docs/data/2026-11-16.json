@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-16",
+ "generated": "2026-11-16T00:31+00:00",
+ "technical": [
+  {
+   "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+   "url": "https://huggingface.co/papers/2611.10439",
+   "source": "HF Daily Papers",
+   "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems ",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+   "url": "https://huggingface.co/papers/2611.16728",
+   "source": "HF Daily Papers",
+   "summary": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn ",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+   "url": "https://huggingface.co/papers/2611.17336",
+   "source": "HF Daily Papers",
+   "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+   "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+   "source": "MarkTechPost",
+   "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than f",
+   "why": "",
+   "depth": "",
+   "hours": 38,
+   "covered": 1
+  },
+  {
+   "title": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "source": "OpenAI",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "why": "",
+   "depth": "",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Our new blog for science",
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "source": "OpenAI",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "why": "",
+   "depth": "",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+   "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+   "source": "MarkTechPost",
+   "summary": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet. The post Bland Launches Tofu-1,",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+   "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+   "source": "AWS Machine Learning",
+   "summary": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock,",
+   "why": "",
+   "depth": "",
+   "hours": 50,
+   "covered": 1
+  },
+  {
+   "title": "Introducing ChatGPT Wallet",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "source": "OpenAI",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+   "why": "",
+   "depth": "",
+   "hours": 58,
+   "covered": 1
+  },
+  {
+   "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+   "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+   "source": "MarkTechPost",
+   "summary": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per ru",
+   "why": "",
+   "depth": "",
+   "hours": 32,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Congress Wants To Tighten Export Rules On AI Chips",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "source": "The Verge AI",
+   "summary": "Following the scandal involving former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips with new measures and bills.",
+   "why": "Stricter export controls directly impact hardware deployment, data center scaling, and global AI development strategies.",
+   "depth": "read",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Jensen Huang's Departure Threatens AI Startup Funding",
+   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia poured tens of billions into AI startups under Jensen Huang. Without him, founders and VCs are bracing for smaller checks and lower valuations.",
+   "why": "Changes in startup funding directly affect the broader AI ecosystem and market opportunities.",
+   "depth": "skim",
+   "hours": 50,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia Investors Urge Consideration Of Huang Return",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "source": "CNBC Tech",
+   "summary": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang's resignation.",
+   "why": "Leadership stability at Nvidia impacts chip supply chains and market strategy for autonomous driving and AI.",
+   "depth": "skim",
+   "hours": 31,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia Security Scrutinized Following Executive Exit And Scandal",
+   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia's security chief quietly left in August, and CEO Jensen Huang stepped down over relationships, including one with an executive at a company suspected of funneling chips to China.",
+   "why": "Corporate security and geopolitical compliance failures can trigger sudden regulatory shifts in the semiconductor industry.",
+   "depth": "read",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "Asian Governments React To Nvidia CEO Jensen Huang's Exit",
+   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "source": "TechCrunch AI",
+   "summary": "Some Asian governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+   "why": "Regional supply chain reactions dictate hardware availability for local autonomous driving and computer vision initiatives.",
+   "depth": "skim",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic IPO Lands Amid Tech Industry Desire For Momentum",
+   "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and desperate for positive momentum.",
+   "why": "Major public offerings signal market confidence and valuation trends for foundational AI labs.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia Startup Funding Deals Hit Record Before Crisis",
+   "url": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
+   "source": "Crunchbase News",
+   "summary": "Before being thrust into crisis, Nvidia continued its pace as a busy startup investor, backing many of the biggest venture deals of 2026.",
+   "why": "Tracking Nvidia's investment patterns helps predict shifts in the hardware and AI infrastructure market.",
+   "depth": "skim",
+   "hours": 52,
+   "covered": 1
+  },
+  {
+   "title": "Agentic AI And Infrastructure Lead Big Funding Rounds",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
+   "source": "Crunchbase News",
+   "summary": "Mirendil led the week with a $1 billion series A for agentic AI in R&D, followed by Mercor securing $750 million to connect developers with experts.",
+   "why": "Large capital injections into agentic AI indicate emerging trends in enterprise automation tooling.",
+   "depth": "skim",
+   "hours": 53,
+   "covered": 1
+  },
+  {
+   "title": "Singapore Bars Alice Huang Amid Nvidia Chip Investigations",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+   "source": "CNBC Tech",
+   "summary": "Singapore stated it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
+   "why": "Cross-border investigations highlight regulatory risks surrounding global AI chip distribution channels.",
+   "depth": "skim",
+   "hours": 65,
+   "covered": 1
+  },
+  {
+   "title": "Rumors Surface That Jensen Huang Might Plot Return",
+   "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+   "source": "The Verge AI",
+   "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly with rumors that he might be trying to find a path back to CEO.",
+   "why": "Executive leadership volatility at Nvidia remains a critical variable for the hardware market.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Idol Single-Image to 3D Gaussian Splatting Model Released",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "Hugging Face",
+   "summary": "Idol converts a single picture of an object into up to a million 3D Gaussians in a standard .ply file format within two seconds on consumer GPUs.",
+   "why": "It drastically speeds up 3D asset generation directly from single 2D computer vision inputs.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "speridlabs/idol"
+  },
+  {
+   "title": "MiniMax-H3-Image Open-Source Model Released for Image Generation and Editing",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "MiniMax-H3-Image is an open-source model providing precise instruction following for image generation, editing, and prompt expansion.",
+   "why": "It gives computer vision engineers a new open-source option for generative visual tasks.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "Qwen3.8-27B Model Weights and Configuration Files Released on Hugging Face",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The repository provides model weights and configuration files for the post-trained Qwen3.8-27B model, compatible with Hugging Face Transformers and vLLM.",
+   "why": "It delivers a major open-weights foundation model release ready for local deployment.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion Released with Reduced Thinking Tokens",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "source": "Hugging Face",
+   "summary": "This fine-tune drastically reduces thinking tokens by half to tenfold while maintaining output detail, exceeding previous ARC benchmark performance scores.",
+   "why": "It accelerates model response times by cutting down on lengthy internal text generation.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+  },
+  {
+   "title": "Unsloth Releases Dynamic 3.1 GGUF Quants for Qwen3.8-27B",
+   "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+   "source": "Hugging Face",
+   "summary": "Unsloth's Dynamic v3.1 GGUF quants for Qwen3.8-27B claim 5-10% higher average accuracy across benchmarks like Terminal Bench and LiveCodeBench.",
+   "why": "It provides optimized local quantization options for running the new Qwen frontier model.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "unsloth/Qwen3.8-27B-GGUF"
+  },
+  {
+   "title": "NousResearch Releases Arete-27B Post-Trained on Qwen3.8-27B",
+   "url": "https://huggingface.co/NousResearch/Arete-27B",
+   "source": "Hugging Face",
+   "summary": "Arete-27B is a post-trained version of Qwen3.8-27B designed to alter political biases and reduce propaganda-containing answers while maintaining factual scores.",
+   "why": "It demonstrates how open-source developers can realign foundation model values for different regions.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "NousResearch/Arete-27B"
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-18",
+ "generated": "2026-11-18T00:11+00:00",
+ "technical": [
+  {
+   "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+   "url": "https://huggingface.co/papers/2611.17610",
+   "source": "HF Daily Papers",
+   "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine p",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
+   "url": "https://huggingface.co/papers/2611.20595",
+   "source": "HF Daily Papers",
+   "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a request, such as a misnamed filter, yet returns HTTP 200 and a plausible but wrong result. Current fixe",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
+   "url": "https://huggingface.co/papers/2611.16694",
+   "source": "HF Daily Papers",
+   "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass au",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Post-Training NVIDIA Nemotron to Increase Accuracy in Your Scientific Domain",
+   "url": "https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/",
+   "source": "NVIDIA Developer",
+   "summary": "Agentic AI is reshaping scientific research and innovation. Researchers communicate complex scientific hypotheses in natural language and let autonomous agents...",
+   "why": "",
+   "depth": "",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "What Does Hard-Negative Fine-Tuning Teach Multimodal Large Language Models? Controlled Evidence from a Compositional Benchmark",
+   "url": "https://arxiv.org/abs/2611.18701",
+   "source": "arXiv cs.CV",
+   "summary": "arXiv:2611.18701v1 Announce Type: new Abstract: Fine-tuning on hard negatives is a popular way to improve the compositional reasoning of vision-language models, but when accuracy goes up it is rarely clear what the model",
+   "why": "",
+   "depth": "",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "Technical Report of Auriga's 1:10 Scale Autonomous Vehicle Robot",
+   "url": "https://arxiv.org/abs/2611.18855",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.18855v1 Announce Type: new Abstract: This report presents the design and implementation of Auriga Robotics' 1:10 scale autonomous vehicle, developed at Shahid Beheshti University's Robotics and Intelligent Aut",
+   "why": "",
+   "depth": "",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "HospitalBench: Diagnosing Where and Why Embodied Agents Fail on Long Hospital Task Chains",
+   "url": "https://arxiv.org/abs/2611.19274",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.19274v1 Announce Type: new Abstract: Long-horizon embodied tasks fail in ways that end-task success cannot see. HospitalBench is a diagnostic benchmark of ten hospital chores in NVIDIA Isaac Sim, each two unsc",
+   "why": "",
+   "depth": "",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "M-CROSS: A Multisensor Simulation Dataset for SLAM across Water--Land Transitions",
+   "url": "https://arxiv.org/abs/2611.19765",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.19765v1 Announce Type: new Abstract: Water--land cross-domain robots require continuous localization across land, transition and underwater phases, where sensor characteristics and availability change abruptly",
+   "why": "",
+   "depth": "",
+   "hours": 19,
+   "covered": 1
+  },
+  {
+   "title": "Build WhatsApp AI agents with Amazon Bedrock AgentCore",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning",
+   "summary": "SMART, an open-source Python SDK and Terraform stack, deploys the full WhatsApp channel layer to your AWS account with one command. Bring any agent that runs on Amazon Bedrock AgentCore, and SMART handles webhook ingesti",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+   "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+   "source": "NVIDIA Developer",
+   "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,...",
+   "why": "",
+   "depth": "",
+   "hours": 7,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Model ML raises $250M to automate investment banking grunt work",
+   "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+   "source": "TechCrunch AI",
+   "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Data center policy dominated the midterms. The 'Virginia of Europe' is the latest battleground",
+   "url": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
+   "source": "CNBC Tech",
+   "summary": "Data center policy has become a key election issue in Spain, creating an obstacle to existing deals and potentially costing billions of dollars in investment.",
+   "why": "",
+   "depth": "",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+   "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "source": "Crunchbase News",
+   "summary": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation.",
+   "why": "",
+   "depth": "",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "source": "TechCrunch AI",
+   "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+   "why": "",
+   "depth": "",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
+   "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+   "source": "CNBC Tech",
+   "summary": "Gerstner told CNBC that he's looking to put five time as much money into Anthropic as he's ever put into an IPO.",
+   "why": "",
+   "depth": "",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+   "url": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+   "source": "Crunchbase News",
+   "summary": "In this Q&A, Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+   "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+   "source": "The Verge AI",
+   "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 2
+  },
+  {
+   "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+   "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+   "source": "TechCrunch AI",
+   "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+   "why": "",
+   "depth": "",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia closes lower ahead of earnings as company reels from Huang resignation",
+   "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
+   "source": "CNBC Tech",
+   "summary": "Investors have been weighing the fallout from former CEO Jensen Huang's resignation.",
+   "why": "",
+   "depth": "",
+   "hours": 3,
+   "covered": 1
+  },
+  {
+   "title": "VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’",
+   "url": "https://news.crunchbase.com/venture/plural-closes-billion-euro-fund-european-ai-robotics-defense-startup-investment/",
+   "source": "Crunchbase News",
+   "summary": "London-based startup investor Plural, with a portfolio mix of energy, compute, defense, robotics, health and software, says it has closed on its largest fund to date — just over $1.1 billion, or 1 billion euros — to lead",
+   "why": "",
+   "depth": "",
+   "hours": 41,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "MiniMaxAI/MiniMax-H3-Image",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "# MiniMax-H3-Image ## Online API Use MiniMax-H3-Image directly via API. - Global: platform.minimax.io | CN: platform.minimax.cn API docs: - Text-to-image: EN-docs, CN-docs - Image editing: EN-docs, CN-docs - Prompt expan",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "Qwen/Qwen3.8-27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "# Qwen3.8-27B > [!Note] > This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. > > These artifacts are compatible with Hugging Face Transforme",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "higurashi-ai/Haru-4B",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "source": "Hugging Face",
+   "summary": "# Haru-4B Code · Technical blog · Technical blog (Japanese) Haru-4B is a low-latency and multilingual full-duplex continuous spoken dialogue foundation model: it listens and speaks at the same time, the way people do on ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "higurashi-ai/Haru-4B"
+  },
+  {
+   "title": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "source": "Hugging Face",
+   "summary": "No model card text available.",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "Lightricks/LTX-2.5"
+  },
+  {
+   "title": "thinkingmachines/Inkling-2-Small",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+   "source": "Hugging Face",
+   "summary": "# Inkling 2 Small NVFP4 | MXFP8 | Playground | Tinker Cookbook | Acceptable Use ## 1. General Information Inkling 2 Small is a general-purpose multimodal model that accepts text and image inputs and generates text output",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Small"
+  },
+  {
+   "title": "unsloth/Qwen3.8-27B-GGUF",
+   "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+   "source": "Hugging Face",
+   "summary": "# Read our How to Run Qwen3.8-27B Guide! Unsloth Dynamic 3.1 achieves superior accuracy & outperforms other leading quants. Nov 11 update: Dynamic v3.1 GGUF is here with 5-10% more average accuracy than other frontier qu",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "unsloth/Qwen3.8-27B-GGUF"
+  }
+ ]
+}

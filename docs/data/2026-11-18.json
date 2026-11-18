@@ -1,105 +1,105 @@
 {
  "date": "2026-11-18",
- "generated": "2026-11-18T10:52+00:00",
+ "generated": "2026-11-18T19:44+00:00",
  "technical": [
   {
-   "title": "VideoNexus separates video perception from evidence-driven planning",
-   "url": "https://huggingface.co/papers/2611.21392",
-   "source": "HF Daily Papers",
-   "summary": "VideoNexus is a training-free framework that separates detailed video perception from evidence-driven planning and reasoning to handle long videos without overloading context.",
-   "why": "It offers an efficient way to manage long-video context limits for AI vision systems.",
-   "depth": "read",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "GridDriver enables onboard BEV-based language planning and reasoning",
-   "url": "https://arxiv.org/abs/2611.21924",
-   "source": "arXiv cs.CV",
-   "summary": "GridDriver combines lightweight spatio-temporal BEV perception with a shared LLM to perform trajectory prediction, natural-language navigation, and scene question answering efficiently on-board.",
-   "why": "It demonstrates how to combine vision-based perception with language models for autonomous driving.",
-   "depth": "read",
-   "hours": 6,
-   "covered": 1
-  },
-  {
-   "title": "FIRE-Drive improves end-to-end diffusion planning with risk evaluation",
-   "url": "https://arxiv.org/abs/2611.22297",
-   "source": "arXiv cs.RO",
-   "summary": "FIRE-Drive is a feasibility-informed risk evaluation framework designed to address trajectory initialization and mode selection issues in diffusion-based autonomous driving models.",
-   "why": "It helps improve the safety and reliability of diffusion-based driving planners.",
-   "depth": "read",
-   "hours": 6,
-   "covered": 1
-  },
-  {
-   "title": "Open recipe for post-training multimodal reasoning with distillation",
-   "url": "https://huggingface.co/papers/2611.23034",
-   "source": "HF Daily Papers",
-   "summary": "Researchers present M3OPD-Reasoner, a fully open recipe for post-training vision-language models across image STEM, perception, and video domains using multi-teacher on-policy distillation.",
-   "why": "It provides valuable open-source methodologies for advancing multi-domain visual reasoning in VLMs.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "EgoLink challenge benchmarks egocentric multimodal intelligence and interaction",
+   "title": "EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary",
    "url": "https://arxiv.org/abs/2611.21690",
    "source": "arXiv cs.CV",
-   "summary": "The EgoLink Challenge benchmarks egocentric multimodal intelligence by evaluating social reasoning in videos and interactive service agents through dialogue and tool use.",
-   "why": "It sets new evaluation standards for first-person perception and interactive agent systems.",
-   "depth": "skim",
-   "hours": 6,
+   "summary": "arXiv:2611.21690v1 Announce Type: new Abstract: The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action. Unlike",
+   "why": "",
+   "depth": "",
+   "hours": 15,
    "covered": 1
   },
   {
-   "title": "RoboTeam benchmarks real-time vision-based control of many robot arms",
-   "url": "https://arxiv.org/abs/2611.22138",
-   "source": "arXiv cs.RO",
-   "summary": "RoboTeam is a simulated benchmark where agents use camera images alone to control 4 to 16 robot arms in real time across 36 collaborative tasks.",
-   "why": "It pushes multi-agent robotic control benchmarks closer to real-time, multi-arm complexities.",
-   "depth": "read",
-   "hours": 6,
-   "covered": 1
-  },
-  {
-   "title": "AscendGYM benchmark optimizes kernels for real-world Ascend NPU workloads",
-   "url": "https://huggingface.co/papers/2611.17621",
+   "title": "GameRealm: Grounding Visual Learning in Interactive Games",
+   "url": "https://huggingface.co/papers/2611.23140",
    "source": "HF Daily Papers",
-   "summary": "AscendGYM is a cost-aware kernel optimization benchmark featuring 48 kernels paired with test cases collected from real-world LLM training and inference tasks on Ascend NPUs.",
-   "why": "It helps engineers map kernel optimization directly to real-world hardware performance.",
-   "depth": "skim",
+   "summary": "Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented training datasets, inconsistent annotation quality, and limited multimodal supervision. To address th",
+   "why": "",
+   "depth": "",
    "hours": 12,
    "covered": 1
   },
   {
-   "title": "Case study investigates whether decision models localize detected anomalies",
+   "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
+   "url": "https://huggingface.co/papers/2611.22563",
+   "source": "HF Daily Papers",
+   "summary": "CAD practitioners often work with proprietary parts that they are unwilling to share with external services. For individuals and small companies, bringing this work in-house also requires computational resources they can",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
+   "url": "https://huggingface.co/papers/2611.21382",
+   "source": "HF Daily Papers",
+   "summary": "Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs. Evaluation across artifact families helps distinguish broadly applicable authoring ",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "GridDriver: On-Board BEV-Based Language Planning and Reasoning",
+   "url": "https://arxiv.org/abs/2611.21924",
+   "source": "arXiv cs.CV",
+   "summary": "arXiv:2611.21924v1 Announce Type: new Abstract: Bird's-Eye-View (BEV)-conditioned large language models (LLMs) enable language-interactive driving, but onboard deployment requires efficient perception and continuous plan",
+   "why": "",
+   "depth": "",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "Deciding Without Pointing: A Case Study of Whether a Decision Model Localizes the Anomalies It Detects",
    "url": "https://arxiv.org/abs/2611.21995",
    "source": "arXiv cs.CV",
-   "summary": "A case study on Clef-flash evaluates whether decision models answering questions about images can also accurately localize the anomalies they detect in industrial inspection.",
-   "why": "It reveals important insights into the internal localization capabilities of classification-focused vision models.",
-   "depth": "skim",
-   "hours": 6,
+   "summary": "arXiv:2611.21995v1 Announce Type: new Abstract: Decision models can answer a typed question about an image with a probability per option, without generating text. In our case study of Clef-flash (post-trained Qwen3.5-9B ",
+   "why": "",
+   "depth": "",
+   "hours": 15,
    "covered": 1
   },
   {
-   "title": "ASTRA simulation framework tests marine autonomous surface vehicles",
+   "title": "ASTRA: ASV Simulator for Transferable Realistic Autonomy",
    "url": "https://arxiv.org/abs/2611.21789",
    "source": "arXiv cs.RO",
-   "summary": "ASTRA is an ASV simulation framework built in NVIDIA Isaac Sim combining marine vehicle dynamics, photorealistic perception, and ROS 2 autonomy interfaces.",
-   "why": "It offers a realistic virtual environment for developing and testing marine robotics.",
-   "depth": "skim",
-   "hours": 6,
+   "summary": "arXiv:2611.21789v1 Announce Type: new Abstract: Autonomy development for marine autonomous surface vehicles (ASVs) remains challenging because field testing is costly and difficult to reproduce. Existing marine simulatio",
+   "why": "",
+   "depth": "",
+   "hours": 15,
    "covered": 1
   },
   {
-   "title": "SID AI releases SID-2 agentic search model with swarm mode",
+   "title": "RoboTeam: Benchmarking Vision-Based Multi-Agent Control of Many Robot Arms in Real Time",
+   "url": "https://arxiv.org/abs/2611.22138",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.22138v1 Announce Type: new Abstract: Multimodal agents can now control robot arms by calling tools and writing code. Existing benchmarks fall short in three ways: most test one or two arms on short tasks, many",
+   "why": "",
+   "depth": "",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "FIRE-Drive: Feasibility-Informed Risk Evaluation for End-to-End Diffusion Planning",
+   "url": "https://arxiv.org/abs/2611.22297",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.22297v1 Announce Type: new Abstract: Diffusion-based end-to-end autonomous driving models have shown strong potential in generating multimodal planning trajectories. However, their performance still depends he",
+   "why": "",
+   "depth": "",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
    "url": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
    "source": "MarkTechPost",
-   "summary": "SID AI released SID-2, an agentic search model trained with reinforcement learning that achieves 0.720 NDCG using a 12-agent swarm setup.",
-   "why": "It showcases state-of-the-art performance for multi-agent search architectures.",
-   "depth": "skim",
-   "hours": 4,
+   "summary": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID’s benchmark. T",
+   "why": "",
+   "depth": "",
+   "hours": 13,
    "covered": 1
   }
  ],
@@ -111,7 +111,7 @@
    "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
    "why": "",
    "depth": "",
-   "hours": 9,
+   "hours": 18,
    "covered": 1
   },
   {
@@ -121,17 +121,7 @@
    "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
    "why": "",
    "depth": "",
-   "hours": 15,
-   "covered": 1
-  },
-  {
-   "title": "Data center policy dominated the midterms. The 'Virginia of Europe' is the latest battleground",
-   "url": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
-   "source": "CNBC Tech",
-   "summary": "Data center policy has become a key election issue in Spain, creating an obstacle to existing deals and potentially costing billions of dollars in investment.",
-   "why": "",
-   "depth": "",
-   "hours": 21,
+   "hours": 24,
    "covered": 1
   },
   {
@@ -141,93 +131,81 @@
    "summary": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation.",
    "why": "",
    "depth": "",
-   "hours": 21,
+   "hours": 30,
    "covered": 1
   },
   {
-   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "title": "The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut",
+   "url": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+   "source": "Crunchbase News",
+   "summary": "Just three years after launching with zero revenue, Anthropic brought in $17 billion and says more than 11,900 customers now spend at least $100,000 a year. But its IPO filing also reveals enormous computing commitments ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1
+  },
+  {
+   "title": "Sector Snapshot: Investors Turn Up The Volume On Voice AI",
+   "url": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026/",
+   "source": "Crunchbase News",
+   "summary": "Voice AI is drawing billions of dollars from investors as startups find more ways to put it to work. According to Crunchbase data, companies developing or offering the technology have raised at least $9.5 billion in vent",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
+   "url": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html",
+   "source": "CNBC Tech",
+   "summary": "An Estonian tech billionaire famous for his stance that AI could end humanity is expected to be one of the biggest winners in Anthropic's upcoming IPO.",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic is gearing up for a blockbuster initial public offering this week, and excitement among retail investors looks to be off the charts.",
+   "why": "",
+   "depth": "",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+   "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
    "source": "TechCrunch AI",
-   "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+   "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
    "why": "",
    "depth": "",
-   "hours": 20,
+   "hours": 8,
    "covered": 1
   },
   {
-   "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
-   "url": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+   "title": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
    "source": "CNBC Tech",
-   "summary": "Gerstner told CNBC that he's looking to put five time as much money into Anthropic as he's ever put into an IPO.",
+   "summary": "Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.",
    "why": "",
    "depth": "",
-   "hours": 17,
+   "hours": 2,
    "covered": 1
   },
   {
-   "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
-   "url": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
-   "source": "Crunchbase News",
-   "summary": "In this Q&A, Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are",
+   "title": "The AI Hype Index: AI is everywhere",
+   "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+   "source": "MIT Technology Review AI",
+   "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people he",
    "why": "",
    "depth": "",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-   "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-   "source": "CNBC Tech",
-   "summary": "The rules require data centers in Southeast Asia to seek U.S. approval to buy advanced AI chips, threatening to slow a build-out fueled heavily on Chinese demand.",
-   "why": "",
-   "depth": "",
-   "hours": 3,
-   "covered": 1
-  },
-  {
-   "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
-   "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
-   "source": "The Verge AI",
-   "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I",
-   "why": "",
-   "depth": "",
-   "hours": 19,
-   "covered": 2
-  },
-  {
-   "title": "VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’",
-   "url": "https://news.crunchbase.com/venture/plural-closes-billion-euro-fund-european-ai-robotics-defense-startup-investment/",
-   "source": "Crunchbase News",
-   "summary": "London-based startup investor Plural, with a portfolio mix of energy, compute, defense, robotics, health and software, says it has closed on its largest fund to date — just over $1.1 billion, or 1 billion euros — to lead",
-   "why": "",
-   "depth": "",
-   "hours": 52,
+   "hours": 5,
    "covered": 1
   }
  ],
  "models": [
-  {
-   "title": "MiniMaxAI/MiniMax-H3-Image",
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-   "source": "Hugging Face",
-   "summary": "# MiniMax-H3-Image ## Online API Use MiniMax-H3-Image directly via API. - Global: platform.minimax.io | CN: platform.minimax.cn API docs: - Text-to-image: EN-docs, CN-docs - Image editing: EN-docs, CN-docs - Prompt expan",
-   "why": "",
-   "depth": "",
-   "hours": 0,
-   "covered": 1,
-   "model": "MiniMaxAI/MiniMax-H3-Image"
-  },
-  {
-   "title": "Qwen/Qwen3.8-27B",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-   "source": "Hugging Face",
-   "summary": "# Qwen3.8-27B > [!Note] > This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. > > These artifacts are compatible with Hugging Face Transforme",
-   "why": "",
-   "depth": "",
-   "hours": 0,
-   "covered": 1,
-   "model": "Qwen/Qwen3.8-27B"
-  },
   {
    "title": "higurashi-ai/Haru-4B",
    "url": "https://huggingface.co/higurashi-ai/Haru-4B",
@@ -262,15 +240,37 @@
    "model": "thinkingmachines/Inkling-2-Small"
   },
   {
-   "title": "unsloth/Qwen3.8-27B-GGUF",
-   "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+   "title": "harness-hub/Qwen3.8-27B-pi-adapted",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
    "source": "Hugging Face",
-   "summary": "# Read our How to Run Qwen3.8-27B Guide! Unsloth Dynamic 3.1 achieves superior accuracy & outperforms other leading quants. Nov 11 update: Dynamic v3.1 GGUF is here with 5-10% more average accuracy than other frontier qu",
+   "summary": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the pi coding agent on software-engineering and terminal tasks. > [!Tip] > **Maximum-effort thinking accuracy, at a qua",
    "why": "",
    "depth": "",
    "hours": 0,
    "covered": 1,
-   "model": "unsloth/Qwen3.8-27B-GGUF"
+   "model": "harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "title": "MiniMaxAI/MiniMax-H3-Image",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "# MiniMax-H3-Image ## Online API Use MiniMax-H3-Image directly via API. - Global: platform.minimax.io | CN: platform.minimax.cn API docs: - Text-to-image: EN-docs, CN-docs - Image editing: EN-docs, CN-docs - Prompt expan",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "Qwen/Qwen3.8-27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "# Qwen3.8-27B > [!Note] > This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. > > These artifacts are compatible with Hugging Face Transforme",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
   }
  ]
 }

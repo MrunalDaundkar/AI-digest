@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-20",
+ "generated": "2026-11-20T01:56+00:00",
+ "technical": [
+  {
+   "title": "VLN-AR framework enables hierarchical vision-language-navigation for aerial robots",
+   "url": "https://arxiv.org/abs/2611.23930",
+   "source": "arXiv cs.RO",
+   "summary": "VLN-AR decouples multimodal reasoning and low-level control to allow structured 3D prediction, addressing computational and long-horizon challenges for UAVs in complex environments.",
+   "why": "It directly advances autonomous navigation and robotics capabilities.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "WaveView injects warped sources into noise for novel view synthesis",
+   "url": "https://huggingface.co/papers/2611.23994",
+   "source": "HF Daily Papers",
+   "summary": "WaveView uses the Dual-Tree Complex Wavelet Packet Transform for local and anisotropic phase injection from a warped source into a pretrained generator's initial noise, reducing inference overhead.",
+   "why": "It introduces a novel generative novel view synthesis technique for computer vision engineers.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "StrideWorld benchmark evaluates scene rigidity and action consistency in videos",
+   "url": "https://huggingface.co/papers/2611.24408",
+   "source": "HF Daily Papers",
+   "summary": "StrideWorld assesses interactive video world models using references fixed before motion to prevent undetected errors caused by gradual scene deformation and pace changes.",
+   "why": "It provides a robust evaluation framework for autonomous driving and interactive simulation models.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Autoregressive View Model generates scene views without explicit 3D representations",
+   "url": "https://arxiv.org/abs/2611.23417",
+   "source": "arXiv cs.CV",
+   "summary": "The Autoregressive View Model conditions on images or videos to generate short camera path clips, using visual context for reconstruction and a learned prior for extrapolation.",
+   "why": "It presents a scalable alternative approach for view generation and computer vision tasks.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "mmTherm combines thermal images and mmWave radar for 3D pose estimation",
+   "url": "https://arxiv.org/abs/2611.23477",
+   "source": "arXiv cs.CV",
+   "summary": "Addressing sparse radar points and generalization issues in thermal-radar fusion, this approach improves absolute 3D human pose estimation and global positioning.",
+   "why": "It provides valuable multi-modal sensor fusion strategies for privacy-preserving tracking and perception.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "RageVLA applies augmentation training for robust perception and action",
+   "url": "https://arxiv.org/abs/2611.23517",
+   "source": "arXiv cs.RO",
+   "summary": "RageVLA decouples policy training by applying data augmentations that move objects and paraphrase instructions, improving vision-language-action model robustness on LIBERO-PRO.",
+   "why": "It offers actionable strategies to improve generalization in robotic manipulation policies.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "Finetuning VLAs for dexterous manipulation using SFT and DSRL",
+   "url": "https://arxiv.org/abs/2611.23676",
+   "source": "arXiv cs.RO",
+   "summary": "Combining supervised fine-tuning with diffusion-steering reinforcement learning enables the adaptation of vision-language-action models to multi-finger robotic hands using few demonstrations.",
+   "why": "It advances robotic manipulation by bridging the gap between parallel-jaw and dexterous hand policies.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "Probing 3D point representations for architectural functions on urban facades",
+   "url": "https://arxiv.org/abs/2611.23720",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers tested whether 3D point representations encode architectural function rather than just semantic labels across 22 mobile-LiDAR buildings, finding basic descriptors competitive.",
+   "why": "This provides insights into the limitations of current 3D point cloud models for geometric and functional understanding.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI measures how coding agents accelerate AI research",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "source": "OpenAI",
+   "summary": "OpenAI evaluates coding agent performance acceleration in AI research, noting uneven performance and its implications for recursive self-improvement.",
+   "why": "It highlights current engineering frontiers in autonomous AI research assistants.",
+   "depth": "skim",
+   "hours": 42,
+   "covered": 1
+  },
+  {
+   "title": "RICoT prompting framework improves page stream segmentation using LLMs",
+   "url": "https://huggingface.co/papers/2611.22382",
+   "source": "HF Daily Papers",
+   "summary": "RICoT reimagines page stream segmentation for LLMs as a sequential process, reasoning about each page within a sliding window and carrying forward a compact record of decisions.",
+   "why": "This offers an advanced document processing technique relevant to computer vision and text pipelines.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Genesis AI raises $500 million Series A at $3.5 billion valuation",
+   "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "source": "Crunchbase News",
+   "summary": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, raised $500 million in Series A funding at a $3.5 billion valuation.",
+   "why": "It signals strong venture capital backing for physical AI and humanoid robotics companies.",
+   "depth": "read",
+   "hours": 60,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic raises over $81 billion in record-breaking Nasdaq IPO",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic's IPO raised over $81 billion, making it the largest offering on record and topping SpaceX, with trading set to begin on the Nasdaq under ANT.",
+   "why": "It marks a massive liquidity and capital milestone for the generative AI industry.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic hits $17 billion revenue amid massive computing commitments",
+   "url": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+   "source": "Crunchbase News",
+   "summary": "Three years after launching with zero revenue, Anthropic brought in $17 billion with over 11,900 customers spending at least $100,000 annually, though its IPO filing reveals enormous computing commitments.",
+   "why": "It provides financial benchmarks for scaling enterprise-grade foundation model businesses.",
+   "depth": "read",
+   "hours": 30,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia stock drops 40 percent from all-time high",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+   "source": "The Verge AI",
+   "summary": "Nvidia's stock hovered around $150 per share, marking a nearly 40 percent drop from its October 6th all-time high and wiping out post-earnings gains despite strong quarterly results.",
+   "why": "It highlights market volatility for top hardware providers driving the AI boom.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Palo Alto Networks reports earnings beat and $4.5 billion acquisition",
+   "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+   "source": "CNBC Tech",
+   "summary": "Palo Alto Networks reported better-than-expected first-quarter results and announced a $4.5 billion deal for AI startup Applied Compute to secure open-weight models.",
+   "why": "It shows major cybersecurity consolidation and investment in open-weight AI infrastructure.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic weighs safety strategy against $107 billion valuation pressures",
+   "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+   "source": "Wired AI",
+   "summary": "Investors betting a $107 billion valuation will evaluate whether Anthropic's AI safety strategy and growing public backlash against data centers could impact future growth.",
+   "why": "It illustrates the tension between aggressive scaling and AI safety commitments in frontier labs.",
+   "depth": "skim",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic surges 33 percent above IPO price on Nasdaq debut",
+   "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "source": "TechCrunch AI",
+   "summary": "Anthropic's stock hit Nasdaq exchanges at $111, which was 33% above its IPO price of $83 after raising more than $80 billion in new capital.",
+   "why": "It reflects strong public market appetite for frontier AI infrastructure companies.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic's historic IPO tests its reputation for AI safety",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+   "source": "The Verge AI",
+   "summary": "Anthropic completed the biggest IPO of all time by raising $81.3 billion, beating out SpaceX, while setting a precedent for public AI lab debuts that tests its foundational safety reputation.",
+   "why": "It signals how public markets might govern the tension between commercial growth and AI safety.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Blue economy funding nears $10 billion driven by defense deals",
+   "url": "https://news.crunchbase.com/startups/blue-economy-technology-defense-energy-onetti-mind-the-bridge/",
+   "source": "Crunchbase News",
+   "summary": "The $2.6 trillion blue economy is driving startup opportunities in maritime automation, clean energy, and logistics, with funding nearing $10 billion through Q3 2026.",
+   "why": "It highlights emerging automation and robotics markets in maritime sectors.",
+   "depth": "skim",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic founders cash out nearly $2 billion in public offering",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+   "source": "TechCrunch AI",
+   "summary": "At the upgraded $83 per share IPO price, Anthropic's seven founders each pocketed $280 million while the company nabbed nearly $105 billion.",
+   "why": "It provides insight into founder windfalls during historic AI sector liquidity events.",
+   "depth": "skim",
+   "hours": 1,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Apple releases FastFrames for interactive latency video generation",
+   "url": "https://huggingface.co/apple/FastFrames-L",
+   "source": "Hugging Face",
+   "summary": "Apple released FastFrames-S and FastFrames-L, autoregressive two-step video diffusion models that generate 480p video at interactive latency.",
+   "why": "Interactive-latency video generation enables real-time visual AI applications.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/FastFrames-L"
+  },
+  {
+   "title": "MiniMax-H3-Image launched as an open-source image generation and editing model",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "Hugging Face",
+   "summary": "MiniMax-H3-Image is an open-source state-of-the-art model for text-to-image generation and image editing with precise instruction following and creative intent understanding.",
+   "why": "Open-source image editing models offer flexible alternatives for visual pipelines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "MiniMaxAI/MiniMax-H3-Image"
+  },
+  {
+   "title": "Lightricks releases LTX-2.5 model repository without model card text",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "source": "Hugging Face",
+   "summary": "The Lightricks/LTX-2.5 repository was made available on Hugging Face, though no model card text was provided.",
+   "why": "Tracking new video model releases helps monitor state-of-the-art developments.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Lightricks/LTX-2.5"
+  },
+  {
+   "title": "Haru-4B is a low-latency multilingual full-duplex spoken dialogue model",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "source": "Hugging Face",
+   "summary": "Haru-4B is a pretrained base model for low-latency and multilingual full-duplex continuous spoken dialogue. It listens and speaks simultaneously at 7.5 Hz using a single position of the language model.",
+   "why": "Full-duplex audio models improve real-time voice interaction latency.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "higurashi-ai/Haru-4B"
+  },
+  {
+   "title": "Tencent releases Hy4-flash, a 220B parameter cost-effective multimodal model",
+   "url": "https://huggingface.co/tencent/Hy4-flash",
+   "source": "Hugging Face",
+   "summary": "Hy4-flash is a cost-effective model featuring 220B total parameters with 12B active parameters per token, natively accepting text and image inputs.",
+   "why": "Efficient multimodal MoE models reduce inference costs.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "tencent/Hy4-flash"
+  },
+  {
+   "title": "ChatR Labs releases quantized Uncensored Omni Qwen image model",
+   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "source": "Hugging Face",
+   "summary": "ChatR Labs released a quantized transformer weights build of a rank-128 Omni adapter merged into Qwen-Image-2.1 for text-to-image and image editing.",
+   "why": "Quantized open-weight image models lower the hardware barrier for local generation.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
+  }
+ ]
+}

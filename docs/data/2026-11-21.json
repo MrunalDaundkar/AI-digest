@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-21",
+ "generated": "2026-11-21T01:52+00:00",
+ "technical": [
+  {
+   "title": "Policy-Aware Data Valuation optimizes autonomous driving demonstrations",
+   "url": "https://huggingface.co/papers/2611.25604",
+   "source": "HF Daily Papers",
+   "summary": "PAD introduces a framework assigning utility scores to training demonstrations specific to target driving policies, combining calibration feedback with projected policy gradients.",
+   "why": "It helps solve the problem where scaling autonomous driving data does not guarantee proportional performance gains.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 2
+  },
+  {
+   "title": "ROAM system bridges VLM reasoning and learned control for legged navigation",
+   "url": "https://arxiv.org/abs/2611.25215",
+   "source": "arXiv cs.RO",
+   "summary": "ROAM combines internet-scale Vision-Language Models with reinforcement-learning locomotion policies to achieve kilometer-scale autonomous navigation for legged robots.",
+   "why": "It demonstrates how to effectively combine high-level commonsense reasoning with robust low-level robotics control.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "Direct3D-V3 framework eliminates VAEs for native voxel domain diffusion",
+   "url": "https://huggingface.co/papers/2611.26511",
+   "source": "HF Daily Papers",
+   "summary": "Direct3D-V3 proposes a latent-free diffusion transformer framework that discards variational autoencoders and operates directly on raw SDF voxel grids during training and sampling.",
+   "why": "It offers a novel approach to native 3D generation by bypassing latent compression spaces.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Synthetic testbed in NVIDIA Isaac Sim evaluates counter-UAS perception security",
+   "url": "https://arxiv.org/abs/2611.25249",
+   "source": "arXiv cs.RO",
+   "summary": "This work presents a synthetic C-UAS testbed built in NVIDIA Isaac Sim to stress test perception and tracking algorithms against degraded or manipulated sensor observations.",
+   "why": "It enables repeatable security stress testing for perception pipelines in agentic cyber-physical systems.",
+   "depth": "skim",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "SceneAnything automates large-scale 3D mesh scene reconstruction from video",
+   "url": "https://arxiv.org/abs/2611.25340",
+   "source": "arXiv cs.CV",
+   "summary": "SceneAnything coordinates agents, pretrained vision models, and graphics tools to reconstruct editable 3D mesh scenes and enable text-to-scene construction.",
+   "why": "It automates complex 3D asset generation workflows directly from single video inputs.",
+   "depth": "skim",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "NVIDIA releases Nemotron-Labs-Sigma continuous diffusion language model checkpoints",
+   "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+   "source": "MarkTechPost",
+   "summary": "Nemotron-Labs-Sigma provides 14 open 3B and 8B checkpoints that denoise text in a latent embedding space, achieving up to 4.20x faster decoding than autoregressive methods.",
+   "why": "It introduces alternative generation paradigms to traditional autoregressive language models.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Keel agentic method repairs vision-language model loops via weight editing",
+   "url": "https://arxiv.org/abs/2611.25257",
+   "source": "arXiv cs.CV",
+   "summary": "Keel uses a frontier multimodal LLM as an agent to locate the root cause of vision-language model looping behaviors and rewrite its weights directly.",
+   "why": "It provides a direct weight-based alternative to decoding remedies for fixing reasoning model flaws.",
+   "depth": "skim",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "Distributed KV caching skill cuts self-hosted LLM cost and latency",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+   "source": "AWS Machine Learning",
+   "summary": "Using Amazon ElastiCache for distributed KV caching can reduce self-hosted LLM inference costs by up to 40% and time to first token by 80%.",
+   "why": "It offers a practical infrastructure optimization for engineers self-hosting models on GPUs.",
+   "depth": "skim",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Analysis ranks top 13 agent gateways for MCP and LLM traffic",
+   "url": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
+   "source": "MarkTechPost",
+   "summary": "An overview ranking 13 agent gateways of 2026 by governance features, pricing, and deployment options for model, tool, and agent-to-agent traffic.",
+   "why": "It helps infrastructure engineers select appropriate traffic routing and governance layers for multi-agent systems.",
+   "depth": "skim",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "Amazon Bedrock AgentCore harness adopts Strands and new lifecycle hooks",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+   "source": "AWS Machine Learning",
+   "summary": "AgentCore now runs on the Strands harness, introducing built-in tools, proactive context management, and deterministic lifecycle hooks for the agent loop.",
+   "why": "It streamlines enterprise agent development and safety controls on AWS.",
+   "depth": "skim",
+   "hours": 30,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Nvidia Reports Earnings and Stops Selling H200 Chips in China",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia delivered healthy earnings growth alongside the fallout from ousting CEO Jensen Huang, and announced it will stop selling H200 chips in China.",
+   "why": "Hardware availability and executive stability directly impact your infrastructure deployment strategies.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic Raises $93.5 Billion Total in Record IPO",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic sold an aggregate of 1,127,000,000 shares at $83 per share in its record-breaking initial public offering.",
+   "why": "Massive capital injections into foundational AI labs signal shifts in industry scaling and compute availability.",
+   "depth": "read",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic Reports $17 Billion Revenue in IPO Filing",
+   "url": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+   "source": "Crunchbase News",
+   "summary": "Three years after launching with zero revenue, Anthropic brought in $17 billion with over 11,900 customers spending at least $100,000 annually.",
+   "why": "Commercial traction metrics provide a financial benchmark for enterprise AI adoption rates.",
+   "depth": "read",
+   "hours": 54,
+   "covered": 1
+  },
+  {
+   "title": "Trump Threatens Tremendous Tax for Offshore AI Data Centers",
+   "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "source": "The Verge AI",
+   "summary": "President Donald Trump threatened a tremendous tax on companies building data centers outside the US, as various regions place restrictions on new domestic applications.",
+   "why": "Geographic mandates for data center locations will impact infrastructure planning and compute costs.",
+   "depth": "read",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "METR Report Finds AI Capabilities Improving Along Exponential Trajectory",
+   "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "source": "MIT Technology Review AI",
+   "summary": "A new METR nonprofit report shows AI capabilities improving exponentially, though models remain less capable at tasks requiring judgment than at coding.",
+   "why": "Understanding capability ceilings helps calibrate realistic expectations for automated software engineering.",
+   "depth": "read",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Blue Economy Funding Nears $10 Billion Through Q3 2026",
+   "url": "https://news.crunchbase.com/startups/blue-economy-technology-defense-energy-onetti-mind-the-bridge/",
+   "source": "Crunchbase News",
+   "summary": "The $2.6 trillion blue economy is seeing startup opportunities in maritime automation and clean energy, with funding nearing $10 billion through Q3 2026 driven by defense deals.",
+   "why": "Autonomous maritime logistics represent an emerging market sector for computer vision applications.",
+   "depth": "skim",
+   "hours": 38,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic Faces Safety and Data Center Scrutiny After IPO",
+   "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+   "source": "Wired AI",
+   "summary": "Investors betting $107 billion will weigh whether Anthropic's AI safety strategy and public anger toward data centers could impact its future growth.",
+   "why": "Public perception and safety mandates will shape regulatory compliance for AI infrastructure.",
+   "depth": "skim",
+   "hours": 38,
+   "covered": 1
+  },
+  {
+   "title": "Chips can survive the space environment — can their financing?",
+   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "source": "TechCrunch AI",
+   "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+   "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
+   "source": "CNBC Tech",
+   "summary": "Crypto investors are looking beyond Congress for the next catalyst after the Senate failed to advance the Clarity Act in September.",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
+   "url": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+   "source": "CNBC Tech",
+   "summary": "With Anthropic now public, investors are watching to see whether bitcoin and ether find a floor, and if institutional demand returns.",
+   "why": "",
+   "depth": "",
+   "hours": 11,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Apple releases FastFrames for video generation at interactive latency",
+   "url": "https://huggingface.co/apple/FastFrames-L",
+   "source": "Hugging Face",
+   "summary": "FastFrames introduces autoregressive, two-step video diffusion models (FastFrames-S and FastFrames-L) that generate 480p video at interactive latency.",
+   "why": "It directly advances real-time generative computer vision tasks.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/FastFrames-L"
+  },
+  {
+   "title": "New LoRA adapter optimizes Qwen3.8-27B for software-engineering tasks",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "source": "Hugging Face",
+   "summary": "A LoRA adapter trained with reinforcement learning matches maximum-effort thinking performance while generating 4.5x fewer tokens per task.",
+   "why": "It significantly improves coding and reasoning efficiency for agentic workflows.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "title": "Haru-4B introduces native full-duplex continuous spoken dialogue",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "source": "Hugging Face",
+   "summary": "Haru-4B is a low-latency, multilingual full-duplex continuous spoken dialogue foundation model that listens and speaks simultaneously at 7.5 Hz using a 64-dimensional latent per frame.",
+   "why": "It offers low-latency real-time voice interaction capabilities.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "higurashi-ai/Haru-4B"
+  },
+  {
+   "title": "Inkling 2 Mini released as a general-purpose multimodal model",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "Hugging Face",
+   "summary": "Inkling 2 Mini is a multimodal model accepting text and image inputs and generating text outputs, designed for developers building agentic, tool-use, and RAG systems.",
+   "why": "It provides open weights for multimodal application development.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Mini"
+  },
+  {
+   "title": "Qwen3.8-27B model weights and configuration files released",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The repository provides post-trained model weights compatible with Hugging Face Transformers, vLLM, and SGLang, with an upcoming hosted Qwen Cloud API offering a 1M context length.",
+   "why": "It gives engineers direct access to a high-capacity base model.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Inkling 2 Mini GGUF quantizations released for local deployment",
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+   "source": "Hugging Face",
+   "summary": "Unsloth released dynamic GGUF quantizations for Inkling 2 Mini, allowing developers to run the general-purpose multimodal model locally via Unsloth Desktop or mainline llama.cpp.",
+   "why": "It enables local execution of multimodal coding assistants.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "unsloth/Inkling-2-Mini-GGUF"
+  }
+ ]
+}

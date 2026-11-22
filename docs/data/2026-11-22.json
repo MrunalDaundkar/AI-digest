@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-22",
+ "generated": "2026-11-22T00:47+00:00",
+ "technical": [
+  {
+   "title": "RL post-training in diffusion transformers operates via simple activation steering",
+   "url": "https://huggingface.co/papers/2611.26627",
+   "source": "HF Daily Papers",
+   "summary": "Researchers probed RL-tuned diffusion transformers using fixed steering vectors instead of complex input-dependent transformations. These lightweight vectors achieve similar visual quality and text rendering gains while holding significantly fewer parameters than traditional LoRAs.",
+   "why": "Understanding activation steering helps optimize model fine-tuning and inference efficiency for vision models.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Lang-SVG introduces explicit tree structures for hierarchical image vectorization",
+   "url": "https://huggingface.co/papers/2611.15941",
+   "source": "HF Daily Papers",
+   "summary": "Lang-SVG reconstructs raster images into editable vector graphics by introducing an explicit tree structure. It organizes primitives with semantic labels and parent-child relationships using open-vocabulary segmentation priors and multimodal models.",
+   "why": "It offers better object-part hierarchies for computer vision and image manipulation tasks.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "System 1 agents achieve local and reliable tool-calling without text generation",
+   "url": "https://huggingface.co/papers/2611.21053",
+   "source": "HF Daily Papers",
+   "summary": "A new method builds local agent systems that call tools without generating intermediate text. Using a deterministic compiler and a one-pass decision model, it achieves high accuracy on biomedical tool calls while keeping sensitive data local.",
+   "why": "This architecture provides a reliable, secure way to run agents locally without cloud LLM dependencies.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Distributed KV caching significantly cuts self-hosted LLM cost and latency",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+   "source": "AWS Machine Learning",
+   "summary": "Using distributed KV caching with Amazon ElastiCache prevents the need to recompute the same context on every turn. This approach cuts inference costs by up to 40% and reduces time to first token by up to 80% for self-hosted LLMs.",
+   "why": "It offers concrete infrastructure optimizations for engineers deploying self-hosted transformer workloads.",
+   "depth": "skim",
+   "hours": 25,
+   "covered": 1
+  },
+  {
+   "title": "Thinking Machines releases Inkling 2 Mini looped MoE model",
+   "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+   "source": "MarkTechPost",
+   "summary": "Thinking Machines launched Inkling 2 Mini, a 26.4B-parameter looped MoE transformer featuring 3.4B active parameters. It runs efficiently on local consumer hardware like a 32GB Mac and scores strongly on SWE-bench Verified.",
+   "why": "It demonstrates high-performing local model architectures suited for developer hardware.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI ships GPT-Live-1.1 with lower idle costs for voice agents",
+   "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+   "source": "MarkTechPost",
+   "summary": "OpenAI released GPT-Live-1.1 into the API, bringing full-duplex voice capabilities, improved multilingual accents, and enhanced transcription. A new standby mode also reduces idle WebRTC billing costs.",
+   "why": "It provides cost and capability updates for engineers building real-time voice agent applications.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Comparative ranking evaluates 13 agent gateways for MCP and LLM traffic",
+   "url": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
+   "source": "MarkTechPost",
+   "summary": "A new industry ranking reviews 13 agent gateways for 2026 based on how they govern model, MCP tool, and agent-to-agent traffic, detailing verified pricing, deployment options, and vendor trade-offs.",
+   "why": "It helps infrastructure engineers select proper gateway tooling for agentic deployments.",
+   "depth": "skim",
+   "hours": 55,
+   "covered": 1
+  },
+  {
+   "title": "Amazon Bedrock AgentCore updates harness with Strands defaults and hooks",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+   "source": "AWS Machine Learning",
+   "summary": "Amazon Bedrock AgentCore harness now integrates with the open-source Strands harness. It adds task-oriented defaults, automatic prompt caching, proactive context management, built-in tools, and deterministic lifecycle hooks.",
+   "why": "Provides native architectural enhancements for managing agent loops and tool execution securely.",
+   "depth": "skim",
+   "hours": 53,
+   "covered": 1
+  },
+  {
+   "title": "Building tool-calling parsers in Rust for AI agents",
+   "url": "https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/",
+   "source": "NVIDIA Developer",
+   "summary": "Fragmented tool calls, truncated arguments, and leaked markup require frontend parsers to properly handle and structure model outputs during agent execution.",
+   "why": "Highlights practical Rust parsing implementations for robust agent tool integration.",
+   "depth": "skim",
+   "hours": 56,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI outlines layered approach to combat adversarial distillation",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "OpenAI",
+   "summary": "OpenAI describes a comprehensive strategy combining model training, safeguards, detection methods, and enforcement to prevent capability extraction via adversarial distillation.",
+   "why": "Relevant for understanding security and model protection practices against weight theft.",
+   "depth": "skim",
+   "hours": 39,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Anthropic raises $93.5 billion total in record IPO",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+   "source": "CNBC Tech",
+   "summary": "Anthropic sold 1,127,000,000 shares at $83 per share, bringing its total raised to $93.5 billion in a record-breaking IPO.",
+   "why": "Massive capital inflows shape the competitive landscape and resource availability for foundational AI research.",
+   "depth": "read",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia reports healthy growth while stopping H200 sales in China",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia delivered a strong earnings report amidst the fallout from ousting CEO Jensen Huang, and announced it will stop selling H200 chips in China.",
+   "why": "Hardware availability and executive stability directly impact infrastructure planning for autonomous driving and vision deployments.",
+   "depth": "skim",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic investors weigh $107 billion valuation against safety strategy",
+   "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+   "source": "Wired AI",
+   "summary": "Following its record IPO, investors are evaluating how Anthropic's AI safety strategy and public backlash against data centers might impact future growth.",
+   "why": "Regulatory and safety constraints will dictate how AI models are deployed across industries.",
+   "depth": "skim",
+   "hours": 61,
+   "covered": 1
+  },
+  {
+   "title": "Trump threatens heavy taxes for moving AI data centers abroad",
+   "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "source": "The Verge AI",
+   "summary": "President Donald Trump promised a tremendous tax on companies building data centers outside the U.S., despite local restrictions on new construction.",
+   "why": "Geographic mandates for data center infrastructure heavily impact operational strategy and cloud costs.",
+   "depth": "read",
+   "hours": 30,
+   "covered": 1
+  },
+  {
+   "title": "METR report shows exponential AI capability growth",
+   "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "source": "MIT Technology Review AI",
+   "summary": "A new report from nonprofit METR finds that AI capabilities continue to improve exponentially, though models still struggle with tasks requiring judgment compared to coding.",
+   "why": "Understanding model capability trajectories helps engineers anticipate limitations in autonomous and complex vision systems.",
+   "depth": "read",
+   "hours": 31,
+   "covered": 1
+  },
+  {
+   "title": "Blue economy funding nears $10 billion through Q3 2026",
+   "url": "https://news.crunchbase.com/startups/blue-economy-technology-defense-energy-onetti-mind-the-bridge/",
+   "source": "Crunchbase News",
+   "summary": "The $2.6 trillion blue economy is driving startup opportunities in maritime automation and clean energy, with funding nearing $10 billion through Q3 2026.",
+   "why": "Maritime automation and logistics create new markets for computer vision and edge AI applications.",
+   "depth": "skim",
+   "hours": 61,
+   "covered": 1
+  },
+  {
+   "title": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+   "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
+   "source": "CNBC Tech",
+   "summary": "Crypto investors are looking beyond Congress for the next catalyst after the Senate failed to advance the Clarity Act in September.",
+   "why": "",
+   "depth": "",
+   "hours": 31,
+   "covered": 1
+  },
+  {
+   "title": "A tale of two Nvidias",
+   "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "source": "TechCrunch AI",
+   "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+   "why": "",
+   "depth": "",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
+   "url": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
+   "source": "CNBC Tech",
+   "summary": "With Anthropic now public, investors are watching to see whether bitcoin and ether find a floor, and if institutional demand returns.",
+   "why": "",
+   "depth": "",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Science secures $400 million in top weekly funding round",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+   "source": "Crunchbase News",
+   "summary": "Brain-computer interface company Science led U.S. startup funding rounds this week by securing a fresh $400 million.",
+   "why": "Venture capital trends highlight emerging hardware and neurotech sectors adjacent to advanced AI interfaces.",
+   "depth": "skim",
+   "hours": 29,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Apple releases FastFrames for interactive video generation latency",
+   "url": "https://huggingface.co/apple/FastFrames-L",
+   "source": "Hugging Face",
+   "summary": "Apple released FastFrames-S and FastFrames-L, which are autoregressive, two-step video diffusion models generating 480p video at interactive latency.",
+   "why": "Directly relevant to computer vision researchers working on real-time video generation.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/FastFrames-L"
+  },
+  {
+   "title": "Apple introduces Depth Pro 2 for sharp metric depth",
+   "url": "https://huggingface.co/apple/DepthPro2",
+   "source": "Hugging Face",
+   "summary": "Depth Pro 2 estimates sharp, temporally consistent metric depth for every pixel from an ordinary camera image, video, or live feed at full resolution.",
+   "why": "Crucial advancement for computer vision tasks requiring accurate 3D understanding from video or monocular feeds.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/DepthPro2"
+  },
+  {
+   "title": "New LoRA adapter optimizes Qwen3.8-27B for coding agents",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "source": "Hugging Face",
+   "summary": "A reinforcement-learning trained LoRA adapter for Qwen/Qwen3.8-27B enables terminal and software-engineering tasks, matching high reasoning effort performance with fewer tokens.",
+   "why": "It significantly reduces token overhead for coding and software engineering agents.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "title": "Haru-4B introduces continuous full-duplex spoken dialogue",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "source": "Hugging Face",
+   "summary": "Haru-4B is a low-latency, multilingual full-duplex continuous spoken dialogue foundation model that listens and speaks simultaneously at 7.5 Hz using a 64-dimensional latent per frame.",
+   "why": "It introduces native continuous audio processing for real-time conversational voice agents.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "higurashi-ai/Haru-4B"
+  },
+  {
+   "title": "Tencent launches Hy4 flash, a cost-effective multimodal model",
+   "url": "https://huggingface.co/tencent/Hy4-flash",
+   "source": "Hugging Face",
+   "summary": "Hy4 flash is a 220B total parameter model with 12B active parameters per token, natively accepting text and image inputs while focusing on cost efficiency.",
+   "why": "It provides a new large-scale multimodal model optimized for inference efficiency.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "tencent/Hy4-flash"
+  },
+  {
+   "title": "Qwen3.8-27B model weights and configuration files released",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The repository provides model weights and configuration files for the post-trained Qwen3.8-27B model, compatible with Hugging Face Transformers, vLLM, and SGLang.",
+   "why": "Provides engineers with a new baseline open weights model for deployment.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  }
+ ]
+}

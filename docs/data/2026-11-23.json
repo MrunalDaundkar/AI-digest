@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-23",
+ "generated": "2026-11-23T01:14+00:00",
+ "technical": [
+  {
+   "title": "NVIDIA releases Alpamayo 2 Edge reasoning VLA for autonomous driving.",
+   "url": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+   "source": "MarkTechPost",
+   "summary": "NVIDIA launched Alpamayo 2 Edge, a 2B-class reasoning vision-language-action model for DRIVE AGX Thor that plans and explains driving trajectories at 160 to 190 ms latency.",
+   "why": "It matters because it delivers low-latency multimodal reasoning capabilities directly to edge hardware for autonomous driving.",
+   "depth": "skim",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "RL post-training in diffusion transformers acts as activation steering.",
+   "url": "https://huggingface.co/papers/2611.26627",
+   "source": "HF Daily Papers",
+   "summary": "Researchers probed RL-tuned diffusion transformers with fixed steering vectors added to frozen base model block outputs, showing that simple input-independent shifts account for major gains in visual quality and text rendering.",
+   "why": "It matters because it reveals a lightweight alternative parameterization for improving diffusion models without heavy RL fine-tuning.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "System 1 agents enable local, reliable, and fast agentic tool use.",
+   "url": "https://huggingface.co/papers/2611.21053",
+   "source": "HF Daily Papers",
+   "summary": "A new method builds local System 1 agents that call tools without generating text, using a deterministic compiler and a one-pass decision model to achieve a 97.0% success rate across biomedical tool requests.",
+   "why": "It matters because it removes cloud LLM dependencies and text generation errors for secure, reliable local agent execution.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Distributed KV caching cuts self-hosted LLM cost and latency.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+   "source": "AWS Machine Learning",
+   "summary": "Using distributed KV caching with Amazon ElastiCache can reduce self-hosted LLM inference costs by up to 40% and time-to-first-token by up to 80% by avoiding recomputing context on every turn.",
+   "why": "It matters because it provides a practical architectural pattern to drastically lower self-hosted LLM operational expenses.",
+   "depth": "read",
+   "hours": 49,
+   "covered": 1
+  },
+  {
+   "title": "Lang-SVG introduces hierarchical image vectorization using language priors.",
+   "url": "https://huggingface.co/papers/2611.15941",
+   "source": "HF Daily Papers",
+   "summary": "Lang-SVG solves the lack of human-perceived object-part hierarchies in vectorization by introducing an explicit tree structure to organize SVG primitives with semantic labels, utilizing open-vocabulary segmentation priors and multimodal large language models.",
+   "why": "It matters because it provides structured, editable vector graphics aligned with human semantics rather than just pixel-level fidelity.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Google AI previews tool retrieval in the Gemini API.",
+   "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
+   "source": "MarkTechPost",
+   "summary": "Google launched a preview of Gemini API Tool Retrieval, allowing agents to maintain large tool libraries and load parameter schemas on demand within a single Interactions API request.",
+   "why": "It matters because it optimizes context windows and efficiency when scaling large sets of tools for AI agents.",
+   "depth": "skim",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI details layered defense strategy against adversarial distillation.",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "OpenAI",
+   "summary": "OpenAI outlined a layered approach combining model training, safeguards, detection, and enforcement to protect proprietary models against capability extraction via adversarial distillation.",
+   "why": "It matters because it highlights industry-standard security techniques for safeguarding proprietary foundational models.",
+   "depth": "skim",
+   "hours": 63,
+   "covered": 1
+  },
+  {
+   "title": "Personal AI agents compared across memory, security, and cost.",
+   "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
+   "source": "MarkTechPost",
+   "summary": "Various personal AI agents including Hermes Agent, OpenClaw, and Gemini Spark were benchmarked based on memory management, security defaults, and real-world costs.",
+   "why": "It matters because it helps engineers evaluate the trade-offs of deploying different personal agent frameworks.",
+   "depth": "skim",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "Understanding perplexity to measure and evaluate AI model progress.",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "OpenAI",
+   "summary": "An exploration of how perplexity measures progress in AI models and how it can help developers establish a shared approach to evaluating emerging capabilities.",
+   "why": "It matters because perplexity serves as a foundational metric for tracking improvements across AI model iterations.",
+   "depth": "skim",
+   "hours": 25,
+   "covered": 1
+  },
+  {
+   "title": "AWS Quick updates bring multi-agent workflows and new data sources.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+   "source": "AWS Machine Learning",
+   "summary": "AWS Quick released updates allowing teams to build business-process flows in chat, get complete answers from multiple agents simultaneously, and connect new data sources like Meta ads.",
+   "why": "It matters because it showcases practical enterprise integration patterns for multi-agent systems.",
+   "depth": "skim",
+   "hours": 48,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+   "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+   "source": "CNBC Tech",
+   "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+   "why": "",
+   "depth": "",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "source": "TechCrunch AI",
+   "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, t",
+   "why": "",
+   "depth": "",
+   "hours": 58,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+   "source": "CNBC Tech",
+   "summary": "The AI company sold an aggregate of 1,127,000,000 shares at $83 per share in the record IPO.",
+   "why": "",
+   "depth": "",
+   "hours": 58,
+   "covered": 1
+  },
+  {
+   "title": "Why data centers are at the center of the Big Tech backlash",
+   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "source": "TechCrunch AI",
+   "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+   "why": "",
+   "depth": "",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Chips can survive the space environment — can their financing?",
+   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "source": "TechCrunch AI",
+   "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+   "why": "",
+   "depth": "",
+   "hours": 56,
+   "covered": 1
+  },
+  {
+   "title": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
+   "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html",
+   "source": "CNBC Tech",
+   "summary": "Crypto investors are looking beyond Congress for the next catalyst after the Senate failed to advance the Clarity Act in September.",
+   "why": "",
+   "depth": "",
+   "hours": 55,
+   "covered": 1
+  },
+  {
+   "title": "The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+   "source": "Crunchbase News",
+   "summary": "U.S. startups continued to secure sizable rounds, led by brain-computer interface company Science securing a fresh $400 million.",
+   "why": "",
+   "depth": "",
+   "hours": 53,
+   "covered": 1
+  },
+  {
+   "title": "Can Anthropic afford to put safety first?",
+   "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+   "source": "The Verge AI",
+   "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last T",
+   "why": "",
+   "depth": "",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "We haven’t seen the last of the major tech outages",
+   "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+   "source": "The Verge AI",
+   "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are m",
+   "why": "",
+   "depth": "",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+   "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+   "source": "The Verge AI",
+   "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs ",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Apple releases Depth Pro 2 for sharp metric monocular depth",
+   "url": "https://huggingface.co/apple/DepthPro2",
+   "source": "Hugging Face",
+   "summary": "Depth Pro 2 estimates metric depth for pixels from any ordinary camera photo, video, or live feed at full resolution, featuring sharp edges and temporal consistency alongside an integrated focal length estimator.",
+   "why": "It provides precise, temporally consistent depth estimation suitable for computer vision pipelines.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/DepthPro2"
+  },
+  {
+   "title": "LoRA adapter matches base model thinking effort with fewer tokens",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "source": "Hugging Face",
+   "summary": "A reinforcement-learning-trained LoRA adapter for Qwen3.8-27B matches maximum-effort reasoning performance on coding and terminal tasks while generating about 4.5 times fewer tokens per task.",
+   "why": "It significantly cuts down token usage while maintaining high reasoning performance on software tasks.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "title": "FastFrames models generate 480p video at interactive latency",
+   "url": "https://huggingface.co/apple/FastFrames-L",
+   "source": "Hugging Face",
+   "summary": "FastFrames-S and FastFrames-L are autoregressive, two-step video diffusion models generating 480p video at interactive latency, accompanied by an optimized LingBot variant providing camera-conditioned control.",
+   "why": "It introduces high-speed video generation capabilities relevant to real-time visual systems.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/FastFrames-L"
+  },
+  {
+   "title": "Haru-4B offers low-latency multilingual full-duplex continuous spoken dialogue",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "source": "Hugging Face",
+   "summary": "Haru-4B is a pretrained base model enabling continuous spoken dialogue by listening and speaking simultaneously at 7.5 Hz using a 64-dimensional audio latent per frame.",
+   "why": "It advances low-latency full-duplex spoken dialogue capabilities for research.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "higurashi-ai/Haru-4B"
+  },
+  {
+   "title": "Qwen3.8-27B model weights and configuration files released on Hugging Face",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "Hugging Face",
+   "summary": "The repository provides post-trained weights and configuration files for Qwen3.8-27B, compatible with Hugging Face Transformers, vLLM, and SGLang for scalable local or hosted deployment.",
+   "why": "It delivers a strong open weights base model compatible with standard inference engines.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "Qwen/Qwen3.8-27B"
+  },
+  {
+   "title": "Inkling 2 Mini multimodal general-purpose model released with open weights",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "Hugging Face",
+   "summary": "Inkling 2 Mini is a multimodal general-purpose model accepting text and image inputs and generating text outputs, built for developers to use in applications like chatbots, coding assistants, and agentic workflows across multiple languages.",
+   "why": "It offers developers an open-weight option for building multimodal agent and tool-use systems.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Mini"
+  }
+ ]
+}

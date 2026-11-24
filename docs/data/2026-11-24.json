@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24T07:33+00:00",
+ "technical": [
+  {
+   "title": "WorldLeague Benchmark Evaluates Physical Agency and Robot Tasks",
+   "url": "https://huggingface.co/papers/2611.30989",
+   "source": "HF Daily Papers",
+   "summary": "WorldLeague is a new benchmark that compares AI systems across 60 simulated robot tasks, measuring physical goal progress through perception, memory, planning, and action.",
+   "why": "It provides a standardized way to evaluate autonomous robot manipulation and perception capabilities.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Embo-Harness Framework Systematically Studies Frontier-Model-as-Policy Robotic Loops",
+   "url": "https://huggingface.co/papers/2611.31201",
+   "source": "HF Daily Papers",
+   "summary": "Embo-Harness investigates prompting, planning, action execution, and tool use in robotic agentic loops, distilling six empirical findings into a practical design recipe.",
+   "why": "Understanding frontier-model harnesses helps engineers improve closed-loop robotic control and deployment.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Short Chain-of-Thought Can Disrupt Spatial Vision-Language Model Answers",
+   "url": "https://huggingface.co/papers/2611.28665",
+   "source": "HF Daily Papers",
+   "summary": "Research across 15 open and 6 closed vision-language models shows that short chain-of-thought turns perception into transcription, causing answers to follow written spatial relations instead of images.",
+   "why": "This insight helps computer vision engineers troubleshoot spatial reasoning failures in multimodal models.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "source": "OpenAI",
+   "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "why": "",
+   "depth": "",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "Finding faster quantum algorithms with agents and formal verification",
+   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "source": "Google DeepMind",
+   "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+   "why": "",
+   "depth": "",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "Richpanel helps companies automate 50% of support in 30 days",
+   "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "source": "OpenAI",
+   "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+   "why": "",
+   "depth": "",
+   "hours": 24,
+   "covered": 1
+  },
+  {
+   "title": "How to build and maintain an agentic evaluation",
+   "url": "https://huggingface.co/blog/agentic-evals",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 32,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+   "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+   "source": "MarkTechPost",
+   "summary": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests. Code Review is GA; the other 2 agents are in public beta for Team and Enterprise. The post Ant",
+   "why": "",
+   "depth": "",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+   "url": "https://huggingface.co/blog/allenai/robotrack",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "PostgreSQL 19 Released 🐘, Booking.com’s AI Rebuild 🏗️, Claude Starts Most Agent Pipelines 🤖",
+   "url": "https://tldr.tech/data/2026-11-23",
+   "source": "TLDR Data",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 32,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Amazon acquires Decart for $7.5 billion to support Trainium chips",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+   "source": "TechCrunch AI",
+   "summary": "Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5 billion deal to prepare for selling Trainium chips.",
+   "why": "This hardware and software integration impacts the broader AI chip and infrastructure market.",
+   "depth": "skim",
+   "hours": 14,
+   "covered": 1
+  },
+  {
+   "title": "Paradromics uses Nvidia hardware to process brain data",
+   "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+   "source": "Wired AI",
+   "summary": "Brain-computer interface company Paradromics is using Nvidia's computing hardware and software to process brain data.",
+   "why": "Expansions of Nvidia hardware into neural interfaces highlight new high-performance computing use cases.",
+   "depth": "skim",
+   "hours": 18,
+   "covered": 1
+  },
+  {
+   "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+   "url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
+   "source": "CNBC Tech",
+   "summary": "Businesses across Asia-Pacific are seeing returns from AI investments, even as confidence in measuring those gains varies, according to an AWS survey.",
+   "why": "",
+   "depth": "",
+   "hours": 2,
+   "covered": 1
+  },
+  {
+   "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
+   "source": "CNBC Tech",
+   "summary": "Kress steered the company through billions in AI financing deals and during Huang's sudden departure. Now she's back to full-time CFO.",
+   "why": "",
+   "depth": "",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "Sierra raises $1.75 billion in Series F round",
+   "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+   "source": "TechCrunch AI",
+   "summary": "Enterprise customer experience company Sierra raised $1.75 billion in a Series F round, doubling its valuation to $30 billion.",
+   "why": "Massive funding rounds in AI customer experience indicate strong market demand and high capital inflows.",
+   "depth": "skim",
+   "hours": 17,
+   "covered": 1
+  },
+  {
+   "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "source": "TechCrunch AI",
+   "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+   "why": "",
+   "depth": "",
+   "hours": 30,
+   "covered": 1
+  },
+  {
+   "title": "Most Unicorns Are Worth More Than Their Last Funding-Round Valuations, Crunchbase Estimates",
+   "url": "https://news.crunchbase.com/venture/unicorn-startup-current-valuations-thinking-machines-sierra-crunchbase/",
+   "source": "Crunchbase News",
+   "summary": "The more than 1,900 startups on the The Crunchbase Unicorn Board have a combined valuation of roughly $9 trillion, based on their last reported valuations. But Crunchbase’s new Current Valuation Model, which estimates ho",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+   "source": "The Verge AI",
+   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Tim",
+   "why": "",
+   "depth": "",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "AI data centers throw another wrench into chaotic UN climate talks",
+   "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+   "source": "The Verge AI",
+   "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations",
+   "why": "",
+   "depth": "",
+   "hours": 10,
+   "covered": 1
+  },
+  {
+   "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+   "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+   "source": "MIT Technology Review AI",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be co",
+   "why": "",
+   "depth": "",
+   "hours": 14,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "thinkingmachines/Inkling-2-Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "Hugging Face",
+   "summary": "# Inkling 2 Mini Playground | Tinker Cookbook ## 1. General Information Inkling 2 Mini is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in Englis",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Mini"
+  },
+  {
+   "title": "unsloth/Inkling-2-Mini-GGUF",
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+   "source": "Hugging Face",
+   "summary": "### Run Inkling 2 Mini up to 1.9x faster with our open-source Unsloth Desktop GUI. Read our How to Run Inkling-2-Mini Guide See Unsloth Dynamic 3.1 GGUFs for our quantization benchmarks. You can also train Inkling 2 via ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "unsloth/Inkling-2-Mini-GGUF"
+  },
+  {
+   "title": "inworld/voice-isolator",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "source": "Hugging Face",
+   "summary": "Voice Isolator Open-license (Apache-2.0) 48 kHz voice isolation for noisy speech recordings and live audio. --- ## TL;DR Inworld Voice Isolator v1 ships as two models that share one architecture: **Use them for** cleanin",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "inworld/voice-isolator"
+  },
+  {
+   "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "source": "Hugging Face",
+   "summary": "# Inkling-2-Mini Uncensored GGUF Learn how to run Inkling 2 Mini Uncensored locally - read our guide . Built by the team behind Atomic Chat , the app that runs open-weight models locally and offline. An uncensored build ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
+  },
+  {
+   "title": "harness-hub/Qwen3.8-27B-pi-adapted",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "source": "Hugging Face",
+   "summary": "A LoRA adapter for Qwen/Qwen3.8-27B, trained with reinforcement learning to work as the model behind the pi coding agent on software-engineering and terminal tasks. > [!Tip] > **Most of the gain of maximum-effort thinkin",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "title": "higurashi-ai/Haru-4B",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "source": "Hugging Face",
+   "summary": "# Haru-4B Code · Technical blog · Technical blog (Japanese) Haru-4B is a low-latency and multilingual full-duplex continuous spoken dialogue foundation model: it listens and speaks at the same time, the way people do on ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "higurashi-ai/Haru-4B"
+  }
+ ]
+}

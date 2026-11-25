@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-25",
+ "generated": "2026-11-25T03:52+00:00",
+ "technical": [
+  {
+   "title": "Evaluating and mitigating trajectory prediction noise in autonomous vehicles",
+   "url": "https://arxiv.org/abs/2611.28128",
+   "source": "arXiv cs.CV",
+   "summary": "This paper evaluates how sensing and localization uncertainties affect transformer-based interaction-aware trajectory prediction models in real-world autonomous vehicle deployments.",
+   "why": "It addresses a critical reality gap between curated datasets and noisy real-world perception for autonomous driving safety.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "PhysPPF learns robotic manipulation using multi-scale physical representations",
+   "url": "https://arxiv.org/abs/2611.28551",
+   "source": "arXiv cs.RO",
+   "summary": "PhysPPF is a vision-language-action framework that bridges past, present, and future physical representations to handle complex robotic manipulation tasks requiring precise 3D contact and long-horizon coordination.",
+   "why": "It advances vision-language-action models by embedding explicit 3D contact cues and temporal dynamics into robotic control.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "ProMo-CoOp uses probabilistic modes and constrained optimization for trajectory prediction",
+   "url": "https://arxiv.org/abs/2611.28720",
+   "source": "arXiv cs.RO",
+   "summary": "ProMo-CoOp is a two-stage data-driven framework that clusters agent trajectories into behavioral modes using a Gaussian Mixture Model and solves convex optimization problems for multimodal prediction.",
+   "why": "It improves multimodal intent prediction and trajectory generation for safe autonomous vehicle navigation.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "Clinical3D-Bench evaluates spatial reasoning of multimodal LLMs in hospitals",
+   "url": "https://huggingface.co/papers/2611.32094",
+   "source": "HF Daily Papers",
+   "summary": "Clinical3D-Bench is a simulated benchmark featuring 3,368 questions across 373 hospital-room layouts to test the spatial intelligence of multimodal LLMs in clinical environments.",
+   "why": "It provides a rigorous way to evaluate 3D spatial understanding and reasoning for vision-language models in complex environments.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "NightWatch adds continuous perception to vision-language computer-use agents",
+   "url": "https://huggingface.co/papers/2611.28947",
+   "source": "HF Daily Papers",
+   "summary": "NightWatch is a plug-and-play framework designed to overcome the perception-action gap in computer-use agents by providing continuous, temporally grounded perception without changing the underlying agent.",
+   "why": "It directly addresses latency and staleness issues for vision-language models operating in dynamic interfaces.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "UbiEnlight delivers real-time low-light video enhancement on mobile devices",
+   "url": "https://arxiv.org/abs/2611.28085",
+   "source": "arXiv cs.CV",
+   "summary": "UbiEnlight is the first diffusion-transformer-based on-device system for real-time, temporally stable low-light video enhancement, tackling spatiotemporally coupled motion and illumination degradations.",
+   "why": "It presents advanced on-device video processing techniques relevant to mobile computer vision and wearable applications.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "LoKiTO combines Chebyshev polynomials with neural ESDFs for UAV planning",
+   "url": "https://arxiv.org/abs/2611.28438",
+   "source": "arXiv cs.RO",
+   "summary": "LoKiTO is a 3D local kinodynamic trajectory optimizer for aerial robotics that integrates Chebyshev parameterization with an online neural Euclidean Signed Distance Field representation.",
+   "why": "It offers a memory-efficient local planning solution leveraging continuous neural maps for real-time robotic navigation.",
+   "depth": "read",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "PhoneQC benchmarks multimodal LLMs for remote smartphone trade-in inspection",
+   "url": "https://arxiv.org/abs/2611.28117",
+   "source": "arXiv cs.CV",
+   "summary": "PhoneQC examines the limitations of using vision-language models for order-level smartphone trade-in appraisals, highlighting obstacles such as single-view defect sets and human staff form requirements.",
+   "why": "It highlights current accuracy and workflow hurdles when deploying multimodal models for automated visual inspection tasks.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  },
+  {
+   "title": "CUA-SEE provides a closed-loop evaluation environment for computer-use agents",
+   "url": "https://huggingface.co/papers/2611.30962",
+   "source": "HF Daily Papers",
+   "summary": "CUA-SEE is a closed-loop evaluation environment that co-evolves tasks and executable verifiers to improve the diagnostic and discriminative value of computer-use agent benchmarks.",
+   "why": "It helps researchers dynamically scale and target capability probes for vision-language agent evaluations.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI and Cisco release Shirudo open-source Linux runtime for agents",
+   "url": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
+   "source": "MarkTechPost",
+   "summary": "OpenAI and Cisco released Shirudo, a pre-release BSD-licensed eBPF runtime for Linux that allows AI agents to write signed shields blocking exploit paths on running systems.",
+   "why": "It showcases practical runtime defense integrations where AI agents actively protect infrastructure.",
+   "depth": "skim",
+   "hours": 14,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Agentic AI tasks generate 450% more enterprise network traffic",
+   "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+   "source": "MIT Technology Review AI",
+   "summary": "Enterprise networks are facing severe strain as companies deploy AI. Tasks conducted by AI agents generate an estimated 450% more network traffic than identical tasks executed by human workers.",
+   "why": "It identifies specific enterprise infrastructure bottlenecks caused by shifting to autonomous AI agents.",
+   "depth": "read",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Amazon acquires Decart for $7.5 billion to improve Trainium chips",
+   "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+   "source": "TechCrunch AI",
+   "summary": "Amazon has agreed to acquire Decart for a reported $7.5 billion. The deal is part of Amazon's broader efforts to improve the efficiency of its Trainium chips and narrow the silicon gap with Nvidia.",
+   "why": "It highlights major hardware investments aimed at competing with Nvidia's market dominance.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Dell earnings beat expectations on AI server demand and buyback",
+   "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+   "source": "CNBC Tech",
+   "summary": "Dell's overall sales more than doubled on an annual basis during the third quarter, driven heavily by AI server demand. The company also authorized a $25 billion buyback.",
+   "why": "It reflects the concrete financial returns hardware manufacturers are seeing from enterprise AI adoption.",
+   "depth": "skim",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic shares fall below IPO price, threatening startup valuations",
+   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "source": "TechCrunch AI",
+   "summary": "Anthropic shares have fallen below their IPO price. This post-IPO slump could put downward pressure on AI startup valuations across the industry.",
+   "why": "It signals potential shifts in market confidence and valuation metrics for AI startups.",
+   "depth": "skim",
+   "hours": 9,
+   "covered": 1
+  },
+  {
+   "title": "Crusoe investor bets on solar and batteries for data centers",
+   "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+   "source": "TechCrunch AI",
+   "summary": "Next-generation data centers will require tens of gigawatts of power annually. One of Crusoe's investors believes solar power and energy storage are the obvious solutions to meet this surging demand.",
+   "why": "It addresses the critical infrastructure and energy constraints facing large-scale AI deployment.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Colette Kress returns to Nvidia CFO role after leadership changes",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
+   "source": "CNBC Tech",
+   "summary": "Colette Kress is back as Nvidia's CFO after leading the company for 11 days during Jensen Huang's sudden departure, following her work steering Nvidia through billions in AI financing deals.",
+   "why": "It offers insight into the financial leadership guiding Nvidia's massive AI capital deployment.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Crunchbase estimates unicorn board valuation is closer to $11 trillion",
+   "url": "https://news.crunchbase.com/venture/unicorn-startup-current-valuations-thinking-machines-sierra-crunchbase/",
+   "source": "Crunchbase News",
+   "summary": "The more than 1,900 startups on the Crunchbase Unicorn Board have a combined valuation of roughly $9 trillion based on last reported funding, but a new model puts the current figure closer to $11 trillion.",
+   "why": "It provides macroeconomic data on private market valuations in the tech sector.",
+   "depth": "skim",
+   "hours": 40,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang returns following executive investigations",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+   "source": "The Verge AI",
+   "summary": "After a sudden departure following acknowledged affairs and internal investigations, Nvidia CEO, president, and co-founder Jensen Huang has returned to lead the company.",
+   "why": "It details executive leadership stability at the most critical hardware provider in the AI industry.",
+   "depth": "skim",
+   "hours": 30,
+   "covered": 1
+  },
+  {
+   "title": "Jensen Huang returns as Nvidia CEO and stock recovers",
+   "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+   "source": "Wired AI",
+   "summary": "Jensen Huang has returned to his role as CEO of Nvidia, coinciding with a positive market response and climbing stock numbers.",
+   "why": "It tracks direct market valuation correlations to key executive presence at Nvidia.",
+   "depth": "skim",
+   "hours": 34,
+   "covered": 2
+  },
+  {
+   "title": "AWS survey shows growing AI adoption and returns across Asia",
+   "url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
+   "source": "CNBC Tech",
+   "summary": "Businesses across the Asia-Pacific region are seeing positive returns from their AI investments, according to an AWS survey, even though confidence in precisely measuring those gains varies.",
+   "why": "It measures regional economic impact and adoption trends in international markets.",
+   "depth": "skim",
+   "hours": 23,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Apple releases Depth Pro 2 for sharp monocular depth estimation",
+   "url": "https://huggingface.co/apple/DepthPro2",
+   "source": "Hugging Face",
+   "summary": "Depth Pro 2 estimates metric depth for every pixel from single photos, videos, or live feeds at full resolution. It features sharp edges, temporal consistency, and includes an integrated focal length estimator.",
+   "why": "It is a vital computer vision model for high-resolution metric depth estimation and 3D reconstruction tasks.",
+   "depth": "deep",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/DepthPro2"
+  },
+  {
+   "title": "Harness Hub releases Qwen3.8-27B-pi-adapted LoRA for coding agents",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "source": "Hugging Face",
+   "summary": "A new LoRA adapter for Qwen/Qwen3.8-27B was trained via reinforcement learning for software engineering and terminal tasks. It matches maximum-effort thinking performance while generating about 4.5x fewer tokens per task.",
+   "why": "It drastically cuts token generation costs for LLM-powered coding and terminal agents.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "harness-hub/Qwen3.8-27B-pi-adapted"
+  },
+  {
+   "title": "Tencent introduces Hy4 flash cost-effective multimodal language model",
+   "url": "https://huggingface.co/tencent/Hy4-flash",
+   "source": "Hugging Face",
+   "summary": "Hy4 flash is Tencent's cost-effective model featuring 220B total parameters with 12B active parameters per token. It natively accepts text and image inputs and supports various deployment and inference frameworks.",
+   "why": "It introduces a massive sparse mixture-of-agents style architecture optimized for high-throughput multimodal tasks.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "tencent/Hy4-flash"
+  },
+  {
+   "title": "Apple releases FastFrames for video generation at interactive latency",
+   "url": "https://huggingface.co/apple/FastFrames-L",
+   "source": "Hugging Face",
+   "summary": "Apple released FastFrames-S and FastFrames-L, autoregressive two-step video diffusion models generating 480p video at interactive latency. An optimized version of LingBot 1.3B is also included for fluid camera control.",
+   "why": "It advances real-time generative video workflows with interactive latency.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/FastFrames-L"
+  },
+  {
+   "title": "Thinkingmachines releases Inkling 2 Mini general-purpose multimodal model",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "Hugging Face",
+   "summary": "Inkling 2 Mini is a new general-purpose multimodal model accepting text and image inputs and generating text. It supports multiple coding languages and is designed for developers building agentic systems, tool-use systems, coding assistants, and chatbots.",
+   "why": "It offers an open-weight multimodal option for building developer applications and agentic workflows.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Mini"
+  },
+  {
+   "title": "Higurashi-ai releases Haru-4B full-duplex spoken dialogue model",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "source": "Hugging Face",
+   "summary": "Haru-4B is a low-latency, multilingual full-duplex continuous spoken dialogue foundation model that listens and speaks simultaneously at 7.5 Hz using a 64-dimensional latent per frame.",
+   "why": "It introduces native full-duplex conversational audio processing without waiting states.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "higurashi-ai/Haru-4B"
+  }
+ ]
+}

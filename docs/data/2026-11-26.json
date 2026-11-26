@@ -1,109 +1,139 @@
 {
  "date": "2026-11-26",
- "generated": "2026-11-26T11:41+00:00",
+ "generated": "2026-11-26T20:42+00:00",
  "technical": [
   {
-   "title": "QK-Bench benchmarks quantitative kinematic understanding for dynamic spatial intelligence",
+   "title": "AIChipBench evaluates LLM coding agents on automated AI hardware accelerator design",
+   "url": "https://huggingface.co/papers/2611.33093",
+   "source": "HF Daily Papers",
+   "summary": "Researchers introduce AIChipBench to test how LLM coding agents build synthesizable RTL code for hardware decoders, evaluating them against executable integer references, memory stalls, and held-out token sequences under fixed budgets.",
+   "why": "This matters because hardware design requires precise state management where hidden bugs can corrupt outputs across multiple cycles.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "WorldBridge generates coherent 3D worlds from scattered images with minimal visual overlap",
+   "url": "https://huggingface.co/papers/2611.34079",
+   "source": "HF Daily Papers",
+   "summary": "WorldBridge overcomes existing geometry-aware limitations by encoding scattered references into a global scene context, utilizing a temporal and spatial reference attention mechanism to generate consistent 3D worlds across views.",
+   "why": "This matters because it advances coherent 3D scene generation and computer vision from disjoint visual inputs.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "QK-Bench evaluates quantitative kinematic understanding in multimodal large language models",
    "url": "https://arxiv.org/abs/2611.33991",
    "source": "arXiv cs.RO",
-   "summary": "Researchers introduce QK-Bench to study quantitative kinematic understanding in multimodal large language models, resolving motion magnitude, rate, reference-frame dependence, and future spatial evolution.",
-   "why": "This is critical for safety in collision avoidance, trajectory tracking, and autonomous driving.",
+   "summary": "Researchers introduce QK-Bench to study how multimodal large language models resolve motion magnitude, rate, and future spatial evolution, which are critical for tasks like collision avoidance and trajectory tracking.",
+   "why": "This matters because spatial intelligence requires accurate quantitative motion prediction rather than just semantic scene descriptions.",
    "depth": "read",
-   "hours": 7,
+   "hours": 16,
    "covered": 1
   },
   {
-   "title": "DexEngine scales human demonstrations into physically executable whole-robot data",
-   "url": "https://huggingface.co/papers/2611.33579",
-   "source": "HF Daily Papers",
-   "summary": "DexEngine is a simulation pipeline that converts human hand-object demonstrations into train-ready, physically executable arm-hand trajectories using placement, arm motion finding, and residual reinforcement learning.",
-   "why": "It provides a scalable way to generate robot manipulation data from human demonstrations.",
-   "depth": "read",
-   "hours": 12,
-   "covered": 2
-  },
-  {
-   "title": "Skeptic grounds failure diagnosis for robot skill discovery",
-   "url": "https://arxiv.org/abs/2611.33560",
-   "source": "arXiv cs.RO",
-   "summary": "Researchers study how execution failures are diagnosed and which lessons enter shared skill libraries, noting that agents can fail by misinterpreting an unsuccessful program as physical impossibility.",
-   "why": "It addresses fundamental bottlenecks in autonomous robotic skill acquisition and program revision.",
-   "depth": "skim",
-   "hours": 7,
-   "covered": 1
-  },
-  {
-   "title": "ELITE enables evaluation-free recursive self-improvement for coding agents",
-   "url": "https://huggingface.co/papers/2611.21056",
-   "source": "HF Daily Papers",
-   "summary": "Researchers introduce Explore-then-Integrate (ELITE) to allow coding agents to self-improve without requiring downstream task evaluation inside the evolution loop, avoiding evaluation costs and benchmark-specific adaptation.",
-   "why": "This helps engineers scale coding agent optimization without incurring heavy execution overhead.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Integral unifies visual understanding and generation in vision-language models",
-   "url": "https://huggingface.co/papers/2611.31237",
-   "source": "HF Daily Papers",
-   "summary": "Researchers propose Integral, which creates a shared visual representation space to convert a pretrained vision-language model into a unified multimodal model capable of both understanding and generation.",
-   "why": "It offers a path to build unified multimodal models by overcoming heterogeneous visual representations.",
-   "depth": "skim",
-   "hours": 12,
-   "covered": 1
-  },
-  {
-   "title": "Deep learning approaches benchmarked for scalable mangrove mapping using Sentinel imagery",
-   "url": "https://arxiv.org/abs/2611.33369",
-   "source": "arXiv cs.CV",
-   "summary": "Researchers benchmark deep learning segmentation approaches for large-scale mangrove mapping using free, regularly available Sentinel-1 radar and Sentinel-2 optical imagery instead of costly very-high-resolution data.",
-   "why": "It provides practical insights for remote sensing and environmental monitoring applications.",
-   "depth": "skim",
-   "hours": 7,
-   "covered": 1
-  },
-  {
-   "title": "AVQFormer brings semantics-first approach to multimodal video captioning",
+   "title": "AVQFormer introduces efficient semantics-first multimodal video captioning with frozen encoders",
    "url": "https://arxiv.org/abs/2611.33409",
    "source": "arXiv cs.CV",
-   "summary": "The Audio-Visual Query Transformer (AVQFormer) builds on a 2.7B parameter LLM with a fixed-length semantic alignment module, stabilized via Adaptive Self-Critical Sequence Training with Entropy Regularization.",
-   "why": "It advances efficient multimodal video understanding using frozen encoders.",
-   "depth": "skim",
-   "hours": 7,
+   "summary": "The Audio-Visual Query Transformer pairs a 2.7B parameter LLM with a fixed-length semantic alignment module, stabilized using Adaptive Self-Critical Sequence Training with Entropy Regularization for multimodal video captioning.",
+   "why": "This matters because it bridges the performance gap between deep semantic alignment and legacy optimization metrics in video models.",
+   "depth": "read",
+   "hours": 16,
    "covered": 1
   },
   {
-   "title": "Confidence-based adaptive retrieval fails in biomedical question answering",
+   "title": "Confidence-based adaptive retrieval reveals a paradox in biomedical question answering",
    "url": "https://arxiv.org/abs/2611.33210",
    "source": "arXiv cs.CV",
-   "summary": "Evaluating confidence-based adaptive RAG across biomedical QA benchmarks reveals a paradox: confidence is well-calibrated on standard medical exam questions where retrieval adds little value, but fails where it matters most.",
-   "why": "It highlights critical limitations of confidence-routing retrieval strategies in high-stakes domains.",
+   "summary": "Evaluating confidence-based adaptive RAG across medical benchmarks reveals a paradox: models are well-calibrated on easy standard medical exam questions where retrieval adds little value, failing where robust grounding actually matters.",
+   "why": "This matters because reliable clinical deployment requires retrieval strategies that perform well on difficult, high-stakes questions.",
    "depth": "read",
-   "hours": 7,
+   "hours": 16,
    "covered": 1
   },
   {
-   "title": "RegHarness regulates persistence for code-as-policy robot agents",
+   "title": "Skeptic addresses grounding failure diagnosis for robot skill discovery",
+   "url": "https://arxiv.org/abs/2611.33560",
+   "source": "arXiv cs.RO",
+   "summary": "This paper studies how robot agents diagnose execution failures and build shared skill libraries, showing how improper failure interpretation can lead agents to prematurely halt exploration of physical tasks.",
+   "why": "This matters because robust robot skill discovery depends on accurate reconstruction of physical action effects from multimodal traces.",
+   "depth": "read",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "RegHarness regulates persistence and code adaptation for Code-as-Policy robot agents",
    "url": "https://arxiv.org/abs/2611.33739",
    "source": "arXiv cs.RO",
-   "summary": "RegHarness is a two-level harness that governs step-level execution and cross-run adaptation for Code-as-Policy agent teams without relying on a VLA policy or demonstrations.",
-   "why": "It improves governance and persistence control for robotic agents executing generated code.",
-   "depth": "skim",
-   "hours": 7,
+   "summary": "Researchers present RegHarness, a two-level framework governing step-level execution and cross-run adaptation for Code-as-Policy agents without relying on external vision-language-action policies or demonstrations.",
+   "why": "This matters because controlling what code modifications persist across trials improves autonomous robot skill learning.",
+   "depth": "read",
+   "hours": 16,
    "covered": 1
   },
   {
-   "title": "OpenAI and Cisco release Shirudo for agent-driven system defense",
-   "url": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
-   "source": "MarkTechPost",
-   "summary": "OpenAI and Cisco released Shirudo, a BSD-licensed eBPF runtime for Linux that allows AI agents to write signed shields blocking exploit paths on running systems prior to full patch deployment.",
-   "why": "It introduces a novel framework for runtime agentic cybersecurity defense.",
+   "title": "EditRecBench evaluates LLM anticipation of user edit requests using real conversation logs",
+   "url": "https://huggingface.co/papers/2611.21155",
+   "source": "HF Daily Papers",
+   "summary": "This paper formalizes the task of edit recommendation and introduces EditRecBench using WildChat-4.8M logs to evaluate if LLMs can anticipate user edits, highlighting practical challenges and proposing decision model-based gating.",
+   "why": "This matters because anticipating edits reduces user review effort in real-world agent workflows.",
    "depth": "skim",
-   "hours": 45,
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Benchmarking deep learning approaches for scalable mangrove mapping with Sentinel-1 and Sentinel-2",
+   "url": "https://arxiv.org/abs/2611.33369",
+   "source": "arXiv cs.CV",
+   "summary": "This work benchmarks deep learning segmentation models to map vulnerable mangrove ecosystems using free, regularly available Sentinel-1 radar and Sentinel-2 optical imagery instead of costly very-high-resolution data.",
+   "why": "This matters because scalable environmental monitoring relies on efficient processing of open satellite imagery.",
+   "depth": "skim",
+   "hours": 16,
+   "covered": 1
+  },
+  {
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 9,
    "covered": 1
   }
  ],
  "business": [
+  {
+   "title": "Nvidia pauses server shipments to Southeast Asia for US export compliance",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia instructed manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia as the U.S. tightens restrictions to prevent AI chips from reaching China.",
+   "why": "Supply chain shifts directly impact hardware availability for regional AI infrastructure development.",
+   "depth": "skim",
+   "hours": 1,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic shares drop below IPO price, threatening startup valuations",
+   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "source": "TechCrunch AI",
+   "summary": "Anthropic's post-IPO slump has caused shares to fall below their initial public offering price, presenting a worrying sign that could pressure valuations across other AI startups.",
+   "why": "Market valuation shifts for major players signal changes in public exit pricing for your sector.",
+   "depth": "skim",
+   "hours": 50,
+   "covered": 1
+  },
+  {
+   "title": "FCC authorizes SpaceX to deploy up to 1 million data center satellites",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "source": "The Verge AI",
+   "summary": "The FCC approved SpaceX to deploy up to 1 million AI chip-equipped satellites for the Starmind initiative, marking the first regulatory approval for space-based AI data centers.",
+   "why": "Orbital infrastructure introduces entirely new deployment paradigms for compute-heavy workloads.",
+   "depth": "read",
+   "hours": 27,
+   "covered": 1
+  },
   {
    "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
    "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
@@ -111,7 +141,7 @@
    "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
    "why": "",
    "depth": "",
-   "hours": 6,
+   "hours": 15,
    "covered": 1
   },
   {
@@ -121,7 +151,7 @@
    "summary": "Latin America’s copper, oil, gas and rare earths could benefit from rising AI energy demand, if infrastructure and fiscal policy attract investment.",
    "why": "",
    "depth": "",
-   "hours": 3,
+   "hours": 12,
    "covered": 1
   },
   {
@@ -131,7 +161,7 @@
    "summary": "Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation and higher-rate risks.",
    "why": "",
    "depth": "",
-   "hours": 15,
+   "hours": 24,
    "covered": 1
   },
   {
@@ -141,37 +171,7 @@
    "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
    "why": "",
    "depth": "",
-   "hours": 23,
-   "covered": 1
-  },
-  {
-   "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-   "source": "TechCrunch AI",
-   "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-   "why": "",
-   "depth": "",
-   "hours": 41,
-   "covered": 1
-  },
-  {
-   "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
-   "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-   "source": "TechCrunch AI",
-   "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
-   "why": "",
-   "depth": "",
-   "hours": 44,
-   "covered": 1
-  },
-  {
-   "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-   "source": "The Verge AI",
-   "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing t",
-   "why": "",
-   "depth": "",
-   "hours": 18,
+   "hours": 32,
    "covered": 1
   },
   {
@@ -181,7 +181,7 @@
    "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of prod",
    "why": "",
    "depth": "",
-   "hours": 21,
+   "hours": 30,
    "covered": 1
   },
   {
@@ -191,17 +191,17 @@
    "summary": "When everything moves that fast, the terms of your financings and of your contracts for compute, data and distribution get set early and in a hurry. Some of those terms will later slow a sale, add cost and erode value.",
    "why": "",
    "depth": "",
-   "hours": 24,
+   "hours": 33,
    "covered": 1
   },
   {
-   "title": "Most Unicorns Are Worth More Than Their Last Funding-Round Valuations, Crunchbase Estimates",
-   "url": "https://news.crunchbase.com/venture/unicorn-startup-current-valuations-thinking-machines-sierra-crunchbase/",
-   "source": "Crunchbase News",
-   "summary": "The more than 1,900 startups on the The Crunchbase Unicorn Board have a combined valuation of roughly $9 trillion, based on their last reported valuations. But Crunchbase’s new Current Valuation Model, which estimates ho",
-   "why": "",
-   "depth": "",
-   "hours": 72,
+   "title": "42 state AGs block Character.AI from selling user chat histories",
+   "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+   "source": "The Verge AI",
+   "summary": "A coalition of 42 state attorneys general is working to prevent Character.AI from auctioning the private chat histories of over 21 million U.S. accounts during Chapter 11 bankruptcy proceedings.",
+   "why": "Data governance and bankruptcy asset sales carry severe regulatory and legal precedents.",
+   "depth": "skim",
+   "hours": 11,
    "covered": 1
   }
  ],
@@ -210,67 +210,67 @@
    "title": "Apple Releases Depth Pro 2 for Metric Monocular Depth Estimation",
    "url": "https://huggingface.co/apple/DepthPro2",
    "source": "Hugging Face",
-   "summary": "Apple introduces Depth Pro 2, which estimates sharp, temporally consistent metric depth from ordinary photos, videos, or live camera feeds at full resolution.",
-   "why": "It provides state-of-the-art monocular depth estimation critical for computer vision and autonomous systems.",
-   "depth": "deep",
+   "summary": "Depth Pro 2 estimates metric depth for every pixel from an ordinary camera input, supporting single photos, videos, and live feeds at full resolution. It features sharp edges, temporal consistency, and a focal length estimator.",
+   "why": "It provides computer vision engineers with a state-of-the-art solution for precise metric depth estimation.",
+   "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "apple/DepthPro2"
   },
   {
-   "title": "LlamaIndex Releases OCRia-nano-1 for Fast CPU Document Parsing",
-   "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
-   "source": "Hugging Face",
-   "summary": "OCRia-nano-1 is an 8.1M-parameter distilled document parsing pipeline from LlamaIndex that runs on CPU, achieving high accuracy and parsing 27.8 pages per second.",
-   "why": "It offers an efficient, high-speed document OCR and layout analysis solution for local deployment.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "llamaindex/OCRia-nano-1"
-  },
-  {
-   "title": "NVIDIA Introduces Nemotron-Labs-VisualCreation for Agentic Visual Generation",
-   "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
-   "source": "Hugging Face",
-   "summary": "Nemotron-Labs-VisualCreation is an agentic framework using a Pixel as Code interface to generate and edit raster images, webpages, charts, and scientific figures.",
-   "why": "It introduces a novel approach for agents to synthesize and inspect complex visual artifacts.",
-   "depth": "read",
-   "hours": 0,
-   "covered": 1,
-   "model": "nvidia/Nemotron-Labs-Image-30B-A3B"
-  },
-  {
-   "title": "Prism ML Releases Ternary Bonsai 2.5 27B GGUF for Agents",
+   "title": "Prism ML Releases Ternary Bonsai 2.5 27B Agentic Model",
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
    "source": "Hugging Face",
-   "summary": "Ternary Bonsai 2.5 27B is a new agentic model retaining a 1.76 bits per weight ternary format, offering FP16-level tool-calling performance at a fraction of the size.",
-   "why": "It delivers high-efficiency agentic tool-calling capabilities suitable for resource-constrained environments.",
+   "summary": "Ternary Bonsai 2.5 27B is an agentic model retaining the Qwen3.8-27B hybrid-attention architecture and a ternary weight format. At 1.76 bits per weight and 5.93 GB, it matches FP16 agentic tool-calling performance at one-ninth the size.",
+   "why": "It drastically reduces memory footprints for large language models while maintaining complex tool-calling capabilities.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
    "model": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
   },
   {
-   "title": "InclusionAI Releases Ling-3.2-air Multimodal Workflow Automation Model",
-   "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+   "title": "NVIDIA Releases Nemotron-Labs-VisualCreation Framework for Pixel as Code",
+   "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
    "source": "Hugging Face",
-   "summary": "Ling-3.2-air is a new open-weight multimodal model with strong improvements in workflow automation, document reasoning, and terminal-based tasks compared to its predecessor.",
-   "why": "It advances open multimodal capabilities for document understanding and automated tasks.",
+   "summary": "Nemotron-Labs-VisualCreation is an agentic framework for creating expressive raster images and editable visual artifacts like webpages and charts. It features a Pixel as Code interface connecting visual tokens and explicit programs.",
+   "why": "It bridges generative vision and structured code generation for complex automated visual tasks.",
    "depth": "read",
    "hours": 0,
    "covered": 1,
-   "model": "inclusionAI/Ling-3.2-air"
+   "model": "nvidia/Nemotron-Labs-Image-30B-A3B"
   },
   {
-   "title": "Harness-Hub Releases RL-Trained LoRA Adapter for Qwen3.8-27B Coding Agent",
-   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "title": "Thinking Machines Releases Inkling 2 Mini General-Purpose Multimodal Model",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
    "source": "Hugging Face",
-   "summary": "A new reinforcement learning-trained LoRA adapter for Qwen3.8-27B matches high-effort reasoning performance on terminal and software tasks while generating 4.5x fewer tokens.",
-   "why": "It drastically reduces token overhead while maintaining high performance on software-engineering benchmarks.",
-   "depth": "read",
+   "summary": "Inkling 2 Mini is a general-purpose multimodal model that accepts text and image inputs to generate text. Released with open weights, it supports developers building AI applications, coding assistants, chatbots, and retrieval-augmented generation systems.",
+   "why": "It gives developers a new open-weights multimodal option for building agentic and conversational systems.",
+   "depth": "skim",
    "hours": 0,
    "covered": 1,
-   "model": "harness-hub/Qwen3.8-27B-pi-adapted"
+   "model": "thinkingmachines/Inkling-2-Mini"
+  },
+  {
+   "title": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "source": "Hugging Face",
+   "summary": "No model card text available.",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "Lightricks/LTX-2.5"
+  },
+  {
+   "title": "LlamaIndex Releases OCRia-nano-1 CPU-Based Document Parsing Pipeline",
+   "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+   "source": "Hugging Face",
+   "summary": "OCRia-nano-1 is an 8.1M-parameter model pipeline for document parsing on CPU. Distilled from the 4B OCRia-1 VLM, it pairs an OCR stack with LayoutNet, achieving 59.2 on ParseBench-2 while running at 27.8 pages per second on 16 vCPUs.",
+   "why": "It offers a fast, lightweight local document parsing solution optimized for CPU execution.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "llamaindex/OCRia-nano-1"
   }
  ]
 }

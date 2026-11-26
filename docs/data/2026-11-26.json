@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-26",
+ "generated": "2026-11-26T01:18+00:00",
+ "technical": [
+  {
+   "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+   "url": "https://huggingface.co/papers/2611.31358",
+   "source": "HF Daily Papers",
+   "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 2
+  },
+  {
+   "title": "Exteroceptive Sensor Faults in Autonomous Vehicles: A Cross-Modal Taxonomy and Fault Injection Toolkit",
+   "url": "https://arxiv.org/abs/2611.31667",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.31667v1 Announce Type: new Abstract: Autonomous vehicles rely on cameras, LiDAR, and radar to perceive their surroundings, yet these exteroceptive sensors can be degraded by hardware aging, environmental inter",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
+   "url": "https://huggingface.co/papers/2611.30017",
+   "source": "HF Daily Papers",
+   "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing. Tasks ",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "SpatialArena: Where Do Geometric Foundation Models Stand?",
+   "url": "https://huggingface.co/papers/2611.32816",
+   "source": "HF Daily Papers",
+   "summary": "3D perception is shifting from task-specific pipelines to geometric foundation models: monocular depth networks, feed-forward 3D/4D reconstruction models, and vision--language models that predict geometry. However, their",
+   "why": "",
+   "depth": "",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Where scientists draw the line on AI agents",
+   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 6,
+   "covered": 1
+  },
+  {
+   "title": "RESET: One Demonstration, One Verified World, Self-Improved Skills Across Embodiments",
+   "url": "https://arxiv.org/abs/2611.31894",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.31894v1 Announce Type: new Abstract: Large language model (LLM) coding agents can iteratively self-improve robot manipulation skills in simulation benchmarks, yet real-world tasks provide neither ground-truth ",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation",
+   "url": "https://arxiv.org/abs/2611.32016",
+   "source": "arXiv cs.RO",
+   "summary": "arXiv:2611.32016v1 Announce Type: new Abstract: Agentic harnesses enable frontier vision-language models (VLMs) to manipulate robots through perception, planning, and control tools, yet achieving comparable performance w",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  },
+  {
+   "title": "An Indic Voice Agent with CUGA",
+   "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 15,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+   "url": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
+   "source": "MarkTechPost",
+   "summary": "OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux. AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out real patches. The post Ope",
+   "why": "",
+   "depth": "",
+   "hours": 35,
+   "covered": 1
+  },
+  {
+   "title": "Ground, Guide, Act: Improving VLA Spatial Generalization with Multimodal Foundation Models",
+   "url": "https://arxiv.org/abs/2611.31452",
+   "source": "arXiv cs.CV",
+   "summary": "arXiv:2611.31452v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models effectively learn action policies from robot demonstrations, but struggle to generalize to changes in object positions and task goals. G",
+   "why": "",
+   "depth": "",
+   "hours": 20,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Crusoe investor bets on solar and batteries for AI data centers",
+   "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+   "source": "TechCrunch AI",
+   "summary": "Next-generation data centers will need tens of gigawatts of power yearly, prompting investments in solar and energy storage.",
+   "why": "Power availability and infrastructure costs are primary bottlenecks for scaling future AI data centers.",
+   "depth": "skim",
+   "hours": 33,
+   "covered": 1
+  },
+  {
+   "title": "Dell earnings beat on AI strength with $25 billion buyback",
+   "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+   "source": "CNBC Tech",
+   "summary": "Dell's overall sales more than doubled annually during the third quarter, driven by strong AI server demand.",
+   "why": "Hardware vendor earnings provide concrete metrics on enterprise AI deployment scale and spending.",
+   "depth": "read",
+   "hours": 27,
+   "covered": 1
+  },
+  {
+   "title": "FCC authorizes SpaceX to deploy up to 1 million data center satellites",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "source": "The Verge AI",
+   "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for the Starmind initiative, marking the first agency approval for space-based data centers.",
+   "why": "Orbital data centers represent an emerging infrastructure frontier for compute-heavy workloads.",
+   "depth": "read",
+   "hours": 8,
+   "covered": 1
+  },
+  {
+   "title": "Tech stocks sink as investors weigh AI spending and inflation risks",
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+   "source": "CNBC Tech",
+   "summary": "Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation, and higher-rate risks.",
+   "why": "Market volatility directly impacts funding conditions and valuations across the AI industry.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic shares fall below IPO price, threatening startup valuations",
+   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "source": "TechCrunch AI",
+   "summary": "Anthropic's post-IPO slump could put pressure on AI startup valuations as market confidence fluctuates.",
+   "why": "Public market performance sets benchmarks for private AI startup exits and funding rounds.",
+   "depth": "skim",
+   "hours": 31,
+   "covered": 1
+  },
+  {
+   "title": "Amazon in talks to end Muse AI shopping block with Meta",
+   "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+   "source": "The Verge AI",
+   "summary": "Amazon held talks about letting Meta's Muse AI agent shop on its marketplace, centering on product recommendations and advertising revenue impact.",
+   "why": "Ecosystem gatekeeping and agentic commerce integrations shape the future of AI shopping platforms.",
+   "depth": "skim",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Investigators question Nvidia over chip destinations and executive relationship",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+   "source": "TechCrunch AI",
+   "summary": "Investigators are examining what Nvidia knew about where Megaspeed chips ended up and whether an executive relationship gave reason to doubt assurances.",
+   "why": "Regulatory and compliance scrutiny can pose operational and legal risks for major hardware providers.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Vance says Jensen Huang was not under DOJ investigation",
+   "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+   "source": "CNBC Tech",
+   "summary": "Questions arose regarding whether the Trump administration investigated Jensen Huang for potential national security risks.",
+   "why": "Political and regulatory oversight can influence major AI hardware leadership and strategy.",
+   "depth": "skim",
+   "hours": 4,
+   "covered": 1
+  },
+  {
+   "title": "Startup exit terms and early contracts shape future valuations",
+   "url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
+   "source": "Crunchbase News",
+   "summary": "Financing terms and contracts for compute, data, and distribution set early can slow sales, add costs, and erode value later.",
+   "why": "Founders must carefully negotiate initial agreements to protect long-term startup value.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Crunchbase estimates unicorn valuations reach $11 trillion",
+   "url": "https://news.crunchbase.com/venture/unicorn-startup-current-valuations-thinking-machines-sierra-crunchbase/",
+   "source": "Crunchbase News",
+   "summary": "While 1,900 startups on the Crunchbase Unicorn Board have a combined valuation of roughly $9 trillion, a new model puts private-company values closer to $11 trillion.",
+   "why": "Private market valuation trends give context to overall venture capital health in the AI sector.",
+   "depth": "skim",
+   "hours": 61,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "thinkingmachines/Inkling-2-Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "Hugging Face",
+   "summary": "# Inkling 2 Mini Playground | Tinker Cookbook ## 1. General Information Inkling 2 Mini is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in Englis",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Mini"
+  },
+  {
+   "title": "unsloth/Inkling-2-Mini-GGUF",
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+   "source": "Hugging Face",
+   "summary": "### Run Inkling 2 Mini up to 1.9x faster with our open-source Unsloth Desktop GUI. Read our How to Run Inkling-2-Mini Guide See Unsloth Dynamic 3.1 GGUFs for our quantization benchmarks. You can also train Inkling 2 via ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "unsloth/Inkling-2-Mini-GGUF"
+  },
+  {
+   "title": "inworld/voice-isolator",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "source": "Hugging Face",
+   "summary": "Voice Isolator Open-license (Apache-2.0) 48 kHz voice isolation for noisy speech recordings and live audio. --- ## TL;DR Inworld Voice Isolator v1 ships as two models that share one architecture: **Use them for** cleanin",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "inworld/voice-isolator"
+  },
+  {
+   "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "source": "Hugging Face",
+   "summary": "# Inkling-2-Mini Uncensored GGUF Learn how to run Inkling 2 Mini Uncensored locally - read our guide . Built by the team behind Atomic Chat , the app that runs open-weight models locally and offline. An uncensored build ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
+  },
+  {
+   "title": "SulphurAI/Sulphur-3",
+   "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+   "source": "Hugging Face",
+   "summary": "**Sulphur 3** An uncensored video generation model based on MiniMax H3. Follow us on **X** Join our **Discord** --- **Get Started:** Download `s3.safetensors` and run it like any regular MiniMax H3 model. That's all you ",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "SulphurAI/Sulphur-3"
+  },
+  {
+   "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "source": "Hugging Face",
+   "summary": "Prism ML Website | Whitepaper | Demo & Examples | Discord # Ternary Bonsai 2.5 27B — GGUF A 27B ternary model built for agents, for llama.cpp (CUDA, Metal, CPU) Ternary Bonsai 2.5 27B is the agentic release of the Ternar",
+   "why": "",
+   "depth": "",
+   "hours": 0,
+   "covered": 1,
+   "model": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+  }
+ ]
+}

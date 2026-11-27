@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-27",
+ "generated": "2026-11-27T03:22+00:00",
+ "technical": [
+  {
+   "title": "QK-Bench Measures Quantitative Kinematic Understanding in Multimodal Large Language Models",
+   "url": "https://arxiv.org/abs/2611.33991",
+   "source": "arXiv cs.RO",
+   "summary": "QK-Bench benchmarks MLLMs on quantitative kinematic understanding, testing their ability to resolve motion magnitude, rate, reference-frame dependence, and future spatial evolution from visual evidence for tasks like collision avoidance.",
+   "why": "Crucial for autonomous driving and spatial intelligence systems that rely on accurate motion prediction.",
+   "depth": "read",
+   "hours": 22,
+   "covered": 1
+  },
+  {
+   "title": "Radev Model Improves Clinical Multimodal Decisions via Anatomical Grounding",
+   "url": "https://huggingface.co/papers/2611.32993",
+   "source": "HF Daily Papers",
+   "summary": "Radev is a decision-native 3D medical multimodal model that addresses uncalibrated autoregressive decoding and shortcut reliance in volumetric CT scans by integrating anatomy-guided visual compression, direct candidate prediction, and counterfactual confidence supervision.",
+   "why": "It advances 3D medical imaging analysis for computer vision and clinical engineering.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Skeptic Analyzes Grounding Failure Diagnosis for Robot Skill Discovery",
+   "url": "https://arxiv.org/abs/2611.33560",
+   "source": "arXiv cs.RO",
+   "summary": "Researchers study robot skill discovery failures in Qwen3.8-27B, focusing on how agents diagnose execution failures from multimodal traces and decide which lessons enter the shared skill library without abandoning tasks prematurely.",
+   "why": "Relevant to robotics engineers improving autonomous program revision and long-horizon skill learning.",
+   "depth": "read",
+   "hours": 22,
+   "covered": 1
+  },
+  {
+   "title": "RegHarness Regulates Code-as-Policy Agent Execution and Cross-Run Adaptation",
+   "url": "https://arxiv.org/abs/2611.33739",
+   "source": "arXiv cs.RO",
+   "summary": "RegHarness is a two-level framework for Code-as-Policy agents that governs step-level execution and cross-run adaptation without needing a vision-language-action policy, controlling what actions and code modifications persist.",
+   "why": "Provides systematic governance for code-generation agents operating physical robot tasks.",
+   "depth": "read",
+   "hours": 22,
+   "covered": 1
+  },
+  {
+   "title": "ProxyGenBench Evaluates Proxy-Guided Video Generation Across Multiple Scenes",
+   "url": "https://huggingface.co/papers/2611.34457",
+   "source": "HF Daily Papers",
+   "summary": "ProxyGenBench studies proxy-guided video generation using 312 evaluation cases from 60 scenes. It assesses how well models preserve intended structure, complete missing content, correct artifacts, and bind text, image, and audio conditions.",
+   "why": "It helps video generation engineers systematically control and evaluate complex scene dynamics and layouts.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Benchmarking Deep Learning Approaches for Scalable Mangrove Mapping with Sentinel Imagery",
+   "url": "https://arxiv.org/abs/2611.33369",
+   "source": "arXiv cs.CV",
+   "summary": "Researchers benchmarked deep learning segmentation models for large-scale mangrove mapping using free Sentinel-1 radar and Sentinel-2 optical imagery, overcoming spatial resolution challenges through reference maps derived from very-high-resolution Pléiades data.",
+   "why": "This offers practical methodologies for large-scale environmental monitoring using satellite computer vision.",
+   "depth": "skim",
+   "hours": 22,
+   "covered": 1
+  },
+  {
+   "title": "Sakana AI Releases Namazu Small 30B Reasoning Model Built on Nemotron",
+   "url": "https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano/",
+   "source": "MarkTechPost",
+   "summary": "Sakana AI released Sakana Namazu Small, a 30B-A3B reasoning model built on NVIDIA Nemotron 3 Nano, averaging 60.1 across 25 benchmarks to outperform the larger 120B Nemotron 3 Super model.",
+   "why": "Demonstrates high efficiency and performance gains in smaller open reasoning model architectures.",
+   "depth": "skim",
+   "hours": 5,
+   "covered": 1
+  },
+  {
+   "title": "DRBench Pro Evaluates Structured Knowledge Coverage in Deep Research Agents",
+   "url": "https://huggingface.co/papers/2611.34852",
+   "source": "HF Daily Papers",
+   "summary": "DRBench Pro is a new benchmark featuring an automated pipeline that builds local knowledge trees from Wikipedia to evaluate deep research agents on structured knowledge coverage, research direction selection, and exploration depth.",
+   "why": "It provides a robust way to assess how thoroughly research agents gather and synthesize information.",
+   "depth": "skim",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "AVQFormer Introduces a Semantics-First Approach to Multimodal Video Captioning",
+   "url": "https://arxiv.org/abs/2611.33409",
+   "source": "arXiv cs.CV",
+   "summary": "The Audio-Visual Query Transformer is a 2.7B parameter LLM architecture utilizing a fixed-length semantic alignment module and stabilized via Adaptive Self-Critical Sequence Training with Entropy Regularization to bridge performance gaps in video captioning.",
+   "why": "It showcases efficient multimodal architectures for audio-visual processing tasks.",
+   "depth": "skim",
+   "hours": 22,
+   "covered": 1
+  },
+  {
+   "title": "Confidence-Based Adaptive Retrieval Fails in Biomedical Question Answering Tasks",
+   "url": "https://arxiv.org/abs/2611.33210",
+   "source": "arXiv cs.CV",
+   "summary": "Evaluating confidence-based adaptive RAG across biomedical QA benchmarks reveals a paradox: models show well-calibrated confidence on standard exam questions where retrieval adds little value, highlighting routing failures where retrieval is actually needed.",
+   "why": "Highlights reliability limits of adaptive RAG routing strategies in high-stakes domain applications.",
+   "depth": "skim",
+   "hours": 22,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Nvidia pauses server shipments to Southeast Asia amid U.S. controls",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia instructed manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia as the U.S. tightens its push to prevent AI chips from reaching China.",
+   "why": "Supply chain restrictions directly dictate regional hardware availability and market reach.",
+   "depth": "read",
+   "hours": 7,
+   "covered": 1
+  },
+  {
+   "title": "Nvidia and AI-linked stocks fall as investors weigh spending risks",
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+   "source": "CNBC Tech",
+   "summary": "Nvidia and other AI-linked stocks declined as investors evaluated concerns regarding heavy AI spending, inflation, and higher-rate risks, while Anthropic struggled.",
+   "why": "Market volatility directly impacts funding rounds and compute budgets for AI development.",
+   "depth": "skim",
+   "hours": 30,
+   "covered": 1
+  },
+  {
+   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+   "source": "TechCrunch AI",
+   "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
+   "why": "",
+   "depth": "",
+   "hours": 38,
+   "covered": 1
+  },
+  {
+   "title": "Anthropic shares fall below IPO price, threatening startup valuations",
+   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "source": "TechCrunch AI",
+   "summary": "Anthropic's post-IPO slump pushed its shares below their initial offering price, creating a potentially worrying sign that could put downward pressure on broader AI startup valuations.",
+   "why": "Public market performance sets benchmarks for private AI company valuations and exits.",
+   "depth": "skim",
+   "hours": 57,
+   "covered": 1
+  },
+  {
+   "title": "FCC authorizes SpaceX to deploy 1 million data center satellites",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "source": "The Verge AI",
+   "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites under Elon Musk's Starmind initiative, marking the agency's first approval for space-based AI data centers.",
+   "why": "Orbital data centers could introduce entirely new architectures for distributed inference and compute.",
+   "depth": "read",
+   "hours": 34,
+   "covered": 1
+  },
+  {
+   "title": "Amazon and Meta discuss ending Muse AI shopping block",
+   "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+   "source": "The Verge AI",
+   "summary": "Amazon held talks about letting Meta's Muse AI agent shop on its online marketplace, discussing recommended products and potential impacts on ecommerce advertising revenue.",
+   "why": "Agentic commerce integrations alter how consumer-facing AI agents interact with retail platforms.",
+   "depth": "skim",
+   "hours": 37,
+   "covered": 1
+  },
+  {
+   "title": "Early startup financing and contract terms shape future exits",
+   "url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
+   "source": "Crunchbase News",
+   "summary": "The terms of early financings and contracts for compute, data, and distribution are set rapidly in fast-moving markets, with some terms later slowing sales, adding costs, and eroding value.",
+   "why": "Contract structures around compute resources dictate long-term startup viability.",
+   "depth": "skim",
+   "hours": 39,
+   "covered": 1
+  },
+  {
+   "title": "42 State AGs attempt to stop Character.AI chat sales",
+   "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+   "source": "The Verge AI",
+   "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from auctioning off private chat histories of over 21 million U.S. accounts during Chapter 11 bankruptcy proceedings.",
+   "why": "Data governance and bankruptcy asset liquidation set critical legal precedents for user privacy.",
+   "depth": "read",
+   "hours": 17,
+   "covered": 1
+  },
+  {
+   "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+   "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+   "source": "Ars Technica AI",
+   "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+   "why": "",
+   "depth": "",
+   "hours": 35,
+   "covered": 1
+  },
+  {
+   "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+   "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+   "source": "Wired AI",
+   "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+   "why": "",
+   "depth": "",
+   "hours": 17,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Apple releases Depth Pro 2 for sharp metric depth estimation",
+   "url": "https://huggingface.co/apple/DepthPro2",
+   "source": "Hugging Face",
+   "summary": "Depth Pro 2 estimates metric depth for every pixel from ordinary cameras across photos, videos, or live feeds at full resolution. It maintains sharp object edges and temporal consistency, paired with an integrated focal length estimator.",
+   "why": "It provides state-of-the-art monocular depth estimation crucial for 3D computer vision and autonomous navigation pipelines.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/DepthPro2"
+  },
+  {
+   "title": "LlamaIndex releases OCRia-nano-1 for CPU document parsing",
+   "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+   "source": "Hugging Face",
+   "summary": "OCRia-nano-1 is an 8.1M-parameter CPU document parsing pipeline from LlamaIndex. Distilled from a larger 4B VLM, it pairs an OCR stack with LayoutNet, achieving 59.2 on ParseBench-2 while processing 27.8 pages per second on 16 vCPUs.",
+   "why": "It offers an extremely fast, lightweight open-source solution for local document parsing and OCR tasks on CPUs.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "llamaindex/OCRia-nano-1"
+  },
+  {
+   "title": "Thinking Machines releases Inkling 2 Mini multimodal open-weights model",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "Hugging Face",
+   "summary": "Inkling 2 Mini is a general-purpose multimodal model accepting text and image inputs to generate text outputs. Designed for developers, it supports agentic systems, coding assistants, chatbots, and RAG applications across English, other languages, and various coding languages.",
+   "why": "It offers an open-weight multimodal option for building local agentic and vision-language applications.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Mini"
+  },
+  {
+   "title": "SulphurAI releases Sulphur 3 uncensored video generation model",
+   "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+   "source": "Hugging Face",
+   "summary": "Sulphur 3 is an uncensored video generation model built on MiniMax H3. It is distributed with optional lower VRAM configurations and an optional corrector file that integrates with ComfyUI workflows for enhanced generation capabilities.",
+   "why": "It adds a new open video generation model option with community workflows for local deployment.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "SulphurAI/Sulphur-3"
+  },
+  {
+   "title": "Inworld launches Voice Isolator v1 for noisy audio",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "source": "Hugging Face",
+   "summary": "Inworld Voice Isolator v1 delivers 48 kHz voice isolation across two models sharing a single architecture. It cleans noisy speech recordings and live audio streams while preserving speaker identity, and can extract background noise by subtracting the isolated voice.",
+   "why": "It provides a robust audio preprocessing pipeline for cleaning speech datasets and live voice streams.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "inworld/voice-isolator"
+  },
+  {
+   "title": "Prism ML releases Ternary Bonsai 2.5 27B GGUF model",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "source": "Hugging Face",
+   "summary": "Ternary Bonsai 2.5 27B is an agentic model maintaining the Qwen3.8-27B hybrid-attention architecture and a ternary weight format. At 1.76 bits per weight and 5.93 GB, it achieves FP16-level tool-calling performance across major benchmarks at a fraction of the size.",
+   "why": "It delivers high-efficiency agentic tool-calling performance suited for resource-constrained local hardware deployments.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+  }
+ ]
+}

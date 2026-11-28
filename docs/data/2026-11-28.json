@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-28",
+ "generated": "2026-11-28T00:50+00:00",
+ "technical": [
+  {
+   "title": "InitFree-SfM improves 3D reconstruction by incorporating learned metric depth",
+   "url": "https://huggingface.co/papers/2611.31516",
+   "source": "HF Daily Papers",
+   "summary": "Initialization-free bundle adjustment struggles with accurate 3D reconstructions on modern Structure-from-Motion benchmarks, but adding learned metric depth substantially improves performance.",
+   "why": "This is crucial for computer vision engineers tackling camera pose and scene structure estimation without global initialization.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "Tencent open-sources DFly2 speculative decoding to boost sparse-attention LLM throughput",
+   "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+   "source": "MarkTechPost",
+   "summary": "Tencent released DFly2, a speculative decoding drafter that reuses the target's sparse KV cache and top-k indexer to lift 64K serving throughput by up to 81% without adding draft memory.",
+   "why": "This offers a practical technique to accelerate long-sequence sparse LLM inference in production.",
+   "depth": "read",
+   "hours": 21,
+   "covered": 1
+  },
+  {
+   "title": "JudiAct introduces granular multimodal safety actions backed by diagnostic judgments",
+   "url": "https://huggingface.co/papers/2611.28849",
+   "source": "HF Daily Papers",
+   "summary": "To handle unsafe visual contexts without blanket refusals, JudiAct classifies decisions into allow, warn, review, and refuse using a corpus of 20,126 training audits and the JudiBench benchmark.",
+   "why": "This provides a structured methodology for implementing safer multimodal AI systems that avoid simple binary refusals.",
+   "depth": "read",
+   "hours": 12,
+   "covered": 1
+  },
+  {
+   "title": "OpenAI cost controls 💰, measuring RSI 📈, looped transformers ➰",
+   "url": "https://tldr.tech/ai/2026-11-27",
+   "source": "TLDR AI",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 25,
+   "covered": 1
+  },
+  {
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 37,
+   "covered": 1
+  },
+  {
+   "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "url": "https://huggingface.co/blog/training-swarms",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 49,
+   "covered": 1
+  },
+  {
+   "title": "Where scientists draw the line on AI agents",
+   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "source": "Hugging Face Blog",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 54,
+   "covered": 1
+  },
+  {
+   "title": "Sakana AI releases Namazu Small, a 30B reasoning model",
+   "url": "https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano/",
+   "source": "MarkTechPost",
+   "summary": "Sakana AI launched Namazu Small, a 30B reasoning model built on NVIDIA Nemotron 3 Nano that averages 60.1 across 25 benchmarks.",
+   "why": "It highlights new open-weights model options and performance benchmarks for efficient reasoning architectures.",
+   "depth": "skim",
+   "hours": 27,
+   "covered": 1
+  },
+  {
+   "title": "dbt Evals 🧪, LinkedIn’s Browser Agent 🌐, How Salesforce Does Context Engineering 🍱",
+   "url": "https://tldr.tech/data/2026-11-26",
+   "source": "TLDR Data",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 49,
+   "covered": 1
+  },
+  {
+   "title": "Opus 5.6 testing 🤖, OpenAI private Inference 🔒, Jev is probably Qwen 📝",
+   "url": "https://tldr.tech/ai/2026-11-26",
+   "source": "TLDR AI",
+   "summary": "",
+   "why": "",
+   "depth": "",
+   "hours": 49,
+   "covered": 1
+  }
+ ],
+ "business": [
+  {
+   "title": "Nvidia Pauses Server Shipments to Southeast Asia",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens export controls to keep AI chips out of China.",
+   "why": "Stricter regional export controls directly restrict hardware availability for builders.",
+   "depth": "read",
+   "hours": 29,
+   "covered": 1
+  },
+  {
+   "title": "Neoclouds Face Construction Delays and Expensive Debt",
+   "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+   "source": "TechCrunch AI",
+   "summary": "Nvidia will not backstop an AI data center until it is nearly ready to run, hitting neoclouds amid construction delays and expensive debt.",
+   "why": "Hardware procurement and infrastructure scaling are directly tied to tighter financing conditions.",
+   "depth": "read",
+   "hours": 57,
+   "covered": 1
+  },
+  {
+   "title": "FCC Authorizes SpaceX Starmind Satellite Constellation",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "source": "The Verge AI",
+   "summary": "The FCC authorized SpaceX to deploy up to 1 million AI chip-equipped satellites under the Starmind initiative, marking the first such approval.",
+   "why": "Orbital data centers could introduce entirely new infrastructure models for edge computing.",
+   "depth": "read",
+   "hours": 55,
+   "covered": 1
+  },
+  {
+   "title": "German Company Q.ANT Builds Light-Based AI Chip",
+   "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+   "source": "Wired AI",
+   "summary": "German company Q.ANT is attempting to cut AI model energy requirements by using light to perform difficult calculations.",
+   "why": "Alternative optical compute architectures aim to solve mounting energy bottlenecks in AI hardware.",
+   "depth": "read",
+   "hours": 18,
+   "covered": 1
+  },
+  {
+   "title": "Fund Managers Say Data Centers Remain Attractive Investments",
+   "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+   "source": "CNBC Tech",
+   "summary": "A hedge fund manager noted that while the AI boom could trigger a recession, data centers remain an attractive investment opportunity.",
+   "why": "Data center infrastructure investments continue to offer strong potential despite broader economic risks.",
+   "depth": "skim",
+   "hours": 43,
+   "covered": 1
+  },
+  {
+   "title": "AI Stocks Fall As Investors Question Sustainability",
+   "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+   "source": "CNBC Tech",
+   "summary": "AI stocks have fallen recently as investors question the long-term sustainability of the ongoing AI boom.",
+   "why": "Market volatility directly impacts funding availability and strategic spending across the AI industry.",
+   "depth": "skim",
+   "hours": 13,
+   "covered": 1
+  },
+  {
+   "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+   "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+   "source": "The Verge AI",
+   "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around",
+   "why": "",
+   "depth": "",
+   "hours": 11,
+   "covered": 1
+  },
+  {
+   "title": "Amazon Discusses Ending Block on Meta AI Agent",
+   "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+   "source": "The Verge AI",
+   "summary": "Amazon held talks about letting Meta's Muse AI agent shop on its online marketplace, focusing on product recommendations and advertising revenue impact.",
+   "why": "Agentic commerce platforms will shift how consumers interact with online retail and search.",
+   "depth": "skim",
+   "hours": 59,
+   "covered": 1
+  },
+  {
+   "title": "Early Startup Deals Shape Future Exit Terms",
+   "url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
+   "source": "Crunchbase News",
+   "summary": "Early contracts for compute, data, and distribution set terms that can later slow a sale, add cost, and erode startup value.",
+   "why": "Founders must carefully negotiate compute and infrastructure agreements to preserve long-term enterprise value.",
+   "depth": "skim",
+   "hours": 61,
+   "covered": 1
+  },
+  {
+   "title": "The Art of The Terrible Startup Name",
+   "url": "https://news.crunchbase.com/startups/bad-startup-name-examples-advice-grok/",
+   "source": "Crunchbase News",
+   "summary": "What makes for a truly awful startup name?",
+   "why": "",
+   "depth": "",
+   "hours": 61,
+   "covered": 1
+  }
+ ],
+ "models": [
+  {
+   "title": "Apple Releases Depth Pro 2 for Metric Monocular Depth",
+   "url": "https://huggingface.co/apple/DepthPro2",
+   "source": "Hugging Face",
+   "summary": "Depth Pro 2 estimates sharp, temporally consistent metric depth from a single photo, video, or live feed at full resolution alongside a focal length estimator.",
+   "why": "It provides foundational computer vision models for precise depth estimation and 3D scene understanding.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "apple/DepthPro2"
+  },
+  {
+   "title": "Prism ML Releases Ternary Bonsai 2.5 27B for Agents",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "source": "Hugging Face",
+   "summary": "Ternary Bonsai 2.5 27B is a hybrid-attention ternary model operating at 1.76 bits per weight to target long-horizon, tool-driven agentic tasks.",
+   "why": "It matches FP16-level tool-calling performance at a fraction of the memory footprint.",
+   "depth": "read",
+   "hours": 0,
+   "covered": 1,
+   "model": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+  },
+  {
+   "title": "LlamaIndex Releases OCRia-nano-1 for CPU Document Parsing",
+   "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+   "source": "Hugging Face",
+   "summary": "OCRia-nano-1 is an 8.1M-parameter distilled document parsing pipeline pairing an OCR stack with LayoutNet to run locally on CPU.",
+   "why": "It offers fast and accurate local document parsing and table extraction without heavy GPU hardware.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "llamaindex/OCRia-nano-1"
+  },
+  {
+   "title": "Thinking Machines Lab Releases General-Purpose Multimodal Model Inkling 2 Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "Hugging Face",
+   "summary": "Inkling 2 Mini is a general-purpose multimodal model accepting text and image inputs to generate text outputs across multiple languages and coding tasks.",
+   "why": "It provides open weights for developers building agentic, coding, chat, and retrieval-augmented generation systems.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "thinkingmachines/Inkling-2-Mini"
+  },
+  {
+   "title": "Inworld Releases Open-License Voice Isolator for Noisy Speech",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "source": "Hugging Face",
+   "summary": "Inworld Voice Isolator v1 delivers 48 kHz voice isolation via two models sharing one architecture, designed for noisy recordings, live audio, and pipelines.",
+   "why": "It enables cleaner speech datasets and realtime noise suppression while preserving speaker identity.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "inworld/voice-isolator"
+  },
+  {
+   "title": "NVIDIA Introduces Nemotron-Labs-VisualCreation Agentic Framework",
+   "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+   "source": "Hugging Face",
+   "summary": "Nemotron-Labs-VisualCreation uses a Pixel as Code interface to connect learned visual tokens and explicit programs for creating raster images and UI artifacts.",
+   "why": "It advances agentic visual creation and autoregressive image generation capabilities.",
+   "depth": "skim",
+   "hours": 0,
+   "covered": 1,
+   "model": "nvidia/Nemotron-Labs-Image-30B-A3B"
+  }
+ ]
+}
